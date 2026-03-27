@@ -9,6 +9,7 @@ const state = {
   lockedAnswers: {},
   submitted: false,
   currentIndex: 0,
+  resultsFilter: 'wrong',
 };
 
 const moduleOrder = ['I', 'II', 'III', 'IV'];
@@ -45,6 +46,7 @@ function saveState() {
     lockedAnswers: state.lockedAnswers,
     submitted: state.submitted,
     currentIndex: state.currentIndex,
+    resultsFilter: state.resultsFilter,
   };
   localStorage.setItem(STORAGE_KEY, JSON.stringify(snapshot));
 }
@@ -65,6 +67,7 @@ function loadState() {
     state.lockedAnswers = parsed.lockedAnswers ?? {};
     state.submitted = Boolean(parsed.submitted);
     state.currentIndex = Number.isInteger(parsed.currentIndex) ? parsed.currentIndex : 0;
+    state.resultsFilter = parsed.resultsFilter === 'all' ? 'all' : 'wrong';
 
     if (state.currentIndex < 0) state.currentIndex = 0;
     if (state.currentIndex >= state.examQuestions.length) {
@@ -106,6 +109,7 @@ function buildExam() {
   state.lockedAnswers = {};
   state.submitted = false;
   state.currentIndex = 0;
+  state.resultsFilter = 'wrong';
   saveState();
 }
 
@@ -140,6 +144,15 @@ function groupExamByModule() {
     III: state.examQuestions.filter((q) => q.module === 'III'),
     IV: state.examQuestions.filter((q) => q.module === 'IV'),
   };
+}
+
+function isQuestionCorrect(question) {
+  return state.lockedAnswers[question.id] === question.correctIndex;
+}
+
+function getFilteredQuestions(questions) {
+  if (state.resultsFilter === 'all') return questions;
+  return questions.filter((q) => !isQuestionCorrect(q));
 }
 
 function lockCurrentAnswer() {
@@ -248,13 +261,11 @@ function renderExamView() {
           Anterior
         </button>
 
-        <button id="next-btn" class="primary-btn">
-          ${isLastQuestion ? 'Quedarme aquí' : 'Siguiente'}
-        </button>
-
-        <button id="submit-btn" class="secondary-btn" ${isExamComplete() ? '' : 'disabled'}>
-          Finalizar examen
-        </button>
+        ${
+          isLastQuestion
+            ? `<button id="finish-btn" class="primary-btn" ${isExamComplete() ? '' : 'disabled'}>Finalizar examen</button>`
+            : `<button id="next-btn" class="primary-btn">Siguiente</button>`
+        }
       </div>
 
       ${renderLiveStats()}
@@ -287,11 +298,12 @@ function renderExamView() {
     }
   });
 
-  document.getElementById('submit-btn')?.addEventListener('click', () => {
+  document.getElementById('finish-btn')?.addEventListener('click', () => {
     if (!isExamComplete()) return;
 
     lockCurrentAnswer();
     state.submitted = true;
+    state.resultsFilter = 'wrong';
     saveState();
     renderResultsView();
   });
@@ -356,6 +368,8 @@ function renderResultsView() {
   const grouped = groupExamByModule();
 
   const moduleSummaries = moduleOrder.map((moduleKey) => {
+    const allQuestions = grouped[moduleKey];
+    const filteredQuestions = getFilteredQuestions(allQuestions);
     const correct = countCorrectForModule(moduleKey);
     const take = RULES[moduleKey].take;
     const pass = RULES[moduleKey].pass;
@@ -367,7 +381,9 @@ function renderResultsView() {
       take,
       pass,
       passed,
-      questions: grouped[moduleKey],
+      questions: filteredQuestions,
+      totalQuestions: allQuestions.length,
+      shownQuestions: filteredQuestions.length,
     };
   });
 
@@ -388,9 +404,23 @@ function renderResultsView() {
 
   const detailsHtml = moduleSummaries
     .map((moduleSummary) => {
-      const resultCards = moduleSummary.questions
-        .map((q, idx) => createResultCard(q, idx + 1))
-        .join('');
+      const resultCards = moduleSummary.questions.length
+        ? moduleSummary.questions.map((q, idx) => createResultCard(q, idx + 1)).join('')
+        : `
+          <article class="result-card ok">
+            <div class="result-card-head">
+              <span class="question-number">0</span>
+              <span class="result-status ok">Sin resultados</span>
+            </div>
+            <div class="result-question-original">
+              ${
+                state.resultsFilter === 'wrong'
+                  ? 'No hay respuestas incorrectas en este módulo.'
+                  : 'No hay preguntas para mostrar en este módulo.'
+              }
+            </div>
+          </article>
+        `;
 
       return `
         <section class="module-section">
@@ -420,6 +450,8 @@ function renderResultsView() {
           </p>
         </div>
         <div class="topbar-actions">
+          <button id="filter-wrong-btn" class="${state.resultsFilter === 'wrong' ? 'primary-btn' : 'secondary-btn'}">Solo incorrectas</button>
+          <button id="filter-all-btn" class="${state.resultsFilter === 'all' ? 'primary-btn' : 'secondary-btn'}">Todas</button>
           <button id="retry-btn" class="secondary-btn">Nuevo examen</button>
           <button id="review-btn" class="primary-btn">Volver al examen</button>
         </div>
@@ -432,6 +464,18 @@ function renderResultsView() {
       ${detailsHtml}
     </div>
   `;
+
+  document.getElementById('filter-wrong-btn')?.addEventListener('click', () => {
+    state.resultsFilter = 'wrong';
+    saveState();
+    renderResultsView();
+  });
+
+  document.getElementById('filter-all-btn')?.addEventListener('click', () => {
+    state.resultsFilter = 'all';
+    saveState();
+    renderResultsView();
+  });
 
   document.getElementById('retry-btn')?.addEventListener('click', () => {
     clearState();
