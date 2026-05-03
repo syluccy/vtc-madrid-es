@@ -9,6 +9,15 @@ Publicated to: https://vtc-madrid-es.szucs-krisz.workers.dev/
 
 Language: Castellano (ES)
 
+## Question bank
+
+Current total: 298 questions.
+
+- Module I: 87 questions
+- Module II: 71 questions
+- Module III: 69 questions
+- Module IV: 71 questions
+
 ## Adding new questions
 
 New questions should keep the same structure as `questions.js`: Spanish question text in `q`, Hungarian translation in `hu`, four answer options with `original` and `hu`, a `correctIndex`, a `module` value of `I`, `II`, `III`, or `IV`, and a `source`.
