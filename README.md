@@ -8,3 +8,31 @@ Resources: https://www.comunidad.madrid/servicios/transporte/pruebas-conductor-v
 Publicated to: https://vtc-madrid-es.szucs-krisz.workers.dev/
 
 Language: Castellano (ES)
+
+## Adding new questions
+
+New questions should keep the same structure as `questions.js`: Spanish question text in `q`, Hungarian translation in `hu`, four answer options with `original` and `hu`, a `correctIndex`, a `module` value of `I`, `II`, `III`, or `IV`, and a `source`.
+
+For the Proformatrans test 1 material, add the prepared records to `data/proformatrans-test1.questions.json`. Every imported record is forced to use:
+
+```js
+"source": "proformatrans-test1"
+```
+
+Validate the existing bank:
+
+```bash
+node scripts/validate-questions.mjs
+```
+
+Check duplicate candidates before appending:
+
+```bash
+node scripts/find-duplicate-candidates.mjs
+```
+
+Append the prepared Proformatrans records to `questions.js`:
+
+```bash
+node scripts/append-questions.mjs
+```
