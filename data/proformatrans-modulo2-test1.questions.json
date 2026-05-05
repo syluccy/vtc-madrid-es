@@ -1,0 +1,496 @@
+[
+  {
+    "id": "proformatrans-modulo2-test1-001",
+    "source": "proformatrans-modulo2-test1",
+    "module": "II",
+    "q": "¿Cuál es el nombre del Colegio Mayor que tiene su domicilio en la calle Isaac Peral, 58?",
+    "hu": "Mi annak a Colegio Mayornak a neve, amelynek címe Isaac Peral utca 58?",
+    "answers": [
+      {
+        "original": "San Pablo",
+        "hu": "San Pablo"
+      },
+      {
+        "original": "Antonio Nebrija",
+        "hu": "Antonio Nebrija"
+      },
+      {
+        "original": "Blanca de Castilla",
+        "hu": "Blanca de Castilla"
+      },
+      {
+        "original": "Chaminade",
+        "hu": "Chaminade"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo2-test1-002",
+    "source": "proformatrans-modulo2-test1",
+    "module": "II",
+    "q": "¿Qué espacio verde madrileño se encuentra en el barrio de Moratalaz?",
+    "hu": "Melyik madridi zöldterület található Moratalaz városrészben?",
+    "answers": [
+      {
+        "original": "Parque Darwin",
+        "hu": "Parque Darwin"
+      },
+      {
+        "original": "Parque del Oeste",
+        "hu": "Parque del Oeste"
+      },
+      {
+        "original": "Parque Enrique Tierno Galván",
+        "hu": "Parque Enrique Tierno Galván"
+      },
+      {
+        "original": "Parque La Cuña Verde",
+        "hu": "Parque La Cuña Verde"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo2-test1-003",
+    "source": "proformatrans-modulo2-test1",
+    "module": "II",
+    "q": "¿En qué paseo se encuentra el cine Amaya?",
+    "hu": "Melyik sétányon / úton található az Amaya mozi?",
+    "answers": [
+      {
+        "original": "General Martínez Campos",
+        "hu": "General Martínez Campos"
+      },
+      {
+        "original": "Paseo del Prado",
+        "hu": "Paseo del Prado"
+      },
+      {
+        "original": "Paseo de las Delicias",
+        "hu": "Paseo de las Delicias"
+      },
+      {
+        "original": "Paseo de la Castellana",
+        "hu": "Paseo de la Castellana"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo2-test1-004",
+    "source": "proformatrans-modulo2-test1",
+    "module": "II",
+    "q": "¿Cuál es la torre más alta del complejo Cuatro Torres Business Area?",
+    "hu": "Melyik a Cuatro Torres Business Area komplexum legmagasabb tornya?",
+    "answers": [
+      {
+        "original": "Torre Espacio",
+        "hu": "Torre Espacio"
+      },
+      {
+        "original": "Torre PwC",
+        "hu": "Torre PwC"
+      },
+      {
+        "original": "Torre de Cristal",
+        "hu": "Torre de Cristal"
+      },
+      {
+        "original": "Torre Cepsa",
+        "hu": "Torre Cepsa"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test1-005",
+    "source": "proformatrans-modulo2-test1",
+    "module": "II",
+    "q": "¿Qué debes hacer si el GPS deja de funcionar mientras conduces?",
+    "hu": "Mit kell tenned, ha a GPS vezetés közben leáll?",
+    "answers": [
+      {
+        "original": "Llamar a un amigo para pedir indicaciones",
+        "hu": "Felhívni egy barátot útbaigazításért"
+      },
+      {
+        "original": "Parar en un lugar seguro y reiniciar la aplicación",
+        "hu": "Biztonságos helyen megállni és újraindítani az alkalmazást"
+      },
+      {
+        "original": "Continuar conduciendo y esperar que se solucione solo",
+        "hu": "Tovább vezetni és várni, hogy magától megoldódjon"
+      },
+      {
+        "original": "Cambiar a otra aplicación mientras conduces",
+        "hu": "Vezetés közben másik alkalmazásra váltani"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo2-test1-006",
+    "source": "proformatrans-modulo2-test1",
+    "module": "II",
+    "q": "¿Qué edificio madrileño destaca por su torre con reloj de 30 metros?",
+    "hu": "Melyik madridi épület nevezetes a 30 méteres óratornyáról?",
+    "answers": [
+      {
+        "original": "Congreso de los Diputados",
+        "hu": "Képviselőház"
+      },
+      {
+        "original": "Edificio Telefónica",
+        "hu": "Edificio Telefónica"
+      },
+      {
+        "original": "Senado",
+        "hu": "Szenátus"
+      },
+      {
+        "original": "Palacio Real",
+        "hu": "Királyi Palota"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo2-test1-007",
+    "source": "proformatrans-modulo2-test1",
+    "module": "II",
+    "q": "¿Qué edificio madrileño alberga las Cortes Generales de España?",
+    "hu": "Melyik madridi épület ad otthont Spanyolország parlamentjének, a Cortes Generalesnek?",
+    "answers": [
+      {
+        "original": "Palacio del Congreso de los Diputados",
+        "hu": "Palacio del Congreso de los Diputados"
+      },
+      {
+        "original": "Senado",
+        "hu": "Szenátus"
+      },
+      {
+        "original": "Palacio de Cibeles",
+        "hu": "Palacio de Cibeles"
+      },
+      {
+        "original": "Palacio de Linares",
+        "hu": "Palacio de Linares"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo2-test1-008",
+    "source": "proformatrans-modulo2-test1",
+    "module": "II",
+    "q": "¿Qué estación forma parte del Tren de Arganda?",
+    "hu": "Melyik állomás része a Tren de Argandának?",
+    "answers": [
+      {
+        "original": "Puerta de Arganda",
+        "hu": "Puerta de Arganda"
+      },
+      {
+        "original": "Estación de Vallecas",
+        "hu": "Estación de Vallecas"
+      },
+      {
+        "original": "Estación del Jarama",
+        "hu": "Estación del Jarama"
+      },
+      {
+        "original": "Estación de Vicálvaro",
+        "hu": "Estación de Vicálvaro"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test1-009",
+    "source": "proformatrans-modulo2-test1",
+    "module": "II",
+    "q": "¿Qué se debe hacer si necesitas cambiar la ruta en el GPS mientras estás conduciendo?",
+    "hu": "Mit kell tenni, ha vezetés közben módosítani kell az útvonalat a GPS-ben?",
+    "answers": [
+      {
+        "original": "Parar en un lugar seguro antes de realizar cualquier ajuste.",
+        "hu": "Biztonságos helyen megállni, mielőtt bármilyen beállítást elvégzel."
+      },
+      {
+        "original": "Ignorar el GPS y seguir conduciendo.",
+        "hu": "Figyelmen kívül hagyni a GPS-t és tovább vezetni."
+      },
+      {
+        "original": "Hacerlo inmediatamente mientras conduces.",
+        "hu": "Azonnal megcsinálni vezetés közben."
+      },
+      {
+        "original": "Continuar sin ajustes hasta terminar el trayecto.",
+        "hu": "Beállítás nélkül továbbmenni az út végéig."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo2-test1-010",
+    "source": "proformatrans-modulo2-test1",
+    "module": "II",
+    "q": "¿Qué ciudad madrileña acoge la Fiesta del Motín, declarada de Interés Turístico Nacional?",
+    "hu": "Melyik madridi település ad otthont a Fiesta del Motín ünnepnek, amelyet nemzeti turisztikai érdekűnek nyilvánítottak?",
+    "answers": [
+      {
+        "original": "Chinchón",
+        "hu": "Chinchón"
+      },
+      {
+        "original": "Torrejón de Ardoz",
+        "hu": "Torrejón de Ardoz"
+      },
+      {
+        "original": "Navalcarnero",
+        "hu": "Navalcarnero"
+      },
+      {
+        "original": "Aranjuez",
+        "hu": "Aranjuez"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo2-test1-011",
+    "source": "proformatrans-modulo2-test1",
+    "module": "II",
+    "q": "¿Qué beneficio ofrece la integración de Waze con Spotify?",
+    "hu": "Milyen előnyt nyújt a Waze és a Spotify integrációja?",
+    "answers": [
+      {
+        "original": "Muestra la velocidad en tiempo real",
+        "hu": "Valós időben mutatja a sebességet"
+      },
+      {
+        "original": "Permite buscar rutas más cortas",
+        "hu": "Lehetővé teszi rövidebb útvonalak keresését"
+      },
+      {
+        "original": "Escuchar música sin salir de la aplicación",
+        "hu": "Zenehallgatás az alkalmazás elhagyása nélkül"
+      },
+      {
+        "original": "Activa la navegación sin conexión",
+        "hu": "Bekapcsolja az offline navigációt"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test1-012",
+    "source": "proformatrans-modulo2-test1",
+    "module": "II",
+    "q": "¿Cuál de estas calles es conocida por su vida nocturna y locales de música en vivo?",
+    "hu": "Az alábbi utcák közül melyik ismert az éjszakai életéről és élőzenés helyeiről?",
+    "answers": [
+      {
+        "original": "Calle Huertas.",
+        "hu": "Calle Huertas."
+      },
+      {
+        "original": "Calle Elvira.",
+        "hu": "Calle Elvira."
+      },
+      {
+        "original": "Calle Betis.",
+        "hu": "Calle Betis."
+      },
+      {
+        "original": "Calle Estafeta.",
+        "hu": "Calle Estafeta."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo2-test1-013",
+    "source": "proformatrans-modulo2-test1",
+    "module": "II",
+    "q": "El dióxido de azufre se representa como:",
+    "hu": "Hogyan jelölik a kén-dioxidot?",
+    "answers": [
+      {
+        "original": "CO2.",
+        "hu": "CO2."
+      },
+      {
+        "original": "SO2.",
+        "hu": "SO2."
+      },
+      {
+        "original": "O3.",
+        "hu": "O3."
+      },
+      {
+        "original": "H2O.",
+        "hu": "H2O."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo2-test1-014",
+    "source": "proformatrans-modulo2-test1",
+    "module": "II",
+    "q": "¿Cuál es el nombre de la famosa escultura del Oso y el Madroño?",
+    "hu": "Mi a neve a híres Medve és Eperfácska szobornak?",
+    "answers": [
+      {
+        "original": "Estatua de la Villa",
+        "hu": "Estatua de la Villa"
+      },
+      {
+        "original": "Monumento de la Comunidad",
+        "hu": "Monumento de la Comunidad"
+      },
+      {
+        "original": "Símbolo de Madrid",
+        "hu": "Madrid jelképe"
+      },
+      {
+        "original": "Escultura de la Puerta del Sol",
+        "hu": "Puerta del Sol-i szobor"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test1-015",
+    "source": "proformatrans-modulo2-test1",
+    "module": "II",
+    "q": "¿Cuál es la ventaja de los mapas de TomTom GO?",
+    "hu": "Mi a TomTom GO térképek előnye?",
+    "answers": [
+      {
+        "original": "Son en 3D y descargables para su uso sin conexión",
+        "hu": "3D-sek és letölthetők offline használatra"
+      },
+      {
+        "original": "Solo funcionan con conexión a internet",
+        "hu": "Csak internetkapcsolattal működnek"
+      },
+      {
+        "original": "Son gratuitos en todas sus versiones",
+        "hu": "Minden verziójuk ingyenes"
+      },
+      {
+        "original": "No requieren actualizaciones",
+        "hu": "Nem igényelnek frissítést"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo2-test1-016",
+    "source": "proformatrans-modulo2-test1",
+    "module": "II",
+    "q": "¿Cómo deben adaptarse las infraestructuras urbanas a las Zonas de Bajas Emisiones (ZBE) según la Ley 7/2021?",
+    "hu": "Hogyan kell a városi infrastruktúrákat az alacsony kibocsátású zónákhoz (ZBE) igazítani a 7/2021-es törvény szerint?",
+    "answers": [
+      {
+        "original": "Reducir las áreas peatonales.",
+        "hu": "Csökkenteni a gyalogos területeket."
+      },
+      {
+        "original": "Construir más aparcamientos para vehículos.",
+        "hu": "Több parkolót építeni járművek számára."
+      },
+      {
+        "original": "Incrementando la capacidad de las autopistas.",
+        "hu": "Növelni az autópályák kapacitását."
+      },
+      {
+        "original": "Incorporando zonas de recarga y carriles bici.",
+        "hu": "Töltőpontokat és kerékpársávokat kialakítva."
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo2-test1-017",
+    "source": "proformatrans-modulo2-test1",
+    "module": "II",
+    "q": "¿Qué localidad es famosa por su plaza mayor porticada y su anís?",
+    "hu": "Melyik település híres árkádos főteréről és ánizslikőréről?",
+    "answers": [
+      {
+        "original": "San Martín de Valdeiglesias",
+        "hu": "San Martín de Valdeiglesias"
+      },
+      {
+        "original": "Torrejón de Ardoz",
+        "hu": "Torrejón de Ardoz"
+      },
+      {
+        "original": "Chinchón",
+        "hu": "Chinchón"
+      },
+      {
+        "original": "Navalcarnero",
+        "hu": "Navalcarnero"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test1-018",
+    "source": "proformatrans-modulo2-test1",
+    "module": "II",
+    "q": "¿Cuál de las siguientes calles se encuentra dentro de la Zona de Bajas Emisiones de Especial Protección (ZBEDEP) del Distrito Centro?",
+    "hu": "Az alábbi utcák közül melyik található a Centro kerület különleges védelmű alacsony kibocsátású zónáján (ZBEDEP) belül?",
+    "answers": [
+      {
+        "original": "El paseo de la Castellana.",
+        "hu": "Paseo de la Castellana."
+      },
+      {
+        "original": "La calle Arturo Soria.",
+        "hu": "Calle Arturo Soria."
+      },
+      {
+        "original": "La calle Gran Vía.",
+        "hu": "Calle Gran Vía."
+      },
+      {
+        "original": "La calle Bravo Murillo.",
+        "hu": "Calle Bravo Murillo."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test1-020",
+    "source": "proformatrans-modulo2-test1",
+    "module": "II",
+    "q": "¿Qué tipo de vehículos pueden acceder a todas las áreas urbanas sin restricciones de contaminación?",
+    "hu": "Milyen típusú járművek hajthatnak be minden városi területre szennyezési korlátozások nélkül?",
+    "answers": [
+      {
+        "original": "Vehículos de categoría B",
+        "hu": "B kategóriájú járművek"
+      },
+      {
+        "original": "Vehículos con etiqueta B y C",
+        "hu": "B és C címkével rendelkező járművek"
+      },
+      {
+        "original": "Vehículos con etiqueta Cero Emisiones",
+        "hu": "Nulla kibocsátás címkével rendelkező járművek"
+      },
+      {
+        "original": "Vehículos de categoría C",
+        "hu": "C kategóriájú járművek"
+      }
+    ],
+    "correctIndex": 2
+  }
+]
