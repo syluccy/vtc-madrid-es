@@ -11471,5 +11471,395 @@ export const questionBank = [
       }
     ],
     "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo2-test6-001",
+    "source": "proformatrans-modulo2-test6",
+    "module": "II",
+    "q": "¿Qué edificio de Madrid fue un antiguo mercado y hoy alberga puestos gourmet?",
+    "hu": "Melyik madridi épület volt régen piac, és ma gourmet standoknak ad otthont?",
+    "answers": [
+      {
+        "original": "Mercado de Chamberí",
+        "hu": "Mercado de Chamberí"
+      },
+      {
+        "original": "Mercado de San Antón",
+        "hu": "Mercado de San Antón"
+      },
+      {
+        "original": "Mercado de San Miguel",
+        "hu": "Mercado de San Miguel"
+      },
+      {
+        "original": "Mercado de Maravillas",
+        "hu": "Mercado de Maravillas"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test6-002",
+    "source": "proformatrans-modulo2-test6",
+    "module": "II",
+    "q": "¿Qué debes hacer para actualizar los mapas del GPS?",
+    "hu": "Mit kell tenned a GPS térképeinek frissítéséhez?",
+    "answers": [
+      {
+        "original": "Llevar el GPS a una tienda de electrónica",
+        "hu": "Elvinni a GPS-t egy elektronikai üzletbe"
+      },
+      {
+        "original": "No es necesario actualizar los mapas",
+        "hu": "Nem szükséges frissíteni a térképeket"
+      },
+      {
+        "original": "Descargar las actualizaciones desde la web del fabricante",
+        "hu": "Letölteni a frissítéseket a gyártó weboldaláról"
+      },
+      {
+        "original": "Apagar y encender el GPS",
+        "hu": "Ki- és bekapcsolni a GPS-t"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test6-003",
+    "source": "proformatrans-modulo2-test6",
+    "module": "II",
+    "q": "¿Qué famosa fuente se encuentra frente al Palacio de Cibeles?",
+    "hu": "Melyik híres szökőkút található a Palacio de Cibeles előtt?",
+    "answers": [
+      {
+        "original": "Fuente de Cibeles",
+        "hu": "Cibeles-kút"
+      },
+      {
+        "original": "Fuente de Apolo",
+        "hu": "Apolló-kút"
+      },
+      {
+        "original": "Fuente de la Alcachofa",
+        "hu": "Alcachofa-kút"
+      },
+      {
+        "original": "Fuente de Neptuno",
+        "hu": "Neptun-kút"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo2-test6-005",
+    "source": "proformatrans-modulo2-test6",
+    "module": "II",
+    "q": "¿Qué famoso mercado se encuentra cerca de la Plaza Mayor?",
+    "hu": "Melyik híres piac található a Plaza Mayor közelében?",
+    "answers": [
+      {
+        "original": "Mercado de la Cebada",
+        "hu": "Mercado de la Cebada"
+      },
+      {
+        "original": "Mercado de Antón Martín",
+        "hu": "Mercado de Antón Martín"
+      },
+      {
+        "original": "Mercado de San Miguel",
+        "hu": "Mercado de San Miguel"
+      },
+      {
+        "original": "Mercado de Vallehermoso",
+        "hu": "Mercado de Vallehermoso"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test6-006",
+    "source": "proformatrans-modulo2-test6",
+    "module": "II",
+    "q": "¿Qué parque nacional se encuentra en parte dentro de la Comunidad de Madrid?",
+    "hu": "Melyik nemzeti park található részben a Madridi Közösség területén?",
+    "answers": [
+      {
+        "original": "Picos de Europa",
+        "hu": "Picos de Europa"
+      },
+      {
+        "original": "Monfragüe",
+        "hu": "Monfragüe"
+      },
+      {
+        "original": "Sierra de Guadarrama",
+        "hu": "Sierra de Guadarrama"
+      },
+      {
+        "original": "Sierra de las Nieves",
+        "hu": "Sierra de las Nieves"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test6-008",
+    "source": "proformatrans-modulo2-test6",
+    "module": "II",
+    "q": "Si el GPS propone una ruta más larga sin tráfico, ¿qué hacer?",
+    "hu": "Ha a GPS hosszabb, de forgalommentes útvonalat javasol, mit kell tenni?",
+    "answers": [
+      {
+        "original": "Evaluar si se ahorra tiempo con la ruta larga",
+        "hu": "Mérlegelni, hogy a hosszabb útvonallal lehet-e időt megtakarítani"
+      },
+      {
+        "original": "Ignorarla y seguir la más corta",
+        "hu": "Figyelmen kívül hagyni, és a rövidebbet követni"
+      },
+      {
+        "original": "Detenerse y preguntar a un peatón",
+        "hu": "Megállni és megkérdezni egy gyalogost"
+      },
+      {
+        "original": "Apagar el GPS",
+        "hu": "Kikapcsolni a GPS-t"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo2-test6-009",
+    "source": "proformatrans-modulo2-test6",
+    "module": "II",
+    "q": "Los vehículos con distintivo ECO pueden circular libremente en episodios de alta contaminación en Madrid.",
+    "hu": "Az ECO környezetvédelmi matricával rendelkező járművek szabadon közlekedhetnek magas szennyezettségi epizódok idején Madridban.",
+    "answers": [
+      {
+        "original": "Depende del número de su matrícula.",
+        "hu": "A rendszámuktól függ."
+      },
+      {
+        "original": "En todos los escenarios.",
+        "hu": "Minden helyzetben."
+      },
+      {
+        "original": "Solo durante el día.",
+        "hu": "Csak nappal."
+      },
+      {
+        "original": "En casi todos los escenarios.",
+        "hu": "Majdnem minden helyzetben."
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo2-test6-010",
+    "source": "proformatrans-modulo2-test6",
+    "module": "II",
+    "q": "¿Qué sitio de Madrid es famoso por su cambio de guardia?",
+    "hu": "Melyik madridi hely híres az őrségváltásáról?",
+    "answers": [
+      {
+        "original": "Templo de Debod",
+        "hu": "Debod temploma"
+      },
+      {
+        "original": "Plaza Mayor",
+        "hu": "Plaza Mayor"
+      },
+      {
+        "original": "Palacio Real",
+        "hu": "Királyi Palota"
+      },
+      {
+        "original": "Palacio de Linares",
+        "hu": "Linares-palota"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test6-012",
+    "source": "proformatrans-modulo2-test6",
+    "module": "II",
+    "q": "¿Qué edificio madrileño destaca por tener azulejos del siglo XVIII?",
+    "hu": "Melyik madridi épület híres a XVIII. századi csempéiről?",
+    "answers": [
+      {
+        "original": "Real Fábrica de Tapices",
+        "hu": "Királyi Kárpitszövő Manufaktúra"
+      },
+      {
+        "original": "Casa de la Panadería",
+        "hu": "Casa de la Panadería"
+      },
+      {
+        "original": "Iglesia de San Antonio de los Alemanes",
+        "hu": "San Antonio de los Alemanes-templom"
+      },
+      {
+        "original": "Monasterio de las Descalzas",
+        "hu": "Descalzas-kolostor"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test6-013",
+    "source": "proformatrans-modulo2-test6",
+    "module": "II",
+    "q": "¿Qué cerro es el punto más alto de Madrid capital?",
+    "hu": "Melyik domb Madrid városának legmagasabb pontja?",
+    "answers": [
+      {
+        "original": "Cerro Garabitas",
+        "hu": "Cerro Garabitas"
+      },
+      {
+        "original": "Cerro del Tío Pío",
+        "hu": "Cerro del Tío Pío"
+      },
+      {
+        "original": "Cerro de la Plata",
+        "hu": "Cerro de la Plata"
+      },
+      {
+        "original": "Cerro de los Ángeles",
+        "hu": "Cerro de los Ángeles"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo2-test6-016",
+    "source": "proformatrans-modulo2-test6",
+    "module": "II",
+    "q": "¿En qué municipio madrileño se encuentra el Monasterio de San Lorenzo de El Escorial?",
+    "hu": "Melyik madridi településen található a San Lorenzo de El Escorial kolostor?",
+    "answers": [
+      {
+        "original": "Boadilla del Monte",
+        "hu": "Boadilla del Monte"
+      },
+      {
+        "original": "El Escorial",
+        "hu": "El Escorial"
+      },
+      {
+        "original": "Aranjuez",
+        "hu": "Aranjuez"
+      },
+      {
+        "original": "Alcalá de Henares",
+        "hu": "Alcalá de Henares"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo2-test6-017",
+    "source": "proformatrans-modulo2-test6",
+    "module": "II",
+    "q": "¿Qué famoso autor vivió en la Casa-Museo de Lope de Vega en Madrid?",
+    "hu": "Melyik híres szerző élt a madridi Lope de Vega házmúzeumban?",
+    "answers": [
+      {
+        "original": "Lope de Vega",
+        "hu": "Lope de Vega"
+      },
+      {
+        "original": "Quevedo",
+        "hu": "Quevedo"
+      },
+      {
+        "original": "Miguel de Cervantes",
+        "hu": "Miguel de Cervantes"
+      },
+      {
+        "original": "Calderón de la Barca",
+        "hu": "Calderón de la Barca"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo2-test6-018",
+    "source": "proformatrans-modulo2-test6",
+    "module": "II",
+    "q": "¿Qué edificio madrileño fue residencia de la familia real hasta el siglo XX?",
+    "hu": "Melyik madridi épület volt a királyi család rezidenciája a XX. századig?",
+    "answers": [
+      {
+        "original": "Palacio de Linares",
+        "hu": "Linares-palota"
+      },
+      {
+        "original": "Palacio Real de Madrid",
+        "hu": "Madridi Királyi Palota"
+      },
+      {
+        "original": "Palacio de Velázquez",
+        "hu": "Velázquez-palota"
+      },
+      {
+        "original": "Palacio de Cibeles",
+        "hu": "Cibeles-palota"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo2-test6-019",
+    "source": "proformatrans-modulo2-test6",
+    "module": "II",
+    "q": "¿Qué edificio madrileño tiene la cúpula más grande de España?",
+    "hu": "Melyik madridi épületnek van Spanyolország legnagyobb kupolája?",
+    "answers": [
+      {
+        "original": "Basílica de San Francisco el Grande",
+        "hu": "San Francisco el Grande-bazilika"
+      },
+      {
+        "original": "Catedral de la Almudena",
+        "hu": "Almudena-székesegyház"
+      },
+      {
+        "original": "Iglesia de San Manuel y San Benito",
+        "hu": "San Manuel és San Benito-templom"
+      },
+      {
+        "original": "Iglesia de San Jerónimo",
+        "hu": "San Jerónimo-templom"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo2-test6-020",
+    "source": "proformatrans-modulo2-test6",
+    "module": "II",
+    "q": "¿Junto a qué plaza está el restaurante \"Club 31\"?",
+    "hu": "Melyik tér mellett található a \"Club 31\" étterem?",
+    "answers": [
+      {
+        "original": "Cánovas del Castillo",
+        "hu": "Cánovas del Castillo"
+      },
+      {
+        "original": "Dr. Gregorio Marañón",
+        "hu": "Dr. Gregorio Marañón"
+      },
+      {
+        "original": "La Independencia",
+        "hu": "La Independencia"
+      },
+      {
+        "original": "Puerta del Sol",
+        "hu": "Puerta del Sol"
+      }
+    ],
+    "correctIndex": 2
   }
 ];
