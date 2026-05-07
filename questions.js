@@ -11055,5 +11055,421 @@ export const questionBank = [
       }
     ],
     "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo2-test5-001",
+    "source": "proformatrans-modulo2-test5",
+    "module": "II",
+    "q": "¿Qué templo egipcio, originalmente ubicado cerca de la Primera Catarata del Nilo y dedicado a Amón e Isis, fue reconstruido piedra por piedra en Madrid como parte del programa internacional de salvamento de monumentos nubios?",
+    "hu": "Melyik egyiptomi templomot, amely eredetileg a Nílus első kataraktája közelében állt, és Amonnak valamint Ízisznek volt szentelve, építették újjá kőről kőre Madridban a núbiai műemlékek megmentésére irányuló nemzetközi program részeként?",
+    "answers": [
+      {
+        "original": "Templo de Dendur.",
+        "hu": "Dendur temploma."
+      },
+      {
+        "original": "Templo de Edfu.",
+        "hu": "Edfu temploma."
+      },
+      {
+        "original": "Templo de Kalabsha.",
+        "hu": "Kalabsha temploma."
+      },
+      {
+        "original": "Templo de Debod.",
+        "hu": "Debod temploma."
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo2-test5-002",
+    "source": "proformatrans-modulo2-test5",
+    "module": "II",
+    "q": "¿Dónde se ubica el Museo del Aire en la Comunidad de Madrid?",
+    "hu": "Hol található a Repülési Múzeum a Madridi Közösségben?",
+    "answers": [
+      {
+        "original": "Barajas",
+        "hu": "Barajas"
+      },
+      {
+        "original": "Cuatro Vientos",
+        "hu": "Cuatro Vientos"
+      },
+      {
+        "original": "Getafe",
+        "hu": "Getafe"
+      },
+      {
+        "original": "Torrejón",
+        "hu": "Torrejón"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo2-test5-003",
+    "source": "proformatrans-modulo2-test5",
+    "module": "II",
+    "q": "¿En qué municipio se encuentra la sede de Antena 3?",
+    "hu": "Melyik településen található az Antena 3 székhelye?",
+    "answers": [
+      {
+        "original": "Getafe",
+        "hu": "Getafe"
+      },
+      {
+        "original": "Coslada",
+        "hu": "Coslada"
+      },
+      {
+        "original": "Torrejón de Ardoz",
+        "hu": "Torrejón de Ardoz"
+      },
+      {
+        "original": "San Sebastián de los Reyes",
+        "hu": "San Sebastián de los Reyes"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo2-test5-004",
+    "source": "proformatrans-modulo2-test5",
+    "module": "II",
+    "q": "¿Qué museo alberga la mayor colección de obras de Goya?",
+    "hu": "Melyik múzeum őrzi Goya műveinek legnagyobb gyűjteményét?",
+    "answers": [
+      {
+        "original": "Museo Thyssen",
+        "hu": "Museo Thyssen"
+      },
+      {
+        "original": "Museo Reina Sofía",
+        "hu": "Museo Reina Sofía"
+      },
+      {
+        "original": "Museo del Prado",
+        "hu": "Museo del Prado"
+      },
+      {
+        "original": "Museo de América",
+        "hu": "Museo de América"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test5-006",
+    "source": "proformatrans-modulo2-test5",
+    "module": "II",
+    "q": "¿Qué deben hacer los conductores en caso de no contar con el distintivo ambiental adecuado?",
+    "hu": "Mit kell tenniük a járművezetőknek, ha nem rendelkeznek megfelelő környezetvédelmi matricával?",
+    "answers": [
+      {
+        "original": "Solicitar un permiso especial.",
+        "hu": "Külön engedélyt kérni."
+      },
+      {
+        "original": "Circular en Zonas de Bajas emisiones aumentando la velocidad al máximo.",
+        "hu": "Az alacsony kibocsátású zónákban a sebességet maximálisra növelve közlekedni."
+      },
+      {
+        "original": "Evitar circular en Zonas de Bajas Emisiones.",
+        "hu": "Kerülni az alacsony kibocsátású zónákban való közlekedést."
+      },
+      {
+        "original": "Circular sin restricciones.",
+        "hu": "Korlátozások nélkül közlekedni."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test5-007",
+    "source": "proformatrans-modulo2-test5",
+    "module": "II",
+    "q": "¿En qué localidad madrileña se encuentra el Parque de la Navidad de Torrejón de Ardoz, uno de los eventos navideños más grandes de España?",
+    "hu": "Melyik madridi településen található Torrejón de Ardoz karácsonyi parkja, Spanyolország egyik legnagyobb karácsonyi eseménye?",
+    "answers": [
+      {
+        "original": "San Sebastián de los Reyes",
+        "hu": "San Sebastián de los Reyes"
+      },
+      {
+        "original": "Torrejón de Ardoz",
+        "hu": "Torrejón de Ardoz"
+      },
+      {
+        "original": "Getafe",
+        "hu": "Getafe"
+      },
+      {
+        "original": "Alcalá de Henares",
+        "hu": "Alcalá de Henares"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo2-test5-008",
+    "source": "proformatrans-modulo2-test5",
+    "module": "II",
+    "q": "¿Qué municipio acoge el Museo Picasso - Colección Eugenio Arias?",
+    "hu": "Melyik település ad otthont a Picasso Múzeum - Eugenio Arias Gyűjteménynek?",
+    "answers": [
+      {
+        "original": "Torrelaguna",
+        "hu": "Torrelaguna"
+      },
+      {
+        "original": "Rascafría",
+        "hu": "Rascafría"
+      },
+      {
+        "original": "Algete",
+        "hu": "Algete"
+      },
+      {
+        "original": "Buitrago del Lozoya",
+        "hu": "Buitrago del Lozoya"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo2-test5-009",
+    "source": "proformatrans-modulo2-test5",
+    "module": "II",
+    "q": "¿Qué famoso jardín histórico fue diseñado por Juan de Villanueva?",
+    "hu": "Melyik híres történelmi kertet tervezte Juan de Villanueva?",
+    "answers": [
+      {
+        "original": "Parque del Capricho",
+        "hu": "Parque del Capricho"
+      },
+      {
+        "original": "Jardín de la Isla",
+        "hu": "Jardín de la Isla"
+      },
+      {
+        "original": "Jardín Botánico",
+        "hu": "Botanikus kert"
+      },
+      {
+        "original": "Jardín del Príncipe",
+        "hu": "Jardín del Príncipe"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test5-011",
+    "source": "proformatrans-modulo2-test5",
+    "module": "II",
+    "q": "¿Cuál es la estación de metro más cercana al Ministerio de Industria y Energía?",
+    "hu": "Melyik metróállomás van legközelebb az Ipari és Energiaügyi Minisztériumhoz?",
+    "answers": [
+      {
+        "original": "Nuevos Ministerios",
+        "hu": "Nuevos Ministerios"
+      },
+      {
+        "original": "Cuzco",
+        "hu": "Cuzco"
+      },
+      {
+        "original": "Santiago Bernabéu",
+        "hu": "Santiago Bernabéu"
+      },
+      {
+        "original": "Colombia",
+        "hu": "Colombia"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo2-test5-012",
+    "source": "proformatrans-modulo2-test5",
+    "module": "II",
+    "q": "¿Qué hospital podemos encontrar en el Paseo de la Castellana?",
+    "hu": "Melyik kórház található a Paseo de la Castellanán?",
+    "answers": [
+      {
+        "original": "Hospital Universitario de La Paz",
+        "hu": "Hospital Universitario de La Paz"
+      },
+      {
+        "original": "Hospital General Gregorio Marañón",
+        "hu": "Hospital General Gregorio Marañón"
+      },
+      {
+        "original": "Hospital Clínico San Carlos",
+        "hu": "Hospital Clínico San Carlos"
+      },
+      {
+        "original": "Hospital Infanta Leonor",
+        "hu": "Hospital Infanta Leonor"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo2-test5-014",
+    "source": "proformatrans-modulo2-test5",
+    "module": "II",
+    "q": "¿Qué vehículos pueden circular sin restricciones en episodios de contaminación alta?",
+    "hu": "Milyen járművek közlekedhetnek korlátozás nélkül magas szennyezettségi epizódok idején?",
+    "answers": [
+      {
+        "original": "Vehículos con etiqueta C",
+        "hu": "C matricával rendelkező járművek"
+      },
+      {
+        "original": "Vehículos con etiqueta B",
+        "hu": "B matricával rendelkező járművek"
+      },
+      {
+        "original": "Vehículos con etiqueta ECO y Cero Emisiones",
+        "hu": "ECO és Cero Emisiones matricával rendelkező járművek"
+      },
+      {
+        "original": "Vehículos con etiqueta C y B",
+        "hu": "C és B matricával rendelkező járművek"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test5-015",
+    "source": "proformatrans-modulo2-test5",
+    "module": "II",
+    "q": "¿Qué colina madrileña ofrece vistas a la Casa de Campo y al Palacio Real?",
+    "hu": "Melyik madridi domb kínál kilátást a Casa de Campóra és a Királyi Palotára?",
+    "answers": [
+      {
+        "original": "Colina de los Molinos",
+        "hu": "Colina de los Molinos"
+      },
+      {
+        "original": "Cuesta de San Vicente",
+        "hu": "Cuesta de San Vicente"
+      },
+      {
+        "original": "Montaña del Príncipe Pío",
+        "hu": "Montaña del Príncipe Pío"
+      },
+      {
+        "original": "Cerro Almodóvar",
+        "hu": "Cerro Almodóvar"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test5-016",
+    "source": "proformatrans-modulo2-test5",
+    "module": "II",
+    "q": "¿Cuál de los siguientes museos está ubicado en el Pº del Prado, 8, junto a la Plaza de las Cortes?",
+    "hu": "Az alábbi múzeumok közül melyik található a Paseo del Prado 8. szám alatt, a Plaza de las Cortes mellett?",
+    "answers": [
+      {
+        "original": "Museo de Cera",
+        "hu": "Museo de Cera"
+      },
+      {
+        "original": "Museo del Prado",
+        "hu": "Museo del Prado"
+      },
+      {
+        "original": "Casa de la Moneda",
+        "hu": "Casa de la Moneda"
+      },
+      {
+        "original": "Museo Thyssen Bornemisza",
+        "hu": "Museo Thyssen Bornemisza"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo2-test5-017",
+    "source": "proformatrans-modulo2-test5",
+    "module": "II",
+    "q": "¿En qué plaza se encuentra el Gran Hotel Conde Duque?",
+    "hu": "Melyik téren található a Gran Hotel Conde Duque?",
+    "answers": [
+      {
+        "original": "Plaza de Santo Domingo",
+        "hu": "Plaza de Santo Domingo"
+      },
+      {
+        "original": "Plaza Conde Valle de Suchil",
+        "hu": "Plaza Conde Valle de Suchil"
+      },
+      {
+        "original": "Plaza Dos de Mayo",
+        "hu": "Plaza Dos de Mayo"
+      },
+      {
+        "original": "Plaza de Olavide",
+        "hu": "Plaza de Olavide"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo2-test5-018",
+    "source": "proformatrans-modulo2-test5",
+    "module": "II",
+    "q": "¿En qué calle se encuentra la Jefatura Provincial de Tráfico?",
+    "hu": "Melyik utcában található a tartományi közlekedési főkapitányság?",
+    "answers": [
+      {
+        "original": "Arturo Soria, 143",
+        "hu": "Arturo Soria, 143"
+      },
+      {
+        "original": "Calle Serrano, 80",
+        "hu": "Calle Serrano, 80"
+      },
+      {
+        "original": "Paseo de la Castellana, 112",
+        "hu": "Paseo de la Castellana, 112"
+      },
+      {
+        "original": "Bravo Murillo, 78",
+        "hu": "Bravo Murillo, 78"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo2-test5-020",
+    "source": "proformatrans-modulo2-test5",
+    "module": "II",
+    "q": "¿Qué mirador se encuentra en lo alto del Faro de Moncloa?",
+    "hu": "Melyik kilátó található a Faro de Moncloa tetején?",
+    "answers": [
+      {
+        "original": "Mirador de Madrid",
+        "hu": "Mirador de Madrid"
+      },
+      {
+        "original": "Mirador del Príncipe",
+        "hu": "Mirador del Príncipe"
+      },
+      {
+        "original": "Mirador de Goya",
+        "hu": "Mirador de Goya"
+      },
+      {
+        "original": "Mirador Real",
+        "hu": "Mirador Real"
+      }
+    ],
+    "correctIndex": 0
   }
 ];
