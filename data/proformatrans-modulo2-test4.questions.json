@@ -1,0 +1,522 @@
+[
+  {
+    "id": "proformatrans-modulo2-test4-001",
+    "source": "proformatrans-modulo2-test4",
+    "module": "II",
+    "q": "En el Palacio de Cibeles se encuentra la sede:",
+    "hu": "A Palacio de Cibeles épületében található a következő székhelye:",
+    "answers": [
+      {
+        "original": "Delegación del Gobierno.",
+        "hu": "Kormányküldöttség."
+      },
+      {
+        "original": "Diputación Provincial.",
+        "hu": "Tartományi tanács."
+      },
+      {
+        "original": "Ayuntamiento de Madrid.",
+        "hu": "Madridi Városháza."
+      },
+      {
+        "original": "Comunidad de Madrid.",
+        "hu": "Madridi Közösség."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test4-002",
+    "source": "proformatrans-modulo2-test4",
+    "module": "II",
+    "q": "¿Dónde está situada Radio Intercontinental?",
+    "hu": "Hol található a Radio Intercontinental?",
+    "answers": [
+      {
+        "original": "Paseo de la Castellana",
+        "hu": "Paseo de la Castellana"
+      },
+      {
+        "original": "Avenida de América",
+        "hu": "Avenida de América"
+      },
+      {
+        "original": "Calle Valenzuela",
+        "hu": "Calle Valenzuela"
+      },
+      {
+        "original": "Calle Modesto la Fuente",
+        "hu": "Calle Modesto la Fuente"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo2-test4-003",
+    "source": "proformatrans-modulo2-test4",
+    "module": "II",
+    "q": "¿Qué palacio se encuentra al borde del río Tajo y forma parte del Patrimonio Mundial?",
+    "hu": "Melyik palota található a Tajo folyó partján, és része a világörökségnek?",
+    "answers": [
+      {
+        "original": "Palacio de Aranjuez",
+        "hu": "Palacio de Aranjuez"
+      },
+      {
+        "original": "Palacio del Pardo",
+        "hu": "Palacio del Pardo"
+      },
+      {
+        "original": "Palacio Real de Madrid",
+        "hu": "Madridi Királyi Palota"
+      },
+      {
+        "original": "Palacio de Boadilla",
+        "hu": "Palacio de Boadilla"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo2-test4-004",
+    "source": "proformatrans-modulo2-test4",
+    "module": "II",
+    "q": "¿En qué municipio NO encontraríamos un Hipermercado Carrefour?",
+    "hu": "Melyik településen NEM találnánk Carrefour hipermarketet?",
+    "answers": [
+      {
+        "original": "Las Rozas",
+        "hu": "Las Rozas"
+      },
+      {
+        "original": "Alcorcón",
+        "hu": "Alcorcón"
+      },
+      {
+        "original": "Majadahonda",
+        "hu": "Majadahonda"
+      },
+      {
+        "original": "San Fernando de Henares",
+        "hu": "San Fernando de Henares"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo2-test4-005",
+    "source": "proformatrans-modulo2-test4",
+    "module": "II",
+    "q": "¿Qué localidad conserva un teatro de corte neoclásico construido por Carlos III?",
+    "hu": "Melyik településen maradt fenn egy III. Károly által építtetett neoklasszicista udvari színház?",
+    "answers": [
+      {
+        "original": "Alcalá de Henares",
+        "hu": "Alcalá de Henares"
+      },
+      {
+        "original": "San Lorenzo de El Escorial",
+        "hu": "San Lorenzo de El Escorial"
+      },
+      {
+        "original": "Aranjuez",
+        "hu": "Aranjuez"
+      },
+      {
+        "original": "El Escorial",
+        "hu": "El Escorial"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo2-test4-006",
+    "source": "proformatrans-modulo2-test4",
+    "module": "II",
+    "q": "¿Dónde se encuentra el Tribunal Supremo?",
+    "hu": "Hol található a Legfelsőbb Bíróság?",
+    "answers": [
+      {
+        "original": "Plaza de la Villa de París",
+        "hu": "Plaza de la Villa de París"
+      },
+      {
+        "original": "Plaza de la Lealtad",
+        "hu": "Plaza de la Lealtad"
+      },
+      {
+        "original": "Calle Mayor",
+        "hu": "Calle Mayor"
+      },
+      {
+        "original": "Calle Alcalá",
+        "hu": "Calle Alcalá"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo2-test4-007",
+    "source": "proformatrans-modulo2-test4",
+    "module": "II",
+    "q": "¿En qué municipio del oeste de Madrid se encuentra el Parque Natural del Curso Medio del Río Guadarrama, una importante zona de biodiversidad?",
+    "hu": "Madrid nyugati részén melyik településen található a Río Guadarrama középső folyásának természeti parkja, egy fontos biodiverzitási terület?",
+    "answers": [
+      {
+        "original": "Boadilla del Monte",
+        "hu": "Boadilla del Monte"
+      },
+      {
+        "original": "Las Rozas",
+        "hu": "Las Rozas"
+      },
+      {
+        "original": "Majadahonda",
+        "hu": "Majadahonda"
+      },
+      {
+        "original": "Villaviciosa de Odón",
+        "hu": "Villaviciosa de Odón"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo2-test4-008",
+    "source": "proformatrans-modulo2-test4",
+    "module": "II",
+    "q": "Dirección del Colegio Oficial de Médicos:",
+    "hu": "Az Orvosi Kamara címe:",
+    "answers": [
+      {
+        "original": "Calle Atocha 50.",
+        "hu": "Calle Atocha 50."
+      },
+      {
+        "original": "Doctor Fleming 99.",
+        "hu": "Doctor Fleming 99."
+      },
+      {
+        "original": "Calle Santa Isabel 51.",
+        "hu": "Calle Santa Isabel 51."
+      },
+      {
+        "original": "Alberto Alcocer 25.",
+        "hu": "Alberto Alcocer 25."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test4-009",
+    "source": "proformatrans-modulo2-test4",
+    "module": "II",
+    "q": "Los vehículos híbridos no enchufables deben llevar el distintivo B.",
+    "hu": "A nem tölthető hibrid járműveknek B környezetvédelmi címkét kell viselniük.",
+    "answers": [
+      {
+        "original": "Falso.",
+        "hu": "Hamis."
+      },
+      {
+        "original": "Solo durante el día.",
+        "hu": "Csak nappal."
+      },
+      {
+        "original": "Solo durante la noche.",
+        "hu": "Csak éjszaka."
+      },
+      {
+        "original": "Verdadero.",
+        "hu": "Igaz."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo2-test4-010",
+    "source": "proformatrans-modulo2-test4",
+    "module": "II",
+    "q": "¿Qué municipio destaca por su embalse y la torre del Telégrafo?",
+    "hu": "Melyik település nevezetes a víztározójáról és a távírótoronyról?",
+    "answers": [
+      {
+        "original": "Valdemorillo",
+        "hu": "Valdemorillo"
+      },
+      {
+        "original": "Torrelodones",
+        "hu": "Torrelodones"
+      },
+      {
+        "original": "Cercedilla",
+        "hu": "Cercedilla"
+      },
+      {
+        "original": "Boadilla del Monte",
+        "hu": "Boadilla del Monte"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo2-test4-011",
+    "source": "proformatrans-modulo2-test4",
+    "module": "II",
+    "q": "Origen de la clasificación ambiental:",
+    "hu": "A környezetvédelmi besorolás eredete:",
+    "answers": [
+      {
+        "original": "Ordenanza municipal.",
+        "hu": "Önkormányzati rendelet."
+      },
+      {
+        "original": "Plan Nacional de Calidad del Aire.",
+        "hu": "Nemzeti Levegőminőségi Terv."
+      },
+      {
+        "original": "ITV.",
+        "hu": "Műszaki vizsga."
+      },
+      {
+        "original": "Plan de residuos.",
+        "hu": "Hulladékgazdálkodási terv."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo2-test4-012",
+    "source": "proformatrans-modulo2-test4",
+    "module": "II",
+    "q": "¿Qué calle es reconocida por su tradición cultural vinculada a librerías independientes, comercios de antigüedades y una intensa vida bohemia desde el siglo XIX?",
+    "hu": "Melyik utca ismert a 19. század óta a független könyvesboltokhoz, régiségkereskedésekhez és élénk bohém élethez kötődő kulturális hagyományáról?",
+    "answers": [
+      {
+        "original": "Calle del Barquillo.",
+        "hu": "Calle del Barquillo."
+      },
+      {
+        "original": "Calle de Valverde.",
+        "hu": "Calle de Valverde."
+      },
+      {
+        "original": "Calle de San Mateo.",
+        "hu": "Calle de San Mateo."
+      },
+      {
+        "original": "Calle del Pez.",
+        "hu": "Calle del Pez."
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo2-test4-013",
+    "source": "proformatrans-modulo2-test4",
+    "module": "II",
+    "q": "¿En qué calle se encuentra \"Casa Patas\"?",
+    "hu": "Melyik utcában található a \"Casa Patas\"?",
+    "answers": [
+      {
+        "original": "Calle Preciados",
+        "hu": "Calle Preciados"
+      },
+      {
+        "original": "Calle Cuchilleros",
+        "hu": "Calle Cuchilleros"
+      },
+      {
+        "original": "Calle Cañizares",
+        "hu": "Calle Cañizares"
+      },
+      {
+        "original": "Calle Mayor",
+        "hu": "Calle Mayor"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test4-014",
+    "source": "proformatrans-modulo2-test4",
+    "module": "II",
+    "q": "¿Qué festividad madrileña celebra al patrón en mayo?",
+    "hu": "Melyik madridi ünnep ünnepli a védőszentet májusban?",
+    "answers": [
+      {
+        "original": "San Miguel Arcángel",
+        "hu": "San Miguel Arcángel"
+      },
+      {
+        "original": "Ninguna de las anteriores",
+        "hu": "A fentiek egyike sem"
+      },
+      {
+        "original": "San Antonio de la Florida",
+        "hu": "San Antonio de la Florida"
+      },
+      {
+        "original": "San Isidro Labrador",
+        "hu": "San Isidro Labrador"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo2-test4-015",
+    "source": "proformatrans-modulo2-test4",
+    "module": "II",
+    "q": "¿Qué palacio está rodeado por los Jardines del Príncipe y fue declarado Patrimonio de la Humanidad?",
+    "hu": "Melyik palotát veszik körül a Jardines del Príncipe kertek, és nyilvánították a világörökség részévé?",
+    "answers": [
+      {
+        "original": "Palacio de El Pardo",
+        "hu": "Palacio de El Pardo"
+      },
+      {
+        "original": "Palacio de Aranjuez",
+        "hu": "Palacio de Aranjuez"
+      },
+      {
+        "original": "Palacio Real de Madrid",
+        "hu": "Madridi Királyi Palota"
+      },
+      {
+        "original": "Palacio de la Zarzuela",
+        "hu": "Palacio de la Zarzuela"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo2-test4-016",
+    "source": "proformatrans-modulo2-test4",
+    "module": "II",
+    "q": "¿En qué municipio se encuentra el Pabellón Fernando Martín?",
+    "hu": "Melyik településen található a Pabellón Fernando Martín?",
+    "answers": [
+      {
+        "original": "Getafe",
+        "hu": "Getafe"
+      },
+      {
+        "original": "Alcalá de Henares",
+        "hu": "Alcalá de Henares"
+      },
+      {
+        "original": "Móstoles",
+        "hu": "Móstoles"
+      },
+      {
+        "original": "Fuenlabrada",
+        "hu": "Fuenlabrada"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo2-test4-017",
+    "source": "proformatrans-modulo2-test4",
+    "module": "II",
+    "q": "¿En qué pueblo madrileño se encuentra el Arboreto Luis Ceballos, un centro de educación ambiental con una gran variedad de especies forestales?",
+    "hu": "Melyik madridi településen található a Luis Ceballos arborétum, egy erdei fajokban gazdag környezeti oktatóközpont?",
+    "answers": [
+      {
+        "original": "San Lorenzo de El Escorial",
+        "hu": "San Lorenzo de El Escorial"
+      },
+      {
+        "original": "Guadarrama",
+        "hu": "Guadarrama"
+      },
+      {
+        "original": "Alpedrete",
+        "hu": "Alpedrete"
+      },
+      {
+        "original": "Collado Mediano",
+        "hu": "Collado Mediano"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo2-test4-018",
+    "source": "proformatrans-modulo2-test4",
+    "module": "II",
+    "q": "¿Qué edificio tiene una cúpula sostenida por cariátides en su fachada?",
+    "hu": "Melyik épület homlokzatán található kariatidák által tartott kupola?",
+    "answers": [
+      {
+        "original": "Banco de España",
+        "hu": "Banco de España"
+      },
+      {
+        "original": "Edificio de las Cariátides",
+        "hu": "Edificio de las Cariátides"
+      },
+      {
+        "original": "Edificio Telefónica",
+        "hu": "Edificio Telefónica"
+      },
+      {
+        "original": "Palacio de Linares",
+        "hu": "Palacio de Linares"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo2-test4-019",
+    "source": "proformatrans-modulo2-test4",
+    "module": "II",
+    "q": "¿Qué puente une la Casa de Campo con la Catedral de la Almudena?",
+    "hu": "Melyik híd köti össze a Casa de Campót az Almudena-székesegyházzal?",
+    "answers": [
+      {
+        "original": "Puente del Rey",
+        "hu": "Puente del Rey"
+      },
+      {
+        "original": "Puente de Toledo",
+        "hu": "Puente de Toledo"
+      },
+      {
+        "original": "Puente de Segovia",
+        "hu": "Puente de Segovia"
+      },
+      {
+        "original": "Puente de los Franceses",
+        "hu": "Puente de los Franceses"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo2-test4-020",
+    "source": "proformatrans-modulo2-test4",
+    "module": "II",
+    "q": "¿Qué edificio en Madrid es famoso por su arquitectura neo mudéjar y su uso como centro cultural?",
+    "hu": "Melyik madridi épület híres neomudéjar építészetéről és kulturális központként való használatáról?",
+    "answers": [
+      {
+        "original": "Palacio de la Alfarería.",
+        "hu": "Palacio de la Alfarería."
+      },
+      {
+        "original": "Palacio de la Magdalena.",
+        "hu": "Palacio de la Magdalena."
+      },
+      {
+        "original": "La gran maqueta del Alcázar de Sevilla.",
+        "hu": "A sevillai Alcázar nagy makettje."
+      },
+      {
+        "original": "Palacio de Velázquez.",
+        "hu": "Palacio de Velázquez."
+      }
+    ],
+    "correctIndex": 3
+  }
+]

@@ -1,0 +1,496 @@
+[
+  {
+    "id": "proformatrans-modulo2-test3-001",
+    "source": "proformatrans-modulo2-test3",
+    "module": "II",
+    "q": "¿Cuándo puede un VTC circular por el carril bus?",
+    "hu": "Mikor közlekedhet egy VTC a buszsávban?",
+    "answers": [
+      {
+        "original": "Siempre que esté expresamente autorizado en la señalización instalada.",
+        "hu": "Amikor ezt a kihelyezett jelzés kifejezetten engedélyezi."
+      },
+      {
+        "original": "Nunca.",
+        "hu": "Soha."
+      },
+      {
+        "original": "Siempre, sin ninguna restricción.",
+        "hu": "Mindig, minden korlátozás nélkül."
+      },
+      {
+        "original": "Solo si transporta más de cuatro pasajeros.",
+        "hu": "Csak akkor, ha több mint négy utast szállít."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo2-test3-003",
+    "source": "proformatrans-modulo2-test3",
+    "module": "II",
+    "q": "¿Qué acción es necesaria para acceder a una ZBE en episodios de alta contaminación?",
+    "hu": "Milyen intézkedés szükséges ahhoz, hogy magas szennyezettségű időszakokban be lehessen hajtani egy ZBE-be?",
+    "answers": [
+      {
+        "original": "Respetar las limitaciones de acceso establecidas.",
+        "hu": "A megállapított behajtási korlátozások betartása."
+      },
+      {
+        "original": "Usar climatización para reducir emisiones.",
+        "hu": "Klímaberendezés használata a kibocsátások csökkentésére."
+      },
+      {
+        "original": "Incrementar el uso de combustibles fósiles.",
+        "hu": "A fosszilis üzemanyagok használatának növelése."
+      },
+      {
+        "original": "Realizar trayectos largos.",
+        "hu": "Hosszú utak megtétele."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo2-test3-004",
+    "source": "proformatrans-modulo2-test3",
+    "module": "II",
+    "q": "¿En cuál de las siguientes plazas está situada la Plaza de Toros de Las Ventas?",
+    "hu": "Az alábbi terek közül melyiken található a Las Ventas bikaviadal-aréna?",
+    "answers": [
+      {
+        "original": "Plaza de Lavapiés.",
+        "hu": "Plaza de Lavapiés."
+      },
+      {
+        "original": "Plaza de San Diego.",
+        "hu": "Plaza de San Diego."
+      },
+      {
+        "original": "Plaza de Chamberí.",
+        "hu": "Plaza de Chamberí."
+      },
+      {
+        "original": "Plaza de Agustín González.",
+        "hu": "Plaza de Agustín González."
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo2-test3-005",
+    "source": "proformatrans-modulo2-test3",
+    "module": "II",
+    "q": "¿Qué importante museo de arte se encuentra en el Paseo del Prado?",
+    "hu": "Melyik jelentős művészeti múzeum található a Paseo del Pradón?",
+    "answers": [
+      {
+        "original": "Museo Thyssen",
+        "hu": "Museo Thyssen"
+      },
+      {
+        "original": "Museo Sorolla",
+        "hu": "Museo Sorolla"
+      },
+      {
+        "original": "CaixaForum",
+        "hu": "CaixaForum"
+      },
+      {
+        "original": "Museo del Prado",
+        "hu": "Museo del Prado"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo2-test3-006",
+    "source": "proformatrans-modulo2-test3",
+    "module": "II",
+    "q": "¿Cuál es una buena práctica al usar aplicaciones GPS en condiciones climáticas adversas?",
+    "hu": "Mi a jó gyakorlat GPS-alkalmazások használatakor kedvezőtlen időjárási körülmények között?",
+    "answers": [
+      {
+        "original": "Aumentar el brillo de la pantalla del móvil",
+        "hu": "A mobil képernyő fényerejének növelése"
+      },
+      {
+        "original": "Consultar el GPS solo en carreteras rectas",
+        "hu": "A GPS ellenőrzése csak egyenes útszakaszokon"
+      },
+      {
+        "original": "Usar comandos de voz para evitar distracciones visuales",
+        "hu": "Hangparancsok használata a vizuális figyelemelterelés elkerülésére"
+      },
+      {
+        "original": "Apagar el GPS",
+        "hu": "A GPS kikapcsolása"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test3-007",
+    "source": "proformatrans-modulo2-test3",
+    "module": "II",
+    "q": "¿Cuál de los siguientes distintivos permite circular con menos restricciones en episodios de alta contaminación?",
+    "hu": "Az alábbi környezetvédelmi címkék közül melyik enged kevesebb korlátozással közlekedni magas szennyezettségű időszakokban?",
+    "answers": [
+      {
+        "original": "B",
+        "hu": "B"
+      },
+      {
+        "original": "Sin etiqueta",
+        "hu": "Címke nélkül"
+      },
+      {
+        "original": "C",
+        "hu": "C"
+      },
+      {
+        "original": "ECO",
+        "hu": "ECO"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo2-test3-008",
+    "source": "proformatrans-modulo2-test3",
+    "module": "II",
+    "q": "¿Dónde está situado el club Golf Park?",
+    "hu": "Hol található a Golf Park klub?",
+    "answers": [
+      {
+        "original": "Parque del Oeste.",
+        "hu": "Parque del Oeste."
+      },
+      {
+        "original": "Retiro.",
+        "hu": "Retiro."
+      },
+      {
+        "original": "Cuatro Torres Business Area.",
+        "hu": "Cuatro Torres Business Area."
+      },
+      {
+        "original": "Parque Empresarial La Moraleja.",
+        "hu": "Parque Empresarial La Moraleja."
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo2-test3-009",
+    "source": "proformatrans-modulo2-test3",
+    "module": "II",
+    "q": "¿Por qué es recomendable usar un soporte magnético para el móvil al utilizar el GPS?",
+    "hu": "Miért ajánlott mágneses telefontartót használni GPS használatakor?",
+    "answers": [
+      {
+        "original": "Permite ajustar el móvil sin quitar la vista de la carretera",
+        "hu": "Lehetővé teszi a telefon állítását anélkül, hogy levennénk a szemünket az útról"
+      },
+      {
+        "original": "Reduce el consumo de datos",
+        "hu": "Csökkenti az adatfogyasztást"
+      },
+      {
+        "original": "Mejora la calidad de la señal",
+        "hu": "Javítja a jel minőségét"
+      },
+      {
+        "original": "Evita que el móvil se sobrecaliente",
+        "hu": "Megakadályozza, hogy a mobil túlmelegedjen"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo2-test3-010",
+    "source": "proformatrans-modulo2-test3",
+    "module": "II",
+    "q": "¿Cuál es el principal aeropuerto de Madrid?",
+    "hu": "Melyik Madrid fő repülőtere?",
+    "answers": [
+      {
+        "original": "Aeropuerto de Torrejón",
+        "hu": "Torrejóni repülőtér"
+      },
+      {
+        "original": "Aeropuerto de Barajas-Adolfo Suárez",
+        "hu": "Barajas-Adolfo Suárez repülőtér"
+      },
+      {
+        "original": "Aeropuerto de Cuatro Vientos",
+        "hu": "Cuatro Vientos repülőtér"
+      },
+      {
+        "original": "Aeropuerto de Getafe",
+        "hu": "Getafe repülőtér"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo2-test3-011",
+    "source": "proformatrans-modulo2-test3",
+    "module": "II",
+    "q": "Los vehículos de más de 8 plazas matriculados desde 2014 llevan etiqueta:",
+    "hu": "A 2014 óta forgalomba helyezett, több mint 8 ülőhelyes járművek milyen címkét kapnak?",
+    "answers": [
+      {
+        "original": "B.",
+        "hu": "B."
+      },
+      {
+        "original": "ECO.",
+        "hu": "ECO."
+      },
+      {
+        "original": "C.",
+        "hu": "C."
+      },
+      {
+        "original": "Azul.",
+        "hu": "Kék."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test3-012",
+    "source": "proformatrans-modulo2-test3",
+    "module": "II",
+    "q": "¿Qué calle en Madrid es famosa por sus cines y teatros?",
+    "hu": "Melyik madridi utca híres a mozijairól és színházairól?",
+    "answers": [
+      {
+        "original": "Calle Fuencarral",
+        "hu": "Calle Fuencarral"
+      },
+      {
+        "original": "Ninguna de las anteriores",
+        "hu": "A fentiek egyike sem"
+      },
+      {
+        "original": "Calle Serrano",
+        "hu": "Calle Serrano"
+      },
+      {
+        "original": "Gran Vía",
+        "hu": "Gran Vía"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo2-test3-013",
+    "source": "proformatrans-modulo2-test3",
+    "module": "II",
+    "q": "¿En qué calle se encuentra ubicado el Cine Doré?",
+    "hu": "Melyik utcában található a Cine Doré?",
+    "answers": [
+      {
+        "original": "Calle Santa Isabel.",
+        "hu": "Calle Santa Isabel."
+      },
+      {
+        "original": "Calle Gran Vía.",
+        "hu": "Calle Gran Vía."
+      },
+      {
+        "original": "Calle Fuencarral.",
+        "hu": "Calle Fuencarral."
+      },
+      {
+        "original": "Calle Arenal.",
+        "hu": "Calle Arenal."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo2-test3-014",
+    "source": "proformatrans-modulo2-test3",
+    "module": "II",
+    "q": "¿Qué municipio madrileño es famoso por la Ruta de los Molinos, un recorrido por antiguos molinos de agua?",
+    "hu": "Melyik madridi település híres a Ruta de los Molinos útvonalról, amely régi vízimalmok mellett halad?",
+    "answers": [
+      {
+        "original": "Chapinería",
+        "hu": "Chapinería"
+      },
+      {
+        "original": "Villaviciosa de Odón",
+        "hu": "Villaviciosa de Odón"
+      },
+      {
+        "original": "Villamantilla",
+        "hu": "Villamantilla"
+      },
+      {
+        "original": "Aldea del Fresno",
+        "hu": "Aldea del Fresno"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo2-test3-015",
+    "source": "proformatrans-modulo2-test3",
+    "module": "II",
+    "q": "¿Cuál de estos pueblos es conocido por su Fiesta de la Maya, en la que se visten cruces de flores y se celebra cada 2 de mayo?",
+    "hu": "Az alábbi települések közül melyik ismert a Fiesta de la Maya ünnepéről, amikor virágkereszteket díszítenek, és amelyet minden május 2-án tartanak?",
+    "answers": [
+      {
+        "original": "San Lorenzo de El Escorial",
+        "hu": "San Lorenzo de El Escorial"
+      },
+      {
+        "original": "El Molar",
+        "hu": "El Molar"
+      },
+      {
+        "original": "Colmenar Viejo",
+        "hu": "Colmenar Viejo"
+      },
+      {
+        "original": "Navalcarnero",
+        "hu": "Navalcarnero"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test3-016",
+    "source": "proformatrans-modulo2-test3",
+    "module": "II",
+    "q": "¿Cuál de los siguientes hoteles está situado junto al Tanatorio de la M-30?",
+    "hu": "Az alábbi hotelek közül melyik található az M-30 ravatalozó mellett?",
+    "answers": [
+      {
+        "original": "Hotel Gran Vía",
+        "hu": "Hotel Gran Vía"
+      },
+      {
+        "original": "Novotel Madrid",
+        "hu": "Novotel Madrid"
+      },
+      {
+        "original": "Hotel Mayorazgo",
+        "hu": "Hotel Mayorazgo"
+      },
+      {
+        "original": "NH Collection Madrid",
+        "hu": "NH Collection Madrid"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo2-test3-017",
+    "source": "proformatrans-modulo2-test3",
+    "module": "II",
+    "q": "¿Qué estación de metro tiene una réplica de una antigua estación de los años 20?",
+    "hu": "Melyik metróállomáson található egy régi, 1920-as évekbeli állomás másolata?",
+    "answers": [
+      {
+        "original": "Sol",
+        "hu": "Sol"
+      },
+      {
+        "original": "Gran Vía",
+        "hu": "Gran Vía"
+      },
+      {
+        "original": "Chamberí",
+        "hu": "Chamberí"
+      },
+      {
+        "original": "Bilbao",
+        "hu": "Bilbao"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test3-018",
+    "source": "proformatrans-modulo2-test3",
+    "module": "II",
+    "q": "¿Qué conjunto escultórico representa el Descendimiento en el Monasterio de El Escorial?",
+    "hu": "Melyik szoborcsoport ábrázolja a Levételt a keresztről az El Escorial kolostorban?",
+    "answers": [
+      {
+        "original": "Pompeo Leoni",
+        "hu": "Pompeo Leoni"
+      },
+      {
+        "original": "Juan de Juni",
+        "hu": "Juan de Juni"
+      },
+      {
+        "original": "Juan de Borgoña",
+        "hu": "Juan de Borgoña"
+      },
+      {
+        "original": "Gregorio Fernández",
+        "hu": "Gregorio Fernández"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo2-test3-019",
+    "source": "proformatrans-modulo2-test3",
+    "module": "II",
+    "q": "¿Dónde se ubica el Parque Nacional de la Sierra de Guadarrama dentro de la Comunidad de Madrid?",
+    "hu": "Hol helyezkedik el a Sierra de Guadarrama Nemzeti Park a Madridi Közösségen belül?",
+    "answers": [
+      {
+        "original": "En el este, cerca de Alcalá de Henares",
+        "hu": "Keleten, Alcalá de Henares közelében"
+      },
+      {
+        "original": "En el noroeste, junto a la Sierra de Malagón",
+        "hu": "Északnyugaton, a Sierra de Malagón mellett"
+      },
+      {
+        "original": "En el norte, entre Rascafría y Navacerrada",
+        "hu": "Északon, Rascafría és Navacerrada között"
+      },
+      {
+        "original": "En el sur, cerca de Aranjuez",
+        "hu": "Délen, Aranjuez közelében"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test3-020",
+    "source": "proformatrans-modulo2-test3",
+    "module": "II",
+    "q": "¿Qué antiguo hospital alberga hoy la sede del Ministerio de Sanidad?",
+    "hu": "Melyik régi kórház ad ma otthont az Egészségügyi Minisztérium székhelyének?",
+    "answers": [
+      {
+        "original": "Hospital de la Princesa",
+        "hu": "Hospital de la Princesa"
+      },
+      {
+        "original": "Hospital General de Madrid",
+        "hu": "Hospital General de Madrid"
+      },
+      {
+        "original": "Hospital del Buen Suceso",
+        "hu": "Hospital del Buen Suceso"
+      },
+      {
+        "original": "Hospital de San Carlos",
+        "hu": "Hospital de San Carlos"
+      }
+    ],
+    "correctIndex": 3
+  }
+]
