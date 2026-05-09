@@ -11,10 +11,10 @@ Language: Castellano (ES)
 
 ## Question bank
 
-Current total: 456 questions.
+Current total: 470 questions.
 
 - Module I: 139 questions
-- Module II: 177 questions
+- Module II: 191 questions
 - Module III: 69 questions
 - Module IV: 71 questions
 

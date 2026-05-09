@@ -11861,5 +11861,369 @@ export const questionBank = [
       }
     ],
     "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test7-003",
+    "source": "proformatrans-modulo2-test7",
+    "module": "II",
+    "q": "¿Qué localidad madrileña está en el centro del Parque Nacional de Guadarrama?",
+    "hu": "Melyik madridi település található a Guadarrama Nemzeti Park központjában?",
+    "answers": [
+      {
+        "original": "Manzanares el Real",
+        "hu": "Manzanares el Real"
+      },
+      {
+        "original": "Navacerrada",
+        "hu": "Navacerrada"
+      },
+      {
+        "original": "Rascafría",
+        "hu": "Rascafría"
+      },
+      {
+        "original": "Cercedilla",
+        "hu": "Cercedilla"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test7-004",
+    "source": "proformatrans-modulo2-test7",
+    "module": "II",
+    "q": "¿En qué carretera se encuentra el Tanatorio Sur?",
+    "hu": "Melyik úton található a Tanatorio Sur?",
+    "answers": [
+      {
+        "original": "A-42 (Toledo)",
+        "hu": "A-42 (Toledo)"
+      },
+      {
+        "original": "M-607 (Colmenar Viejo)",
+        "hu": "M-607 (Colmenar Viejo)"
+      },
+      {
+        "original": "A-5 (Extremadura)",
+        "hu": "A-5 (Extremadura)"
+      },
+      {
+        "original": "A-2 (Zaragoza)",
+        "hu": "A-2 (Zaragoza)"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo2-test7-005",
+    "source": "proformatrans-modulo2-test7",
+    "module": "II",
+    "q": "¿En qué localidad del noroeste de Madrid se encuentra el Puente del Perdón, una construcción histórica sobre el río Lozoya?",
+    "hu": "Madrid északnyugati részének melyik településén található a Puente del Perdón, a Lozoya folyó feletti történelmi építmény?",
+    "answers": [
+      {
+        "original": "Rascafría",
+        "hu": "Rascafría"
+      },
+      {
+        "original": "Cercedilla",
+        "hu": "Cercedilla"
+      },
+      {
+        "original": "Los Molinos",
+        "hu": "Los Molinos"
+      },
+      {
+        "original": "San Lorenzo de El Escorial",
+        "hu": "San Lorenzo de El Escorial"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo2-test7-006",
+    "source": "proformatrans-modulo2-test7",
+    "module": "II",
+    "q": "¿Qué complejo de ocio y cultura se encuentra en el antiguo Matadero de Madrid?",
+    "hu": "Melyik szabadidős és kulturális komplexum található Madrid egykori vágóhídján?",
+    "answers": [
+      {
+        "original": "CentroCentro",
+        "hu": "CentroCentro"
+      },
+      {
+        "original": "CaixaForum",
+        "hu": "CaixaForum"
+      },
+      {
+        "original": "Matadero Madrid",
+        "hu": "Matadero Madrid"
+      },
+      {
+        "original": "La Casa Encendida",
+        "hu": "La Casa Encendida"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test7-008",
+    "source": "proformatrans-modulo2-test7",
+    "module": "II",
+    "q": "¿Cuál es la calle más larga de Madrid?",
+    "hu": "Melyik Madrid leghosszabb utcája?",
+    "answers": [
+      {
+        "original": "Calle Arturo Soria.",
+        "hu": "Calle Arturo Soria."
+      },
+      {
+        "original": "Calle Bravo Murillo.",
+        "hu": "Calle Bravo Murillo."
+      },
+      {
+        "original": "Ninguna de las anteriores.",
+        "hu": "A fentiek közül egyik sem."
+      },
+      {
+        "original": "Paseo de la Castellana.",
+        "hu": "Paseo de la Castellana."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test7-009",
+    "source": "proformatrans-modulo2-test7",
+    "module": "II",
+    "q": "¿Dónde está el Parque Europa con réplicas de monumentos europeos?",
+    "hu": "Hol található a Parque Europa, amely európai műemlékek másolatait tartalmazza?",
+    "answers": [
+      {
+        "original": "Torrejón de Ardoz",
+        "hu": "Torrejón de Ardoz"
+      },
+      {
+        "original": "Rivas-Vaciamadrid",
+        "hu": "Rivas-Vaciamadrid"
+      },
+      {
+        "original": "Móstoles",
+        "hu": "Móstoles"
+      },
+      {
+        "original": "Leganés",
+        "hu": "Leganés"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo2-test7-010",
+    "source": "proformatrans-modulo2-test7",
+    "module": "II",
+    "q": "¿Qué hacer si el GPS se bloquea en plena ruta?",
+    "hu": "Mit kell tenni, ha a GPS útközben lefagy?",
+    "answers": [
+      {
+        "original": "Detener el vehículo de modo inmediato",
+        "hu": "Azonnal megállítani a járművet"
+      },
+      {
+        "original": "Arreglarlo inmediatamente",
+        "hu": "Azonnal megjavítani"
+      },
+      {
+        "original": "Esperar a que se arregle",
+        "hu": "Megvárni, amíg magától megjavul"
+      },
+      {
+        "original": "Reiniciar la app o dispositivo cuando sea seguro",
+        "hu": "Újraindítani az alkalmazást vagy az eszközt, amikor ez biztonságos"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo2-test7-012",
+    "source": "proformatrans-modulo2-test7",
+    "module": "II",
+    "q": "¿Cuál de los siguientes municipios cuenta con un Hospital General?",
+    "hu": "Az alábbi települések közül melyik rendelkezik általános kórházzal?",
+    "answers": [
+      {
+        "original": "Rivas-Vaciamadrid",
+        "hu": "Rivas-Vaciamadrid"
+      },
+      {
+        "original": "Alcorcón",
+        "hu": "Alcorcón"
+      },
+      {
+        "original": "Móstoles",
+        "hu": "Móstoles"
+      },
+      {
+        "original": "Coslada",
+        "hu": "Coslada"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test7-013",
+    "source": "proformatrans-modulo2-test7",
+    "module": "II",
+    "q": "¿Qué edificio madrileño, situado en el Parque del Retiro y construido en 1887 para una exposición sobre Filipinas, es hoy una sede emblemática de exposiciones temporales del Museo Reina Sofía?",
+    "hu": "Melyik madridi épület található a Retiro parkban, 1887-ben épült egy Fülöp-szigetekről szóló kiállításra, és ma a Reina Sofía Múzeum időszaki kiállításainak emblematikus helyszíne?",
+    "answers": [
+      {
+        "original": "Palacio de los Duques de Medinaceli.",
+        "hu": "Palacio de los Duques de Medinaceli."
+      },
+      {
+        "original": "Palacio de las Artes Reina Sofía.",
+        "hu": "Palacio de las Artes Reina Sofía."
+      },
+      {
+        "original": "Palacio de Cristal.",
+        "hu": "Palacio de Cristal."
+      },
+      {
+        "original": "Palacio de Velázquez.",
+        "hu": "Palacio de Velázquez."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test7-014",
+    "source": "proformatrans-modulo2-test7",
+    "module": "II",
+    "q": "¿Qué iglesia madrileña está dedicada al patrón de la ciudad y alberga su sepulcro?",
+    "hu": "Melyik madridi templomot szentelték a város védőszentjének, és őrzi a sírját?",
+    "answers": [
+      {
+        "original": "Iglesia de San Isidro, en la calle Mayor.",
+        "hu": "San Isidro-templom, a Calle Mayoron."
+      },
+      {
+        "original": "Iglesia de San Ginés, en la calle Arenal.",
+        "hu": "San Ginés-templom, a Calle Arenalon."
+      },
+      {
+        "original": "Iglesia de San Isidro, en la calle Toledo.",
+        "hu": "San Isidro-templom, a Calle Toledón."
+      },
+      {
+        "original": "Iglesia de San Ginés, en la calle de la Paloma.",
+        "hu": "San Ginés-templom, a Calle de la Palomán."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test7-015",
+    "source": "proformatrans-modulo2-test7",
+    "module": "II",
+    "q": "Boadilla del Monte está situado:",
+    "hu": "Boadilla del Monte elhelyezkedése:",
+    "answers": [
+      {
+        "original": "Al este de Madrid.",
+        "hu": "Madridtól keletre."
+      },
+      {
+        "original": "Al sur de Madrid.",
+        "hu": "Madridtól délre."
+      },
+      {
+        "original": "Al norte de Madrid.",
+        "hu": "Madridtól északra."
+      },
+      {
+        "original": "Al oeste de Madrid.",
+        "hu": "Madridtól nyugatra."
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo2-test7-016",
+    "source": "proformatrans-modulo2-test7",
+    "module": "II",
+    "q": "¿Qué jardín madrileño fue diseñado para la familia real y es de estilo inglés?",
+    "hu": "Melyik madridi kertet tervezték a királyi család számára, és angol stílusú?",
+    "answers": [
+      {
+        "original": "Jardín de la Isla",
+        "hu": "Jardín de la Isla"
+      },
+      {
+        "original": "Jardín de los Frailes",
+        "hu": "Jardín de los Frailes"
+      },
+      {
+        "original": "Jardín Botánico",
+        "hu": "Botanikus kert"
+      },
+      {
+        "original": "Jardín del Moro",
+        "hu": "Jardín del Moro"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo2-test7-019",
+    "source": "proformatrans-modulo2-test7",
+    "module": "II",
+    "q": "¿Qué función de una aplicación GPS puede ser especialmente útil en áreas rurales?",
+    "hu": "A GPS-alkalmazás melyik funkciója lehet különösen hasznos vidéki területeken?",
+    "answers": [
+      {
+        "original": "La función de alerta de animales en la vía.",
+        "hu": "Az úton lévő állatokra figyelmeztető funkció."
+      },
+      {
+        "original": "Alerta de peatones de avanzada edad.",
+        "hu": "Idős gyalogosokra figyelmeztető jelzés."
+      },
+      {
+        "original": "La función de vista satelital.",
+        "hu": "A műholdas nézet funkció."
+      },
+      {
+        "original": "La función de modo peatonal.",
+        "hu": "A gyalogos mód funkció."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test7-020",
+    "source": "proformatrans-modulo2-test7",
+    "module": "II",
+    "q": "En escenario 5 de alerta, ¿quién puede circular?",
+    "hu": "Az 5-ös riasztási forgatókönyvben ki közlekedhet?",
+    "answers": [
+      {
+        "original": "Nadie.",
+        "hu": "Senki."
+      },
+      {
+        "original": "CERO y ECO.",
+        "hu": "CERO és ECO címkések."
+      },
+      {
+        "original": "Todos con peaje.",
+        "hu": "Mindenki útdíjjal."
+      },
+      {
+        "original": "Solo ECO.",
+        "hu": "Csak ECO címkések."
+      }
+    ],
+    "correctIndex": 1
   }
 ];
