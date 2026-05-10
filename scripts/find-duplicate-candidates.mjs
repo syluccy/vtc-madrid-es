@@ -30,11 +30,12 @@ function jaccard(leftValue, rightValue) {
 }
 
 function answerText(question) {
-  return question.answers.map((answer) => answer.original).join(' | ');
+  return question.answers.map((answer) => typeof answer === 'string' ? answer : answer.original).join(' | ');
 }
 
 function correctAnswer(question) {
-  return question.answers[question.correctIndex]?.original ?? '';
+  const answer = question.answers[question.correctIndex];
+  return typeof answer === 'string' ? answer : answer?.original ?? '';
 }
 
 const inputPath = process.argv[2] ? new URL(process.argv[2], `file://${process.cwd()}/`) : DEFAULT_INPUT;

@@ -1,9 +1,11 @@
 import { readFile, writeFile } from 'node:fs/promises';
 import { questionBank } from '../questions.js';
+import { questionTranslations as huTranslations } from '../translations/hu.js';
 
 const VALID_MODULES = new Set(['I', 'II', 'III', 'IV']);
 const DEFAULT_INPUT = new URL('../data/proformatrans-test1.questions.json', import.meta.url);
 const QUESTIONS_FILE = new URL('../questions.js', import.meta.url);
+const HU_TRANSLATIONS_FILE = new URL('../translations/hu.js', import.meta.url);
 
 function isNonEmptyString(value) {
   return typeof value === 'string' && value.trim().length > 0;
@@ -17,13 +19,31 @@ function normalizeQuestion(question, index, source) {
   };
 }
 
+function toCanonicalQuestion(question) {
+  return {
+    id: question.id,
+    source: question.source,
+    module: question.module,
+    q: question.q,
+    answers: question.answers.map((answer) => answer.original),
+    correctIndex: question.correctIndex,
+  };
+}
+
+function toHuTranslation(question) {
+  return {
+    q: question.hu,
+    answers: question.answers.map((answer) => answer.hu),
+  };
+}
+
 function validateQuestion(question, index, existingIds, incomingIds, source) {
   const label = question?.id ? `${question.id}` : `incoming question ${index + 1}`;
   const errors = [];
 
   if (!isNonEmptyString(question?.id)) {
     errors.push(`${label}: missing id`);
-  } else if (existingIds.has(question.id) || incomingIds.has(question.id)) {
+  } else if (existingIds.has(question.id) || huTranslations[question.id] || incomingIds.has(question.id)) {
     errors.push(`${label}: duplicate id`);
   } else {
     incomingIds.add(question.id);
@@ -104,6 +124,7 @@ if (incomingQuestions.length === 0) {
 
 const source = await readFile(QUESTIONS_FILE, 'utf8');
 const appendedQuestions = incomingQuestions
+  .map(toCanonicalQuestion)
   .map((question) => `  ${JSON.stringify(question, null, 2).replace(/\n/g, '\n  ')}`)
   .join(',\n');
 const updated = source.replace(/,?\s*\n\];\s*$/, `,\n${appendedQuestions}\n];`);
@@ -113,4 +134,16 @@ if (updated === source) {
 }
 
 await writeFile(QUESTIONS_FILE, updated);
-console.log(`Appended ${incomingQuestions.length} ${sourceName} questions.`);
+
+const translationsSource = await readFile(HU_TRANSLATIONS_FILE, 'utf8');
+const appendedTranslations = incomingQuestions
+  .map((question) => `  ${JSON.stringify(question.id)}: ${JSON.stringify(toHuTranslation(question), null, 2).replace(/\n/g, '\n  ')}`)
+  .join(',\n');
+const updatedTranslations = translationsSource.replace(/,?\s*\n};\s*$/, `,\n${appendedTranslations}\n};`);
+
+if (updatedTranslations === translationsSource) {
+  throw new Error('Could not find the Hungarian translation object closing bracket.');
+}
+
+await writeFile(HU_TRANSLATIONS_FILE, updatedTranslations);
+console.log(`Appended ${incomingQuestions.length} ${sourceName} questions and Hungarian translations.`);

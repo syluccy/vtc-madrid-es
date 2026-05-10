@@ -2,8 +2,12 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
-  <meta http-equiv="refresh" content="0; url=./index-es.html" />
   <title>Redirect</title>
+  <script>
+    window.location.replace(`./index-es.html${window.location.search}${window.location.hash}`);
+  </script>
 </head>
-<body></body>
+<body>
+  <a href="./index-es.html">Continue</a>
+</body>
 </html>

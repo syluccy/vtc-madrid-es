@@ -4,12 +4,12 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>Simulador examen VTC Madrid V3 – Test gratis con preguntas reales</title>
+  <title>Simulador examen VTC Madrid – Test gratis con preguntas reales</title>
 
   <meta name="description" content="Practica el examen VTC de Madrid con preguntas reales. Simulador gratuito con resultados inmediatos y práctica por módulos.">
 
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Simulador examen VTC Madrid V3 – Test gratis con preguntas reales">
+  <meta property="og:title" content="Simulador examen VTC Madrid – Test gratis con preguntas reales">
   <meta property="og:description" content="Practica el examen VTC de Madrid con preguntas reales. Simulador gratuito con resultados inmediatos y práctica por módulos.">
   <meta property="og:url" content="https://vtc-madrid-es.szucs-krisz.workers.dev/">
   <meta property="og:image" content="https://vtc-madrid-es.szucs-krisz.workers.dev/og-image.png">
@@ -19,7 +19,7 @@
   <meta property="og:locale" content="es_ES">
 
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Simulador examen VTC Madrid V3">
+  <meta name="twitter:title" content="Simulador examen VTC Madrid">
   <meta name="twitter:description" content="Practica el examen VTC de Madrid con preguntas reales. Simulador gratuito y práctica por módulos.">
   <meta name="twitter:image" content="https://vtc-madrid-es.szucs-krisz.workers.dev/og-image.png">
 
@@ -99,17 +99,30 @@
     }
 
     .home-page .topbar {
+      position: relative;
       justify-content: center;
+      max-width: 760px;
+      min-height: 72px;
+      margin: 0 auto 18px;
       text-align: center;
     }
 
-    .home-page .topbar > div {
+    .home-page .topbar-title {
       width: 100%;
+      padding: 0 96px;
     }
 
     .home-page .topbar h1,
     .home-page .topbar p {
       text-align: center;
+    }
+
+    .home-page .topbar-actions {
+      position: absolute;
+      top: 2px;
+      right: 0;
+      justify-content: flex-end;
+      flex-wrap: nowrap;
     }
 
     .topbar-actions,
@@ -123,6 +136,34 @@
 
     .mode-select {
       justify-content: center;
+    }
+
+    .language-switcher {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      color: var(--muted);
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+    .language-select {
+      width: 65px;
+      min-width: 65px;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 8px 28px 8px 10px;
+      background-color: var(--secondary);
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='%23f3f4f6' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: right 9px center;
+      background-size: 14px;
+      color: var(--text);
+      font-size: 14px;
+      font-weight: 700;
+      cursor: pointer;
+      appearance: none;
+      -webkit-appearance: none;
     }
 
     button {
@@ -199,6 +240,34 @@
       margin-bottom: 22px;
     }
 
+    .welcome-card .language-hint {
+      margin-top: -10px;
+      margin-bottom: 24px;
+      font-size: 14px;
+    }
+
+    .language-help {
+      max-width: 620px;
+      margin: -4px auto 24px;
+      padding: 16px 18px;
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      background: var(--card-2);
+      text-align: left;
+    }
+
+    .language-help h3 {
+      margin: 0 0 6px;
+      color: #ffffff;
+      font-size: 16px;
+    }
+
+    .language-help p {
+      margin: 0;
+      font-size: 14px;
+      color: var(--muted);
+    }
+
     .progress-wrap {
       margin: 12px 0 18px;
     }
@@ -263,6 +332,34 @@
       font-size: 25px;
       line-height: 1.35;
       color: #ffffff;
+    }
+
+    .translation-details {
+      margin: 10px 0 16px;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      background: var(--card-2);
+      color: var(--muted);
+      overflow: hidden;
+    }
+
+    .translation-details summary {
+      padding: 10px 12px;
+      cursor: pointer;
+      color: #bfdbfe;
+      font-size: 14px;
+      font-weight: 700;
+    }
+
+    .translation-details div {
+      padding: 0 12px 12px;
+      color: #dbeafe;
+      font-size: 15px;
+    }
+
+    .result-answer .translation-details {
+      margin: 10px 0 0;
+      background: rgba(15, 23, 42, 0.75);
     }
 
     .answers-list {
@@ -537,6 +634,32 @@
       margin-bottom: 18px;
     }
 
+    .practice-overview {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 260px;
+      gap: 14px;
+      align-items: stretch;
+      margin-bottom: 18px;
+    }
+
+    .practice-overview .practice-info-box {
+      margin-bottom: 0;
+    }
+
+    .practice-overview .live-stats {
+      min-width: 0;
+    }
+
+    .practice-overview .live-stats-modules {
+      grid-template-columns: 1fr;
+      height: 100%;
+    }
+
+    .practice-overview .module-mini-card {
+      min-height: 0;
+      height: 100%;
+    }
+
     .practice-info-es {
       color: var(--muted);
       font-size: 14px;
@@ -550,6 +673,11 @@
     }
 
     @media (max-width: 980px) {
+      .language-select {
+        width: 65px;
+        min-width: 65px;
+      }
+
       .live-stats-modules,
       .summary-grid,
       .module-grid {
@@ -566,8 +694,76 @@
         flex-direction: column;
       }
 
+      .page:not(.home-page) .topbar {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) auto;
+        align-items: start;
+        gap: 10px;
+      }
+
+      .page:not(.home-page) .topbar > div:first-child {
+        grid-column: 1;
+        grid-row: 1;
+        min-width: 0;
+      }
+
+      .page:not(.home-page) .topbar-actions {
+        display: contents;
+        width: auto;
+      }
+
+      .page:not(.home-page) .topbar-actions .language-switcher {
+        grid-column: 2;
+        grid-row: 1;
+        justify-self: end;
+        align-self: start;
+      }
+
+      .page:not(.home-page) .topbar-actions > button {
+        grid-column: 1 / -1;
+        width: 100%;
+      }
+
+      .home-page .topbar {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) auto;
+        align-items: start;
+        gap: 10px;
+        max-width: none;
+        min-height: 0;
+        margin-bottom: 12px;
+        text-align: left;
+      }
+
+      .home-page .topbar-title {
+        width: auto;
+        padding: 0;
+      }
+
+      .home-page .topbar h1,
+      .home-page .topbar p {
+        text-align: left;
+      }
+
+      .home-page .topbar p {
+        display: none;
+      }
+
+      .home-page .topbar-actions {
+        position: static;
+        width: auto;
+        justify-content: flex-end;
+        grid-column: 2;
+        grid-row: 1;
+      }
+
       .topbar h1 {
         font-size: 28px;
+      }
+
+      .home-page .topbar h1 {
+        font-size: 22px;
+        line-height: 1.2;
       }
 
       .question-title {
@@ -576,7 +772,8 @@
 
       .live-stats-modules,
       .summary-grid,
-      .module-grid {
+      .module-grid,
+      .practice-overview {
         grid-template-columns: 1fr;
       }
 
@@ -584,6 +781,10 @@
       .nav-actions,
       .module-card-footer {
         width: 100%;
+      }
+
+      .home-page .topbar-actions {
+        width: auto;
       }
 
       .topbar-actions > button,
@@ -600,6 +801,16 @@
       .mode-select > button {
         width: auto;
         min-width: 220px;
+      }
+
+      .language-switcher {
+        width: auto;
+      }
+
+      .language-select {
+        width: 65px;
+        min-width: 65px;
+        flex: 0 0 auto;
       }
 
       .module-mini-card {
