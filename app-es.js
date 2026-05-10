@@ -31,7 +31,7 @@ const TEXT = {
     languageTitle: 'Idioma',
     languageHint: 'Puedes cambiar el idioma en la esquina superior derecha.',
     languageHelpTitle: 'Ayuda de idioma',
-    languageHelpBody: 'Las traducciones están pensadas como apoyo al aprendizaje, no como sustituto del español del examen. Puedes cambiar de idioma desde la esquina superior derecha; el idioma elegido también queda reflejado en la URL para volver directamente a esa versión.',
+    languageHelpBody: 'Las traducciones están pensadas como apoyo al aprendizaje, no como sustituto del español del examen. En los tests verás primero el contenido original en español y, si eliges otro idioma, podrás abrir la traducción como ayuda.',
     startFullExam: 'Iniciar examen completo',
     startPracticeMode: 'Práctica por módulos',
     practiceByModules: 'Práctica por módulos',
@@ -52,6 +52,7 @@ const TEXT = {
     incorrect: 'Incorrecta',
     chosenAnswer: 'Tu respuesta',
     correctAnswer: 'Respuesta correcta',
+    translationLabel: 'Ver traducción',
     moduleResult: 'Resultado del módulo',
     results: 'Resultados',
     passed: 'Has aprobado',
@@ -83,7 +84,7 @@ const TEXT = {
     languageTitle: 'Nyelv',
     languageHint: 'A nyelvet a jobb felső sarokban tudod módosítani.',
     languageHelpTitle: 'Nyelvi segítség',
-    languageHelpBody: 'A fordítások célja a tanulás támogatása, nem a spanyol vizsgaszöveg kiváltása. A jobb felső sarokban válthatsz nyelvet; a választott nyelv az URL-ben is megjelenik, így később közvetlenül ugyanazt a verziót nyithatod meg.',
+    languageHelpBody: 'A fordítások célja a tanulás támogatása, nem a spanyol vizsgaszöveg kiváltása. A tesztekben először az eredeti spanyol tartalom látszik, más nyelvet választva pedig lenyitható segítségként nézheted meg a fordítást.',
     startFullExam: 'Teljes teszt indítása',
     startPracticeMode: 'Modulok gyakorlása',
     practiceByModules: 'Modulok gyakorlása',
@@ -104,6 +105,7 @@ const TEXT = {
     incorrect: 'Helytelen',
     chosenAnswer: 'A válaszod',
     correctAnswer: 'Helyes válasz',
+    translationLabel: 'Fordítás megtekintése',
     moduleResult: 'Modul eredménye',
     results: 'Eredmények',
     passed: 'Sikerült',
@@ -234,6 +236,10 @@ function getQuestionText(question) {
   return QUESTION_TRANSLATIONS[currentLanguage]?.[question.id]?.q ?? question[currentLanguage] ?? question.q;
 }
 
+function hasActiveTranslation() {
+  return currentLanguage !== DEFAULT_LANGUAGE;
+}
+
 function getOriginalAnswerText(answer) {
   if (typeof answer === 'string') return answer;
   return answer?.original ?? '';
@@ -244,6 +250,17 @@ function getAnswerText(question, index) {
   const originalText = getOriginalAnswerText(originalAnswer);
   if (currentLanguage === DEFAULT_LANGUAGE) return originalText;
   return QUESTION_TRANSLATIONS[currentLanguage]?.[question.id]?.answers?.[index] ?? originalAnswer?.[currentLanguage] ?? originalText;
+}
+
+function renderTranslationDetails(text, originalText = '') {
+  if (!hasActiveTranslation() || !text || text === originalText) return '';
+
+  return `
+    <details class="translation-details">
+      <summary>${escapeHtml(t('translationLabel'))}</summary>
+      <div>${escapeHtml(text)}</div>
+    </details>
+  `;
 }
 
 async function ensureQuestionTranslations(language) {
@@ -713,7 +730,7 @@ function renderExamView() {
           />
           <span>
             <strong>${String.fromCharCode(65 + index)}.</strong>
-            ${escapeHtml(getAnswerText(question, index))}
+            ${escapeHtml(getOriginalAnswerText(answer))}
           </span>
         </label>
       `;
@@ -767,7 +784,8 @@ function renderExamView() {
           <span class="question-number">#${state.currentIndex + 1}</span>
         </div>
 
-        <h2 class="question-title">${escapeHtml(getQuestionText(question))}</h2>
+        <h2 class="question-title">${escapeHtml(question.q)}</h2>
+        ${renderTranslationDetails(getQuestionText(question), question.q)}
 
         <div class="answers-list">
           ${answersHtml}
@@ -877,7 +895,8 @@ function createResultAnswerLine(answer, index, question, userAnswer) {
     <li class="${className}">
       <div>
         <strong>${String.fromCharCode(65 + index)}.</strong>
-        ${escapeHtml(getAnswerText(question, index))}
+        ${escapeHtml(getOriginalAnswerText(answer))}
+        ${renderTranslationDetails(getAnswerText(question, index), getOriginalAnswerText(answer))}
       </div>
       <div class="result-flags">
         ${isChosen ? `<span class="flag chosen">${escapeHtml(t('chosenAnswer'))}</span>` : ''}
@@ -904,7 +923,8 @@ function createResultCard(question, indexInModule) {
         </span>
       </div>
 
-      <div class="result-question-original">${escapeHtml(getQuestionText(question))}</div>
+      <div class="result-question-original">${escapeHtml(question.q)}</div>
+      ${renderTranslationDetails(getQuestionText(question), question.q)}
 
       <ol class="result-answers">
         ${answersHtml}
