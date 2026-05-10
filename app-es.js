@@ -246,11 +246,10 @@ function syncDocumentLanguage() {
 function renderLanguageSwitcher() {
   return `
     <label class="language-switcher">
-      <span>${escapeHtml(t('languageTitle'))}</span>
       <select class="language-select" aria-label="${escapeHtml(t('languageTitle'))}">
         ${Object.values(LANGUAGES).map((language) => `
           <option value="${language.code}" ${currentLanguage === language.code ? 'selected' : ''}>
-            ${escapeHtml(language.label)}
+            ${escapeHtml(language.shortLabel)}
           </option>
         `).join('')}
       </select>
