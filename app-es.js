@@ -31,7 +31,7 @@ const TEXT = {
     languageTitle: 'Idioma',
     languageHint: 'Puedes cambiar el idioma en la esquina superior derecha.',
     languageHelpTitle: 'Ayuda de idioma',
-    languageHelpBody: 'Las traducciones están pensadas como apoyo al aprendizaje, no como sustituto del español del examen. Durante la práctica se traduce la pregunta, pero las respuestas permanecen en español. Al revisar los resultados, también podrás ver las respuestas traducidas.',
+    languageHelpBody: 'Las traducciones están pensadas como apoyo al aprendizaje, no como sustituto del español del examen. Puedes cambiar de idioma desde la esquina superior derecha; el idioma elegido también queda reflejado en la URL para volver directamente a esa versión.',
     startFullExam: 'Iniciar examen completo',
     startPracticeMode: 'Práctica por módulos',
     practiceByModules: 'Práctica por módulos',
@@ -83,7 +83,7 @@ const TEXT = {
     languageTitle: 'Nyelv',
     languageHint: 'A nyelvet a jobb felső sarokban tudod módosítani.',
     languageHelpTitle: 'Nyelvi segítség',
-    languageHelpBody: 'A fordítások célja a tanulás támogatása, nem a spanyol vizsgaszöveg kiváltása. Gyakorlás közben a kérdést fordítjuk, de a válaszlehetőségek spanyolul maradnak. Az eredmények áttekintésekor már a válaszok fordítását is látni fogod.',
+    languageHelpBody: 'A fordítások célja a tanulás támogatása, nem a spanyol vizsgaszöveg kiváltása. A jobb felső sarokban válthatsz nyelvet; a választott nyelv az URL-ben is megjelenik, így később közvetlenül ugyanazt a verziót nyithatod meg.',
     startFullExam: 'Teljes teszt indítása',
     startPracticeMode: 'Modulok gyakorlása',
     practiceByModules: 'Modulok gyakorlása',
@@ -713,7 +713,7 @@ function renderExamView() {
           />
           <span>
             <strong>${String.fromCharCode(65 + index)}.</strong>
-            ${escapeHtml(getOriginalAnswerText(answer))}
+            ${escapeHtml(getAnswerText(question, index))}
           </span>
         </label>
       `;

@@ -26,9 +26,8 @@ The selected language can be controlled with the URL parameter:
 - `?lang=es`
 - `?lang=hu`
 
-Translations are intentionally used as a learning aid, not as a full replacement for the Spanish exam text.
-During practice, the question text can be translated, but answer options remain in Spanish to encourage recognition of exam vocabulary.
-On the results/review screens, answer options are also translated so users can check and learn from their mistakes.
+Translations are intended as a learning aid, not as a replacement for understanding the Spanish exam content.
+When a non-Spanish language is selected, the app shows the available translated question and answer text for that language, with Spanish as the fallback whenever a translation is missing.
 
 ## Question bank
 
