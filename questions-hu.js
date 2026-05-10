@@ -1,0 +1,19899 @@
+export const RULES = {
+  I: { take: 12, pass: 6 },
+  II: { take: 18, pass: 9 },
+  III: { take: 18, pass: 9 },
+  IV: { take: 12, pass: 6 },
+};
+
+export const questionBank = [
+  {
+    "id": "seed-1",
+    "source": "Első 30-as blokk",
+    "module": "I",
+    "q": "Completa el refrán: árbol que crece torcido, jamás su tronco ___",
+    "hu": "Egészítsd ki a közmondást: a görbén növő fa törzse soha nem ___",
+    "answers": [
+      {
+        "original": "Dobla.",
+        "hu": "Meghajlik."
+      },
+      {
+        "original": "Rompe.",
+        "hu": "Eltörik."
+      },
+      {
+        "original": "Corta.",
+        "hu": "Elvágja."
+      },
+      {
+        "original": "Endereza.",
+        "hu": "Kiegyenesedik."
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "seed-2",
+    "source": "Első 30-as blokk",
+    "module": "I",
+    "q": "La polisemia de “banco” permite que signifique:",
+    "hu": "A „banco” („pad” vagy „bank”) szó többjelentésűsége lehetővé teszi, hogy ezt jelentse:",
+    "answers": [
+      {
+        "original": "\"Silla o sofá, indistintamente\".",
+        "hu": "„Szék vagy kanapé, egyaránt”."
+      },
+      {
+        "original": "\"Asiento o entidad financiera, según el contexto\".",
+        "hu": "„Ülőhely vagy pénzintézet, a szövegkörnyezettől függően”."
+      },
+      {
+        "original": "\"Planta o animal, indistintamente\" .",
+        "hu": "„Növény vagy állat, egyaránt”."
+      },
+      {
+        "original": "\"Río o arroyo, según el contexto\".",
+        "hu": "„Folyó vagy patak, a szövegkörnyezettől függően”."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "seed-3",
+    "source": "Első 30-as blokk",
+    "module": "I",
+    "q": "El antónimo de “escaso” es:",
+    "hu": "Az „escaso” („kevés, szűkös”) ellentéte:",
+    "answers": [
+      {
+        "original": "Reducido.",
+        "hu": "Csökkentett."
+      },
+      {
+        "original": "Abundante.",
+        "hu": "Bőséges."
+      },
+      {
+        "original": "Mínimo.",
+        "hu": "Minimális."
+      },
+      {
+        "original": "Limitado.",
+        "hu": "Korlátozott."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "seed-4",
+    "source": "Első 30-as blokk",
+    "module": "I",
+    "q": "El antónimo de “ordenado” es:",
+    "hu": "Az „ordenado” („rendezett”) ellentéte:",
+    "answers": [
+      {
+        "original": "Organizado.",
+        "hu": "Szervezett."
+      },
+      {
+        "original": "Armonioso.",
+        "hu": "Harmonikus."
+      },
+      {
+        "original": "Caótico.",
+        "hu": "Kaotikus."
+      },
+      {
+        "original": "Limpio.",
+        "hu": "Tiszta."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "seed-5",
+    "source": "Első 30-as blokk",
+    "module": "I",
+    "q": "¿Qué significa la expresión “Actuar con sinceridad y sin engaños” ?",
+    "hu": "Mit jelent a „őszintén és megtévesztés nélkül cselekedni” kifejezés?",
+    "answers": [
+      {
+        "original": "Hablar de más.",
+        "hu": "Túl sokat beszélni."
+      },
+      {
+        "original": "Hablar alto.",
+        "hu": "Hangosan beszélni."
+      },
+      {
+        "original": "Hablar claro.",
+        "hu": "Világosan / egyenesen beszélni."
+      },
+      {
+        "original": "Hablar fuerte.",
+        "hu": "Erőteljesen beszélni."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "seed-6",
+    "source": "Első 30-as blokk",
+    "module": "I",
+    "q": "¿Qué significa la expresión “ Conseguir un beneficio gracias al esfuerzo ajeno, sin haber participado en el trabajo” ?",
+    "hu": "Mit jelent az a kifejezés, hogy „mások erőfeszítéséből hasznot húzni anélkül, hogy részt vett volna a munkában”?",
+    "answers": [
+      {
+        "original": "Dormirse en los laureles.",
+        "hu": "Babérjain ülni."
+      },
+      {
+        "original": "Recoger la cosecha ajena.",
+        "hu": "Más aratásának gyümölcsét learatni."
+      },
+      {
+        "original": "Poner el grito en el cielo.",
+        "hu": "Felháborodni / jajveszékelni."
+      },
+      {
+        "original": "Matar el gusanillo.",
+        "hu": "Bekapni valamit / csillapítani az éhséget."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "seed-7",
+    "source": "Első 30-as blokk",
+    "module": "I",
+    "q": "El antónimo de “suave” es:",
+    "hu": "A „suave” („puha, finom”) ellentéte:",
+    "answers": [
+      {
+        "original": "Aterciopelado.",
+        "hu": "Bársonyos."
+      },
+      {
+        "original": "Áspero.",
+        "hu": "Érdes."
+      },
+      {
+        "original": "Ligero.",
+        "hu": "Könnyű."
+      },
+      {
+        "original": "Etéreo.",
+        "hu": "Légies."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "seed-8",
+    "source": "Első 30-as blokk",
+    "module": "I",
+    "q": "La palabra “esporádico” en la frase “hubo cortes esporádicos de luz” significa:",
+    "hu": "Az „esporádico” („szórványos”) szó a „szórványos áramkimaradások voltak” mondatban ezt jelenti:",
+    "answers": [
+      {
+        "original": "Prolongado y frecuente.",
+        "hu": "Elhúzódó és gyakori."
+      },
+      {
+        "original": "Previsto con antelación.",
+        "hu": "Előre tervezett."
+      },
+      {
+        "original": "Breve pero constante.",
+        "hu": "Rövid, de állandó."
+      },
+      {
+        "original": "Ocasional y sin regularidad.",
+        "hu": "Alkalmi és rendszertelen."
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "seed-9",
+    "source": "Első 30-as blokk",
+    "module": "I",
+    "q": "La palabra “contumaz” en “infractor contumaz” significa:",
+    "hu": "A „contumaz” („makacs, ismétlődő/visszaeső”) szó a „visszaeső jogsértő” kifejezésben ezt jelenti:",
+    "answers": [
+      {
+        "original": "Reincidente y obstinado.",
+        "hu": "Visszaeső és makacs."
+      },
+      {
+        "original": "Torpe y casual..",
+        "hu": "Ügyetlen és véletlenszerű."
+      },
+      {
+        "original": "Arrepentido y puntual",
+        "hu": "Megbánó és pontos."
+      },
+      {
+        "original": "Único y aislado.",
+        "hu": "Egyedi és elszigetelt."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "seed-10",
+    "source": "Első 30-as blokk",
+    "module": "I",
+    "q": "Completa la frase “Siendo como era día festivo y con poco tráfico, el viaje ___ en quince minutos”.",
+    "hu": "Egészítsd ki a mondatot: „Mivel ünnepnap volt és kevés volt a forgalom, az út tizenöt perc alatt ___.”",
+    "answers": [
+      {
+        "original": "Terminaba.",
+        "hu": "véget ért / végződött."
+      },
+      {
+        "original": "Terminó.",
+        "hu": "befejeződött."
+      },
+      {
+        "original": "Terminaría.",
+        "hu": "befejeződne."
+      },
+      {
+        "original": "Terminará.",
+        "hu": "befejeződik majd."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "seed-11",
+    "source": "Első 30-as blokk",
+    "module": "I",
+    "q": "La expresión “aforo completo” indica:",
+    "hu": "Az „aforo completo” („megtelt, nincs több férőhely”) kifejezés azt jelenti:",
+    "answers": [
+      {
+        "original": "Capacidad máxima ocupada.",
+        "hu": "A maximális befogadóképesség betelt."
+      },
+      {
+        "original": "Reducción temporal de plazas.",
+        "hu": "A férőhelyek ideiglenes csökkentése."
+      },
+      {
+        "original": "Entrada gratuita.",
+        "hu": "Ingyenes belépés."
+      },
+      {
+        "original": "Cierre preventivo.",
+        "hu": "Megelőző lezárás."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "seed-12",
+    "source": "Első 30-as blokk",
+    "module": "I",
+    "q": "Referirse a una persona que aparenta ser inofensiva, pero esconde intenciones peligrosas significa:",
+    "hu": "Olyan emberre utalni, aki ártalmatlannak tűnik, de veszélyes szándékokat rejt, azt jelenti:",
+    "answers": [
+      {
+        "original": "Que hay gato encerrado.",
+        "hu": "Hogy valami nincs rendben / van valami a háttérben."
+      },
+      {
+        "original": "Que es un lobo con piel de cordero.",
+        "hu": "Hogy báránybőrbe bújt farkas."
+      },
+      {
+        "original": "Que está todo el pescado vendido.",
+        "hu": "Hogy már minden eldőlt."
+      },
+      {
+        "original": "Que esconde una carta bajo la manga.",
+        "hu": "Hogy van még egy ász a tarsolyában."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "seed-13",
+    "source": "Első 30-as blokk",
+    "module": "II",
+    "q": "¿Qué distintivo medioambiental identifica a los vehículos más eficientes?",
+    "hu": "Melyik környezetvédelmi jelölés azonosítja a leghatékonyabb járműveket?",
+    "answers": [
+      {
+        "original": "La etiqueta asignada exclusivamente a vehículos eléctricos de batería y eléctricos de autonomía extendida.",
+        "hu": "A kizárólag akkumulátoros elektromos és hatótávnövelt elektromos járműveknek járó címke."
+      },
+      {
+        "original": "La etiqueta aplicable a vehículos híbridos enchufables con autonomía eléctrica inferior a 40 km.",
+        "hu": "A 40 km-nél kisebb elektromos hatótávú plug-in hibridekre vonatkozó címke."
+      },
+      {
+        "original": "La etiqueta reservada para vehículos híbridos no enchufables y microhíbridos.",
+        "hu": "A nem tölthető hibrideknek és mild hibrideknek fenntartott címke."
+      },
+      {
+        "original": "La etiqueta correspondiente a vehículos de combustión interna que cumplen con las normativas Euro 4, Euro 5 o Euro 6.",
+        "hu": "Az Euro 4, Euro 5 vagy Euro 6 normának megfelelő belső égésű járművek címkéje."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "seed-14",
+    "source": "Első 30-as blokk",
+    "module": "II",
+    "q": "El estadio del equipo de fútbol Rayo Vallecano, ¿en qué parte de la ciudad está situado?",
+    "hu": "A Rayo Vallecano futballcsapat stadionja a város melyik részén található?",
+    "answers": [
+      {
+        "original": "Al norte de la ciudad de Madrid.",
+        "hu": "Madrid városának északi részén."
+      },
+      {
+        "original": "Al este de la ciudad de Madrid.",
+        "hu": "Madrid városának keleti részén."
+      },
+      {
+        "original": "Al sur de la ciudad de Madrid.",
+        "hu": "Madrid városának déli részén."
+      },
+      {
+        "original": "Al oeste de la ciudad de Madrid.",
+        "hu": "Madrid városának nyugati részén."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "seed-15",
+    "source": "Első 30-as blokk",
+    "module": "II",
+    "q": "Si un cliente nos solicita un trayecto con destino a Boadilla del Monte, debemos saber que el citado municipio está situado:",
+    "hu": "Ha egy ügyfél Boadilla del Monte településre kér fuvart, tudnunk kell, hogy ez a település itt található:",
+    "answers": [
+      {
+        "original": "Al norte de la ciudad de Madrid.",
+        "hu": "Madrid városától északra."
+      },
+      {
+        "original": "Al este de la ciudad de Madrid.",
+        "hu": "Madrid városától keletre."
+      },
+      {
+        "original": "Al oeste de la ciudad de Madrid.",
+        "hu": "Madrid városától nyugatra."
+      },
+      {
+        "original": "Al sur de la ciudad de Madrid.",
+        "hu": "Madrid városától délre."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "seed-16",
+    "source": "Első 30-as blokk",
+    "module": "II",
+    "q": "¿Cuál es el domicilio del Teatro La Latina?",
+    "hu": "Mi a Teatro La Latina címe?",
+    "answers": [
+      {
+        "original": "La plaza de Murillo s/n.",
+        "hu": "Murillo tér, szám nélkül."
+      },
+      {
+        "original": "La calle Cervantes 11.",
+        "hu": "Cervantes utca 11."
+      },
+      {
+        "original": "La plaza de la Cebada 2.",
+        "hu": "Cebada tér 2."
+      },
+      {
+        "original": "El paseo de Moret 99.",
+        "hu": "Moret sétány 99."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "seed-17",
+    "source": "Első 30-as blokk",
+    "module": "II",
+    "q": "En relación a la calidad del aire, ¿cómo se denomina de forma abreviada el gas ozono y cuál es su fórmula química?",
+    "hu": "A levegőminőséggel kapcsolatban hogyan rövidítik az ózon gázt, és mi a kémiai képlete?",
+    "answers": [
+      {
+        "original": "O3",
+        "hu": "O3"
+      },
+      {
+        "original": "HO3",
+        "hu": "HO3"
+      },
+      {
+        "original": "NO3",
+        "hu": "NO3"
+      },
+      {
+        "original": "SO3",
+        "hu": "SO3"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "seed-18",
+    "source": "Első 30-as blokk",
+    "module": "II",
+    "q": "De las calles que se citan, indique cuál no confluye en la plaza de Castilla.",
+    "hu": "Az alábbi utcák közül jelölje meg, melyik nem fut be a Plaza de Castilla térre.",
+    "answers": [
+      {
+        "original": "La calle de Mateo Inurria.",
+        "hu": "Mateo Inurria utca."
+      },
+      {
+        "original": "El paseo de la Castellana.",
+        "hu": "Castellana sugárút."
+      },
+      {
+        "original": "La calle de Bravo Murillo.",
+        "hu": "Bravo Murillo utca."
+      },
+      {
+        "original": "La calle de Félix Boix.",
+        "hu": "Félix Boix utca."
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "seed-19",
+    "source": "Első 30-as blokk",
+    "module": "II",
+    "q": "El museo Sorolla, ¿en qué dirección se encuentra?",
+    "hu": "A Sorolla Múzeum milyen címen található?",
+    "answers": [
+      {
+        "original": "En el paseo del General Martínez Campos 37.",
+        "hu": "A General Martínez Campos sétány 37. szám alatt."
+      },
+      {
+        "original": "En la calle Santa Isabel, 52.",
+        "hu": "A Santa Isabel utca 52. szám alatt."
+      },
+      {
+        "original": "En el Paseo del Prado, 8.",
+        "hu": "A Prado sétány 8. szám alatt."
+      },
+      {
+        "original": "En la calle Alcalá, 13",
+        "hu": "Az Alcalá utca 13. szám alatt."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "seed-20",
+    "source": "Első 30-as blokk",
+    "module": "II",
+    "q": "Si un cliente le solicita ir al museo de las Ilusiones, ¿a qué dirección le llevaremos?",
+    "hu": "Ha egy ügyfél az Illúziók Múzeumába szeretne menni, melyik címre visszük?",
+    "answers": [
+      {
+        "original": "A la plaza de la Paja.",
+        "hu": "A Plaza de la Paja térre."
+      },
+      {
+        "original": "A la calle de Espronceda 1.",
+        "hu": "Az Espronceda utca 1. szám alá."
+      },
+      {
+        "original": "A la calle del Doctor Cortezo 8.",
+        "hu": "A Doctor Cortezo utca 8. szám alá."
+      },
+      {
+        "original": "A la calle de Lavapiés, 14.",
+        "hu": "A Lavapiés utca 14. szám alá."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "seed-21",
+    "source": "Első 30-as blokk",
+    "module": "II",
+    "q": "En la calle de José Gutiérrez Abascal número 2, ¿qué lugar de interés para viajeros podemos encontrar?",
+    "hu": "A José Gutiérrez Abascal utca 2. szám alatt melyik, utazók számára érdekes hely található?",
+    "answers": [
+      {
+        "original": "El museo Nacional de Ciencias Naturales.",
+        "hu": "A Természettudományi Nemzeti Múzeum."
+      },
+      {
+        "original": "El Museo Nacional de Antropología.",
+        "hu": "A Nemzeti Antropológiai Múzeum."
+      },
+      {
+        "original": "El Museo Nacional de Artes Decorativas.",
+        "hu": "A Nemzeti Iparművészeti Múzeum."
+      },
+      {
+        "original": "El Museo Nacional del Romanticismo.",
+        "hu": "A Romantika Nemzeti Múzeuma."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "seed-22",
+    "source": "Első 30-as blokk",
+    "module": "II",
+    "q": "¿En qué vía está situado el centro comercial La Vaguada?",
+    "hu": "Melyik útvonalon / utcában található a La Vaguada bevásárlóközpont?",
+    "answers": [
+      {
+        "original": "En la avenida de Monforte de Lemos 36.",
+        "hu": "A Monforte de Lemos sugárút 36. szám alatt."
+      },
+      {
+        "original": "En la calle Serrano 61.",
+        "hu": "A Serrano utca 61. szám alatt."
+      },
+      {
+        "original": "En el Paseo de la Florida, s/n.",
+        "hu": "A Florida sétányon, szám nélkül."
+      },
+      {
+        "original": "En el Paseo de la Castellana 259.",
+        "hu": "A Castellana sugárút 259. szám alatt."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "seed-23",
+    "source": "Első 30-as blokk",
+    "module": "II",
+    "q": "¿Cuál es la dirección y distrito del Ilustre Colegio Oficial de Médicos?",
+    "hu": "Mi a Tiszteletreméltó Orvosi Kamara címe és kerülete?",
+    "answers": [
+      {
+        "original": "En la calle de Atocha 50, Centro.",
+        "hu": "Az Atocha utca 50. szám alatt, Centro kerület."
+      },
+      {
+        "original": "En la Avenida de Alberto de Alcocer 25, Chamartín.",
+        "hu": "Az Alberto de Alcocer sugárút 25. szám alatt, Chamartín kerület."
+      },
+      {
+        "original": "En la calle del Doctor Fleming 99, Chamartín.",
+        "hu": "A Doctor Fleming utca 99. szám alatt, Chamartín kerület."
+      },
+      {
+        "original": "La calle de Santa Isabel 51, Centro.",
+        "hu": "A Santa Isabel utca 51. szám alatt, Centro kerület."
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "seed-24",
+    "source": "Első 30-as blokk",
+    "module": "II",
+    "q": "En relación a la calidad del aire, ¿cómo se representa en los mapas de calidad del aire el dióxido de azufre y cuál es su fórmula química?",
+    "hu": "A levegőminőséggel kapcsolatban hogyan jelölik a levegőminőségi térképeken a kén-dioxidot, és mi a képlete?",
+    "answers": [
+      {
+        "original": "CO2.",
+        "hu": "CO2."
+      },
+      {
+        "original": "SO2.",
+        "hu": "SO2."
+      },
+      {
+        "original": "O3.",
+        "hu": "O3."
+      },
+      {
+        "original": "H2O.",
+        "hu": "H2O."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "seed-25",
+    "source": "Első 30-as blokk",
+    "module": "II",
+    "q": "¿Dónde está ubicado el centro comercial Plaza Río 2?",
+    "hu": "Hol található a Plaza Río 2 bevásárlóközpont?",
+    "answers": [
+      {
+        "original": "En la avenida de los Poblados 100.",
+        "hu": "A Los Poblados sugárút 100. szám alatt."
+      },
+      {
+        "original": "En la avenida del Manzanares 210.",
+        "hu": "A Manzanares sugárút 210. szám alatt."
+      },
+      {
+        "original": "En el paseo de Santa María de la Cabeza, s/n.",
+        "hu": "A Santa María de la Cabeza sétányon, szám nélkül."
+      },
+      {
+        "original": "En la avenida de Menéndez Pelayo 55.",
+        "hu": "A Menéndez Pelayo sugárút 55. szám alatt."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "seed-26",
+    "source": "Első 30-as blokk",
+    "module": "II",
+    "q": "La zona de bajas emisiones del Distrito Centro comprende casi todo el distrito en el que se encuentran los barrios de Palacio, Embajadores, Cortes, Justicia, Universidad y Sol y que quedan delimitadas por diferentes calles, plazas y avenidas. De las que se citan, indique cuál es una de estas vías que delimita la ZBE del Distrito Centro:",
+    "hu": "A Distrito Centro alacsony kibocsátású zónája szinte az egész kerületet lefedi, ahol a Palacio, Embajadores, Cortes, Justicia, Universidad és Sol városrészek találhatók, és különböző utcák, terek és sugárutak határolják. Az alábbiak közül jelölje meg, melyik ezek közül az egyik határoló útvonal.",
+    "answers": [
+      {
+        "original": "Calle de Alcalá.",
+        "hu": "Alcalá utca."
+      },
+      {
+        "original": "Avenida de Valladolid.",
+        "hu": "Valladolid sugárút."
+      },
+      {
+        "original": "Cuesta de San Vicente.",
+        "hu": "San Vicente emelkedő."
+      },
+      {
+        "original": "Plaza de Alonso Martínez.",
+        "hu": "Alonso Martínez tér."
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "seed-27",
+    "source": "Első 30-as blokk",
+    "module": "II",
+    "q": "¿Qué vehículos llevarán la etiqueta medioambiental denominada ECO?",
+    "hu": "Mely járművek kapják az ECO környezetvédelmi címkét?",
+    "answers": [
+      {
+        "original": "Tendrán derecho a esta etiqueta turismos y furgonetas ligeras de gasolina matriculadas a partir de enero de 2006 y diésel a partir de septiembre de 2015.",
+        "hu": "Erre a címkére jogosultak a 2006 januárjától forgalomba helyezett benzines személyautók és könnyű furgonok, illetve a 2015 szeptemberétől forgalomba helyezett dízelek."
+      },
+      {
+        "original": "Tendrán derecho a esta etiqueta turismos y furgonetas ligeras de gasolina matriculadas desde el 1 de enero de 2001 y diésel a partir de 2006.",
+        "hu": "Erre a címkére jogosultak a 2001. január 1-jétől forgalomba helyezett benzines személyautók és könnyű furgonok, illetve a 2006-tól forgalomba helyezett dízelek."
+      },
+      {
+        "original": "Tendrán derecho a esta etiqueta vehículos eléctricos de batería (BEV) , vehículos eléctricos de autonomía extendida (REEV), y vehículos eléctricos híbridos enchufables (PHEV) con una autonomía de 40 km o vehículos de pila de combustible.",
+        "hu": "Erre a címkére jogosultak az akkumulátoros elektromos járművek (BEV), a hatótávnövelt elektromos járművek (REEV), a legalább 40 km elektromos hatótávú plug-in hibridek (PHEV), valamint az üzemanyagcellás járművek."
+      },
+      {
+        "original": "Tendrán derecho a esta etiqueta vehículos eléctricos enchufables con autonomía inferior a 40 km, vehículos híbridos no enchufables (HEV), vehículos propulsados por gas natural comprimido (GNC), gas natural licuado (GNL) o gas licuado del petróleo (GLP). Deben cumplir los criterios de la etiqueta C.",
+        "hu": "Erre a címkére jogosultak a 40 km-nél kisebb hatótávú tölthető elektromos járművek, a nem tölthető hibridek (HEV), valamint a sűrített földgázzal (CNG), cseppfolyós földgázzal (LNG) vagy LPG-vel hajtott járművek. Meg kell felelniük a C címke feltételeinek."
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "seed-28",
+    "source": "Első 30-as blokk",
+    "module": "II",
+    "q": "La categorización y clasificación de los vehículos en función de los niveles de contaminación que emiten, el que se afirma que tanto las partículas como el dióxido de nitrógeno tienen en el tráfico rodado la principal fuente de emisión en las grandes ciudades, ¿dónde tuvo su origen?",
+    "hu": "A járművek kibocsátott szennyezőanyag-szint szerinti kategorizálása és besorolása, valamint az az állítás, hogy a részecskéknek és a nitrogén-dioxidnak a nagyvárosokban a közúti forgalom a fő kibocsátási forrása, honnan ered?",
+    "answers": [
+      {
+        "original": "En el Plan nacional de calidad del aire.",
+        "hu": "A nemzeti levegőminőségi tervből."
+      },
+      {
+        "original": "En el Plan de recogida de residuos sólidos urbanos.",
+        "hu": "A szilárd városi hulladékok begyűjtési tervéből."
+      },
+      {
+        "original": "En una ordenanza municipal de Madrid.",
+        "hu": "Madrid egyik önkormányzati rendeletéből."
+      },
+      {
+        "original": "En la normativa vigente de las estaciones ITV.",
+        "hu": "A műszaki vizsgaállomások hatályos szabályozásából."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "seed-29",
+    "source": "Első 30-as blokk",
+    "module": "II",
+    "q": "El denominado \"Campo del Moro\", ¿junto a qué lugar de interés turístico está situado?",
+    "hu": "Az úgynevezett „Campo del Moro” park melyik turisztikai látványosság mellett található?",
+    "answers": [
+      {
+        "original": "Junto al Parque del Retiro.",
+        "hu": "A Retiro park mellett."
+      },
+      {
+        "original": "Junto a la Plaza Mayor.",
+        "hu": "A Plaza Mayor mellett."
+      },
+      {
+        "original": "Junto a la Puerta del Ángel.",
+        "hu": "A Puerta del Ángel mellett."
+      },
+      {
+        "original": "Junto al Palacio Real.",
+        "hu": "A Királyi Palota mellett."
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "seed-30",
+    "source": "Első 30-as blokk",
+    "module": "II",
+    "q": "¿Qué sitio de interés está en la Carrera de San Jerónimo s/n ?",
+    "hu": "Melyik nevezetes hely található a Carrera de San Jerónimo szám nélküli címen?",
+    "answers": [
+      {
+        "original": "El Senado.",
+        "hu": "A Szenátus."
+      },
+      {
+        "original": "La Basílica de Jesús de Medinaceli.",
+        "hu": "A Jesús de Medinaceli bazilika."
+      },
+      {
+        "original": "El Congreso de los Diputados.",
+        "hu": "A Képviselőház / a Képviselők Kongresszusa."
+      },
+      {
+        "original": "La Casa Museo de Lope de Vega.",
+        "hu": "A Lope de Vega házmúzeum."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "seed-31",
+    "source": "Második 30-as blokk",
+    "module": "III",
+    "q": "¿Cuál es la misión principal del perro guía que acompaña a una persona con discapacidad visual?",
+    "hu": "Mi a látássérült személyt kísérő vakvezető kutya fő feladata?",
+    "answers": [
+      {
+        "original": "Asistir a la persona con discapacidad en su orientación y movilidad.",
+        "hu": "Segíteni a fogyatékossággal élő személy tájékozódását és közlekedését."
+      },
+      {
+        "original": "Entretener a la persona.",
+        "hu": "Szórakoztatni a személyt."
+      },
+      {
+        "original": "Proporcionar compañía a la persona que acompaña.",
+        "hu": "Társaságot nyújtani az általa kísért személynek."
+      },
+      {
+        "original": "Proteger a la persona que acompaña.",
+        "hu": "Megvédeni az általa kísért személyt."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "seed-32",
+    "source": "Második 30-as blokk",
+    "module": "III",
+    "q": "Si necesita captar la atención de una persona con discapacidad auditiva, ¿cuál es la mejor manera de hacerlo?",
+    "hu": "Ha egy hallássérült személy figyelmét szeretné felkelteni, mi erre a legjobb mód?",
+    "answers": [
+      {
+        "original": "Tocarle suavemente en el hombro o hacerle una seña si hay contacto visual.",
+        "hu": "Finoman megérinteni a vállát, vagy inteni neki, ha van szemkontaktus."
+      },
+      {
+        "original": "Gritar, preferiblemente su nombre.",
+        "hu": "Kiabálni, lehetőleg a nevét."
+      },
+      {
+        "original": "Dar una palmada.",
+        "hu": "Tapsolni egyet."
+      },
+      {
+        "original": "Utilizar un silbato o una linterna.",
+        "hu": "Sípot vagy zseblámpát használni."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "seed-33",
+    "source": "Második 30-as blokk",
+    "module": "III",
+    "q": "¿Qué debemos hacer si, durante un trayecto, el pasajero pierde la conciencia?",
+    "hu": "Mit kell tennünk, ha az utas az út során elveszíti az eszméletét?",
+    "answers": [
+      {
+        "original": "Inmovilizar el vehículo en un lugar seguro para comprobar que el herido respira y avisar al 112.",
+        "hu": "Biztonságos helyen megállítani a járművet, ellenőrizni, hogy a sérült lélegzik-e, és értesíteni a 112-t."
+      },
+      {
+        "original": "Intentar darle un analgésico.",
+        "hu": "Megpróbálni fájdalomcsillapítót adni neki."
+      },
+      {
+        "original": "Darle alguna bebida estimulante para que recupere la conciencia.",
+        "hu": "Élénkítő italt adni neki, hogy magához térjen."
+      },
+      {
+        "original": "Darle agua y aplicarle hielo en la frente.",
+        "hu": "Vizet adni neki, és jeget tenni a homlokára."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "seed-34",
+    "source": "Második 30-as blokk",
+    "module": "III",
+    "q": "Al utilizar un dispositivo de navegación (GPS), al introducir el nombre de la calle y el número, ¿es necesario indicar el municipio donde se encuentra dicha calle?",
+    "hu": "Navigációs eszköz (GPS) használatakor, amikor beírjuk az utca nevét és a házszámot, szükséges-e megadni azt a települést is, ahol az utca található?",
+    "answers": [
+      {
+        "original": "No, porque no hay dos calles con el mismo nombre en todos los municipios de la Comunidad de Madrid.",
+        "hu": "Nem, mert a Madridi Közösség összes településén nincs két azonos nevű utca."
+      },
+      {
+        "original": "Sí, porque puede haber dos calles con el mismo nombre en los diferentes municipios que componen la Comunidad de Madrid.",
+        "hu": "Igen, mert a Madridi Közösséget alkotó különböző településeken lehet két azonos nevű utca."
+      },
+      {
+        "original": "No, porque siempre la primera opción que muestra el GPS es la acertada.",
+        "hu": "Nem, mert a GPS által mutatott első lehetőség mindig a helyes."
+      },
+      {
+        "original": "No, pero es más interesante introducir si la calle tiene orientación Norte o Sur.",
+        "hu": "Nem, de érdekesebb megadni, hogy az utca északi vagy déli tájolású-e."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "seed-35",
+    "source": "Második 30-as blokk",
+    "module": "III",
+    "q": "El conductor de un vehículo VTC ¿puede de alguna manera ayudar o colaborar con un pasajero que tiene movilidad reducida y que lleva un bebé en un carrito?",
+    "hu": "Segíthet-e valamilyen módon a VTC jármű vezetője egy csökkent mozgásképességű utasnak, aki babakocsiban tol egy kisbabát?",
+    "answers": [
+      {
+        "original": "No, de hecho es un tipo de cliente que es mejor evitar.",
+        "hu": "Nem, sőt, ez egy olyan ügyféltípus, akit jobb elkerülni."
+      },
+      {
+        "original": "No, aunque es recomendable darle más tiempo para que acceda al vehículo.",
+        "hu": "Nem, bár ajánlott több időt adni neki, hogy beszálljon a járműbe."
+      },
+      {
+        "original": "Sí, se le debe ofrecer asistencia para meter y sacar el cochecito del bebé en el vehículo y asegurarse de que queda bien sujeto durante el trayecto.",
+        "hu": "Igen, fel kell ajánlani a segítséget a babakocsi be- és kiemeléséhez, és meg kell győződni arról, hogy az út során megfelelően rögzítve van."
+      },
+      {
+        "original": "Sí, le debe informar que le puede aplicar un descuento en la tarifa.",
+        "hu": "Igen, tájékoztatni kell arról, hogy kedvezményt kaphat a viteldíjból."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "seed-36",
+    "source": "Második 30-as blokk",
+    "module": "III",
+    "q": "De las siguientes acciones que se señalan, indique cuál es la primera que hay que hacer cuando se llegue al lugar donde se ha producido un accidente.",
+    "hu": "Az alábbi teendők közül jelölje meg, melyik az első, amit meg kell tenni, amikor a baleset helyszínére érkezünk.",
+    "answers": [
+      {
+        "original": "Proteger el lugar del accidente y a nosotros mismos como auxiliadores.",
+        "hu": "Biztosítani a baleset helyszínét és saját magunkat mint segítőket."
+      },
+      {
+        "original": "Alertar inmediatamente al 112 informando de lo sucedido.",
+        "hu": "Azonnal értesíteni a 112-t a történtekről."
+      },
+      {
+        "original": "Hacerse una idea de lo ocurrido y llamar al 112.",
+        "hu": "Felbecsülni, mi történt, és felhívni a 112-t."
+      },
+      {
+        "original": "Socorrer inmediatamente a las víctimas, especialmente a aquellas que reclamen insistentemente nuestra ayuda.",
+        "hu": "Azonnal segíteni az áldozatoknak, különösen azoknak, akik hangosan segítséget kérnek."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "seed-37",
+    "source": "Második 30-as blokk",
+    "module": "III",
+    "q": "¿Cuál es la actitud que se ha de mantener ante un herido con quemaduras?",
+    "hu": "Milyen eljárást kell követni égési sérülést szenvedett sérült esetén?",
+    "answers": [
+      {
+        "original": "No tocar la zona quemada, aplicar agua fría, no intentar retirar la ropa quemada que haya sobre la herida y cubrir la zona quemada con apósitos (o trapos limpios) humedecidos.",
+        "hu": "Nem szabad megérinteni az égett területet, hideg vizet kell alkalmazni, nem szabad megpróbálni eltávolítani a sebre tapadt megégett ruhát, és az égett területet nedves kötszerrel (vagy tiszta ruhával) kell lefedni."
+      },
+      {
+        "original": "Retirar la ropa quemada adherida a la zona quemada y aplicar agua fría.",
+        "hu": "Eltávolítani az égett területhez tapadt megégett ruhát, és hideg vizet alkalmazni."
+      },
+      {
+        "original": "Aplicar una pomada antiquemaduras y mantener la zona humedecida.",
+        "hu": "Égési kenőcsöt alkalmazni, és a területet nedvesen tartani."
+      },
+      {
+        "original": "Aplicar agua caliente y jabón para lavar la zona quemada y cubrir la herida con apósitos secos.",
+        "hu": "Meleg vizet és szappant alkalmazni az égett terület lemosásához, majd száraz kötéssel lefedni a sebet."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "seed-38",
+    "source": "Második 30-as blokk",
+    "module": "III",
+    "q": "En caso de percibir fuego en el vehículo, ¿qué deberá hacer el conductor como primera medida?",
+    "hu": "Ha tüzet észlel a járműben, mi legyen a sofőr első intézkedése?",
+    "answers": [
+      {
+        "original": "Aumentar la velocidad para llegar cuanto antes al destino antes de que el fuego aumente.",
+        "hu": "Növelni a sebességet, hogy a tűz erősödése előtt minél hamarabb elérje az úti célt."
+      },
+      {
+        "original": "Detener el vehículo y evacuar a los pasajeros buscando un lugar seguro en la vía.",
+        "hu": "Megállítani a járművet, és az utasokat biztonságos helyre kimenekíteni az úton."
+      },
+      {
+        "original": "Comentar con los pasajeros cuál puede ser la causa del fuego.",
+        "hu": "Megbeszélni az utasokkal, mi lehet a tűz oka."
+      },
+      {
+        "original": "Detener el vehículo, tenga o no pasajeros, para intentar localizar el fuego e intentar apagarlo.",
+        "hu": "Megállítani a járművet, akár vannak utasok, akár nincsenek, hogy megpróbálja megtalálni és eloltani a tüzet."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "seed-39",
+    "source": "Második 30-as blokk",
+    "module": "III",
+    "q": "De las siguientes afirmaciones, indique cuál NO es correcta en relación a la evaluación inicial de un herido en accidente de tráfico:",
+    "hu": "Az alábbi állítások közül jelölje meg, melyik NEM helyes közlekedési baleset sérültjének elsődleges felmérésével kapcsolatban.",
+    "answers": [
+      {
+        "original": "No se debe seguir el protocolo de actuación denominado ABC salvo que haya un médico en el lugar del accidente.",
+        "hu": "Nem szabad követni az ABC nevű ellátási protokollt, kivéve, ha orvos van a baleset helyszínén."
+      },
+      {
+        "original": "Hay que abrigar a los heridos, tanto en invierno como en verano.",
+        "hu": "A sérülteket be kell takarni, télen és nyáron is."
+      },
+      {
+        "original": "Siempre hay que atender antes a un herido en estado de inconsciencia que a otro que reclama nuestra ayuda gritando.",
+        "hu": "Mindig előbb kell ellátni az eszméletlen sérültet, mint azt, aki kiabálva segítséget kér."
+      },
+      {
+        "original": "No hay que darle a los heridos ningún tipo de medicamento.",
+        "hu": "A sérülteknek semmilyen gyógyszert nem szabad adni."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "seed-40",
+    "source": "Második 30-as blokk",
+    "module": "III",
+    "q": "En determinada situación de emergencia es aconsejable dar unas palmadas en la espalda de un niño de más de seis meses. ¿De qué tipo de emergencia se trata?",
+    "hu": "Bizonyos vészhelyzetben javasolt egy hat hónapnál idősebb gyermeket hátba veregetni. Milyen típusú vészhelyzetről van szó?",
+    "answers": [
+      {
+        "original": "Cuando el niño tenga fiebre.",
+        "hu": "Amikor a gyermek lázas."
+      },
+      {
+        "original": "Cuando el niño llore insistentemente.",
+        "hu": "Amikor a gyermek kitartóan sír."
+      },
+      {
+        "original": "Cuando el niño esté atragantado y no pueda respirar.",
+        "hu": "Amikor a gyermek félrenyelt és nem tud lélegezni."
+      },
+      {
+        "original": "Cuando el niño no pueda dormir.",
+        "hu": "Amikor a gyermek nem tud aludni."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "seed-41",
+    "source": "Második 30-as blokk",
+    "module": "III",
+    "q": "Las lesiones medulares, ¿cuándo son más graves?",
+    "hu": "Mikor a legsúlyosabbak a gerincvelősérülések?",
+    "answers": [
+      {
+        "original": "Cuando ocurren en la parte alta de la columna, especialmente en las cervicales.",
+        "hu": "Amikor a gerinc felső részén történnek, különösen a nyaki csigolyáknál."
+      },
+      {
+        "original": "Cuando ocurren en la parte baja de la columna, es decir, en las cervicales.",
+        "hu": "Amikor a gerinc alsó részén történnek, vagyis a nyaki részen."
+      },
+      {
+        "original": "Cuando se producen en la cadera.",
+        "hu": "Amikor a csípőnél történnek."
+      },
+      {
+        "original": "Cuando se producen en las dorsales.",
+        "hu": "Amikor a háti részen történnek."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "seed-42",
+    "source": "Második 30-as blokk",
+    "module": "III",
+    "q": "En el supuesto de que fuese absolutamente necesario realizar el transporte de un herido en el vehículo VTC, ¿qué precauciones debe tomar el conductor?",
+    "hu": "Abban az esetben, ha feltétlenül szükséges lenne egy sérültet VTC járműben szállítani, milyen óvintézkedéseket kell tennie a sofőrnek?",
+    "answers": [
+      {
+        "original": "Debe sentar al herido en los asientos traseros y asegurarse de que lleva abrochado el cinturón de seguridad.",
+        "hu": "A sérültet a hátsó ülésre kell ültetnie, és meg kell győződnie arról, hogy be van kötve."
+      },
+      {
+        "original": "Debe coger en brazos al herido permitiendo que la cabeza vaya hacia atrás.",
+        "hu": "Karba kell vennie a sérültet úgy, hogy a feje hátrafelé dőljön."
+      },
+      {
+        "original": "Debe movilizarse al herido manteniendo el eje cabeza-cuello-tronco alineado en todo momento y sin movimientos bruscos.",
+        "hu": "A sérült mozgatását úgy kell végezni, hogy a fej–nyak–törzs tengely végig egyvonalban maradjon, hirtelen mozdulatok nélkül."
+      },
+      {
+        "original": "Debe saber que puede circular por encima de los límites de velocidad.",
+        "hu": "Tudnia kell, hogy a sebességhatárokat túllépve is közlekedhet."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "seed-43",
+    "source": "Második 30-as blokk",
+    "module": "III",
+    "q": "Conocer las principales calles y vías de una ciudad y los destinos más frecuentes que los viajeros solicitan, ¿en qué es beneficioso?",
+    "hu": "Miben előnyös ismerni egy város fő utcáit, útvonalait és az utasok által leggyakrabban kért célállomásokat?",
+    "answers": [
+      {
+        "original": "Realmente en nada pero es interesante conocer bien la ciudad donde se trabaja.",
+        "hu": "Valójában semmiben, de érdekes jól ismerni azt a várost, ahol dolgozunk."
+      },
+      {
+        "original": "Aumenta el tiempo del viaje.",
+        "hu": "Növeli az utazási időt."
+      },
+      {
+        "original": "Mejora los trayectos aunque se reduce el número de clientes.",
+        "hu": "Javítja az útvonalakat, bár csökken az ügyfelek száma."
+      },
+      {
+        "original": "Mejora la eficiencia de los trayectos y el cliente está más satisfecho.",
+        "hu": "Hatékonyabbá teszi az utakat, és az ügyfél elégedettebb lesz."
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "seed-44",
+    "source": "Második 30-as blokk",
+    "module": "III",
+    "q": "¿Qué puede hacer el conductor para mantener la confidencialidad y la protección de datos de sus clientes?",
+    "hu": "Mit tehet a sofőr ügyfelei bizalmasságának és adatvédelmének megőrzése érdekében?",
+    "answers": [
+      {
+        "original": "Compartir en sus redes sociales aspectos personales de sus clientes, fotos y cualquier otra información sensible.",
+        "hu": "Megosztani a közösségi oldalain az ügyfelek személyes adatait, fényképeit és bármilyen más érzékeny információt."
+      },
+      {
+        "original": "Proteger de las redes sociales y del almacenamiento ilícito de datos cualquier dato personal de los clientes.",
+        "hu": "Megvédeni az ügyfelek személyes adatait a közösségi médiában való megosztástól és a jogellenes adattárolástól."
+      },
+      {
+        "original": "Compartir y comentar datos personales de los clientes con otros conductores.",
+        "hu": "Megosztani és megbeszélni az ügyfelek személyes adatait más sofőrökkel."
+      },
+      {
+        "original": "Almacenar, sin autorización, datos, fotografías e información de los clientes.",
+        "hu": "Engedély nélkül tárolni az ügyfelek adatait, fényképeit és információit."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "seed-45",
+    "source": "Második 30-as blokk",
+    "module": "III",
+    "q": "Según el protocolo de actuación en caso de emergencia P.A.S, ¿cuáles son las pautas que deben tomarse, por orden, en caso de accidente o emergencia?",
+    "hu": "A P.A.S vészhelyzeti protokoll szerint milyen lépéseket kell sorrendben követni baleset vagy vészhelyzet esetén?",
+    "answers": [
+      {
+        "original": "Proteger, alertar y señalizar el lugar del accidente.",
+        "hu": "Védeni, riasztani és biztosítani a baleset helyszínét."
+      },
+      {
+        "original": "Proteger, alertar y socorrer.",
+        "hu": "Védeni, riasztani és segíteni."
+      },
+      {
+        "original": "Prevenir, socorrer y alertar a los medios sanitarios a través del 112.",
+        "hu": "Megelőzni, segíteni és értesíteni az egészségügyi szolgálatot a 112-n keresztül."
+      },
+      {
+        "original": "Socorrer, alertar y proteger.",
+        "hu": "Segíteni, riasztani és védeni."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "seed-46",
+    "source": "Második 30-as blokk",
+    "module": "III",
+    "q": "¿Qué debemos hacer con un herido en accidente de tráfico que está inconsciente y no podemos mantener vigilado porque estamos atendiendo a otros heridos?",
+    "hu": "Mit kell tennünk egy közlekedési baleset eszméletlen sérültjével, ha nem tudjuk folyamatosan figyelni, mert más sérülteket látunk el?",
+    "answers": [
+      {
+        "original": "Si no existe riesgo de lesión medular por la tipología del accidente deberemos ponerle en posición lateral de seguridad.",
+        "hu": "Ha a baleset jellege alapján nincs gerincsérülés veszélye, stabil oldalfekvésbe kell helyezni."
+      },
+      {
+        "original": "Debemos ponerle en posición decúbito supino, bocarriba, para permitir que respire sin dificultad.",
+        "hu": "Hanyatt fekvő helyzetbe kell tenni, hogy akadálytalanul tudjon lélegezni."
+      },
+      {
+        "original": "No debemos hacer nada en particular porque está inconsciente, no hay mayor riesgo.",
+        "hu": "Nem kell semmi különöset tenni, mert eszméletlen állapotában nincs nagyobb kockázat."
+      },
+      {
+        "original": "Debemos siempre ponerle bocarriba y con las piernas elevadas.",
+        "hu": "Mindig hanyatt kell fektetni, felpolcolt lábakkal."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "seed-47",
+    "source": "Második 30-as blokk",
+    "module": "III",
+    "q": "Cuando un cliente accede al vehículo con un perro guía, ¿qué es lo que debe evitar hacer el conductor con el animal?",
+    "hu": "Amikor egy ügyfél vakvezető kutyával száll be a járműbe, mit kell kerülnie a sofőrnek az állattal kapcsolatban?",
+    "answers": [
+      {
+        "original": "Jugar con el perro para distraerlo mientras está conduciendo.",
+        "hu": "Játszani a kutyával, hogy elterelje a figyelmét vezetés közben."
+      },
+      {
+        "original": "Permitir que el perro entre en el vehículo.",
+        "hu": "Megengedni, hogy a kutya bejöjjön a járműbe."
+      },
+      {
+        "original": "Asegurarse de que el perro esté cómodo.",
+        "hu": "Meggyőződni arról, hogy a kutya kényelmesen van."
+      },
+      {
+        "original": "Proporcionar agua al perro antes de comenzar a conducir.",
+        "hu": "Vizet adni a kutyának indulás előtt."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "seed-48",
+    "source": "Második 30-as blokk",
+    "module": "III",
+    "q": "De las que se citan, indique cuál no es una característica que defina al conductor como profesional.",
+    "hu": "Az alábbiak közül jelölje meg, melyik nem jellemző a professzionális sofőrre.",
+    "answers": [
+      {
+        "original": "Cumplir las normas de tráfico.",
+        "hu": "Betartja a közlekedési szabályokat."
+      },
+      {
+        "original": "No cumplir con las normas de tráfico.",
+        "hu": "Nem tartja be a közlekedési szabályokat."
+      },
+      {
+        "original": "Mantener una óptima higiene personal.",
+        "hu": "Kifogástalan személyes higiéniát tart fenn."
+      },
+      {
+        "original": "Prestar atención al cliente e intentar complacerle en todo en lo que esté en su mano (temperatura interior del vehículo, volumen de la radio, etc.)",
+        "hu": "Figyel az ügyfélre, és igyekszik mindenben a kedvére tenni, ami módjában áll (a jármű belső hőmérséklete, a rádió hangereje stb.)."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "seed-49",
+    "source": "Második 30-as blokk",
+    "module": "IV",
+    "q": "Para los vehículos de arrendamiento con conductor VTC que realicen servicios al amparo del Decreto 5/2024, de 10 de enero, ¿qué tipo de seguro es obligatorio?",
+    "hu": "A 2024. január 10-i 5/2024-es rendelet hatálya alá tartozó VTC járművek számára milyen biztosítás kötelező?",
+    "answers": [
+      {
+        "original": "Un seguro a todo riesgo que cubra cualquier contingencia.",
+        "hu": "Teljes körű biztosítás, amely minden eshetőséget fedez."
+      },
+      {
+        "original": "El seguro de responsabilidad civil por los daños que puedan ocasionar por razón del transporte.",
+        "hu": "Felelősségbiztosítás a szállításból eredően okozott károkra."
+      },
+      {
+        "original": "Un seguro de muerte.",
+        "hu": "Haláleseti biztosítás."
+      },
+      {
+        "original": "Un seguro del hogar.",
+        "hu": "Lakásbiztosítás."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "seed-50",
+    "source": "Második 30-as blokk",
+    "module": "IV",
+    "q": "Antes de empezar un servicio en un vehículo de arrendamiento con conductor (VTC) ¿qué información se debe comunicar al Registro de Comunicaciones de Servicios?",
+    "hu": "Milyen információt kell közölni a Szolgáltatáskommunikációs Nyilvántartással, mielőtt megkezdődik egy VTC szolgáltatás?",
+    "answers": [
+      {
+        "original": "El nombre y número de identificación fiscal del titular de la autorización.",
+        "hu": "Az engedély jogosultjának neve és adóazonosító száma."
+      },
+      {
+        "original": "El nombre y la fecha de nacimiento del conductor.",
+        "hu": "A sofőr neve és születési dátuma."
+      },
+      {
+        "original": "El modelo del vehículo y su potencia.",
+        "hu": "A jármű típusa és teljesítménye."
+      },
+      {
+        "original": "La fecha de nacimiento del conductor.",
+        "hu": "A sofőr születési dátuma."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "seed-51",
+    "source": "Második 30-as blokk",
+    "module": "IV",
+    "q": "¿Cuáles son las dimensiones del distintivo identificativo de la luna trasera del vehículo?",
+    "hu": "Mekkorák a jármű hátsó ablakára kerülő azonosító matrica méretei?",
+    "answers": [
+      {
+        "original": "8 cm x 14 cm.",
+        "hu": "8 cm x 14 cm."
+      },
+      {
+        "original": "9 cm x 12 cm.",
+        "hu": "9 cm x 12 cm."
+      },
+      {
+        "original": "9 cm x 9 cm.",
+        "hu": "9 cm x 9 cm."
+      },
+      {
+        "original": "20 cm x 30 cm.",
+        "hu": "20 cm x 30 cm."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "seed-52",
+    "source": "Második 30-as blokk",
+    "module": "IV",
+    "q": "Los vehículos adaptados para personas con discapacidad ¿qué requisitos deben cumplir (entre otros)?",
+    "hu": "A fogyatékkal élők számára átalakított járműveknek milyen követelményeknek kell megfelelniük többek között?",
+    "answers": [
+      {
+        "original": "Deben ser más grandes que un vehículo de tamaño medio.",
+        "hu": "Nagyobbnak kell lenniük egy közepes méretű járműnél."
+      },
+      {
+        "original": "Deben estar pintados de un color especial.",
+        "hu": "Különleges színre kell festeni őket."
+      },
+      {
+        "original": "Deben prestar servicio de acuerdo con la normativa de accesibilidad.",
+        "hu": "A hozzáférhetőségi előírásoknak megfelelően kell szolgáltatniuk."
+      },
+      {
+        "original": "No es necesario que cumplan ningún requisito especial.",
+        "hu": "Nem szükséges semmilyen különleges követelménynek megfelelniük."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "seed-53",
+    "source": "Második 30-as blokk",
+    "module": "IV",
+    "q": "Respecto a los requisitos de los vehículos adscritos a autorizaciones VTC domiciliadas en la Comunidad de Madrid:",
+    "hu": "A Madridi Közösségben bejegyzett VTC engedélyekhez rendelt járművek követelményeivel kapcsolatban:",
+    "answers": [
+      {
+        "original": "Los vehículos no podrán continuar dedicados a la actividad de arrendamiento con conductor a partir de que alcancen una antigüedad superior a 15 años, como norma general.",
+        "hu": "A járművek általános szabályként nem használhatók tovább sofőrrel történő bérbeadásra, ha meghaladják a 15 éves kort."
+      },
+      {
+        "original": "Los vehículos a los que se adscriban las autorizaciones deberán estar residenciados en la Comunidad de Madrid.",
+        "hu": "Azoknak a járműveknek, amelyekhez az engedélyeket hozzárendelik, a Madridi Közösségben kell nyilvántartva lenniük."
+      },
+      {
+        "original": "Los vehículos deberán estar clasificados con el distintivo ambiental CERO EMISIONES, ECO, o grupo C.",
+        "hu": "A járműveknek CERO EMISIONES, ECO vagy C környezetvédelmi besorolással kell rendelkezniük."
+      },
+      {
+        "original": "Los vehículos no podrán tener más de 100 cv de potencia.",
+        "hu": "A járművek teljesítménye nem haladhatja meg a 100 lóerőt."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "seed-54",
+    "source": "Második 30-as blokk",
+    "module": "IV",
+    "q": "¿Qué tipo de prueba, entre otras, deben superar los conductores de vehículos de arrendamiento con conductor VTC para prestar servicios urbanos en la Comunidad de Madrid?",
+    "hu": "Milyen vizsgát kell többek között letenniük a VTC járművezetőknek ahhoz, hogy városi szolgáltatást nyújthassanak a Madridi Közösségben?",
+    "answers": [
+      {
+        "original": "Una prueba de conocimiento sobre manejo de dispositivos digitales con mapa de navegación, primeros auxilios y uso correcto del castellano.",
+        "hu": "Vizsgát a digitális eszközök és navigációs térképek használatából, elsősegélyből és a helyes spanyol nyelvhasználatból."
+      },
+      {
+        "original": "Una prueba de resistencia física.",
+        "hu": "Fizikai állóképességi vizsgát."
+      },
+      {
+        "original": "Una prueba psicotécnica.",
+        "hu": "Pszichotechnikai vizsgát."
+      },
+      {
+        "original": "Una prueba de conocimiento de primeros auxilios, de cultura general y de uso de mapas.",
+        "hu": "Vizsgát elsősegélyből, általános műveltségből és térképhasználatból."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "seed-55",
+    "source": "Második 30-as blokk",
+    "module": "IV",
+    "q": "Las empresas titulares de autorizaciones de transporte ¿qué necesitan para hacer contratos de transporte a distancia?",
+    "hu": "Mire van szükségük a közlekedési engedéllyel rendelkező vállalatoknak ahhoz, hogy távolléti fuvarszerződéseket kössenek?",
+    "answers": [
+      {
+        "original": "Un abogado en la empresa.",
+        "hu": "Egy ügyvédre a cégnél."
+      },
+      {
+        "original": "Dirección física.",
+        "hu": "Fizikai címre."
+      },
+      {
+        "original": "Dirección y firma electrónica.",
+        "hu": "Elektronikus címre és elektronikus aláírásra."
+      },
+      {
+        "original": "Estar dados de alta en el Registro de Contratos de Transporte a Distancia.",
+        "hu": "Szerepelniük kell a Távolléti Fuvarszerződések Nyilvántartásában."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "seed-56",
+    "source": "Második 30-as blokk",
+    "module": "IV",
+    "q": "Respecto al lugar de colocación de los distintivos que identifican un vehículo VTC ¿dónde deberán ir colocados en el vehículo?",
+    "hu": "A VTC járművet azonosító matricák elhelyezésével kapcsolatban hova kell kerülniük a járművön?",
+    "answers": [
+      {
+        "original": "Deberán colocarse ambos en la parte trasera del vehículo.",
+        "hu": "Mindkettőt a jármű hátuljára kell elhelyezni."
+      },
+      {
+        "original": "No deberán colocarse en las lunas/cristales de los vehículos para no interferir la visibilidad del conductor.",
+        "hu": "Nem szabad őket a jármű üvegfelületeire helyezni, hogy ne akadályozzák a sofőr kilátását."
+      },
+      {
+        "original": "Deberán colocarse en la parte superior izquierda de la luna delantera y en la parte inferior de la luna trasera del vehículo, respectivamente, de forma que resulten visibles desde el exterior.",
+        "hu": "A szélvédő bal felső részére, illetve a hátsó ablak alsó részére kell kerülniük úgy, hogy kívülről láthatók legyenek."
+      },
+      {
+        "original": "Deberán colocarse en la parte superior derecha de la luna delantera y en la parte inferior izquierda de la luna trasera del vehículo, respectivamente, de forma que resulten visibles desde el exterior.",
+        "hu": "A szélvédő jobb felső részére, illetve a hátsó ablak bal alsó részére kell kerülniük úgy, hogy kívülről láthatók legyenek."
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "seed-57",
+    "source": "Második 30-as blokk",
+    "module": "IV",
+    "q": "Los vehículos dedicados a la actividad de arrendamiento con conductor, entre otras condiciones, deberán cumplir que:",
+    "hu": "A sofőrrel történő bérbeadásra használt járműveknek többek között meg kell felelniük annak, hogy:",
+    "answers": [
+      {
+        "original": "En ningún caso, podrán permanecer estacionados en la vía pública.",
+        "hu": "Semmilyen esetben sem maradhatnak parkolva a közúton."
+      },
+      {
+        "original": "Podrán circular por las vías públicas en busca de clientes siempre y cuando no haya autotaxis libres en las inmediaciones.",
+        "hu": "Közlekedhetnek közutakon ügyfeleket keresve, amennyiben nincs szabad taxi a közelben."
+      },
+      {
+        "original": "En ningún caso, podrán circular por las vías públicas en busca de clientes ni propiciar la captación de personas viajeras que no hubiesen contratado previamente el servicio permaneciendo estacionados con este objeto.",
+        "hu": "Semmilyen esetben sem közlekedhetnek a közutakon ügyfeleket keresve, és nem toborozhatnak előzetesen nem szerződött utasokat azzal a céllal, hogy ezért parkolva várakoznak."
+      },
+      {
+        "original": "No podrán circular por las vías públicas durante la noche.",
+        "hu": "Éjszaka nem közlekedhetnek a közutakon."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "seed-58",
+    "source": "Második 30-as blokk",
+    "module": "IV",
+    "q": "Durante el desarrollo de un servicio contratado por plaza con pago individual se cumplirán, entre otras, las siguientes condiciones:",
+    "hu": "Az egyéni díjfizetéssel, ülőhelyenként szerződött szolgáltatás teljesítése során többek között az alábbi feltételek érvényesek:",
+    "answers": [
+      {
+        "original": "No se admitirán paradas intermedias, en ningún caso.",
+        "hu": "Köztes megállások semmilyen esetben sem engedélyezettek."
+      },
+      {
+        "original": "Se podrá abandonar el vehículo antes de llegar al punto de destino indicado pero no supondrá la finalización del servicio.",
+        "hu": "A jármű elhagyható a megadott célpont elérése előtt, de ez nem jelenti a szolgáltatás végét."
+      },
+      {
+        "original": "El itinerario será el que el usuario diga, sea o no el más adecuado.",
+        "hu": "Az útvonal az lesz, amit a felhasználó mond, függetlenül attól, hogy az a legmegfelelőbb-e."
+      },
+      {
+        "original": "El itinerario será el más directo o adecuado entre el inicio y el final del trayecto principal.",
+        "hu": "Az útvonal a fő utazás kezdő- és végpontja között a legközvetlenebb vagy legmegfelelőbb lesz."
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "seed-59",
+    "source": "Második 30-as blokk",
+    "module": "IV",
+    "q": "Para poder ejercer la profesión de conductor de vehículos de arrendamiento con conductor en la Comunidad de Madrid, se deberán cumplir (entre otras) las siguientes condiciones:",
+    "hu": "Ahhoz, hogy valaki a Madridi Közösségben VTC járművezetőként dolgozhasson, többek között az alábbi feltételeknek kell megfelelnie:",
+    "answers": [
+      {
+        "original": "Contar con el permiso de conducir de la clase B, con al menos dos años de antigüedad.",
+        "hu": "Rendelkeznie kell legalább két éve érvényes B kategóriás jogosítvánnyal."
+      },
+      {
+        "original": "Desempeñar simultáneamente otros trabajos que afecten a su capacidad física para la conducción o repercutan negativamente sobre la seguridad vial.",
+        "hu": "Ezzel párhuzamosan olyan más munkát végezhet, amely befolyásolja fizikai vezetési képességét vagy hátrányosan érinti a közlekedésbiztonságot."
+      },
+      {
+        "original": "No haber sido condenado por ningún delito contemplado en el Código Penal.",
+        "hu": "Nem lehetett elítélve a Büntető Törvénykönyvben szereplő semmilyen bűncselekményért."
+      },
+      {
+        "original": "Los conductores no es obligatorio que figuren en la plantilla de la empresa en situación de alta en el régimen de la seguridad social correspondiente.",
+        "hu": "A sofőröknek nem kötelező a cég állományában szerepelniük a megfelelő társadalombiztosítási rendszerbe bejelentve."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "seed-60",
+    "source": "Második 30-as blokk",
+    "module": "IV",
+    "q": "La pre-contratación del servicio se entiende como el establecimiento de un ______ entre la contratación y la prestación del servicio:",
+    "hu": "A szolgáltatás előzetes megrendelése alatt azt értjük, hogy a megrendelés és a szolgáltatás teljesítése között létrejön egy ______:",
+    "answers": [
+      {
+        "original": "Intervalo de tiempo mínimo.",
+        "hu": "Minimális időintervallum."
+      },
+      {
+        "original": "Acuerdo verbal.",
+        "hu": "Szóbeli megállapodás."
+      },
+      {
+        "original": "Pago inicial.",
+        "hu": "Kezdeti fizetés."
+      },
+      {
+        "original": "Contrato por escrito.",
+        "hu": "Írásbeli szerződés."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "seed-61",
+    "source": "Harmadik 30-as blokk",
+    "module": "I",
+    "q": "El gerente de la empresa explicó que implementar un sistema de reservas online permitiría a los clientes programar sus viajes con antelación y reduciría las llamadas al centro de atención. ¿Qué beneficio tendría el sistema de reservas online?",
+    "hu": "A cég vezetője elmagyarázta, hogy egy online foglalási rendszer bevezetése lehetővé tenné az ügyfelek számára, hogy előre megtervezzék utazásaikat, és csökkentené az ügyfélszolgálati központba érkező hívásokat. Milyen előnye lenne az online foglalási rendszernek?",
+    "answers": [
+      {
+        "original": "Eliminar el servicio.",
+        "hu": "Megszüntetné a szolgáltatást."
+      },
+      {
+        "original": "Subir el precio de los viajes.",
+        "hu": "Megemelné az utak árát."
+      },
+      {
+        "original": "Facilitar la planificación de viajes.",
+        "hu": "Megkönnyítené az utazások megtervezését."
+      },
+      {
+        "original": "Aumentar las llamadas al centro.",
+        "hu": "Növelné a központba érkező hívások számát."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "seed-62",
+    "source": "Harmadik 30-as blokk",
+    "module": "I",
+    "q": "Conseguir que una situación confusa se aclare y se entienda, significa :",
+    "hu": "Azt elérni, hogy egy zavaros helyzet tisztázódjon és érthetővé váljon, azt jelenti:",
+    "answers": [
+      {
+        "original": "Arrojar luz.",
+        "hu": "Fényt deríteni rá / megvilágítani."
+      },
+      {
+        "original": "Llamar al orden.",
+        "hu": "Rendre utasítani."
+      },
+      {
+        "original": "Poner en tela de juicio.",
+        "hu": "Kétségbe vonni."
+      },
+      {
+        "original": "Poner los puntos sobre las íes.",
+        "hu": "Pontot tenni az i-re / világosan tisztázni."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "seed-63",
+    "source": "Harmadik 30-as blokk",
+    "module": "I",
+    "q": "¿Cuál de las siguientes definiciones corresponde a cerebro?",
+    "hu": "Az alábbi meghatározások közül melyik felel meg az „agy” fogalmának?",
+    "answers": [
+      {
+        "original": "Órgano central del sistema nervioso que controla las funciones del cuerpo.",
+        "hu": "Az idegrendszer központi szerve, amely a test működéseit irányítja."
+      },
+      {
+        "original": "Parte del sistema digestivo que procesa los alimentos.",
+        "hu": "Az emésztőrendszer része, amely feldolgozza az élelmiszert."
+      },
+      {
+        "original": "Glándula que regula el metabolismo.",
+        "hu": "A mirigy, amely az anyagcserét szabályozza."
+      },
+      {
+        "original": "Órgano sensorial que detecta sonidos.",
+        "hu": "Érzékszerv, amely a hangokat érzékeli."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "seed-64",
+    "source": "Harmadik 30-as blokk",
+    "module": "I",
+    "q": "La expresión “Aprovechar la ocasión para beneficio propio” significa :",
+    "hu": "Az „alkalmat a saját előnyére kihasználni” kifejezés azt jelenti:",
+    "answers": [
+      {
+        "original": "Remar contra corriente.",
+        "hu": "Árral szemben evezni."
+      },
+      {
+        "original": "Pescar en río revuelto.",
+        "hu": "Zavarosban halászni."
+      },
+      {
+        "original": "Cruzar los dedos.",
+        "hu": "Szorítani valamiért / keresztbe tenni az ujjakat."
+      },
+      {
+        "original": "Echar leña al fuego.",
+        "hu": "Olajat önteni a tűzre."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "seed-65",
+    "source": "Harmadik 30-as blokk",
+    "module": "I",
+    "q": "El tráfico mejoró después de que la policía ___ la vía.",
+    "hu": "A forgalom javult, miután a rendőrség ___ az utat.",
+    "answers": [
+      {
+        "original": "Despejara.",
+        "hu": "felszabadította / szabaddá tette."
+      },
+      {
+        "original": "Despejará.",
+        "hu": "felszabadítja majd."
+      },
+      {
+        "original": "Despejaba.",
+        "hu": "felszabadította éppen."
+      },
+      {
+        "original": "Despejé.",
+        "hu": "felszabadítottam."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "seed-66",
+    "source": "Harmadik 30-as blokk",
+    "module": "I",
+    "q": "En la expresión “La jornada fue extenuante”, “extenuante” significa:",
+    "hu": "A „La jornada fue extenuante” („A nap kimerítő volt”) kifejezésben az „extenuante” („kimerítő”) jelentése:",
+    "answers": [
+      {
+        "original": "Muy rápida.",
+        "hu": "Nagyon gyors."
+      },
+      {
+        "original": "Muy cansada.",
+        "hu": "Nagyon fárasztó."
+      },
+      {
+        "original": "Muy laboriosa.",
+        "hu": "Nagyon munkaigényes."
+      },
+      {
+        "original": "Muy ardua.",
+        "hu": "Nagyon nehéz."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "seed-67",
+    "source": "Harmadik 30-as blokk",
+    "module": "I",
+    "q": "¿Cuál es el antónimo de “ exabrupto”?",
+    "hu": "Mi az „exabrupto” („durva kirohanás, tapintatlan megjegyzés”) ellentéte?",
+    "answers": [
+      {
+        "original": "Grosería.",
+        "hu": "Durvaság."
+      },
+      {
+        "original": "Corrección.",
+        "hu": "Udvariasság / helyes viselkedés."
+      },
+      {
+        "original": "Inconveniencia.",
+        "hu": "Tapintatlanság / illetlenség."
+      },
+      {
+        "original": "Brusquedad.",
+        "hu": "Nyerseség."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "seed-68",
+    "source": "Harmadik 30-as blokk",
+    "module": "I",
+    "q": "Expresión que describe a quien se esfuerza mucho, pero sin obtener resultado alguno:",
+    "hu": "Az a kifejezés, amely azt írja le, aki nagyon erőlködik, de semmilyen eredményt nem ér el:",
+    "answers": [
+      {
+        "original": "Nadar entre dos aguas.",
+        "hu": "Kétfelé játszani / két víz között úszni."
+      },
+      {
+        "original": "Nadar para morir en la orilla.",
+        "hu": "Úszni, hogy a parton haljon meg."
+      },
+      {
+        "original": "Nadar contracorriente.",
+        "hu": "Árral szemben úszni."
+      },
+      {
+        "original": "Nadar y guardar la ropa.",
+        "hu": "Úszni és szárazon tartani a ruhát / kétfelé biztosítani magát."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "seed-69",
+    "source": "Harmadik 30-as blokk",
+    "module": "I",
+    "q": "¿Qué palabra no guarda relación con el resto?",
+    "hu": "Melyik szó nem kapcsolódik a többihez?",
+    "answers": [
+      {
+        "original": "Trigo.",
+        "hu": "Búza."
+      },
+      {
+        "original": "Maíz.",
+        "hu": "Kukorica."
+      },
+      {
+        "original": "Acerola.",
+        "hu": "Acerola."
+      },
+      {
+        "original": "Cebada.",
+        "hu": "Árpa."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "seed-70",
+    "source": "Harmadik 30-as blokk",
+    "module": "I",
+    "q": "En la expresión “La crítica fue acerba”, “acerba” significa:",
+    "hu": "A „La crítica fue acerba” („A kritika éles/keserű volt”) kifejezésben az „acerba” („éles, keserű”) jelentése:",
+    "answers": [
+      {
+        "original": "Confusa y tibia.",
+        "hu": "Zavaros és visszafogott."
+      },
+      {
+        "original": "Dura y mordaz.",
+        "hu": "Kemény és maró."
+      },
+      {
+        "original": "Formal y neutra.",
+        "hu": "Formális és semleges."
+      },
+      {
+        "original": "Ligera y amable.",
+        "hu": "Enyhe és kedves."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "seed-71",
+    "source": "Harmadik 30-as blokk",
+    "module": "I",
+    "q": "¿Qué tipo de palabra es autosuficiente?",
+    "hu": "Milyen típusú szó az „autosuficiente” („önellátó, önmagában elegendő”)?",
+    "answers": [
+      {
+        "original": "Simple.",
+        "hu": "Egyszerű."
+      },
+      {
+        "original": "Derivada.",
+        "hu": "Származtatott."
+      },
+      {
+        "original": "Compuesta.",
+        "hu": "Összetett."
+      },
+      {
+        "original": "Parasintética",
+        "hu": "Paraszintetikus."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "seed-72",
+    "source": "Harmadik 30-as blokk",
+    "module": "I",
+    "q": "El cliente, cuyo equipaje estaba dañado, solicitó que se lo cambiara por otro, ___ no estaba en mi mano hacerlo.",
+    "hu": "Az ügyfél, akinek a poggyásza megsérült, kérte, hogy cseréljék ki egy másikra, ___ nem állt módomban ezt megtenni.",
+    "answers": [
+      {
+        "original": "Por más que.",
+        "hu": "Bármennyire is."
+      },
+      {
+        "original": "Aun cuando.",
+        "hu": "Még akkor is, ha."
+      },
+      {
+        "original": "Aunque.",
+        "hu": "Bár / noha."
+      },
+      {
+        "original": "A pesar de.",
+        "hu": "Annak ellenére, hogy."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "seed-73",
+    "source": "Harmadik 30-as blokk",
+    "module": "II",
+    "q": "En un sistema de navegación GPS integrado en el vehículo, ¿cuál es el procedimiento más adecuado para modificar la representación cartográfica (por ejemplo, vista 2D, 3D o modo satélite) sin alterar otros parámetros de configuración?",
+    "hu": "Egy járműbe épített GPS navigációs rendszerben mi a legmegfelelőbb módja a térkép megjelenítésének módosítására (például 2D, 3D vagy műholdnézet) anélkül, hogy más beállításokat megváltoztatnánk?",
+    "answers": [
+      {
+        "original": "Ajustar la configuración general de la pantalla del vehículo.",
+        "hu": "A jármű kijelzőjének általános beállításait kell módosítani."
+      },
+      {
+        "original": "Acceder al menú específico del GPS y seleccionar el tipo de mapa deseado.",
+        "hu": "Belépni a GPS külön menüjébe, és kiválasztani a kívánt térképtípust."
+      },
+      {
+        "original": "No es posible modificar el tipo de mapa en este sistema.",
+        "hu": "Ebben a rendszerben nem lehet megváltoztatni a térkép típusát."
+      },
+      {
+        "original": "Utilizar instrumentos analógicos como una brújula para complementar la orientación.",
+        "hu": "Analóg eszközöket, például iránytűt kell használni a tájékozódás kiegészítésére."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "seed-74",
+    "source": "Harmadik 30-as blokk",
+    "module": "II",
+    "q": "Si durante la planificación de un trayecto el GPS detecta una ruta saturada de tráfico, ¿qué actuación se considera más prudente antes de iniciar la marcha?",
+    "hu": "Ha az útvonal megtervezése során a GPS erősen forgalmas útvonalat észlel, mi számít a legkörültekintőbb lépésnek indulás előtt?",
+    "answers": [
+      {
+        "original": "Mantener la ruta inicial sin modificarla.",
+        "hu": "Módosítás nélkül megtartani az eredeti útvonalat."
+      },
+      {
+        "original": "Consultar y escoger una alternativa menos congestionada previo al desplazamiento.",
+        "hu": "Még indulás előtt megnézni és kiválasztani egy kevésbé zsúfolt alternatív útvonalat."
+      },
+      {
+        "original": "No atender a ninguna sugerencia del sistema.",
+        "hu": "Figyelmen kívül hagyni a rendszer minden javaslatát."
+      },
+      {
+        "original": "Detener el vehículo para buscar manualmente otro itinerario.",
+        "hu": "Megállítani a járművet, hogy kézzel keressen egy másik útvonalat."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "seed-75",
+    "source": "Harmadik 30-as blokk",
+    "module": "II",
+    "q": "¿Qué institución o servicio público de interés ciudadano se encuentra en la Calle de la Bolsa, número 8, en Madrid?",
+    "hu": "Melyik, az állampolgárok számára fontos intézmény vagy közszolgáltatás található Madridban, a Calle de la Bolsa 8. szám alatt?",
+    "answers": [
+      {
+        "original": "Sede del Ministerio de Industria y Energía.",
+        "hu": "Az Ipari és Energiaügyi Minisztérium székhelye."
+      },
+      {
+        "original": "Delegación del Ministerio de Agricultura, Pesca y Alimentación.",
+        "hu": "A Mezőgazdasági, Halászati és Élelmezésügyi Minisztérium kirendeltsége."
+      },
+      {
+        "original": "Oficina Central de Atención al Ciudadano del Ministerio de Justicia.",
+        "hu": "Az Igazságügyi Minisztérium Központi Lakossági Ügyfélszolgálati Irodája."
+      },
+      {
+        "original": "Representación diplomática española en la Unión Europea.",
+        "hu": "Spanyol diplomáciai képviselet az Európai Unióban."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "seed-76",
+    "source": "Harmadik 30-as blokk",
+    "module": "II",
+    "q": "Los vehículos de gas licuado de petróleo (GLP) deben tener el distintivo Eco para circular en una Zona de Bajas Emisiones (ZBE).",
+    "hu": "Az LPG-vel működő járműveknek Eco matricával kell rendelkezniük ahhoz, hogy alacsony kibocsátású zónában (ZBE) közlekedhessenek.",
+    "answers": [
+      {
+        "original": "Falso.",
+        "hu": "Hamis."
+      },
+      {
+        "original": "Solo con permiso especial.",
+        "hu": "Csak külön engedéllyel."
+      },
+      {
+        "original": "Solo durante el día.",
+        "hu": "Csak nappal."
+      },
+      {
+        "original": "Verdadero.",
+        "hu": "Igaz."
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "seed-77",
+    "source": "Harmadik 30-as blokk",
+    "module": "II",
+    "q": "Los conductores de vehículos sin distintivo ambiental no pueden circular en Zonas de Bajas Emisiones",
+    "hu": "A környezetvédelmi matrica nélküli járművek vezetői nem közlekedhetnek alacsony kibocsátású zónákban.",
+    "answers": [
+      {
+        "original": "Verdadero, con la excepción de los vehículos de las personas con movilidad reducida",
+        "hu": "Igaz, a csökkent mozgásképességű személyek járműveinek kivételével."
+      },
+      {
+        "original": "Falso.",
+        "hu": "Hamis."
+      },
+      {
+        "original": "Solo con permiso especial.",
+        "hu": "Csak külön engedéllyel."
+      },
+      {
+        "original": "Solo durante el día.",
+        "hu": "Csak nappal."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "seed-78",
+    "source": "Harmadik 30-as blokk",
+    "module": "II",
+    "q": "¿Junto a qué calles se ubica la Plaza de los Carros en Madrid?",
+    "hu": "Mely utcák mellett található a Plaza de los Carros Madridban?",
+    "answers": [
+      {
+        "original": "Calle de Don Pedro y Carrera de San Francisco.",
+        "hu": "A Don Pedro utca és a Carrera de San Francisco mellett."
+      },
+      {
+        "original": "Calle Gran Vía y Plaza de España.",
+        "hu": "A Gran Vía utca és a Plaza de España mellett."
+      },
+      {
+        "original": "Calle de Oriente y Plaza Mayor.",
+        "hu": "Az Oriente utca és a Plaza Mayor mellett."
+      },
+      {
+        "original": "Calle de Calatrava y Calle Toledo.",
+        "hu": "A Calatrava utca és a Toledo utca mellett."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "seed-79",
+    "source": "Harmadik 30-as blokk",
+    "module": "II",
+    "q": "¿Qué relación establece la Ley 7/2021, de Cambio Climático y Transición Energética, con las Zonas de Bajas Emisiones (ZBE)?",
+    "hu": "Milyen kapcsolatot állapít meg a 7/2021-es Klímaváltozási és Energetikai Átmeneti Törvény az alacsony kibocsátású zónákkal (ZBE)?",
+    "answers": [
+      {
+        "original": "La Ley 7/2021 obliga a crear ZBE en municipios de más de 50.000 habitantes.",
+        "hu": "A 7/2021-es törvény kötelezővé teszi ZBE létrehozását az 50 000 főnél nagyobb településeken."
+      },
+      {
+        "original": "Ambas proponen incrementar el uso de vehículos diésel.",
+        "hu": "Mindkettő a dízel járművek használatának növelését javasolja."
+      },
+      {
+        "original": "Ambas promueven el transporte público.",
+        "hu": "Mindkettő a közösségi közlekedést támogatja."
+      },
+      {
+        "original": "Reducir la contaminación del aire en áreas urbanas.",
+        "hu": "A városi területek levegőszennyezésének csökkentését."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "seed-80",
+    "source": "Harmadik 30-as blokk",
+    "module": "II",
+    "q": "Una etiqueta medioambiental de color azul con un 0 (cero) en su interior, ¿qué tipo de vehículos identifica?",
+    "hu": "A kék színű, belsejében 0 (nulla) jelöléssel ellátott környezetvédelmi matrica milyen típusú járműveket azonosít?",
+    "answers": [
+      {
+        "original": "Identifica a los vehículos pila de combustible.",
+        "hu": "Az üzemanyagcellás járműveket azonosítja."
+      },
+      {
+        "original": "Identifica a los vehículos diésel de última generación.",
+        "hu": "A legújabb generációs dízel járműveket azonosítja."
+      },
+      {
+        "original": "Identifica a los vehículos eléctricos enchufables con autonomía inferior a 40 km, vehículos híbridos no enchufables (HEV), vehículos propulsados por gas natural comprimido (GNC), gas natural licuado (GNL) o gas licuado del petróleo (GLP). Deben cumplir los criterios de la etiqueta C.",
+        "hu": "Azokat a tölthető elektromos járműveket azonosítja, amelyek hatótávja 40 km-nél kisebb, valamint a nem tölthető hibrideket (HEV), a sűrített földgázzal (CNG), cseppfolyós földgázzal (LNG) vagy LPG-vel hajtott járműveket. Meg kell felelniük a C matrica feltételeinek."
+      },
+      {
+        "original": "Identifica a los vehículos más eficientes. Tendrán derecho a esta etiqueta vehículos eléctricos de batería (BEV) , vehículos eléctricos de autonomía extendida (REEV), vehículos eléctricos híbridos enchufables (PHEV) con una autonomía de 40 km o vehículos de pila de combustible.",
+        "hu": "A leghatékonyabb járműveket azonosítja. Erre a matricára jogosultak az akkumulátoros elektromos járművek (BEV), a hatótávnövelt elektromos járművek (REEV), a legalább 40 km hatótávú plug-in hibridek (PHEV), valamint az üzemanyagcellás járművek."
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "seed-81",
+    "source": "Harmadik 30-as blokk",
+    "module": "II",
+    "q": "En la dirección Gran Vía 28 se ubica un edificio emblemático cuya relevancia histórica es destacada. ¿De cuál se trata y por qué motivo es reconocido?",
+    "hu": "A Gran Vía 28. szám alatt egy ikonikus épület található, amelynek történelmi jelentősége kiemelkedő. Melyik ez az épület, és miért ismert?",
+    "answers": [
+      {
+        "original": "La Torre de Madrid, uno de los edificios más emblemáticos del centro de laciudad de Madrid, fue durante años el rascacielos de hormigón más alto del mundo.",
+        "hu": "A Torre de Madrid, Madrid belvárosának egyik legismertebb épülete, éveken át a világ legmagasabb vasbeton felhőkarcolója volt."
+      },
+      {
+        "original": "La Torre Picasso, se convirtió en el edificio más alto de Madrid a partir de la fecha de su inauguración, en enero de 1989",
+        "hu": "A Torre Picasso 1989 januári megnyitásától kezdve Madrid legmagasabb épületévé vált."
+      },
+      {
+        "original": "Edificio Telefónica, fue el primer rascacielos de España, en el año 1930, el más alto de Europa en su momento.",
+        "hu": "A Telefónica épülete Spanyolország első felhőkarcolója volt, és 1930-ban Európa legmagasabb épületének számított."
+      },
+      {
+        "original": "Ninguna respuesta es correcta.",
+        "hu": "Egyik válasz sem helyes."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "seed-82",
+    "source": "Harmadik 30-as blokk",
+    "module": "II",
+    "q": "¿Qué edificio oficial se ilumina habitualmente de color blanco durante la noche en Madrid, y dónde se encuentra?",
+    "hu": "Melyik hivatalos épületet világítják meg rendszerint fehér színnel éjszaka Madridban, és hol található?",
+    "answers": [
+      {
+        "original": "La Puerta de Alcalá, y se encuentra en Alcalá de Henares",
+        "hu": "A Puerta de Alcalá, és Alcalá de Henaresben található."
+      },
+      {
+        "original": "La Cibeles, y se encuentra en Gran Vía",
+        "hu": "A Cibeles, és a Gran Víán található."
+      },
+      {
+        "original": "Banco de España, y se encuentra en Paseo de la Castellana",
+        "hu": "A Spanyol Bank, és a Paseo de la Castellanán található."
+      },
+      {
+        "original": "Palacio de Cibeles, y se encuentra en calle Alcalá",
+        "hu": "A Palacio de Cibeles, és az Alcalá utcában található."
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "seed-83",
+    "source": "Harmadik 30-as blokk",
+    "module": "II",
+    "q": "En la calle de la Cava baja número 35, ¿qué lugar podemos encontrar de interés?",
+    "hu": "A Cava Baja utca 35. szám alatt milyen érdekes helyet találhatunk?",
+    "answers": [
+      {
+        "original": "El restaurante Casa Lucio.",
+        "hu": "A Casa Lucio éttermet."
+      },
+      {
+        "original": "El restaurante El Espejo.",
+        "hu": "Az El Espejo éttermet."
+      },
+      {
+        "original": "El Museo Nacional del Prado.",
+        "hu": "A Prado Nemzeti Múzeumot."
+      },
+      {
+        "original": "La oficina central del Ayuntamiento de Madrid.",
+        "hu": "Madrid városházájának központi irodáját."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "seed-84",
+    "source": "Harmadik 30-as blokk",
+    "module": "II",
+    "q": "El dióxido de azufre, ¿con qué fórmula química se representa en los mapas de calidad del aire?",
+    "hu": "A kén-dioxidot milyen kémiai képlettel jelölik a levegőminőségi térképeken?",
+    "answers": [
+      {
+        "original": "CO2.",
+        "hu": "CO2."
+      },
+      {
+        "original": "SO2.",
+        "hu": "SO2."
+      },
+      {
+        "original": "O3.",
+        "hu": "O3."
+      },
+      {
+        "original": "H2O.",
+        "hu": "H2O."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "seed-85",
+    "source": "Harmadik 30-as blokk",
+    "module": "II",
+    "q": "Los vehículos de más de 8 plazas y pesados tanto de gasolina como diésel, matriculados desde 2014, ¿qué etiqueta medioambiental llevarán?",
+    "hu": "A 2014-től forgalomba helyezett, 8-nál több férőhelyes, illetve nehéz benzines és dízel járművek milyen környezetvédelmi matricát kapnak?",
+    "answers": [
+      {
+        "original": "La etiqueta \"C\", verde.",
+        "hu": "A zöld \"C\" matricát."
+      },
+      {
+        "original": "La etiqueta \"B\", amarilla.",
+        "hu": "A sárga \"B\" matricát."
+      },
+      {
+        "original": "La etiqueta \"ECO\".",
+        "hu": "Az \"ECO\" matricát."
+      },
+      {
+        "original": "La etiqueta azul.",
+        "hu": "A kék matricát."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "seed-86",
+    "source": "Harmadik 30-as blokk",
+    "module": "II",
+    "q": "El campus de Ciudad Universitaria en Madrid, alberga varias instituciones académicas. ¿Cuál de las siguientes tiene allí su sede principal?",
+    "hu": "A madridi Ciudad Universitaria campus több oktatási intézménynek ad otthont. Az alábbiak közül melyiknek van ott a fő székhelye?",
+    "answers": [
+      {
+        "original": "Universidad Carlos III.",
+        "hu": "Carlos III Egyetem."
+      },
+      {
+        "original": "Universidad Complutense de Madrid.",
+        "hu": "Madridi Complutense Egyetem."
+      },
+      {
+        "original": "IE University.",
+        "hu": "IE Egyetem."
+      },
+      {
+        "original": "Universidad de Alcalá.",
+        "hu": "Alcalái Egyetem."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "seed-87",
+    "source": "Harmadik 30-as blokk",
+    "module": "II",
+    "q": "¿Qué parque de Madrid destaca por su jardín histórico, un búnker de la Guerra Civil y un laberinto vegetal?",
+    "hu": "Madrid melyik parkja híres a történelmi kertjéről, egy polgárháborús bunkerről és növénylabirintusáról?",
+    "answers": [
+      {
+        "original": "Parque Juan Carlos I.",
+        "hu": "Juan Carlos I park."
+      },
+      {
+        "original": "Parque de Berlín.",
+        "hu": "Berlín park."
+      },
+      {
+        "original": "Parque El Capricho.",
+        "hu": "El Capricho park."
+      },
+      {
+        "original": "Parque de Atenas.",
+        "hu": "Atenas park."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "seed-88",
+    "source": "Harmadik 30-as blokk",
+    "module": "II",
+    "q": "En un nivel de alerta ( Escenario 5), ¿ quiénes pueden circular?:",
+    "hu": "Riasztási szint esetén (5. forgatókönyv) kik közlekedhetnek?",
+    "answers": [
+      {
+        "original": "Solo vehículos ECO.",
+        "hu": "Csak ECO járművek."
+      },
+      {
+        "original": "Sólo vehículos CERO y ECO.",
+        "hu": "Csak CERO és ECO járművek."
+      },
+      {
+        "original": "Todos los vehículos si pagan peaje.",
+        "hu": "Minden jármű, ha útdíjat fizet."
+      },
+      {
+        "original": "Ningún vehículo puede circular.",
+        "hu": "Egyetlen jármű sem közlekedhet."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "seed-89",
+    "source": "Harmadik 30-as blokk",
+    "module": "II",
+    "q": "¿Qué sitio de interés se encuentra en la Carrera de San Jerónimo s/n ?",
+    "hu": "Melyik nevezetesség található a Carrera de San Jerónimo szám nélküli címen?",
+    "answers": [
+      {
+        "original": "El Senado.",
+        "hu": "A Szenátus."
+      },
+      {
+        "original": "El hospital universitario Fundación Jiménez Díaz.",
+        "hu": "A Fundación Jiménez Díaz egyetemi kórház."
+      },
+      {
+        "original": "El Congreso de los Diputados.",
+        "hu": "A Képviselők Kongresszusa."
+      },
+      {
+        "original": "El estadio Santiago Bernabéu.",
+        "hu": "A Santiago Bernabéu stadion."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "seed-90",
+    "source": "Harmadik 30-as blokk",
+    "module": "II",
+    "q": "Al hablar de calidad del aire, los niveles de CO2 hacen referencia a la presencia ¿de qué tipo de gas?",
+    "hu": "A levegőminőségről beszélve a CO2-szintek milyen típusú gáz jelenlétére utalnak?",
+    "answers": [
+      {
+        "original": "Al oxígeno.",
+        "hu": "Az oxigénre."
+      },
+      {
+        "original": "Al monóxido de carbono.",
+        "hu": "A szén-monoxidra."
+      },
+      {
+        "original": "Al dióxido de carbono.",
+        "hu": "A szén-dioxidra."
+      },
+      {
+        "original": "Al nitrógeno.",
+        "hu": "A nitrogénre."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "seed-91",
+    "source": "Negyedik 30-as blokk",
+    "module": "III",
+    "q": "¿Cuál de las siguientes prácticas refleja de manera más completa un enfoque profesional de inclusión y diversidad en el servicio VTC?",
+    "hu": "Az alábbi gyakorlatok közül melyik tükrözi a legteljesebben a befogadás és a sokszínűség professzionális szemléletét a VTC szolgáltatásban?",
+    "answers": [
+      {
+        "original": "Aplicar preferencias de atención según la frecuencia con la que el cliente utilice el servicio.",
+        "hu": "A kiszolgálást az alapján előnyben részesíteni, milyen gyakran használja az ügyfél a szolgáltatást."
+      },
+      {
+        "original": "Garantizar un trato equitativo, imparcial y coherente para todos los usuarios, independientemente de su origen o condición.",
+        "hu": "Minden felhasználó számára egyenlő, pártatlan és következetes bánásmódot biztosítani, függetlenül a származásától vagy helyzetétől."
+      },
+      {
+        "original": "Atender únicamente las necesidades explícitas del cliente, ignorando cualquier sugerencia o reclamación.",
+        "hu": "Csak az ügyfél kifejezetten megfogalmazott igényeire figyelni, figyelmen kívül hagyva minden javaslatot vagy panaszt."
+      },
+      {
+        "original": "Ajustar tarifas o condiciones del servicio en función del perfil del pasajero, siempre que no lo note.",
+        "hu": "A viteldíjat vagy a szolgáltatás feltételeit az utas profilja alapján módosítani, feltéve hogy ezt nem veszi észre."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "seed-92",
+    "source": "Negyedik 30-as blokk",
+    "module": "III",
+    "q": "¿Qué comportamiento debe evitar estrictamente un conductor VTC al comunicarse con una persona con discapacidad auditiva?",
+    "hu": "Milyen viselkedést kell szigorúan kerülnie egy VTC sofőrnek, amikor hallássérült személlyel kommunikál?",
+    "answers": [
+      {
+        "original": "Utilizar jerga, tecnicismos o expresiones coloquiales que dificulten la comprensión del mensaje.",
+        "hu": "Szlenget, szakkifejezéseket vagy olyan köznyelvi fordulatokat használni, amelyek megnehezítik az üzenet megértését."
+      },
+      {
+        "original": "Vocalizar de manera clara y pausada sin elevar innecesariamente el volumen.",
+        "hu": "Tisztán és lassan artikulálni, anélkül hogy szükségtelenül felemelné a hangerőt."
+      },
+      {
+        "original": "Emplear frases directas y sencillas para facilitar la comunicación.",
+        "hu": "Közvetlen és egyszerű mondatokat használni a kommunikáció megkönnyítésére."
+      },
+      {
+        "original": "Mantener un contacto visual adecuado para permitir el apoyo en lectura labial.",
+        "hu": "Megfelelő szemkontaktust tartani, hogy segítse a szájról olvasást."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "seed-93",
+    "source": "Negyedik 30-as blokk",
+    "module": "III",
+    "q": "Tras un accidente, un pasajero presenta una quemadura química. ¿Cuál es la actuación inicial más adecuada por parte del conductor?",
+    "hu": "Baleset után egy utasnál vegyi égési sérülés jelentkezik. Mi a sofőr legmegfelelőbb első teendője?",
+    "answers": [
+      {
+        "original": "Aplicar cremas calmantes o ungüentos para minimizar el dolor.",
+        "hu": "Nyugtató krémeket vagy kenőcsöket alkalmazni a fájdalom csökkentésére."
+      },
+      {
+        "original": "Colocar un vendaje firme para limitar la exposición al agente químico.",
+        "hu": "Szoros kötést felhelyezni, hogy korlátozza a vegyi anyagnak való kitettséget."
+      },
+      {
+        "original": "Irrigar la zona afectada de inmediato con abundante agua durante al menos 20 minutos, evitando retirar restos adheridos.",
+        "hu": "Az érintett területet azonnal bő vízzel öblíteni legalább 20 percen át, kerülve a rátapadt maradványok eltávolítását."
+      },
+      {
+        "original": "Proporcionar líquidos para reducir su nivel de estrés y mantenerlo hidratado.",
+        "hu": "Folyadékot adni neki, hogy csökkentse a stresszt és hidratált maradjon."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "seed-94",
+    "source": "Negyedik 30-as blokk",
+    "module": "III",
+    "q": "Para garantizar la protección de los datos personales del pasajero, ¿qué debe priorizar el conductor?",
+    "hu": "Az utas személyes adatainak védelme érdekében mit kell előnyben részesítenie a sofőrnek?",
+    "answers": [
+      {
+        "original": "Facilitar información del cliente a terceros si lo requieren verbalmente.",
+        "hu": "Az ügyfél adatait harmadik félnek átadni, ha azt szóban kérik."
+      },
+      {
+        "original": "Ofrecer un servicio respetuoso, discreto y ajustado a la normativa de privacidad, sin recopilar datos innecesarios.",
+        "hu": "Tiszteletteljes, diszkrét és az adatvédelmi szabályoknak megfelelő szolgáltatást nyújtani, felesleges adatgyűjtés nélkül."
+      },
+      {
+        "original": "Omitir la lectura de políticas de protección de datos si ralentiza el servicio.",
+        "hu": "Mellőzni az adatvédelmi szabályzat elolvasását, ha az lassítja a szolgáltatást."
+      },
+      {
+        "original": "Guardar información en dispositivos personales sin medidas de seguridad adicionales.",
+        "hu": "Információt személyes eszközökön tárolni további biztonsági intézkedések nélkül."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "seed-95",
+    "source": "Negyedik 30-as blokk",
+    "module": "III",
+    "q": "En la conducción profesional de un vehículo VTC, ¿qué elemento resulta esencial para garantizar la seguridad del pasajero durante el trayecto?",
+    "hu": "A VTC jármű professzionális vezetése során mely elem elengedhetetlen az utas biztonságának garantálásához az út alatt?",
+    "answers": [
+      {
+        "original": "Incrementar la velocidad para optimizar tiempos y mejorar la experiencia del cliente.",
+        "hu": "Növelni a sebességet, hogy optimalizálja az időt és javítsa az ügyfél élményét."
+      },
+      {
+        "original": "Permitir que los pasajeros viajen sin cinturón de seguridad para mayor comodidad en recorridos cortos.",
+        "hu": "Megengedni, hogy az utasok biztonsági öv nélkül utazzanak rövid úton a nagyobb kényelem érdekében."
+      },
+      {
+        "original": "Relajar la atención a señales de tráfico cuando las condiciones parecen seguras.",
+        "hu": "Kevésbé figyelni a közlekedési jelzésekre, amikor a körülmények biztonságosnak tűnnek."
+      },
+      {
+        "original": "Cumplir rigurosamente con la normativa de seguridad vial y conducción preventiva.",
+        "hu": "Szigorúan betartani a közlekedésbiztonsági szabályokat és az előrelátó vezetés elveit."
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "seed-96",
+    "source": "Negyedik 30-as blokk",
+    "module": "III",
+    "q": "En caso de encontrar a una persona atrapada en un vehículo tras un accidente, ¿cuál es la actuación inicial correcta para un conductor VTC?",
+    "hu": "Ha egy baleset után valakit a járműbe szorulva talál a sofőr, mi a helyes első lépés egy VTC vezető részéről?",
+    "answers": [
+      {
+        "original": "Extraerla de inmediato, incluso sin material adecuado, para evitar mayores lesiones.",
+        "hu": "Azonnal kiszabadítani, még megfelelő felszerelés nélkül is, a súlyosabb sérülések elkerülése érdekében."
+      },
+      {
+        "original": "Mantener la calma y ofrecerle agua mientras llegan los servicios de emergencia.",
+        "hu": "Megőrizni a nyugalmat és vizet adni neki, amíg megérkeznek a mentők."
+      },
+      {
+        "original": "Conservar la calma, evaluar la situación sin manipular a la víctima y contactar de inmediato con los servicios de emergencia.",
+        "hu": "Nyugodtnak maradni, felmérni a helyzetet a sérült mozgatása nélkül, és azonnal értesíteni a mentőszolgálatot."
+      },
+      {
+        "original": "Mover el vehículo con cuidado para liberar a la persona lo antes posible.",
+        "hu": "Óvatosan megmozdítani a járművet, hogy az illetőt minél hamarabb kiszabadítsa."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "seed-97",
+    "source": "Negyedik 30-as blokk",
+    "module": "III",
+    "q": "Ante una herida con sangrado activo, ¿cuál es la medida de primeros auxilios que debe aplicarse en primera instancia?",
+    "hu": "Aktívan vérző sérülés esetén melyik elsősegélynyújtási intézkedést kell elsőként alkalmazni?",
+    "answers": [
+      {
+        "original": "Lavar la zona con agua y jabón antes de cualquier otro procedimiento.",
+        "hu": "A területet vízzel és szappannal lemosni bármilyen más eljárás előtt."
+      },
+      {
+        "original": "Aplicar presión directa con un paño o compresa limpia para intentar controlar la hemorragia.",
+        "hu": "Közvetlen nyomást gyakorolni egy tiszta ruhával vagy gézlappal a vérzés csillapítására."
+      },
+      {
+        "original": "Desinfectar inmediatamente con alcohol para reducir el riesgo de infección.",
+        "hu": "Azonnal alkohollal fertőtleníteni a fertőzésveszély csökkentése érdekében."
+      },
+      {
+        "original": "Ventilar la herida soplando para favorecer la coagulación.",
+        "hu": "A sebet fújással szellőztetni az alvadás elősegítésére."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "seed-98",
+    "source": "Negyedik 30-as blokk",
+    "module": "III",
+    "q": "Si una persona se encuentra atragantada y no puede hablar, toser ni respirar, ¿qué debe hacer el conductor?",
+    "hu": "Ha valaki félrenyelt, és nem tud beszélni, köhögni vagy lélegezni, mit kell tennie a sofőrnek?",
+    "answers": [
+      {
+        "original": "Ofrecer pequeños sorbos de agua para intentar disolver el obstáculo.",
+        "hu": "Kis kortyokban vizet adni, hogy megpróbálja feloldani az akadályt."
+      },
+      {
+        "original": "Ejecutar la maniobra de Heimlich de forma inmediata, siempre que se tenga formación básica.",
+        "hu": "Azonnal végrehajtani a Heimlich-féle műfogást, feltéve hogy rendelkezik alapvető képzéssel."
+      },
+      {
+        "original": "Esperar unos segundos a ver si logra expulsarlo con tos espontánea.",
+        "hu": "Várni néhány másodpercet, hátha spontán köhögéssel ki tudja lökni."
+      },
+      {
+        "original": "No intervenir y limitarse a llamar al 112.",
+        "hu": "Nem beavatkozni, és csak a 112-t hívni."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "seed-99",
+    "source": "Negyedik 30-as blokk",
+    "module": "III",
+    "q": "Un cliente acaba de llegar a una ciudad desconocida. ¿Qué tipo de información adicional puede resultar especialmente útil proporcionarle?",
+    "hu": "Egy ügyfél most érkezett meg egy ismeretlen városba. Milyen kiegészítő információ lehet különösen hasznos számára?",
+    "answers": [
+      {
+        "original": "Datos sobre otros conductores que operen en la zona.",
+        "hu": "A környéken dolgozó más sofőrökre vonatkozó adatok."
+      },
+      {
+        "original": "Recomendaciones sobre lugares de interés, restaurantes, zonas culturales, eventos locales, centros de negocios y oficinas públicas.",
+        "hu": "Ajánlások látnivalókról, éttermekről, kulturális helyszínekről, helyi eseményekről, üzleti központokról és hivatalokról."
+      },
+      {
+        "original": "Descripción técnica del vehículo y su mantenimiento.",
+        "hu": "A jármű műszaki leírása és karbantartása."
+      },
+      {
+        "original": "Información personal del conductor para “generar confianza”.",
+        "hu": "A sofőr személyes adatai a „bizalom kialakítása” érdekében."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "seed-100",
+    "source": "Negyedik 30-as blokk",
+    "module": "III",
+    "q": "En primeros auxilios aplicados a un accidente vial, ¿cómo debe realizarse la extracción de un herido de un vehículo cuando resulte estrictamente necesaria?",
+    "hu": "Közúti balesetnél alkalmazott elsősegély esetén hogyan kell a sérültet kivenni a járműből, ha ez feltétlenül szükséges?",
+    "answers": [
+      {
+        "original": "Manteniendo alineado el eje cabeza-cuello-tronco y efectuando la maniobra con extremo cuidado para evitar lesiones cervicales.",
+        "hu": "A fej–nyak–törzs tengelyét egyvonalban tartva, rendkívüli óvatossággal végrehajtva a műveletet a nyaki sérülések elkerülése érdekében."
+      },
+      {
+        "original": "Sacándolo rápidamente para evitar mayores daños.",
+        "hu": "Gyorsan kihúzva, hogy elkerülje a nagyobb károkat."
+      },
+      {
+        "original": "Extraerlo con rapidez para colocarlo en posición lateral de seguridad.",
+        "hu": "Gyorsan kiszedve, hogy stabil oldalfekvésbe helyezze."
+      },
+      {
+        "original": "Limitarse únicamente a colocarlo en posición lateral de seguridad sin valorar otros riesgos.",
+        "hu": "Csak stabil oldalfekvésbe helyezni anélkül, hogy más kockázatokat mérlegelne."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "seed-101",
+    "source": "Negyedik 30-as blokk",
+    "module": "III",
+    "q": "Ante un herido inconsciente en un accidente de tráfico, y no pudiendo supervisarlo porque es necesario atender a otras víctimas, ¿qué actuación resulta más adecuada?",
+    "hu": "Közlekedési balesetben megsérült, eszméletlen személy esetén, ha nem lehet őt felügyelni, mert más sérülteket is el kell látni, melyik intézkedés a legmegfelelőbb?",
+    "answers": [
+      {
+        "original": "Si la dinámica del accidente no sugiere riesgo de lesión medular, colocarlo en posición lateral de seguridad (PLS) para mantener la vía aérea permeable y reducir riesgo de aspiración.",
+        "hu": "Ha a baleset jellege nem utal gerincsérülés veszélyére, stabil oldalfekvésbe kell helyezni a légút átjárhatóságának fenntartása és az aspiráció kockázatának csökkentése érdekében."
+      },
+      {
+        "original": "Mantenerlo en decúbito supino para garantizar una ventilación más uniforme, salvo que presente vómitos.",
+        "hu": "Hanyatt fekve tartani, hogy egyenletesebb legyen a légzése, kivéve ha hány."
+      },
+      {
+        "original": "Evitar cualquier intervención adicional, dado que la inconsciencia no implica un riesgo inmediato si no hay sangrado.",
+        "hu": "Elkerülni minden további beavatkozást, mivel az eszméletlenség nem jelent azonnali veszélyt, ha nincs vérzés."
+      },
+      {
+        "original": "Tumbarlo boca arriba con las piernas elevadas para favorecer el retorno venoso mientras llega la ayuda sanitaria.",
+        "hu": "Hanyatt fektetni felemelt lábakkal a vénás visszaáramlás elősegítésére, amíg megérkezik a segítség."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "seed-102",
+    "source": "Negyedik 30-as blokk",
+    "module": "III",
+    "q": "Durante un trayecto, una pasajera embarazada inicia el trabajo de parto. ¿Cuál es el proceder más adecuado para el conductor?",
+    "hu": "Az út során egy várandós utasnál megindul a szülés. Mi a legmegfelelőbb eljárás a sofőr részéről?",
+    "answers": [
+      {
+        "original": "Contactar con el 112, mantener la calma y garantizar el máximo confort posible, evitando cualquier traslado apresurado.",
+        "hu": "Kapcsolatba lépni a 112-vel, megőrizni a nyugalmat, és a lehető legnagyobb kényelmet biztosítani, kerülve minden elhamarkodott szállítást."
+      },
+      {
+        "original": "Administrar un analgésico común para reducir su dolor y continuar el trayecto con normalidad.",
+        "hu": "Általános fájdalomcsillapítót adni neki a fájdalom csökkentésére, és normálisan folytatni az utat."
+      },
+      {
+        "original": "Acelerar hacia un centro sanitario mientras se le ofrece agua y se aplican paños fríos para disminuir el malestar.",
+        "hu": "Felgyorsítani az utat egy egészségügyi központ felé, miközben vizet adnak neki és hideg borogatást alkalmaznak a rosszullét csökkentésére."
+      },
+      {
+        "original": "Detener el vehículo, pedirle que descienda y esperar juntos la llegada del personal sanitario.",
+        "hu": "Megállítani a járművet, megkérni, hogy szálljon ki, és együtt várni az egészségügyi személyzet érkezését."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "seed-103",
+    "source": "Negyedik 30-as blokk",
+    "module": "III",
+    "q": "Cuando un cliente viaja con un perro guía, ¿qué acción debe evitar rigurosamente el conductor?",
+    "hu": "Amikor egy ügyfél vakvezető kutyával utazik, melyik cselekedetet kell szigorúan kerülnie a sofőrnek?",
+    "answers": [
+      {
+        "original": "Interactuar con el perro (acariciarlo, jugar o distraerlo), ya que podría alterar su función de asistencia y seguridad.",
+        "hu": "Kapcsolatba lépni a kutyával (simogatni, játszani vele vagy elterelni a figyelmét), mivel ez megzavarhatja a segítő és biztonsági funkcióját."
+      },
+      {
+        "original": "Permitir el acceso del perro al vehículo junto al usuario.",
+        "hu": "Megengedni, hogy a kutya a használójával együtt bejusson a járműbe."
+      },
+      {
+        "original": "Garantizar que el animal permanezca situado en un espacio confortable durante el trayecto.",
+        "hu": "Biztosítani, hogy az állat kényelmes helyen maradjon az út során."
+      },
+      {
+        "original": "Facilitar agua al perro antes de iniciar el desplazamiento si el cliente lo solicita.",
+        "hu": "Vizet adni a kutyának indulás előtt, ha az ügyfél ezt kéri."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "seed-104",
+    "source": "Negyedik 30-as blokk",
+    "module": "III",
+    "q": "En cuanto a la asistencia en Europa, ¿cuál de las siguientes afirmaciones es incorrecta?",
+    "hu": "Az európai segítségnyújtással kapcsolatban az alábbi állítások közül melyik helytelen?",
+    "answers": [
+      {
+        "original": "El número de emergencia 112 es válido en toda Europa.",
+        "hu": "A 112-es segélyhívó szám egész Európában érvényes."
+      },
+      {
+        "original": "No debemos utilizar el número de emergencia 112 en Europa, solo en nuestro país.",
+        "hu": "Nem szabad a 112-es segélyhívót használni Európában, csak a saját országunkban."
+      },
+      {
+        "original": "El 112 es el número de emergencia para solicitar ayuda en cualquier país de Europa.",
+        "hu": "A 112 az a segélyhívó szám, amelyen Európa bármely országában segítséget lehet kérni."
+      },
+      {
+        "original": "Es importante conocer el número de emergencia 112 cuando viajamos por Europa.",
+        "hu": "Fontos ismerni a 112-es segélyhívó számot, amikor Európában utazunk."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "seed-105",
+    "source": "Negyedik 30-as blokk",
+    "module": "III",
+    "q": "¿Qué medida contribuye de forma más eficaz a garantizar la confidencialidad y protección de datos de los clientes?",
+    "hu": "Mely intézkedés járul hozzá a leghatékonyabban az ügyfelek adatainak bizalmas kezeléséhez és védelméhez?",
+    "answers": [
+      {
+        "original": "Publicar en redes sociales información obtenida durante el servicio para mostrar experiencias laborales.",
+        "hu": "A szolgáltatás során szerzett információkat közzétenni a közösségi médiában a munkaélmények bemutatása érdekében."
+      },
+      {
+        "original": "Proteger los datos personales evitando su difusión, almacenamiento inadecuado o tratamiento no autorizado, cumpliendo la normativa vigente.",
+        "hu": "A személyes adatokat úgy védeni, hogy elkerülik azok terjesztését, nem megfelelő tárolását vagy jogosulatlan kezelését, a hatályos szabályok betartása mellett."
+      },
+      {
+        "original": "Intercambiar información de clientes con otros conductores para mejorar la coordinación del servicio.",
+        "hu": "Ügyfélinformációkat cserélni más sofőrökkel a szolgáltatás koordinációjának javítása érdekében."
+      },
+      {
+        "original": "Conservar imágenes o datos identificativos del cliente sin su consentimiento para futuros usos.",
+        "hu": "Az ügyfél képeit vagy azonosító adatait megőrizni a beleegyezése nélkül jövőbeli felhasználásra."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "seed-106",
+    "source": "Negyedik 30-as blokk",
+    "module": "III",
+    "q": "¿Cuál de los siguientes comportamientos NO refleja profesionalidad en un conductor VTC?",
+    "hu": "Az alábbi viselkedések közül melyik NEM tükrözi egy VTC sofőr professzionalizmusát?",
+    "answers": [
+      {
+        "original": "Cumplir estrictamente las normas de circulación, incluso bajo presión del cliente.",
+        "hu": "Szigorúan betartani a közlekedési szabályokat még az ügyfél nyomása alatt is."
+      },
+      {
+        "original": "Incumplir deliberadamente las normas de tráfico para agilizar el servicio o reducir tiempos.",
+        "hu": "Szándékosan megszegni a közlekedési szabályokat a szolgáltatás gyorsítása vagy az idő csökkentése érdekében."
+      },
+      {
+        "original": "Mantener una higiene personal y apariencia adecuadas al trato con el público.",
+        "hu": "A közönséggel való érintkezéshez megfelelő személyes higiéniát és megjelenést fenntartani."
+      },
+      {
+        "original": "Ajustar condiciones de confort dentro del vehículo según las necesidades del usuario.",
+        "hu": "A jármű kényelmi feltételeit a felhasználó igényeihez igazítani."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "seed-107",
+    "source": "Negyedik 30-as blokk",
+    "module": "III",
+    "q": "Si resulta estrictamente necesario trasladar a un herido en el vehículo VTC, ¿qué precaución debe priorizar el conductor?",
+    "hu": "Ha feltétlenül szükséges egy sérültet VTC járműben szállítani, milyen óvintézkedést kell elsődlegesen figyelembe vennie a sofőrnek?",
+    "answers": [
+      {
+        "original": "Ubicar al herido en los asientos traseros y asegurar el cinturón sin considerar otras limitaciones físicas.",
+        "hu": "A sérültet a hátsó ülésre helyezni és bekötni, más fizikai korlátok figyelembevétele nélkül."
+      },
+      {
+        "original": "Transportarlo en brazos con la cabeza extendida hacia atrás para facilitar la respiración.",
+        "hu": "Karban szállítani, hátrahajtott fejjel a légzés megkönnyítése érdekében."
+      },
+      {
+        "original": "Realizar cualquier movilización manteniendo el eje cabeza–cuello–tronco alineado, evitando torsiones y desplazamientos bruscos.",
+        "hu": "Minden mozgatást úgy végezni, hogy a fej–nyak–törzs tengely egyvonalban maradjon, elkerülve a csavarásokat és hirtelen mozdulatokat."
+      },
+      {
+        "original": "Superar los límites de velocidad para reducir el tiempo de llegada al centro médico.",
+        "hu": "Túllépni a sebességhatárokat, hogy csökkentse az egészségügyi központba érkezés idejét."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "seed-108",
+    "source": "Negyedik 30-as blokk",
+    "module": "III",
+    "q": "¿Por qué es beneficioso que el conductor conozca las vías principales de la ciudad y los destinos más solicitados?",
+    "hu": "Miért előnyös, ha a sofőr ismeri a város fő útvonalait és a leggyakrabban kért célállomásokat?",
+    "answers": [
+      {
+        "original": "No aporta beneficios reales, aunque puede resultar curioso conocer el entorno urbano.",
+        "hu": "Nem jár valódi előnyökkel, bár érdekes lehet ismerni a városi környezetet."
+      },
+      {
+        "original": "Incrementa la duración del trayecto, pero mejora la familiaridad con la ciudad.",
+        "hu": "Növeli az utazás idejét, de javítja a város ismeretét."
+      },
+      {
+        "original": "Optimiza el recorrido aunque pueda disminuir la frecuencia de clientes atendidos.",
+        "hu": "Optimalizálja az útvonalat, bár csökkentheti a kiszolgált ügyfelek számát."
+      },
+      {
+        "original": "Permite mejorar la eficiencia de los desplazamientos, reducir tiempos y aumentar la satisfacción del cliente.",
+        "hu": "Lehetővé teszi az utak hatékonyságának javítását, az idők csökkentését és az ügyfél-elégedettség növelését."
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "seed-109",
+    "source": "Negyedik 30-as blokk",
+    "module": "IV",
+    "q": "A los efectos de salvaguardar los derechos de las personas usuarias de este tipo de servicios (en VTC), las empresas con las que se realiza la contratación de los mismos deberán (entre otros requisitos):",
+    "hu": "Az ilyen típusú szolgáltatásokat igénybe vevő személyek jogainak védelme érdekében a velük szerződő vállalatoknak többek között az alábbi követelményeknek kell megfelelniük:",
+    "answers": [
+      {
+        "original": "Es recomendable que tengan hojas de reclamaciones.",
+        "hu": "Ajánlott, hogy legyen náluk panaszbejelentő nyomtatvány."
+      },
+      {
+        "original": "Contar, para las personas con discapacidad, con un medio accesible de comunicación vía web y con un número de atención telefónica accesible a través de texto.",
+        "hu": "Biztosítaniuk kell a fogyatékossággal élők számára hozzáférhető webes kommunikációs lehetőséget és szövegen keresztül elérhető telefonos ügyfélszolgálati számot."
+      },
+      {
+        "original": "Es recomendable llevar en los vehículos hojas de reclamaciones.",
+        "hu": "Ajánlott, hogy a járművekben legyen panaszbejelentő nyomtatvány."
+      },
+      {
+        "original": "No utilizar el nombre del usuario.",
+        "hu": "Nem szabad használni a felhasználó nevét."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "seed-110",
+    "source": "Negyedik 30-as blokk",
+    "module": "IV",
+    "q": "La normativa que regula la prestación del servicio en vehículos de alquiler con conductor VTC, ¿permite la realización de servicios de arrendamiento fuera del ámbito territorial legalmente establecido sin restricciones?",
+    "hu": "A VTC járműves szolgáltatásnyújtást szabályozó jogszabály megengedi-e, hogy a szolgáltatásokat a törvényesen meghatározott területi hatályon kívül korlátozás nélkül végezzék?",
+    "answers": [
+      {
+        "original": "No.",
+        "hu": "Nem."
+      },
+      {
+        "original": "Sí, lo permite sin poner ninguna restricción.",
+        "hu": "Igen, minden korlátozás nélkül megengedi."
+      },
+      {
+        "original": "Sí, pero sólo 90 días al año.",
+        "hu": "Igen, de csak évi 90 napig."
+      },
+      {
+        "original": "Sí, pero con restricciones.",
+        "hu": "Igen, de korlátozásokkal."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "seed-112",
+    "source": "Negyedik 30-as blokk",
+    "module": "IV",
+    "q": "Según la Ley 13/2021, la prestación de servicios mediante arrendamiento de vehículos con conductor VTC se considera:",
+    "hu": "A 13/2021-es törvény szerint a VTC járművekkel nyújtott szolgáltatás a következőnek minősül:",
+    "answers": [
+      {
+        "original": "Transporte público discrecional de viajeros.",
+        "hu": "Diszkrecionális közforgalmú személyszállítás."
+      },
+      {
+        "original": "Transporte público regular de viajeros.",
+        "hu": "Menetrend szerinti közforgalmú személyszállítás."
+      },
+      {
+        "original": "Transporte público discrecional mixto.",
+        "hu": "Vegyes diszkrecionális közforgalmú szállítás."
+      },
+      {
+        "original": "Transporte público regular de mercancías y viajeros",
+        "hu": "Menetrend szerinti közforgalmú áruszállítás és személyszállítás."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "seed-113",
+    "source": "Negyedik 30-as blokk",
+    "module": "IV",
+    "q": "¿Qué se considera una infracción muy grave en relación con los servicios de arrendamiento de vehículo con conductor, según la Ley 16/1987?",
+    "hu": "Mi minősül nagyon súlyos szabálysértésnek a sofőrrel bérelhető járművek szolgáltatásaival kapcsolatban az 16/1987-es törvény szerint?",
+    "answers": [
+      {
+        "original": "Ofrecer descuentos sin autorización.",
+        "hu": "Engedély nélkül kedvezményeket kínálni."
+      },
+      {
+        "original": "Recoger clientes sin pre-contratación.",
+        "hu": "Előzetes szerződés nélkül felvenni ügyfeleket."
+      },
+      {
+        "original": "Cobrar tarifas adicionales.",
+        "hu": "Kiegészítő díjakat felszámítani."
+      },
+      {
+        "original": "Promover servicios adicionales.",
+        "hu": "Kiegészítő szolgáltatásokat népszerűsíteni."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "seed-114",
+    "source": "Negyedik 30-as blokk",
+    "module": "IV",
+    "q": "Respecto al lugar de colocación de los distintivos que identifican un vehículo VTC ¿dónde deberán ir colocados en el vehículo?",
+    "hu": "A VTC járművet azonosító matricák elhelyezésével kapcsolatban hova kell azokat a járművön elhelyezni?",
+    "answers": [
+      {
+        "original": "Deberá colocarse uno en la parte delantera del vehículo y otro en la parte trasera.",
+        "hu": "Egyet a jármű elejére, egyet pedig a hátuljára kell tenni."
+      },
+      {
+        "original": "No deberán colocarse en las lunas/cristales de los vehículos para no interferir la visibilidad del conductor.",
+        "hu": "Nem szabad a jármű üvegfelületeire helyezni őket, hogy ne zavarják a sofőr kilátását."
+      },
+      {
+        "original": "Deberán colocarse en la parte superior izquierda de la luna delantera y en la parte inferior de la luna trasera del vehículo, respectivamente, de forma que resulten visibles desde el exterior.",
+        "hu": "A szélvédő bal felső részén, illetve a hátsó üveg alsó részén kell elhelyezni őket úgy, hogy kívülről láthatók legyenek."
+      },
+      {
+        "original": "Deberán colocarse en la parte superior derecha de la luna delantera y en la parte inferior izquierda de la luna trasera del vehículo, respectivamente, de forma que resulten visibles desde el exterior.",
+        "hu": "A szélvédő jobb felső részén, illetve a hátsó üveg bal alsó részén kell elhelyezni őket úgy, hogy kívülről láthatók legyenek."
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "seed-115",
+    "source": "Negyedik 30-as blokk",
+    "module": "IV",
+    "q": "Señala la respuesta correcta.",
+    "hu": "Jelölje meg a helyes választ.",
+    "answers": [
+      {
+        "original": "Las empresas no necesitan disponer de dirección y firma electrónica para documentar a distancia el contrato de transporte según el Decreto 5/2024.",
+        "hu": "A vállalatoknak nincs szükségük elektronikus címre és elektronikus aláírásra a fuvarszerződés távolléti dokumentálásához az 5/2024-es rendelet szerint."
+      },
+      {
+        "original": "Las empresas deben contar únicamente con una dirección física, sin necesidad de firma electrónica, según el Decreto 5/2024.",
+        "hu": "A vállalatoknak az 5/2024-es rendelet szerint elegendő csak fizikai címmel rendelkezniük, elektronikus aláírás nélkül."
+      },
+      {
+        "original": "Las empresas deben disponer de dirección y firma electrónica para documentar a distancia el contrato de transporte.",
+        "hu": "A vállalatoknak elektronikus címmel és elektronikus aláírással kell rendelkezniük a fuvarszerződés távolléti dokumentálásához."
+      },
+      {
+        "original": "Las empresas pueden documentar a distancia el contrato de transporte sin cumplir con las normativas del Decreto 5/2024.",
+        "hu": "A vállalatok anélkül is dokumentálhatják távollétben a fuvarszerződést, hogy megfelelnének az 5/2024-es rendelet előírásainak."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "seed-116",
+    "source": "Negyedik 30-as blokk",
+    "module": "IV",
+    "q": "¿Cuántos años, como máximo, pueden tener los vehículos destinados al arrendamiento con conductor?",
+    "hu": "Legfeljebb hány évesek lehetnek a sofőrrel történő bérbeadásra szánt járművek?",
+    "answers": [
+      {
+        "original": "Cinco años.",
+        "hu": "Öt év."
+      },
+      {
+        "original": "Quince años.",
+        "hu": "Tizenöt év."
+      },
+      {
+        "original": "Veinte años.",
+        "hu": "Húsz év."
+      },
+      {
+        "original": "Diez años.",
+        "hu": "Tíz év."
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "seed-118",
+    "source": "Negyedik 30-as blokk",
+    "module": "IV",
+    "q": "¿Qué no está permitido sobre las autorizaciones VTC según el Decreto 5/2024?",
+    "hu": "Mi nem megengedett a VTC engedélyekkel kapcsolatban az 5/2024-es rendelet szerint?",
+    "answers": [
+      {
+        "original": "Otorgarlas de forma conjunta a más de una persona física.",
+        "hu": "Közösen odaítélni őket egynél több természetes személynek."
+      },
+      {
+        "original": "Otorgarlas a una persona jurídica.",
+        "hu": "Jogi személynek odaítélni őket."
+      },
+      {
+        "original": "Otorgarlas a una sociedad limitada.",
+        "hu": "Korlátolt felelősségű társaságnak odaítélni őket."
+      },
+      {
+        "original": "Otorgarlas a una sociedad anónima.",
+        "hu": "Részvénytársaságnak odaítélni őket."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "seed-119",
+    "source": "Negyedik 30-as blokk",
+    "module": "IV",
+    "q": "¿Qué debe hacer el titular de la autorización VTC antes de iniciar un servicio de arrendamiento con conductor según la Ley 16/1987?",
+    "hu": "Mit kell tennie a VTC engedély jogosultjának, mielőtt megkezdene egy sofőrrel történő bérleti szolgáltatást az 16/1987-es törvény szerint?",
+    "answers": [
+      {
+        "original": "Obtener un permiso especial.",
+        "hu": "Külön engedélyt kell beszereznie."
+      },
+      {
+        "original": "Registrar el vehículo en la base de datos.",
+        "hu": "Nyilvántartásba kell vennie a járművet az adatbázisban."
+      },
+      {
+        "original": "Solicitar una inspección técnica.",
+        "hu": "Műszaki ellenőrzést kell kérnie."
+      },
+      {
+        "original": "Comunicar los datos del servicio por vía electrónica al Registro de Comunicaciones de los Servicios de Arrendamiento de Vehículos con Conductor.",
+        "hu": "Elektronikus úton közölnie kell a szolgáltatás adatait a Sofőrrel Történő Járműbérleti Szolgáltatások Kommunikációs Nyilvántartásával."
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "seed-120",
+    "source": "Negyedik 30-as blokk",
+    "module": "IV",
+    "q": "¿Puede considerarse la actividad de arrendamiento de vehículos con conductor como transporte privado regular?",
+    "hu": "Tekinthető-e a sofőrrel történő járműbérleti tevékenység rendszeres magánszállításnak?",
+    "answers": [
+      {
+        "original": "Sí, pero solo en áreas rurales.",
+        "hu": "Igen, de csak vidéki területeken."
+      },
+      {
+        "original": "No.",
+        "hu": "Nem."
+      },
+      {
+        "original": "No, excepto en días festivos.",
+        "hu": "Nem, kivéve ünnepnapokon."
+      },
+      {
+        "original": "No, pero sí en ciertos casos excepcionales.",
+        "hu": "Nem, de bizonyos kivételes esetekben igen."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "seed-121",
+    "source": "Ötödik 30-as blokk",
+    "module": "I",
+    "q": "¿Cuál es la forma correcta de entre las siguientes?",
+    "hu": "Az alábbiak közül melyik a helyes forma?",
+    "answers": [
+      {
+        "original": "Nosotros iremos al cine esta noche para ver una película.",
+        "hu": "Ma este elmegyünk a moziba megnézni egy filmet."
+      },
+      {
+        "original": "Nosotros vayamos al cine esta noche para ver una película.",
+        "hu": "Mi menjünk ma este a moziba megnézni egy filmet."
+      },
+      {
+        "original": "Nosotros fuésemos al cine esta noche para ver una película.",
+        "hu": "Mi mentünk volna ma este a moziba megnézni egy filmet."
+      },
+      {
+        "original": "Vosotros iremos al cine esta noche para ver una película.",
+        "hu": "Ti elmegyünk ma este a moziba megnézni egy filmet."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "seed-122",
+    "source": "Ötödik 30-as blokk",
+    "module": "I",
+    "q": "Elija la respuesta correcta, entre las siguientes, respecto a esta afirmación: “Si tengo más dinero ahorrado”",
+    "hu": "Válassza ki a helyes választ az alábbiak közül ehhez az állításhoz: „Ha több pénzem van félretéve”",
+    "answers": [
+      {
+        "original": "Hubieran invertido en un negocio propio.",
+        "hu": "Egy saját vállalkozásba fektettek volna."
+      },
+      {
+        "original": "Invertí en un negocio propio.",
+        "hu": "Egy saját vállalkozásba fektettem."
+      },
+      {
+        "original": "Puedo invertir en un negocio propio.",
+        "hu": "Befektethetek egy saját vállalkozásba."
+      },
+      {
+        "original": "Invertíamos en un negocio propio.",
+        "hu": "Egy saját vállalkozásba fektettünk."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "seed-123",
+    "source": "Ötödik 30-as blokk",
+    "module": "I",
+    "q": "¿Cuál es la forma correcta de entre las siguientes?",
+    "hu": "Az alábbiak közül melyik a helyes forma?",
+    "answers": [
+      {
+        "original": "Nosotros ser limpiando la casa antes de que lleguen los invitados.",
+        "hu": "Mi lenni takarítva a házat, mielőtt megérkeznek a vendégek."
+      },
+      {
+        "original": "Nosotros estamos limpiado la casa antes de que lleguen los invitados.",
+        "hu": "Mi most takarítva vagyunk a házat, mielőtt megérkeznek a vendégek."
+      },
+      {
+        "original": "Nosotros limpiado estamos la casa antes de que lleguen los invitados.",
+        "hu": "Mi kitakarítva vagyunk a házat, mielőtt megérkeznek a vendégek."
+      },
+      {
+        "original": "Nosotros estamos limpiando la casa antes de que lleguen los invitados.",
+        "hu": "Mi éppen a házat takarítjuk, mielőtt megérkeznek a vendégek."
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "seed-124",
+    "source": "Ötödik 30-as blokk",
+    "module": "I",
+    "q": "Elija la respuesta correcta, entre las siguientes, respecto a esta afirmación: “Cuando llegue a la oficina mañana”",
+    "hu": "Válassza ki a helyes választ az alábbiak közül ehhez az állításhoz: „Amikor holnap megérkezem az irodába”",
+    "answers": [
+      {
+        "original": "Revisaré los correos.",
+        "hu": "Átnézem az e-maileket."
+      },
+      {
+        "original": "Revisaste los correos.",
+        "hu": "Átnézted az e-maileket."
+      },
+      {
+        "original": "Revisé los correos.",
+        "hu": "Átnéztem az e-maileket."
+      },
+      {
+        "original": "Revisaba los correos.",
+        "hu": "Éppen az e-maileket néztem át."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "seed-125",
+    "source": "Ötödik 30-as blokk",
+    "module": "I",
+    "q": "Seleccione la opción correcta:",
+    "hu": "Válassza ki a helyes lehetőséget:",
+    "answers": [
+      {
+        "original": "¿Cuándo llegastes a Madrid?",
+        "hu": "Mikor érkeztél Madridba?"
+      },
+      {
+        "original": "¿Cuándo llegar a Madrid?",
+        "hu": "Mikor megérkezni Madridba?"
+      },
+      {
+        "original": "¿Cuándo llegaste a Madrid?",
+        "hu": "Mikor érkeztél Madridba?"
+      },
+      {
+        "original": "¿Cuándo llegando a Madrid?",
+        "hu": "Mikor érkezve Madridba?"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "seed-126",
+    "source": "Ötödik 30-as blokk",
+    "module": "I",
+    "q": "Elija la respuesta que sea correcta de entre las siguientes:",
+    "hu": "Válassza ki az alábbiak közül a helyes választ:",
+    "answers": [
+      {
+        "original": "Los perros están cabe su caseta.",
+        "hu": "A kutyák a kutyaházuk mellett vannak."
+      },
+      {
+        "original": "Los perros están dentro de su caseta.",
+        "hu": "A kutyák a kutyaházukban vannak."
+      },
+      {
+        "original": "Los perros están dentro su caseta.",
+        "hu": "A kutyák bent a kutyaházuk."
+      },
+      {
+        "original": "Los perros están fuera su caseta.",
+        "hu": "A kutyák kívül a kutyaházuk."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "seed-127",
+    "source": "Ötödik 30-as blokk",
+    "module": "I",
+    "q": "Elija la respuesta correcta, entre las siguientes, respecto a esta afirmación: “Estar como una regadera.”",
+    "hu": "Válassza ki a helyes választ az alábbiak közül ehhez a kifejezéshez: „Estar como una regadera” („nem teljesen normálisnak lenni / bolondosan viselkedni”).",
+    "answers": [
+      {
+        "original": "Estar loco o actuar de manera excéntrica.",
+        "hu": "Őrültnek lenni vagy különc módon viselkedni."
+      },
+      {
+        "original": "Estar serio o actuar de manera formal.",
+        "hu": "Komolynak lenni vagy formálisan viselkedni."
+      },
+      {
+        "original": "Estar mojado.",
+        "hu": "Nedvesnek lenni."
+      },
+      {
+        "original": "Hacer ejercicio.",
+        "hu": "Edzeni."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "seed-128",
+    "source": "Ötödik 30-as blokk",
+    "module": "I",
+    "q": "Indique el tiempo verbal pretérito imperfecto indicativo:",
+    "hu": "Jelölje meg a kijelentő mód folyamatos múlt idejét:",
+    "answers": [
+      {
+        "original": "Comer.",
+        "hu": "Enni."
+      },
+      {
+        "original": "Estuvimos jugando.",
+        "hu": "Játszottunk."
+      },
+      {
+        "original": "Conducíamos.",
+        "hu": "Vezettünk / éppen vezettünk."
+      },
+      {
+        "original": "Ninguna de las respuestas anteriores es correcta.",
+        "hu": "A fenti válaszok egyike sem helyes."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "seed-129",
+    "source": "Ötödik 30-as blokk",
+    "module": "I",
+    "q": "¿Qué palabra no es sinónimo de ‘valiente’?",
+    "hu": "Melyik szó nem szinonimája a „bátor” szónak?",
+    "answers": [
+      {
+        "original": "Intrépido.",
+        "hu": "Rettenthetetlen."
+      },
+      {
+        "original": "Aguerrido.",
+        "hu": "Harcedzett / bátor."
+      },
+      {
+        "original": "Melifluo.",
+        "hu": "Mézesmázos / nyájas."
+      },
+      {
+        "original": "Bravo.",
+        "hu": "Bátor / vitéz."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "seed-130",
+    "source": "Ötödik 30-as blokk",
+    "module": "I",
+    "q": "¿Qué pareja de palabras no significan lo mismo?",
+    "hu": "Melyik szókapcsolat nem ugyanazt jelenti?",
+    "answers": [
+      {
+        "original": "Pequeño-Diminuto.",
+        "hu": "Kicsi – apró."
+      },
+      {
+        "original": "Ancho-Extenso.",
+        "hu": "Széles – tágas / kiterjedt."
+      },
+      {
+        "original": "Fuerte-Débil.",
+        "hu": "Erős – gyenge."
+      },
+      {
+        "original": "Espacioso-Amplio.",
+        "hu": "Tágas – széles / bőséges."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "seed-131",
+    "source": "Ötödik 30-as blokk",
+    "module": "I",
+    "q": "¿Cuál de las siguientes definiciones corresponde a \"chasis\"?",
+    "hu": "Az alábbi meghatározások közül melyik felel meg a „chasis” („alváz”) szónak?",
+    "answers": [
+      {
+        "original": "Estructura principal de un vehículo que soporta todos los componentes.",
+        "hu": "A jármű fő szerkezete, amely az összes alkatrészt tartja."
+      },
+      {
+        "original": "Parte del vehículo que almacena combustible.",
+        "hu": "A jármű azon része, amely az üzemanyagot tárolja."
+      },
+      {
+        "original": "Componente que activa las luces delanteras.",
+        "hu": "Az első lámpákat működtető alkatrész."
+      },
+      {
+        "original": "Elemento que ajusta la inclinación del volante.",
+        "hu": "A kormány dőlésszögét állító elem."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "seed-132",
+    "source": "Ötödik 30-as blokk",
+    "module": "I",
+    "q": "¿Cuál de las siguientes definiciones corresponde a \"ajedrez\"?",
+    "hu": "Az alábbi meghatározások közül melyik felel meg az „ajedrez” („sakk”) szónak?",
+    "answers": [
+      {
+        "original": "Juego de mesa en el que dos jugadores mueven piezas en un tablero de 64 casillas.",
+        "hu": "Társasjáték, amelyben két játékos bábukat mozgat egy 64 mezős táblán."
+      },
+      {
+        "original": "Deporte en el que se utiliza arco y flechas.",
+        "hu": "Sportág, amelyben íjat és nyilakat használnak."
+      },
+      {
+        "original": "Juego de mesa en el que dos jugadores mueven piezas en un tablero de 60 casillas.",
+        "hu": "Társasjáték, amelyben két játékos bábukat mozgat egy 60 mezős táblán."
+      },
+      {
+        "original": "Entretenimiento en el que se resuelven acertijos matemáticos.",
+        "hu": "Szórakozás, amelyben matematikai rejtvényeket oldanak meg."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "seed-133",
+    "source": "Ötödik 30-as blokk",
+    "module": "II",
+    "q": "¿Qué función de una aplicación GPS es útil para evitar distracciones visuales?",
+    "hu": "A GPS-alkalmazás melyik funkciója hasznos a vizuális figyelemelterelés elkerülésére?",
+    "answers": [
+      {
+        "original": "La función de guía visual.",
+        "hu": "A vizuális útmutatás funkciója."
+      },
+      {
+        "original": "La función de zoom automático.",
+        "hu": "Az automatikus nagyítás funkciója."
+      },
+      {
+        "original": "La función de mapa en 3D.",
+        "hu": "A 3D térkép funkciója."
+      },
+      {
+        "original": "La función de comandos de voz.",
+        "hu": "A hangutasítások funkciója."
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "seed-134",
+    "source": "Ötödik 30-as blokk",
+    "module": "II",
+    "q": "¿Qué medida incluye el protocolo de actuación en alta contaminación?",
+    "hu": "Milyen intézkedést tartalmaz a magas légszennyezettség esetén alkalmazott protokoll?",
+    "answers": [
+      {
+        "original": "Restringir el acceso al transporte público.",
+        "hu": "A tömegközlekedéshez való hozzáférés korlátozása."
+      },
+      {
+        "original": "Restricciones de circulación.",
+        "hu": "Forgalomkorlátozások."
+      },
+      {
+        "original": "Promoción del uso de vehículos eléctricos.",
+        "hu": "Az elektromos járművek használatának ösztönzése."
+      },
+      {
+        "original": "Instalación de más zonas verdes.",
+        "hu": "Több zöldterület kialakítása."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "seed-135",
+    "source": "Ötödik 30-as blokk",
+    "module": "II",
+    "q": "¿Qué mercado madrileño es famoso por su arquitectura de hierro y cristal?",
+    "hu": "Melyik madridi piac híres a vas- és üvegépítészetéről?",
+    "answers": [
+      {
+        "original": "Mercado Maravillas.",
+        "hu": "Maravillas piac."
+      },
+      {
+        "original": "Mercado de Vallehermoso.",
+        "hu": "Vallehermoso piac."
+      },
+      {
+        "original": "Mercado de San Antón.",
+        "hu": "San Antón piac."
+      },
+      {
+        "original": "Mercado de San Miguel.",
+        "hu": "San Miguel piac."
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "seed-136",
+    "source": "Ötödik 30-as blokk",
+    "module": "II",
+    "q": "¿Qué famoso rastro madrileño se celebra los domingos y es conocido como uno de los mercados al aire libre más grandes de España?",
+    "hu": "Melyik híres madridi vásárt tartják vasárnaponként, és melyik ismert Spanyolország egyik legnagyobb szabadtéri piacaként?",
+    "answers": [
+      {
+        "original": "Mercado de San Miguel.",
+        "hu": "San Miguel piac."
+      },
+      {
+        "original": "El Rastro.",
+        "hu": "El Rastro."
+      },
+      {
+        "original": "Mercado de la Cebada.",
+        "hu": "Cebada piac."
+      },
+      {
+        "original": "Mercado de Antón Martín.",
+        "hu": "Antón Martín piac."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "seed-137",
+    "source": "Ötödik 30-as blokk",
+    "module": "II",
+    "q": "¿Qué plaza en Madrid alberga un rascacielos?",
+    "hu": "Madrid melyik tere ad otthont egy felhőkarcolónak?",
+    "answers": [
+      {
+        "original": "Plaza Pablo Ruiz Picasso.",
+        "hu": "Pablo Ruiz Picasso tér."
+      },
+      {
+        "original": "Plaza del Marqués de Salamanca.",
+        "hu": "Marqués de Salamanca tér."
+      },
+      {
+        "original": "Plaza Olavide.",
+        "hu": "Olavide tér."
+      },
+      {
+        "original": "Plaza Cataluña.",
+        "hu": "Cataluña tér."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "seed-138",
+    "source": "Ötödik 30-as blokk",
+    "module": "II",
+    "q": "¿Qué calle en Madrid es conocida por su concentración de teatros alternativos?",
+    "hu": "Madrid melyik utcája ismert az alternatív színházak nagy koncentrációjáról?",
+    "answers": [
+      {
+        "original": "Calle Serrano.",
+        "hu": "Serrano utca."
+      },
+      {
+        "original": "Calle Alberto Aguilera.",
+        "hu": "Alberto Aguilera utca."
+      },
+      {
+        "original": "Calle Lavapiés.",
+        "hu": "Lavapiés utca."
+      },
+      {
+        "original": "Calle Mayor.",
+        "hu": "Mayor utca."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "seed-139",
+    "source": "Ötödik 30-as blokk",
+    "module": "II",
+    "q": "El Palacio Real de Madrid está en la Calle de Bailén:",
+    "hu": "A madridi Királyi Palota a Calle de Bailén utcában található:",
+    "answers": [
+      {
+        "original": "Falso.",
+        "hu": "Hamis."
+      },
+      {
+        "original": "Verdadero.",
+        "hu": "Igaz."
+      },
+      {
+        "original": "Se encuentra en la Gran Vía.",
+        "hu": "A Gran Víán található."
+      },
+      {
+        "original": "Se encuentra en la Calle Serrano.",
+        "hu": "A Serrano utcában található."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "seed-140",
+    "source": "Ötödik 30-as blokk",
+    "module": "II",
+    "q": "¿En qué lugar de Madrid se encuentra el Museo Sorolla?",
+    "hu": "Madrid melyik helyén található a Sorolla Múzeum?",
+    "answers": [
+      {
+        "original": "Calle General Martínez Campos.",
+        "hu": "General Martínez Campos utca."
+      },
+      {
+        "original": "Calle Francisco Silvela.",
+        "hu": "Francisco Silvela utca."
+      },
+      {
+        "original": "Calle del Pintor Sorolla.",
+        "hu": "Pintor Sorolla utca."
+      },
+      {
+        "original": "Calle Conde de Peñalver.",
+        "hu": "Conde de Peñalver utca."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "seed-141",
+    "source": "Ötödik 30-as blokk",
+    "module": "II",
+    "q": "¿Qué calle de Madrid es famosa por sus tiendas de lujo y sus boutiques de alta moda?",
+    "hu": "Madrid melyik utcája híres a luxusüzleteiről és a magas divat butikjairól?",
+    "answers": [
+      {
+        "original": "Paseo de la Castellana.",
+        "hu": "Paseo de la Castellana."
+      },
+      {
+        "original": "Calle Poeta Joan Maragall.",
+        "hu": "Poeta Joan Maragall utca."
+      },
+      {
+        "original": "Calle Serrano.",
+        "hu": "Serrano utca."
+      },
+      {
+        "original": "Avenida de América.",
+        "hu": "América sugárút."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "seed-142",
+    "source": "Ötödik 30-as blokk",
+    "module": "II",
+    "q": "¿Qué se debe hacer para obtener el distintivo medioambiental Eco?",
+    "hu": "Mit kell tenni az Eco környezetvédelmi matrica megszerzéséhez?",
+    "answers": [
+      {
+        "original": "Tener un vehículo diésel Euro 3.",
+        "hu": "Euro 3-as dízel járművel kell rendelkezni."
+      },
+      {
+        "original": "Tener un vehículo de gasolina Euro 2.",
+        "hu": "Euro 2-es benzines járművel kell rendelkezni."
+      },
+      {
+        "original": "Tener un vehículo híbrido o de gas.",
+        "hu": "Hibrid vagy gázhajtású járművel kell rendelkezni."
+      },
+      {
+        "original": "Tener un vehículo eléctrico puro.",
+        "hu": "Tisztán elektromos járművel kell rendelkezni."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "seed-143",
+    "source": "Ötödik 30-as blokk",
+    "module": "II",
+    "q": "¿Cuál es una de las metas de la Ley 7/2021 en relación con las Zonas de Bajas Emisiones (ZBE) para el año 2030?",
+    "hu": "Mi a 7/2021-es törvény egyik célkitűzése az alacsony kibocsátású zónákkal (ZBE) kapcsolatban 2030-ra?",
+    "answers": [
+      {
+        "original": "Incrementar la construcción de edificios industriales.",
+        "hu": "Az ipari épületek építésének növelése."
+      },
+      {
+        "original": "Fomentar el uso de vehículos diésel.",
+        "hu": "A dízel járművek használatának ösztönzése."
+      },
+      {
+        "original": "Aumentar las tarifas de transporte.",
+        "hu": "A közlekedési díjak emelése."
+      },
+      {
+        "original": "Reducir las emisiones de CO2 en un 39,5%.",
+        "hu": "A CO2-kibocsátás 39,5%-os csökkentése."
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "seed-144",
+    "source": "Ötödik 30-as blokk",
+    "module": "II",
+    "q": "El Estadio Riyadh Air Metropolitano está ubicado cerca del Parque:",
+    "hu": "A Riyadh Air Metropolitano stadion melyik park közelében található?",
+    "answers": [
+      {
+        "original": "Eva Perón.",
+        "hu": "Eva Perón."
+      },
+      {
+        "original": "El Retiro.",
+        "hu": "El Retiro."
+      },
+      {
+        "original": "Juan Carlos I.",
+        "hu": "Juan Carlos I."
+      },
+      {
+        "original": "Tierno Galván.",
+        "hu": "Tierno Galván."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "seed-145",
+    "source": "Ötödik 30-as blokk",
+    "module": "II",
+    "q": "¿Qué tipo de infraestructura se promueve en las Zonas de Bajas Emisiones (ZBE) según la Ley 7/2021?",
+    "hu": "Milyen típusú infrastruktúrát támogatnak az alacsony kibocsátású zónákban (ZBE) a 7/2021-es törvény szerint?",
+    "answers": [
+      {
+        "original": "Infraestructura de autopistas.",
+        "hu": "Autópálya-infrastruktúrát."
+      },
+      {
+        "original": "Infraestructura de centros comerciales.",
+        "hu": "Bevásárlóközpont-infrastruktúrát."
+      },
+      {
+        "original": "Infraestructura de recarga.",
+        "hu": "Töltőinfrastruktúrát."
+      },
+      {
+        "original": "Expansión de zonas industriales.",
+        "hu": "Ipari területek bővítését."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "seed-146",
+    "source": "Ötödik 30-as blokk",
+    "module": "II",
+    "q": "¿Qué incentivo ofrece la Ley 7/2021 para promover el uso de vehículos eléctricos en las Zonas de Bajas Emisiones (ZBE)?",
+    "hu": "Milyen ösztönzőt kínál a 7/2021-es törvény az elektromos járművek használatának előmozdítására az alacsony kibocsátású zónákban (ZBE)?",
+    "answers": [
+      {
+        "original": "Descuentos en combustibles fósiles.",
+        "hu": "Kedvezményeket a fosszilis üzemanyagokra."
+      },
+      {
+        "original": "Aumento de las tarifas de estacionamiento",
+        "hu": "A parkolási díjak emelését."
+      },
+      {
+        "original": "Subvenciones para la compra de vehículos eléctricos.",
+        "hu": "Támogatásokat elektromos járművek vásárlására."
+      },
+      {
+        "original": "Eliminación de las zonas verdes.",
+        "hu": "A zöldterületek megszüntetését."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "seed-147",
+    "source": "Ötödik 30-as blokk",
+    "module": "II",
+    "q": "¿Qué distintivo medioambiental se otorga a los vehículos de gasolina Euro 3?",
+    "hu": "Milyen környezetvédelmi matrica jár az Euro 3-as benzines járműveknek?",
+    "answers": [
+      {
+        "original": "C.",
+        "hu": "C."
+      },
+      {
+        "original": "B.",
+        "hu": "B."
+      },
+      {
+        "original": "Eco.",
+        "hu": "Eco."
+      },
+      {
+        "original": "Cero emisiones.",
+        "hu": "Zéró kibocsátás."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "seed-148",
+    "source": "Ötödik 30-as blokk",
+    "module": "II",
+    "q": "¿Qué impacto tienen las Zonas de Bajas Emisiones (ZBE) en la calidad del aire?",
+    "hu": "Milyen hatással vannak az alacsony kibocsátású zónák (ZBE) a levegő minőségére?",
+    "answers": [
+      {
+        "original": "Contribuyen a la reducción de partículas.",
+        "hu": "Hozzájárulnak a részecskék mennyiségének csökkentéséhez."
+      },
+      {
+        "original": "Incrementan la contaminación del aire.",
+        "hu": "Növelik a levegőszennyezést."
+      },
+      {
+        "original": "No tienen ningún impacto.",
+        "hu": "Semmilyen hatásuk nincs."
+      },
+      {
+        "original": "Aumentan el uso de combustibles fósiles.",
+        "hu": "Növelik a fosszilis üzemanyagok használatát."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "seed-149",
+    "source": "Ötödik 30-as blokk",
+    "module": "II",
+    "q": "¿Qué distintivo medioambiental se otorga a los vehículos híbridos enchufables con una autonomía inferior a 40km?",
+    "hu": "Milyen környezetvédelmi matrica jár a 40 km-nél kisebb hatótávú plug-in hibrid járműveknek?",
+    "answers": [
+      {
+        "original": "Cero emisiones.",
+        "hu": "Zéró kibocsátás."
+      },
+      {
+        "original": "B.",
+        "hu": "B."
+      },
+      {
+        "original": "Eco.",
+        "hu": "Eco."
+      },
+      {
+        "original": "C.",
+        "hu": "C."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "seed-150",
+    "source": "Ötödik 30-as blokk",
+    "module": "II",
+    "q": "¿Qué deben hacer las autoridades locales para gestionar las Zonas de Bajas Emisiones (ZBE)?",
+    "hu": "Mit kell tenniük a helyi hatóságoknak az alacsony kibocsátású zónák (ZBE) kezeléséhez?",
+    "answers": [
+      {
+        "original": "Incrementar el uso de combustibles fósiles.",
+        "hu": "Növelni a fosszilis üzemanyagok használatát."
+      },
+      {
+        "original": "Eliminar los carriles bici.",
+        "hu": "Megszüntetni a kerékpársávokat."
+      },
+      {
+        "original": "Desarrollar planes de movilidad sostenible.",
+        "hu": "Fenntartható mobilitási terveket kidolgozni."
+      },
+      {
+        "original": "Aumentar las tarifas de estacionamiento.",
+        "hu": "Emelni a parkolási díjakat."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "seed-151",
+    "source": "Hatodik 30-as blokk",
+    "module": "III",
+    "q": "¿Qué debe hacer un conductor al recibir una queja del cliente?",
+    "hu": "Mit kell tennie a sofőrnek, ha panaszt kap egy ügyféltől?",
+    "answers": [
+      {
+        "original": "Ignorar la queja.",
+        "hu": "Figyelmen kívül hagyni a panaszt."
+      },
+      {
+        "original": "Culpar al cliente.",
+        "hu": "Az ügyfelet hibáztatni."
+      },
+      {
+        "original": "Escuchar con atención y mostrar empatía.",
+        "hu": "Figyelmesen meghallgatni és empátiát mutatni."
+      },
+      {
+        "original": "Llamar al 112.",
+        "hu": "Felhívni a 112-t."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "seed-152",
+    "source": "Hatodik 30-as blokk",
+    "module": "III",
+    "q": "¿Cómo debemos actuar si un herido presenta una hemorragia arterial?",
+    "hu": "Hogyan kell eljárni, ha a sérült artériás vérzést mutat?",
+    "answers": [
+      {
+        "original": "Esperar a que la hemorragia se detenga sola.",
+        "hu": "Megvárni, amíg a vérzés magától eláll."
+      },
+      {
+        "original": "Aplicar presión directa sobre la arteria afectada.",
+        "hu": "Közvetlen nyomást gyakorolni az érintett artériára."
+      },
+      {
+        "original": "Darle algo de beber para calmarlo.",
+        "hu": "Adni neki inni, hogy megnyugodjon."
+      },
+      {
+        "original": "Mover al herido para que esté más cómodo.",
+        "hu": "Mozgatni a sérültet, hogy kényelmesebben legyen."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "seed-153",
+    "source": "Hatodik 30-as blokk",
+    "module": "III",
+    "q": "Según el Real Decreto Legislativo 1/2013, ¿qué se debe hacer para asegurar la accesibilidad en la información para usuarios de vehículo de arrendamiento con conductor?",
+    "hu": "A 1/2013-as törvényerejű rendelet szerint mit kell tenni az információk hozzáférhetőségének biztosításához a VTC szolgáltatás felhasználói számára?",
+    "answers": [
+      {
+        "original": "Proporcionar información en varios idiomas.",
+        "hu": "Több nyelven információt biztosítani."
+      },
+      {
+        "original": "Proporcionar información en formatos accesibles como braille y audio.",
+        "hu": "Hozzáférhető formátumokban (pl. braille, hang) információt biztosítani."
+      },
+      {
+        "original": "Utilizar gráficos y diagramas.",
+        "hu": "Grafikonokat és diagramokat használni."
+      },
+      {
+        "original": "Ofrecer información en línea.",
+        "hu": "Online információt biztosítani."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "seed-155",
+    "source": "Hatodik 30-as blokk",
+    "module": "III",
+    "q": "¿Qué debemos hacer si una persona tiene una herida en el pecho en un accidente de tráfico?",
+    "hu": "Mit kell tenni, ha egy személynek mellkasi sérülése van közlekedési balesetben?",
+    "answers": [
+      {
+        "original": "Lavar la herida con agua.",
+        "hu": "Megmosni a sebet vízzel."
+      },
+      {
+        "original": "Aplicar hielo en la herida.",
+        "hu": "Jeget tenni a sebre."
+      },
+      {
+        "original": "Darle un analgésico.",
+        "hu": "Fájdalomcsillapítót adni neki."
+      },
+      {
+        "original": "Cubrir la herida con un paño limpio y llamar a los servicios de emergencia.",
+        "hu": "Letakarni a sebet tiszta ruhával és hívni a mentőket."
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "seed-156",
+    "source": "Hatodik 30-as blokk",
+    "module": "III",
+    "q": "¿Cuál es el primer paso para evaluar el nivel de consciencia de un herido?",
+    "hu": "Mi az első lépés egy sérült tudatállapotának felméréséhez?",
+    "answers": [
+      {
+        "original": "Tomarle la presión arterial.",
+        "hu": "Megmérni a vérnyomását."
+      },
+      {
+        "original": "Aplicar frío en su frente.",
+        "hu": "Hideget tenni a homlokára."
+      },
+      {
+        "original": "Moverlo para ver si reacciona.",
+        "hu": "Mozgatni, hogy reagál-e."
+      },
+      {
+        "original": "Hablarle en voz alta y observar su reacción.",
+        "hu": "Hangosan beszélni hozzá és figyelni a reakcióját."
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "seed-157",
+    "source": "Hatodik 30-as blokk",
+    "module": "III",
+    "q": "¿Qué debemos hacer para mantener el eje cabeza-cuello-tronco de un herido?",
+    "hu": "Mit kell tenni a fej–nyak–törzs tengelyének megtartásához egy sérültnél?",
+    "answers": [
+      {
+        "original": "Colocar al herido en posición lateral de seguridad.",
+        "hu": "Stabil oldalfekvésbe helyezni."
+      },
+      {
+        "original": "Darle algo de beber para calmarlo.",
+        "hu": "Itatni, hogy megnyugodjon."
+      },
+      {
+        "original": "Realizar maniobras de RCP.",
+        "hu": "Újraélesztést végezni."
+      },
+      {
+        "original": "Evitar mover al herido y mantener su cabeza alineada con el cuerpo.",
+        "hu": "Kerülni a mozgatását és a fejét a testtel egy vonalban tartani."
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "seed-158",
+    "source": "Hatodik 30-as blokk",
+    "module": "III",
+    "q": "En cuanto a la evaluación inicial de un herido, ¿cuál de las siguientes afirmaciones es incorrecta?",
+    "hu": "A sérült elsődleges vizsgálatával kapcsolatban melyik állítás helytelen?",
+    "answers": [
+      {
+        "original": "El protocolo ABC incluye la evaluación de la vía aérea, la respiración y la circulación.",
+        "hu": "Az ABC protokoll tartalmazza a légút, légzés és keringés vizsgálatát."
+      },
+      {
+        "original": "No debemos seguir el protocolo ABC sin la presencia de un médico.",
+        "hu": "Nem szabad az ABC protokollt alkalmazni orvos jelenléte nélkül."
+      },
+      {
+        "original": "El protocolo ABC es esencial para la evaluación inicial de un herido.",
+        "hu": "Az ABC protokoll alapvető a kezdeti vizsgálathoz."
+      },
+      {
+        "original": "El protocolo ABC debe realizarse antes de cualquier otra intervención.",
+        "hu": "Az ABC protokollt minden más beavatkozás előtt kell elvégezni."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "seed-159",
+    "source": "Hatodik 30-as blokk",
+    "module": "III",
+    "q": "¿Cómo debe manejar un conductor una emergencia médica de un pasajero?",
+    "hu": "Hogyan kezelje a sofőr az utas egészségügyi vészhelyzetét?",
+    "answers": [
+      {
+        "original": "Llegar al destino y llamar a los servicios de emergencia.",
+        "hu": "Eljutni a célhoz, majd hívni a mentőket."
+      },
+      {
+        "original": "Continuar conduciendo hasta el hospital más cercano.",
+        "hu": "Továbbvezetni a legközelebbi kórházig."
+      },
+      {
+        "original": "Calmar al pasajero y seguir hasta el destino.",
+        "hu": "Megnyugtatni az utast és folytatni az utat."
+      },
+      {
+        "original": "Detenerse en un lugar seguro y llamar a los servicios de emergencia.",
+        "hu": "Biztonságos helyen megállni és mentőt hívni."
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "seed-160",
+    "source": "Hatodik 30-as blokk",
+    "module": "III",
+    "q": "¿Qué debemos hacer si un pasajero presenta una herida en el tórax?",
+    "hu": "Mit kell tenni, ha az utasnak mellkasi sérülése van?",
+    "answers": [
+      {
+        "original": "Cubrir la herida con un apósito estéril y llamar a los servicios de emergencia.",
+        "hu": "Steril kötéssel lefedni és mentőt hívni."
+      },
+      {
+        "original": "Cubrir la herida con un apósito estéril y llevarle al hospital más cercano.",
+        "hu": "Steril kötéssel lefedni és kórházba vinni."
+      },
+      {
+        "original": "Cubrir la herida con un apósito estéril y avisar a sus familiares para obtener su consentimiento .",
+        "hu": "Steril kötéssel lefedni és értesíteni a családját."
+      },
+      {
+        "original": "Cubrir la herida con un apósito estéril y darle un analgésico.",
+        "hu": "Steril kötéssel lefedni és fájdalomcsillapítót adni."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "seed-161",
+    "source": "Hatodik 30-as blokk",
+    "module": "III",
+    "q": "¿Qué debe hacer un conductor de vehículo de arrendamiento con conductor si un pasajero con discapacidad auditiva no puede escuchar las indicaciones?",
+    "hu": "Mit kell tennie egy VTC sofőrnek, ha egy hallássérült utas nem hallja az utasításokat?",
+    "answers": [
+      {
+        "original": "Hablar más fuerte.",
+        "hu": "Hangosabban beszélni."
+      },
+      {
+        "original": "Utilizar gestos exagerados.",
+        "hu": "Túlzó gesztusokat használni."
+      },
+      {
+        "original": "Proporcionar un manual de instrucciones.",
+        "hu": "Használati útmutatót adni."
+      },
+      {
+        "original": "Utilizar lenguaje de señas o escribir las indicaciones.",
+        "hu": "Jelnyelvet használni vagy leírni az utasításokat."
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "seed-162",
+    "source": "Hatodik 30-as blokk",
+    "module": "III",
+    "q": "¿Cuál es la normativa que establece las condiciones básicas de accesibilidad para la utilización de los modos de transporte para personas con discapacidad?",
+    "hu": "Mely jogszabály határozza meg az akadálymentes közlekedés alapfeltételeit fogyatékkal élők számára?",
+    "answers": [
+      {
+        "original": "El RD 193/2023",
+        "hu": "193/2023-as királyi rendelet"
+      },
+      {
+        "original": "La Ley 51/2003.",
+        "hu": "51/2003-as törvény"
+      },
+      {
+        "original": "El Acta Europea de Accesibilidad.",
+        "hu": "Európai akadálymentesítési törvény"
+      },
+      {
+        "original": "El RD 1544/2007.",
+        "hu": "1544/2007-es királyi rendelet"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "seed-163",
+    "source": "Hatodik 30-as blokk",
+    "module": "III",
+    "q": "¿Qué establece el Real Decreto Legislativo 1/2013 sobre la igualdad de oportunidades en el uso de vehículo de arrendamiento con conductor?",
+    "hu": "Mit mond a 1/2013-as törvényerejű rendelet az esélyegyenlőségről VTC használat esetén?",
+    "answers": [
+      {
+        "original": "Las personas con discapacidad deben recibir asistencia financiera.",
+        "hu": "A fogyatékkal élők pénzügyi támogatást kell kapjanak."
+      },
+      {
+        "original": "Las personas con discapacidad deben tener acceso prioritario a servicios públicos.",
+        "hu": "Elsőbbséget kell kapjanak a közszolgáltatásoknál."
+      },
+      {
+        "original": "Las personas con discapacidad deben estar exentas de impuestos.",
+        "hu": "Adómentességet kell kapjanak."
+      },
+      {
+        "original": "Las personas con discapacidad deben tener las mismas oportunidades que el resto de la población.",
+        "hu": "Ugyanolyan esélyekkel kell rendelkezniük, mint másoknak."
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "seed-164",
+    "source": "Hatodik 30-as blokk",
+    "module": "III",
+    "q": "¿Por qué es importante que un conductor esté informado sobre eventos locales?",
+    "hu": "Miért fontos, hogy a sofőr tisztában legyen a helyi eseményekkel?",
+    "answers": [
+      {
+        "original": "Para reducir el tiempo de viaje.",
+        "hu": "Az utazási idő csökkentése érdekében."
+      },
+      {
+        "original": "Para evitar hablar con el cliente.",
+        "hu": "Hogy ne kelljen beszélni az utassal."
+      },
+      {
+        "original": "Para ofrecer recomendaciones y evitar áreas congestionadas.",
+        "hu": "Ajánlások adása és a forgalmas területek elkerülése miatt."
+      },
+      {
+        "original": "Para aumentar las tarifas del servicio.",
+        "hu": "Az árak növelése érdekében."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "seed-165",
+    "source": "Hatodik 30-as blokk",
+    "module": "III",
+    "q": "En el contexto de un examen neurológico, ¿cuál de las siguientes afirmaciones es incorrecta?",
+    "hu": "Neurológiai vizsgálat esetén melyik állítás helytelen?",
+    "answers": [
+      {
+        "original": "El examen neurológico incluye la evaluación de la respuesta a estímulos verbales y físicos.",
+        "hu": "A vizsgálat tartalmazza a verbális és fizikai ingerekre adott reakciókat."
+      },
+      {
+        "original": "La técnica de relleno capilar se utiliza para evaluar la circulación sanguínea.",
+        "hu": "A kapilláris telődés a keringés vizsgálatára szolgál."
+      },
+      {
+        "original": "No debemos evaluar la frecuencia respiratoria normal de un herido sin la presencia de un médico.",
+        "hu": "Nem szabad légzésszámot vizsgálni orvos nélkül."
+      },
+      {
+        "original": "Es importante comprobar la frecuencia respiratoria normal para evaluar el estado del herido.",
+        "hu": "Fontos a légzésszám ellenőrzése."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "seed-166",
+    "source": "Hatodik 30-as blokk",
+    "module": "III",
+    "q": "¿Por qué es importante fomentar la autonomía de los pasajeros con discapacidades?",
+    "hu": "Miért fontos támogatni a fogyatékkal élő utasok önállóságát?",
+    "answers": [
+      {
+        "original": "Para evitar problemas legales.",
+        "hu": "Jogi problémák elkerülése miatt."
+      },
+      {
+        "original": "Para mejorar la reputación del servicio.",
+        "hu": "A szolgáltatás hírnevének javítása miatt."
+      },
+      {
+        "original": "Para recibir feedbacks positivos.",
+        "hu": "Pozitív visszajelzések miatt."
+      },
+      {
+        "original": "Para respetar su independencia y dignidad.",
+        "hu": "Az önállóság és méltóság tisztelete miatt."
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "seed-167",
+    "source": "Hatodik 30-as blokk",
+    "module": "III",
+    "q": "Según la definición, ¿qué grado de discapacidad debe tener una persona para ser considerada con discapacidad?",
+    "hu": "Mekkora fogyatékossági foktól számít valaki fogyatékkal élőnek?",
+    "answers": [
+      {
+        "original": "Al menos un 1%.",
+        "hu": "Legalább 1%."
+      },
+      {
+        "original": "Exactamente el 52 %.",
+        "hu": "Pontosan 52%."
+      },
+      {
+        "original": "Mayor o igual al 33 %.",
+        "hu": "Legalább 33%."
+      },
+      {
+        "original": "Mayor o igual al 92 %.",
+        "hu": "Legalább 92%."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "seed-168",
+    "source": "Hatodik 30-as blokk",
+    "module": "III",
+    "q": "¿Qué debería hacer un conductor de VTC para facilitar el viaje a un pasajero que utiliza un dispositivo de asistencia para caminar?",
+    "hu": "Mit kell tennie a sofőrnek, ha az utas járást segítő eszközt használ?",
+    "answers": [
+      {
+        "original": "Solicitarle que deje el dispositivo fuera del vehículo.",
+        "hu": "Megkérni, hogy hagyja kint az eszközt."
+      },
+      {
+        "original": "Ignorar la presencia del dispositivo y continuar con el trayecto.",
+        "hu": "Figyelmen kívül hagyni az eszközt."
+      },
+      {
+        "original": "Cobrar un recargo por llevar el dispositivo en el vehículo.",
+        "hu": "Felárat felszámolni."
+      },
+      {
+        "original": "Ayudar al pasajero a guardar su dispositivo de asistencia de forma segura durante el trayecto.",
+        "hu": "Segíteni biztonságosan elhelyezni az eszközt."
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "seed-169",
+    "source": "Hatodik 30-as blokk",
+    "module": "IV",
+    "q": "Según la Ley 13/2021, ¿ la realización de servicios de arrendamiento de vehículos con conductor fuera del ámbito territorial legalmente establecido se considera una infracción?",
+    "hu": "A 13/2021 törvény szerint szabálysértés-e a területen kívüli VTC szolgáltatás?",
+    "answers": [
+      {
+        "original": "Sí, siempre.",
+        "hu": "Igen, mindig."
+      },
+      {
+        "original": "Sí, salvo que la empresa lo solicite.",
+        "hu": "Igen, kivéve ha a cég kéri."
+      },
+      {
+        "original": "Depende del caso.",
+        "hu": "Esetfüggő."
+      },
+      {
+        "original": "No se menciona en la ley.",
+        "hu": "Nincs benne a törvényben."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "seed-171",
+    "source": "ejemplo-prueba-iii.pdf",
+    "module": "IV",
+    "q": "¿Para qué sirven los distintivos identificativos en los vehículos de arrendamiento con conductor según el Decreto 5/2024?",
+    "hu": "Mire szolgálnak a VTC járművek azonosító matricái a 5/2024-es rendelet szerint?",
+    "answers": [
+      {
+        "original": "Identificar todos los turismos circulantes en la Comunidad de Madrid.",
+        "hu": "Az összes Madridban közlekedő személyautó azonosítására."
+      },
+      {
+        "original": "Mostrar el nombre del conductor.",
+        "hu": "A sofőr nevének megjelenítésére."
+      },
+      {
+        "original": "Identificar los vehículos.",
+        "hu": "A járművek azonosítására."
+      },
+      {
+        "original": "Promocionar marcas.",
+        "hu": "Márkák reklámozására."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "seed-172",
+    "source": "ejemplo-prueba-iii.pdf",
+    "module": "IV",
+    "q": "Las tarifas de los servicios de arrendamiento de vehículos con conductor están sujetas a regulación administrativa.",
+    "hu": "A VTC szolgáltatások díjai adminisztratív szabályozás alá tartoznak.",
+    "answers": [
+      {
+        "original": "Verdadero.",
+        "hu": "Igaz."
+      },
+      {
+        "original": "Verdadero, pero solo en días festivos.",
+        "hu": "Igaz, de csak ünnepnapokon."
+      },
+      {
+        "original": "Falso, excepto en áreas rurales",
+        "hu": "Hamis, kivéve vidéki területeken."
+      },
+      {
+        "original": "Falso.",
+        "hu": "Hamis."
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "seed-173",
+    "source": "ejemplo-prueba-iii.pdf",
+    "module": "IV",
+    "q": "¿Qué criterios medioambientales pueden provocar la denegación de una autorización de arrendamiento de vehículos con conductor?",
+    "hu": "Milyen környezetvédelmi ok vezethet VTC engedély elutasításához?",
+    "answers": [
+      {
+        "original": "Utilizar vehículos de combustión interna.",
+        "hu": "Belső égésű motor használata."
+      },
+      {
+        "original": "No tener un seguro ambiental.",
+        "hu": "Környezeti biztosítás hiánya."
+      },
+      {
+        "original": "Superar el valor límite anual de NO2 o PM2.5.",
+        "hu": "NO2 vagy PM2.5 éves határérték túllépése."
+      },
+      {
+        "original": "No realizar la inspección técnica del vehículo.",
+        "hu": "Műszaki vizsga hiánya."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "seed-174",
+    "source": "ejemplo-prueba-iii.pdf",
+    "module": "IV",
+    "q": "¿Qué distintivo ambiental deberán tener los vehículos de arrendamiento con conductor en la Comunidad de Madrid?",
+    "hu": "Milyen környezetvédelmi matricával kell rendelkezniük a VTC járműveknek Madridban?",
+    "answers": [
+      {
+        "original": "Cero emisiones o Eco.",
+        "hu": "Zéró emissziós vagy Eco."
+      },
+      {
+        "original": "Distintivo B o 0 emisiones.",
+        "hu": "B vagy zéró emissziós."
+      },
+      {
+        "original": "Distintivo A o Eco.",
+        "hu": "A vagy Eco."
+      },
+      {
+        "original": "Distintivo C o eléctrico.",
+        "hu": "C vagy elektromos."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "seed-175",
+    "source": "ejemplo-prueba-iii.pdf",
+    "module": "IV",
+    "q": "Captar clientes que no hayan contratado previamente el servicio de arrendamiento de vehículos con conductor constituye una infracción según la Ley 13/2021.",
+    "hu": "Előzetes foglalás nélküli utasfelvétel milyen szabálysértés a 13/2021 törvény szerint?",
+    "answers": [
+      {
+        "original": "Grave.",
+        "hu": "Súlyos."
+      },
+      {
+        "original": "Leve.",
+        "hu": "Enyhe."
+      },
+      {
+        "original": "Muy grave.",
+        "hu": "Nagyon súlyos."
+      },
+      {
+        "original": "Infracción penal.",
+        "hu": "Büntetőjogi."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "seed-176",
+    "source": "ejemplo-prueba-iii.pdf",
+    "module": "IV",
+    "q": "¿Qué imagen lleva el distintivo previsto en el punto 2 del Anexo del Decreto 101/2016?",
+    "hu": "Milyen kép szerepel a 101/2016-os rendelet mellékletében meghatározott jelzésen?",
+    "answers": [
+      {
+        "original": "El escudo de España.",
+        "hu": "Spanyolország címere."
+      },
+      {
+        "original": "Un mapa de Madrid.",
+        "hu": "Madrid térképe."
+      },
+      {
+        "original": "La bandera de la Comunidad de Madrid.",
+        "hu": "Madrid autonóm közösség zászlaja."
+      },
+      {
+        "original": "Un logo de la empresa.",
+        "hu": "A cég logója."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "seed-177",
+    "source": "ejemplo-prueba-iii.pdf",
+    "module": "IV",
+    "q": "¿Cuál es la sanción por no cumplir las condiciones establecidas en relación con el itinerario del servicio?",
+    "hu": "Milyen szankció jár az útvonalra vonatkozó szabályok megsértéséért?",
+    "answers": [
+      {
+        "original": "Grave.",
+        "hu": "Súlyos."
+      },
+      {
+        "original": "Moderada.",
+        "hu": "Közepes."
+      },
+      {
+        "original": "Leve.",
+        "hu": "Enyhe."
+      },
+      {
+        "original": "Muy grave",
+        "hu": "Nagyon súlyos."
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "seed-178",
+    "source": "ejemplo-prueba-iii.pdf",
+    "module": "IV",
+    "q": "La Comunidad de Madrid asumió competencias en materia de autorizaciones de arrendamiento de vehículos con conductor a través de:",
+    "hu": "Mely jogszabállyal vette át Madrid a VTC engedélyezés hatáskörét?",
+    "answers": [
+      {
+        "original": "El Real Decreto 1057/2015.",
+        "hu": "1057/2015-ös királyi rendelet."
+      },
+      {
+        "original": "El Reglamento de Transportes.",
+        "hu": "Közlekedési szabályzat."
+      },
+      {
+        "original": "La Ley Orgánica 5/1987.",
+        "hu": "5/1987-es organikus törvény."
+      },
+      {
+        "original": "La Ley de Seguridad Vial.",
+        "hu": "Közúti biztonsági törvény."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "seed-179",
+    "source": "ejemplo-prueba-iii.pdf",
+    "module": "IV",
+    "q": "¿Qué medida se establece en la Ley 13/2021 para garantizar el cumplimiento de las normativas en el servicio de arrendamiento de vehículos con conductor?",
+    "hu": "Milyen intézkedést vezet be a 13/2021 törvény a szabályok betartásának biztosítására?",
+    "answers": [
+      {
+        "original": "Cursos de formación.",
+        "hu": "Képzések."
+      },
+      {
+        "original": "Campañas de concienciación.",
+        "hu": "Tudatossági kampányok."
+      },
+      {
+        "original": "Descuentos en tarifas.",
+        "hu": "Árkedvezmények."
+      },
+      {
+        "original": "Sanciones económicas.",
+        "hu": "Pénzbírságok."
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "seed-180",
+    "source": "ejemplo-prueba-iii.pdf",
+    "module": "IV",
+    "q": "¿Qué se considera una infracción muy grave relacionada con el inicio del servicio?",
+    "hu": "Mi számít nagyon súlyos szabálysértésnek a szolgáltatás megkezdése kapcsán?",
+    "answers": [
+      {
+        "original": "Inicio de un servicio sin hoja de ruta.",
+        "hu": "Szolgáltatás megkezdése útvonal lap nélkül."
+      },
+      {
+        "original": "Inicio de un servicio en un ámbito territorial distinto de aquél en que resulte obligatorio hacerlo.",
+        "hu": "Szolgáltatás indítása nem megfelelő területen."
+      },
+      {
+        "original": "Inicio de un servicio sin contrato.",
+        "hu": "Szerződés nélküli szolgáltatás."
+      },
+      {
+        "original": "Inicio de un servicio sin seguro.",
+        "hu": "Biztosítás nélküli szolgáltatás."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "seed-181",
+    "source": "ejemplo-prueba-iv.pdf",
+    "module": "I",
+    "q": "León es a selva como tiburón es a",
+    "hu": "Az oroszlán úgy viszonyul az erdőhöz, mint a cápa a ___",
+    "answers": [
+      {
+        "original": "Río.",
+        "hu": "folyó."
+      },
+      {
+        "original": "Lago.",
+        "hu": "tó."
+      },
+      {
+        "original": "Mar.",
+        "hu": "tenger."
+      },
+      {
+        "original": "Montaña.",
+        "hu": "hegy."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "seed-182",
+    "source": "ejemplo-prueba-iv.pdf",
+    "module": "I",
+    "q": "¿Qué palabra tiene un significado similar a ‘feliz’?",
+    "hu": "Melyik szó jelentése hasonló a „boldog”-hoz?",
+    "answers": [
+      {
+        "original": "Triste.",
+        "hu": "szomorú."
+      },
+      {
+        "original": "Contento.",
+        "hu": "vidám."
+      },
+      {
+        "original": "Enojado.",
+        "hu": "dühös."
+      },
+      {
+        "original": "Aburrido.",
+        "hu": "unalmas."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "seed-183",
+    "source": "ejemplo-prueba-iv.pdf",
+    "module": "I",
+    "q": "Elija la respuesta que sea correcta de entre las siguientes:",
+    "hu": "Válaszd ki a helyes mondatot:",
+    "answers": [
+      {
+        "original": "El coche está aparcado frente a la entrada del edificio.",
+        "hu": "Az autó az épület bejárata előtt parkol."
+      },
+      {
+        "original": "El coche está aparcado sin la entrada del edificio.",
+        "hu": "Az autó a bejárat nélkül parkol."
+      },
+      {
+        "original": "El coche está aparcado hasta la entrada del edificio.",
+        "hu": "Az autó a bejáratig parkol."
+      },
+      {
+        "original": "El coche está aparcado dentro la entrada del edificio.",
+        "hu": "Az autó a bejáraton belül parkol."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "seed-184",
+    "source": "ejemplo-prueba-iv.pdf",
+    "module": "I",
+    "q": "Aunque la calle principal ___ cerrada, había vías alternativas.",
+    "hu": "Bár a főutca ___ zárva volt, voltak alternatív útvonalak.",
+    "answers": [
+      {
+        "original": "está",
+        "hu": "van"
+      },
+      {
+        "original": "estuviera",
+        "hu": "lett volna"
+      },
+      {
+        "original": "estando",
+        "hu": "lévén"
+      },
+      {
+        "original": "esté",
+        "hu": "legyen"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "seed-185",
+    "source": "ejemplo-prueba-iv.pdf",
+    "module": "I",
+    "q": "Complete la frase con la opción correcta: Nosotros __________ en el concierto el fin de semana pasado.",
+    "hu": "Egészítsd ki: Mi __________ a koncerten a múlt hétvégén.",
+    "answers": [
+      {
+        "original": "estuvimos",
+        "hu": "voltunk"
+      },
+      {
+        "original": "eramos",
+        "hu": "voltunk (állapot)"
+      },
+      {
+        "original": "fuimos",
+        "hu": "mentünk / voltunk"
+      },
+      {
+        "original": "estamos",
+        "hu": "vagyunk"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "seed-186",
+    "source": "ejemplo-prueba-iv.pdf",
+    "module": "I",
+    "q": "Si no hay sitio en la calle, puede dejarme en la esquina ___ hay un semáforo.",
+    "hu": "Ha nincs hely az utcán, kitehet a sarkon, ___ van egy lámpa.",
+    "answers": [
+      {
+        "original": "cual",
+        "hu": "amely"
+      },
+      {
+        "original": "donde",
+        "hu": "ahol"
+      },
+      {
+        "original": "que",
+        "hu": "ami"
+      },
+      {
+        "original": "cuando",
+        "hu": "amikor"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "seed-187",
+    "source": "ejemplo-prueba-iv.pdf",
+    "module": "I",
+    "q": "El cliente indicó que su equipaje se había ___ en el maletero.",
+    "hu": "Az utas azt mondta, hogy a csomagját ___ a csomagtartóba.",
+    "answers": [
+      {
+        "original": "colocó",
+        "hu": "elhelyezte"
+      },
+      {
+        "original": "colocado",
+        "hu": "elhelyezve"
+      },
+      {
+        "original": "coloca",
+        "hu": "elhelyezi"
+      },
+      {
+        "original": "colocando",
+        "hu": "elhelyezve (folyamatban)"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "seed-188",
+    "source": "ejemplo-prueba-iv.pdf",
+    "module": "I",
+    "q": "Abandonar una empresa o proyecto en el momento crítico, dejando a otros con la responsabilidad.",
+    "hu": "Egy cég vagy projekt kritikus pillanatban való elhagyása, másokra hagyva a felelősséget:",
+    "answers": [
+      {
+        "original": "Dejar plantado",
+        "hu": "cserben hagyni"
+      },
+      {
+        "original": "Lavar las manos",
+        "hu": "kezet mosni (felelősség elhárítása)"
+      },
+      {
+        "original": "Tirar la piedra y esconder la mano",
+        "hu": "követ dobni és elbújni"
+      },
+      {
+        "original": "Saltar del barco",
+        "hu": "elhagyni a süllyedő hajót"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "seed-189",
+    "source": "ejemplo-prueba-iv.pdf",
+    "module": "I",
+    "q": "La palabra “laconismo” alude a:",
+    "hu": "Mit jelent a „laconismo” („szűkszavúság, tömör kifejezésmód”)?",
+    "answers": [
+      {
+        "original": "Hablar con ambiguedad.",
+        "hu": "kétértelmű beszéd."
+      },
+      {
+        "original": "Usar tecnicismos.",
+        "hu": "szakszavak használata."
+      },
+      {
+        "original": "Exceso de detalles.",
+        "hu": "túl sok részlet."
+      },
+      {
+        "original": "Brevedad al expresarse.",
+        "hu": "tömör, rövid beszéd."
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "seed-190",
+    "source": "ejemplo-prueba-iv.pdf",
+    "module": "I",
+    "q": "No hay semana en que el conductor ___ un problema con el tráfico.",
+    "hu": "Nincs olyan hét, hogy a sofőrnek ne ___ problémája a forgalommal.",
+    "answers": [
+      {
+        "original": "no tuvo",
+        "hu": "nem volt"
+      },
+      {
+        "original": "no tuviera",
+        "hu": "ne lett volna"
+      },
+      {
+        "original": "no teniendo",
+        "hu": "nem lévén"
+      },
+      {
+        "original": "no tenga",
+        "hu": "ne legyen"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "seed-191",
+    "source": "Hetedik 30-as blokk",
+    "module": "I",
+    "q": "El pasajero explicó, con la paciencia de quien ___ acostumbrado a esperar, que no había prisa.",
+    "hu": "Az utas elmagyarázta, annak türelmével, aki ___ hozzászokva a várakozáshoz, hogy nem volt sietség.",
+    "answers": [
+      {
+        "original": "estará",
+        "hu": "lesz"
+      },
+      {
+        "original": "estaba",
+        "hu": "volt"
+      },
+      {
+        "original": "estuvo",
+        "hu": "volt (egyszeri múlt)"
+      },
+      {
+        "original": "está",
+        "hu": "van"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "seed-192",
+    "source": "Hetedik 30-as blokk",
+    "module": "I",
+    "q": "Seleccione el antónimo más adecuado de “preterir” :",
+    "hu": "Válaszd ki a „preterir” („mellőzni, kihagyni”) legmegfelelőbb ellentétét:",
+    "answers": [
+      {
+        "original": "Descartar",
+        "hu": "elvetni"
+      },
+      {
+        "original": "Eludir",
+        "hu": "elkerülni"
+      },
+      {
+        "original": "Preferir",
+        "hu": "előnyben részesíteni"
+      },
+      {
+        "original": "Anteponer",
+        "hu": "elé helyezni / előtérbe helyezni"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "seed-193",
+    "source": "Hetedik 30-as blokk",
+    "module": "II",
+    "q": "¿Qué festividad madrileña celebra al patrón de la ciudad en mayo?",
+    "hu": "Melyik madridi ünnep tiszteleg a város védőszentje előtt májusban?",
+    "answers": [
+      {
+        "original": "La Paloma.",
+        "hu": "La Paloma."
+      },
+      {
+        "original": "La Almudena.",
+        "hu": "La Almudena."
+      },
+      {
+        "original": "San Fermín.",
+        "hu": "San Fermín."
+      },
+      {
+        "original": "San Isidro.",
+        "hu": "San Isidro."
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "seed-194",
+    "source": "Hetedik 30-as blokk",
+    "module": "II",
+    "q": "¿Qué teatro en Madrid es conocido por sus representaciones de ópera y ballet?",
+    "hu": "Melyik madridi színház ismert az opera- és balettelőadásairól?",
+    "answers": [
+      {
+        "original": "Gran Teatro del Liceo.",
+        "hu": "Gran Teatro del Liceo."
+      },
+      {
+        "original": "Teatro Campoamor.",
+        "hu": "Teatro Campoamor."
+      },
+      {
+        "original": "Teatro Real.",
+        "hu": "Teatro Real."
+      },
+      {
+        "original": "Teatro Arriaga.",
+        "hu": "Teatro Arriaga."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "seed-195",
+    "source": "Hetedik 30-as blokk",
+    "module": "II",
+    "q": "Desde la plaza de toros de las Ventas, cruzando el Puente de Alcalá, ¿qué calle es la mas adecuada para ir al Cementerio de la Almudena?",
+    "hu": "A Las Ventas bikaviadal-arénától, az Alcalá hídon átkelve, melyik utca a legmegfelelőbb az Almudena temető felé?",
+    "answers": [
+      {
+        "original": "La Calle de Alcalá.",
+        "hu": "Calle de Alcalá."
+      },
+      {
+        "original": "La Avenida de Daroca.",
+        "hu": "Avenida de Daroca."
+      },
+      {
+        "original": "La Avenida Donostirra.",
+        "hu": "Avenida Donostirra."
+      },
+      {
+        "original": "La Calle del Cementerio.",
+        "hu": "Calle del Cementerio."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "seed-196",
+    "source": "Hetedik 30-as blokk",
+    "module": "II",
+    "q": "La Puerta de Toledo se localiza en una glorieta que conecta directamente con:",
+    "hu": "A Puerta de Toledo egy olyan körforgalomban található, amely közvetlenül kapcsolódik ehhez:",
+    "answers": [
+      {
+        "original": "La Calle de Alcalá",
+        "hu": "Calle de Alcalá"
+      },
+      {
+        "original": "La Gran Vía",
+        "hu": "Gran Vía"
+      },
+      {
+        "original": "El Paseo de la Castellana",
+        "hu": "Paseo de la Castellana"
+      },
+      {
+        "original": "La Ronda de Toledo",
+        "hu": "Ronda de Toledo"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "seed-197",
+    "source": "Hetedik 30-as blokk",
+    "module": "II",
+    "q": "¿En qué dirección está situado el hotel Praga?",
+    "hu": "Milyen címen található a Hotel Praga?",
+    "answers": [
+      {
+        "original": "En la plaza del Emperador Carlos V número 8, Centro.",
+        "hu": "Plaza del Emperador Carlos V 8., Centro."
+      },
+      {
+        "original": "En la calle de la Gran Vía 50.",
+        "hu": "Gran Vía 50."
+      },
+      {
+        "original": "En la calle de Antonio López 65, Carabanchel.",
+        "hu": "Calle de Antonio López 65., Carabanchel."
+      },
+      {
+        "original": "En la avenida de Valladolid 99.",
+        "hu": "Avenida de Valladolid 99."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "seed-198",
+    "source": "Hetedik 30-as blokk",
+    "module": "II",
+    "q": "¿Dónde está la sede central del Ayuntamiento de Madrid?",
+    "hu": "Hol található Madrid városházájának központi székhelye?",
+    "answers": [
+      {
+        "original": "En la Puerta del Sol.",
+        "hu": "A Puerta del Solon."
+      },
+      {
+        "original": "En la calle de Montalbán, número 1.",
+        "hu": "A Calle de Montalbán 1. szám alatt."
+      },
+      {
+        "original": "En la Plaza de Callao s/n.",
+        "hu": "A Plaza de Callaón, házszám nélkül."
+      },
+      {
+        "original": "En la Plaza de España.",
+        "hu": "A Plaza de Españán."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "seed-199",
+    "source": "Hetedik 30-as blokk",
+    "module": "II",
+    "q": "La Piovera es…",
+    "hu": "La Piovera…",
+    "answers": [
+      {
+        "original": "Un barrio de Madrid pertenenciente al distrito Moncloa-Aravaca.",
+        "hu": "Madrid egyik negyede, a Moncloa-Aravaca kerületben."
+      },
+      {
+        "original": "Un barrio de Madrid perteneciente al distrito de Hortaleza.",
+        "hu": "Madrid egyik negyede, a Hortaleza kerületben."
+      },
+      {
+        "original": "Un municipio al sur de Madrid, junto a San José de Valderas.",
+        "hu": "Egy Madridtól délre fekvő település, San José de Valderas mellett."
+      },
+      {
+        "original": "Un municipio al oeste de Madrid, junto a Majadahonda.",
+        "hu": "Egy Madridtól nyugatra fekvő település, Majadahonda mellett."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "seed-200",
+    "source": "Hetedik 30-as blokk",
+    "module": "II",
+    "q": "¿Junto a qué glorieta está situada la Plaza de Santa Bárbara?",
+    "hu": "Melyik körforgalom mellett található a Plaza de Santa Bárbara?",
+    "answers": [
+      {
+        "original": "La Glorieta de Neptuno.",
+        "hu": "Neptuno körforgalom."
+      },
+      {
+        "original": "La Glorieta de Emilio Castelar.",
+        "hu": "Emilio Castelar körforgalom."
+      },
+      {
+        "original": "La Glorieta de Mariano de Cavia.",
+        "hu": "Mariano de Cavia körforgalom."
+      },
+      {
+        "original": "La Glorieta de Alonso Martínez.",
+        "hu": "Alonso Martínez körforgalom."
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "seed-201",
+    "source": "Hetedik 30-as blokk",
+    "module": "II",
+    "q": "Los vehículos denominados como más eficientes: eléctricos de batería (BEV) , eléctricos de autonomía extendida (REEV), eléctricos híbridos enchufables (PHEV) con una autonomía de 40 km o vehículos de pila de combustible ¿qué tipo de etiqueta medioambiental llevarán?",
+    "hu": "Az úgynevezett leghatékonyabb járművek: akkumulátoros elektromos (BEV), hatótávnövelt elektromos (REEV), 40 km hatótávú plug-in hibrid (PHEV) vagy üzemanyagcellás járművek milyen környezetvédelmi címkét kapnak?",
+    "answers": [
+      {
+        "original": "No llevarán etiqueta.",
+        "hu": "Nem kapnak címkét."
+      },
+      {
+        "original": "La etiqueta \"ECO\"",
+        "hu": "ECO címkét."
+      },
+      {
+        "original": "La etiqueta \"cero emisiones\", azul.",
+        "hu": "\"Zéró emissziós\", kék címkét."
+      },
+      {
+        "original": "La etiqueta \"C\", verde.",
+        "hu": "\"C\", zöld címkét."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "seed-202",
+    "source": "Hetedik 30-as blokk",
+    "module": "II",
+    "q": "¿Qué lugar en Madrid es famoso por ser la sede del Ballet Nacional de España?",
+    "hu": "Melyik madridi hely híres arról, hogy a Spanyol Nemzeti Balett székhelye?",
+    "answers": [
+      {
+        "original": "Teatro Real .",
+        "hu": "Teatro Real."
+      },
+      {
+        "original": "Teatro Maravillas",
+        "hu": "Teatro Maravillas."
+      },
+      {
+        "original": "Teatro de la Zarzuela.",
+        "hu": "Teatro de la Zarzuela."
+      },
+      {
+        "original": "Teatros del Canal",
+        "hu": "Teatros del Canal."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "seed-204",
+    "source": "Hetedik 30-as blokk",
+    "module": "II",
+    "q": "¿A qué tipo de etiqueta medioambiental tendrán derecho los turismos y furgonetas ligeras de gasolina matriculadas a partir de enero de 2006 y diésel a partir de septiembre de 2015 y los vehículos de más de 8 plazas y pesados tanto de gasolina como diésel, matriculados desde 2014?",
+    "hu": "Milyen környezetvédelmi címkére jogosultak a 2006 januárjától forgalomba helyezett benzines személyautók és könnyű furgonok, a 2015 szeptemberétől forgalomba helyezett dízelek, valamint a 2014-től nyilvántartott 8 főnél nagyobb és nehéz járművek (benzines és dízel egyaránt)?",
+    "answers": [
+      {
+        "original": "A la \"etiqueta C\", verde",
+        "hu": "\"C\", zöld címkére."
+      },
+      {
+        "original": "A la \"etiqueta B\", amarilla.",
+        "hu": "\"B\", sárga címkére."
+      },
+      {
+        "original": "Etiqueta \"ECO\"",
+        "hu": "\"ECO\" címkére."
+      },
+      {
+        "original": "Etiqueta \"cero emisiones\", azul.",
+        "hu": "\"Zéró emissziós\", kék címkére."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "seed-205",
+    "source": "Hetedik 30-as blokk",
+    "module": "II",
+    "q": "¿Dónde se encuentra ubicada la academia de oficiales de la Guardia Civil de Madrid?",
+    "hu": "Hol található a Guardia Civil tiszti akadémiája Madridban?",
+    "answers": [
+      {
+        "original": "En Aranjuez.",
+        "hu": "Aranjuezben."
+      },
+      {
+        "original": "En Tres Cantos.",
+        "hu": "Tres Cantosban."
+      },
+      {
+        "original": "En Alcalá de Henares.",
+        "hu": "Alcalá de Henaresben."
+      },
+      {
+        "original": "En Guadarrama.",
+        "hu": "Guadarramában."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "seed-206",
+    "source": "Hetedik 30-as blokk",
+    "module": "II",
+    "q": "Madrid se divide administrativamente en un número específico de distritos. ¿Cuántos distritos tiene Madrid capital?",
+    "hu": "Madrid közigazgatásilag meghatározott számú kerületre van osztva. Hány kerülete van Madrid fővárosának?",
+    "answers": [
+      {
+        "original": "15.",
+        "hu": "15."
+      },
+      {
+        "original": "21.",
+        "hu": "21."
+      },
+      {
+        "original": "25.",
+        "hu": "25."
+      },
+      {
+        "original": "30.",
+        "hu": "30."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "seed-207",
+    "source": "Hetedik 30-as blokk",
+    "module": "II",
+    "q": "¿Qué famoso museo de arte, y dónde está situado, alberga obras maestras como \"Las Meninas\" de Velázquez y \"La maja desnuda\" de Goya?",
+    "hu": "Melyik híres művészeti múzeum, és hol található, ahol Velázquez „Las Meninas” („Az udvarhölgyek”) és Goya „La maja desnuda” („A meztelen maja”) című remekművei is megtalálhatók?",
+    "answers": [
+      {
+        "original": "Museo Reina Sofía, en la calle de Santa Isabel, distrito Centro.",
+        "hu": "Museo Reina Sofía, Calle de Santa Isabel, Centro kerület."
+      },
+      {
+        "original": "Museo Thyssen-Bornemisza, en el paseo del Prado, distrito Centro.",
+        "hu": "Museo Thyssen-Bornemisza, Paseo del Prado, Centro kerület."
+      },
+      {
+        "original": "Museo del Prado, en el distrito de Retiro.",
+        "hu": "Museo del Prado, Retiro kerület."
+      },
+      {
+        "original": "Museo Arqueológico Nacional, en la calle de Serrano, distrito de Salamanca.",
+        "hu": "Nemzeti Régészeti Múzeum, Calle de Serrano, Salamanca kerület."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "seed-208",
+    "source": "Hetedik 30-as blokk",
+    "module": "II",
+    "q": "Para alcanzar la localidad de El Escorial, ¿qué carretera o carreteras puede utilizar para llegar a este destino?",
+    "hu": "Melyik úton vagy utakon lehet eljutni El Escorial településre?",
+    "answers": [
+      {
+        "original": "Las carreteras M-505 o la M-600.",
+        "hu": "Az M-505 vagy az M-600."
+      },
+      {
+        "original": "La M-402.",
+        "hu": "Az M-402."
+      },
+      {
+        "original": "Las carreteras M-300 y M-301.",
+        "hu": "Az M-300 és M-301."
+      },
+      {
+        "original": "La carretera A-2.",
+        "hu": "Az A-2."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "seed-209",
+    "source": "Hetedik 30-as blokk",
+    "module": "II",
+    "q": "¿Dónde comienza la numeración de la mayoría de las calles de Madrid, según la normativa establecida en 1835?",
+    "hu": "Hol kezdődik a madridi utcák többségének számozása az 1835-ös szabályozás szerint?",
+    "answers": [
+      {
+        "original": "En la Plaza de Cibeles.",
+        "hu": "A Plaza de Cibelesen."
+      },
+      {
+        "original": "En la Plaza Mayor.",
+        "hu": "A Plaza Mayoron."
+      },
+      {
+        "original": "En la Plaza de España.",
+        "hu": "A Plaza de Españán."
+      },
+      {
+        "original": "En la Puerta del Sol.",
+        "hu": "A Puerta del Solnál."
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "seed-210",
+    "source": "Hetedik 30-as blokk",
+    "module": "II",
+    "q": "¿Qué famoso monasterio y palacio real, declarado Patrimonio de la Humanidad, se encuentra en la sierra de Guadarrama, dentro de la Comunidad de Madrid?",
+    "hu": "Melyik híres kolostor és királyi palota, amely világörökségi helyszín, található a Guadarrama-hegységben, Madrid közösségén belül?",
+    "answers": [
+      {
+        "original": "El Palacio Real de Aranjuez.",
+        "hu": "Aranjuez királyi palotája."
+      },
+      {
+        "original": "El Monasterio de El Escorial.",
+        "hu": "Az El Escorial kolostor."
+      },
+      {
+        "original": "El Palacio de la Granja de San Ildefonso.",
+        "hu": "La Granja de San Ildefonso palota."
+      },
+      {
+        "original": "El Castillo de Manzanares el Real.",
+        "hu": "Manzanares el Real kastély."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "seed-211",
+    "source": "Nyolcadik 30-as blokk",
+    "module": "III",
+    "q": "¿Qué debe hacer un conductor para mejorar continuamente su servicio?",
+    "hu": "Mit kell tennie egy sofőrnek a szolgáltatása folyamatos javítása érdekében?",
+    "answers": [
+      {
+        "original": "Ignorar las opiniones del cliente.",
+        "hu": "Figyelmen kívül hagyni az ügyfél véleményét."
+      },
+      {
+        "original": "Evitar preguntar al cliente.",
+        "hu": "Kerülni, hogy kérdezze az ügyfelet."
+      },
+      {
+        "original": "Implementar cambios basados en el feedback del cliente.",
+        "hu": "Az ügyfél visszajelzései alapján változtatásokat bevezetni."
+      },
+      {
+        "original": "Desviar la conversación.",
+        "hu": "Eltéríteni a beszélgetést."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "seed-212",
+    "source": "Nyolcadik 30-as blokk",
+    "module": "III",
+    "q": "¿Qué se recomienda hacer si una persona con dificultades del habla utiliza una hoja para comunicarse?",
+    "hu": "Mit javasolt tenni, ha egy beszédproblémákkal küzdő személy egy lapot használ kommunikációra?",
+    "answers": [
+      {
+        "original": "Ignorar la hoja de comunicación y tratar de hablar directamente.",
+        "hu": "Figyelmen kívül hagyni a kommunikációs lapot és közvetlenül beszélni."
+      },
+      {
+        "original": "Hablar rápidamente para no perder tiempo.",
+        "hu": "Gyorsan beszélni, hogy ne veszítsünk időt."
+      },
+      {
+        "original": "Leer atentamente los símbolos o texto y responder de manera clara y comprensible.",
+        "hu": "Figyelmesen elolvasni a szimbólumokat vagy szöveget, és világosan, érthetően válaszolni."
+      },
+      {
+        "original": "Utilizar términos técnicos.",
+        "hu": "Szakmai kifejezéseket használni."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "seed-213",
+    "source": "Nyolcadik 30-as blokk",
+    "module": "III",
+    "q": "¿Qué no se debe hacer en una epistaxis?",
+    "hu": "Mit nem szabad tenni orrvérzés esetén?",
+    "answers": [
+      {
+        "original": "Presionar la nariz.",
+        "hu": "Az orrot összenyomni."
+      },
+      {
+        "original": "Aplicar frío.",
+        "hu": "Hideget alkalmazni."
+      },
+      {
+        "original": "Tranquilizar al herido.",
+        "hu": "Megnyugtatni a sérültet."
+      },
+      {
+        "original": "Taponar la nariz",
+        "hu": "Bedugni (eltamponálni) az orrot."
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "seed-214",
+    "source": "Nyolcadik 30-as blokk",
+    "module": "III",
+    "q": "¿Qué debemos hacer si un pasajero presenta una quemadura grave?",
+    "hu": "Mit kell tennünk, ha egy utas súlyos égési sérülést szenved?",
+    "answers": [
+      {
+        "original": "Enfriar la zona con agua y cubrir con un apósito estéril.",
+        "hu": "Hűteni a területet vízzel, majd steril kötéssel lefedni."
+      },
+      {
+        "original": "Aplicar hielo directamente en la quemadura.",
+        "hu": "Jeget közvetlenül az égésre tenni."
+      },
+      {
+        "original": "Darle agua.",
+        "hu": "Vizet adni neki."
+      },
+      {
+        "original": "Darle un analgésico.",
+        "hu": "Fájdalomcsillapítót adni neki."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "seed-215",
+    "source": "Nyolcadik 30-as blokk",
+    "module": "III",
+    "q": "¿Qué debes hacer si un cliente con discapacidad visual entra en el vehículo?",
+    "hu": "Mit kell tenned, ha egy látássérült ügyfél beszáll a járműbe?",
+    "answers": [
+      {
+        "original": "Permanecer en silencio hasta que hable",
+        "hu": "Csendben maradni, amíg ő nem szól."
+      },
+      {
+        "original": "Darle instrucciones de forma visual",
+        "hu": "Vizuális módon utasításokat adni."
+      },
+      {
+        "original": "Sujetarlo del brazo sin avisar",
+        "hu": "Figyelmeztetés nélkül megfogni a karját."
+      },
+      {
+        "original": "Saludarlo, identificarte y ofrecer asistencia si lo desea",
+        "hu": "Köszönni, bemutatkozni és segítséget felajánlani, ha igényli."
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "seed-216",
+    "source": "Nyolcadik 30-as blokk",
+    "module": "III",
+    "q": "En el caso de que el conductor VTC tuviera que limpiar una herida ¿cómo debe hacerlo si la herida es leve?",
+    "hu": "Ha egy VTC sofőrnek meg kell tisztítania egy sebet, hogyan tegye, ha a sérülés enyhe?",
+    "answers": [
+      {
+        "original": "Debe utilizar agua oxigenada.",
+        "hu": "Hidrogén-peroxidot kell használni."
+      },
+      {
+        "original": "Con agua y jabón.",
+        "hu": "Vízzel és szappannal."
+      },
+      {
+        "original": "Con alcohol siempre.",
+        "hu": "Mindig alkohollal."
+      },
+      {
+        "original": "Algún producto de limpieza.",
+        "hu": "Valamilyen tisztítószerrel."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "seed-217",
+    "source": "Nyolcadik 30-as blokk",
+    "module": "III",
+    "q": "Según el Real Decreto Legislativo 1/2013, por el que se aprueba la Ley General de derechos de las personas con discapacidad, ¿qué derecho tienen las personas con discapacidad en relación con el uso de vehículo de arrendamiento con conductor?",
+    "hu": "A 1/2013-as királyi törvényerejű rendelet szerint, amely a fogyatékkal élő személyek jogairól szóló általános törvényt hagyja jóvá, milyen joguk van a fogyatékkal élőknek a VTC szolgáltatások használatával kapcsolatban?",
+    "answers": [
+      {
+        "original": "Todas las personas con discapacidad tienen derecho a tarifas reducidas.",
+        "hu": "Minden fogyatékkal élő személy jogosult kedvezményes díjakra."
+      },
+      {
+        "original": "Todas las personas con discapacidad tienen derecho a transporte gratuito.",
+        "hu": "Minden fogyatékkal élő személy jogosult ingyenes közlekedésre."
+      },
+      {
+        "original": "Las personas con discapacidad tienen derecho a un transporte accesible y no discriminatorio.",
+        "hu": "A fogyatékkal élőknek joguk van hozzáférhető és diszkriminációmentes közlekedéshez."
+      },
+      {
+        "original": "Las personas con discapacidad tienen derecho a transporte exclusivo, debido a su condición",
+        "hu": "A fogyatékkal élőknek kizárólagos közlekedési joguk van az állapotuk miatt."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "seed-218",
+    "source": "Nyolcadik 30-as blokk",
+    "module": "III",
+    "q": "Según la legislación Española, ¿qué grado de discapacidad debe tener una persona para ser considerada, a efectos legales, con discapacidad?",
+    "hu": "A spanyol jogszabályok szerint milyen mértékű fogyatékossággal kell rendelkeznie egy személynek ahhoz, hogy jogilag fogyatékkal élőnek minősüljön?",
+    "answers": [
+      {
+        "original": "Superior al 25%",
+        "hu": "25% felett."
+      },
+      {
+        "original": "Superior al 30%",
+        "hu": "30% felett."
+      },
+      {
+        "original": "Igual o superior al 33%.",
+        "hu": "33% vagy annál magasabb."
+      },
+      {
+        "original": "Igual o superior al 50%.",
+        "hu": "50% vagy annál magasabb."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "seed-220",
+    "source": "Nyolcadik 30-as blokk",
+    "module": "III",
+    "q": "¿La accesibilidad es obligatoria en el transporte?",
+    "hu": "Kötelező az akadálymentesség a közlekedésben?",
+    "answers": [
+      {
+        "original": "Sí.",
+        "hu": "Igen."
+      },
+      {
+        "original": "Sólo en taxis y VTC.",
+        "hu": "Csak taxiknál és VTC-knél."
+      },
+      {
+        "original": "Sólo en autobuses",
+        "hu": "Csak buszoknál."
+      },
+      {
+        "original": "No",
+        "hu": "Nem."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "seed-222",
+    "source": "Nyolcadik 30-as blokk",
+    "module": "III",
+    "q": "¿Por qué es importante que el conductor de un vehículo de arrendamiento con conductor VTC conozca pautas de comportamiento en caso de accidente?",
+    "hu": "Miért fontos, hogy egy VTC sofőr ismerje a viselkedési szabályokat baleset esetén?",
+    "answers": [
+      {
+        "original": "Porque en la primera hora, denominada la hora de oro, tiene una importancia vital para la reducción de la gravedad de las lesiones o, simplemente, que el herido viva o muera.",
+        "hu": "Mert az első órának, az úgynevezett aranyórának kulcsszerepe van a sérülések súlyosságának csökkentésében vagy akár abban, hogy a sérült életben marad-e."
+      },
+      {
+        "original": "Para poder trasladar rápidamente a los heridos en el vehículo propio con las mayores garantías.",
+        "hu": "Hogy a sérülteket gyorsan saját járművel tudja szállítani a lehető legnagyobb biztonsággal."
+      },
+      {
+        "original": "Para poder realizar curas de emergencia y pequeñas cirugías en el lugar del accidente.",
+        "hu": "Hogy a helyszínen sürgősségi ellátást és kisebb műtéteket tudjon végezni."
+      },
+      {
+        "original": "Para estar exento de auxiliar a los heridos en caso de accidente y no tener consecuencias penales.",
+        "hu": "Hogy mentesüljön a segítségnyújtás kötelezettsége alól baleset esetén."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "seed-223",
+    "source": "Nyolcadik 30-as blokk",
+    "module": "III",
+    "q": "Si un conductor se encuentra en servicio de arrendamiento de vehículos con conductor, ¿cúal es la acción recomendada en Primeros Auxilios, para desobstruir las vías respiratorias en un bebé que se está atragantando?",
+    "hu": "Ha egy VTC sofőr szolgálatban van, mi az ajánlott elsősegélynyújtási lépés egy fulladozó csecsemő légútjainak szabaddá tételére?",
+    "answers": [
+      {
+        "original": "Respiración boca a boca.",
+        "hu": "Szájról szájra lélegeztetés."
+      },
+      {
+        "original": "Presionar el pecho.",
+        "hu": "A mellkas nyomása."
+      },
+      {
+        "original": "Golpes en la espalda y compresiones torácicas.",
+        "hu": "Hátba ütögetés és mellkasi kompressziók."
+      },
+      {
+        "original": "Darle un vaso de agua.",
+        "hu": "Egy pohár vizet adni neki."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "seed-224",
+    "source": "Nyolcadik 30-as blokk",
+    "module": "III",
+    "q": "¿Qué signo o síntoma de los que se citan a continuación indica anafilaxia?",
+    "hu": "Az alábbiak közül melyik jel vagy tünet utal anafilaxiára?",
+    "answers": [
+      {
+        "original": "Picor leve.",
+        "hu": "Enyhe viszketés."
+      },
+      {
+        "original": "Hinchazón de labios.",
+        "hu": "Az ajkak duzzanata."
+      },
+      {
+        "original": "Estornudos.",
+        "hu": "Tüsszentés."
+      },
+      {
+        "original": "Dolor muscular.",
+        "hu": "Izomfájdalom."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "seed-225",
+    "source": "Nyolcadik 30-as blokk",
+    "module": "III",
+    "q": "De las opciones que se indicant, ¿cuál debe ser el comportamiento de un vehículos eléctrico que está en llamas?",
+    "hu": "Az alábbiak közül mi a helyes viselkedés, ha egy elektromos jármű lángol?",
+    "answers": [
+      {
+        "original": "Debemos alejarnos y ayudar a las personas que no puedan hacerlo a permanecer lejos del vehículos incendiado, posteriormente avisaremos al112 indicando que es un vehículos eléctrico el que arde.",
+        "hu": "El kell távolodnunk, segíteni azoknak, akik nem tudnak, hogy távol maradjanak a járműtől, majd értesíteni a 112-t jelezve, hogy elektromos jármű ég."
+      },
+      {
+        "original": "Deberemos intentar apagarlo, el fuego del vehículos eléctrico es muy sencillo extingurilo.",
+        "hu": "Meg kell próbálni eloltani, mert az elektromos jármű tüze könnyen oltható."
+      },
+      {
+        "original": "Deberemos echar cualquier tipo de líquido sobre el vehículos eléctrico y esperar a que se apague.",
+        "hu": "Bármilyen folyadékot kell ráönteni és megvárni, hogy elaludjon."
+      },
+      {
+        "original": "Deberemos intentar apagarlo, para ello nos acercaremos bastante al vehículos con la Certeza de que las baterías nunca estallan.",
+        "hu": "Meg kell próbálni eloltani, közel menve, mert az akkumulátorok biztosan nem robbannak fel."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "seed-226",
+    "source": "Nyolcadik 30-as blokk",
+    "module": "III",
+    "q": "En la Comunidad de Madrid, ¿deben los perros guía o de asistencia llevar bozal dentro de un vehículos VTC?",
+    "hu": "Madrid közösségében a vakvezető vagy segítő kutyáknak kell-e szájkosarat viselniük VTC járműben?",
+    "answers": [
+      {
+        "original": "Sí, es obligatorio en todo momento por seguridad.",
+        "hu": "Igen, biztonsági okból mindig kötelező."
+      },
+      {
+        "original": "No, no es obligatorioel uso de bozal para los perros de asistencia, a menos que la normativa de transporte espécifica (como en Metro) lo requiera bajo ciertas condiciones, pero no VTC donde el acceso es libre.",
+        "hu": "Nem, a segítő kutyáknál nem kötelező a szájkosár, kivéve speciális közlekedési szabályok esetén (pl. metró), de VTC-ben nem."
+      },
+      {
+        "original": "Sólo si el conductor lo solicita expresamente.",
+        "hu": "Csak ha a sofőr kifejezetten kéri."
+      },
+      {
+        "original": "Sólo si el perro pertenece a una raza considerada potencialmente peligrosa.",
+        "hu": "Csak ha a kutya veszélyesnek minősített fajtához tartozik."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "seed-227",
+    "source": "Nyolcadik 30-as blokk",
+    "module": "III",
+    "q": "La normativa de Madrid ha flexibilizado recientemente la etiqueta ambiental para VTC adaptados, permitiendo circular con distintivo:",
+    "hu": "Madrid szabályozása nemrég rugalmasabbá tette az akadálymentesített VTC-k környezetvédelmi besorolását, lehetővé téve a közlekedést a következő címkével:",
+    "answers": [
+      {
+        "original": "Etiqueta A (sin distintivo)",
+        "hu": "A (nincs címke)"
+      },
+      {
+        "original": "Etiqueta B (amarilla)",
+        "hu": "B (sárga)"
+      },
+      {
+        "original": "Etiqueta C (verde)",
+        "hu": "C (zöld)"
+      },
+      {
+        "original": "Etiqueta ECO",
+        "hu": "ECO"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "seed-228",
+    "source": "Nyolcadik 30-as blokk",
+    "module": "III",
+    "q": "¿Dónde se coloca el puño en el caso de tener que realizar la conocida como Maniobra de Heimlich en adultos?",
+    "hu": "Hová kell helyezni az öklöt a Heimlich-manőver végrehajtásakor felnőtteknél?",
+    "answers": [
+      {
+        "original": "En el pecho, lo más alto posible",
+        "hu": "A mellkasra, a lehető legmagasabbra."
+      },
+      {
+        "original": "En el cuello",
+        "hu": "A nyakra."
+      },
+      {
+        "original": "Entre el ombligo y el esternón",
+        "hu": "A köldök és a szegycsont közé."
+      },
+      {
+        "original": "En la espalda",
+        "hu": "A hátra."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "seed-229",
+    "source": "Nyolcadik 30-as blokk",
+    "module": "IV",
+    "q": "Cuál es la finalidad de establecer requisites de longitude minima para los vehículos VTC?",
+    "hu": "Mi a célja a VTC járművek minimális hosszára vonatkozó követelmények meghatározásának?",
+    "answers": [
+      {
+        "original": "Garantizar el confort y la calidad del servicio.",
+        "hu": "A kényelem és a szolgáltatás minőségének biztosítása."
+      },
+      {
+        "original": "Limitar el número de coches.",
+        "hu": "Az autók számának korlátozása."
+      },
+      {
+        "original": "Controlar las emisiones.",
+        "hu": "A kibocsátások szabályozása."
+      },
+      {
+        "original": "Fomentar coches pequeños.",
+        "hu": "Kisebb autók ösztönzése."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "seed-230",
+    "source": "Nyolcadik 30-as blokk",
+    "module": "IV",
+    "q": "Además del idioma castellano y el manejo de dispositivos, ¿sobre qué otra materia se examina a los conductores de VTC en la Comunidad de Madrid?",
+    "hu": "A spanyol nyelv és az eszközhasználat mellett milyen egyéb témákból vizsgáznak a VTC sofőrök Madrid közösségében?",
+    "answers": [
+      {
+        "original": "Cocina y gastronomía local.",
+        "hu": "Helyi konyha és gasztronómia."
+      },
+      {
+        "original": "Historia del arte de Madrid.",
+        "hu": "Madrid művészettörténete."
+      },
+      {
+        "original": "Itinerarios, destinos de interés, primeros auxilios y accesibilidad.",
+        "hu": "Útvonalak, érdekes helyek, elsősegély és akadálymentesség."
+      },
+      {
+        "original": "Mecánica avanzada de vehículos híbridos.",
+        "hu": "Hibrid járművek fejlett mechanikája."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "seed-231",
+    "source": "Nyolcadik 30-as blokk",
+    "module": "IV",
+    "q": "Señala la respuesta correcta respecto a los distintivos identificativos de vehículo de arrendamiento con conductor",
+    "hu": "Jelöld meg a helyes választ a VTC járművek azonosító jelzéseivel kapcsolatban.",
+    "answers": [
+      {
+        "original": "El distintivo identificativo de la luna trasera no tiene medidas establecidas.",
+        "hu": "A hátsó ablakon elhelyezett azonosító jelzésnek nincs meghatározott mérete."
+      },
+      {
+        "original": "El distintivo identificativo de la luna trasera debe tener una medida de 8 cm x 14 cm.",
+        "hu": "A hátsó ablakon lévő azonosító jelzés mérete 8 cm x 14 cm kell legyen."
+      },
+      {
+        "original": "El distintivo identificativo de la luna trasera no es necesario ponerlo.",
+        "hu": "A hátsó ablakra nem szükséges az azonosító jelzést elhelyezni."
+      },
+      {
+        "original": "El distintivo identificativo de la luna trasera debe tener una medida de 70 cm x 2 cm.",
+        "hu": "A hátsó ablakon lévő azonosító jelzés mérete 70 cm x 2 cm kell legyen."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "seed-232",
+    "source": "Nyolcadik 30-as blokk",
+    "module": "IV",
+    "q": "¿Qué información debe estar en la hoja de ruta que llevan los conductors?",
+    "hu": "Milyen információnak kell szerepelnie a sofőrök által vezetett menetlevélben?",
+    "answers": [
+      {
+        "original": "Nombre del conductor.",
+        "hu": "A sofőr neve."
+      },
+      {
+        "original": "Número de pasajeros.",
+        "hu": "Az utasok száma."
+      },
+      {
+        "original": "Kilometraje del vehículo",
+        "hu": "A jármű kilométerállása."
+      },
+      {
+        "original": "Lugar, fecha y hora de inicio y finalización del servicio.",
+        "hu": "A szolgáltatás kezdésének és befejezésének helye, dátuma és időpontja."
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "seed-233",
+    "source": "Nyolcadik 30-as blokk",
+    "module": "IV",
+    "q": "¿Qué se requiere para convalidar el permiso de conductor de autoTAXI por uno de VTC?",
+    "hu": "Mi szükséges ahhoz, hogy egy taxi vezetői engedélyt VTC engedélyre váltsanak?",
+    "answers": [
+      {
+        "original": "Estar desempleado.",
+        "hu": "Munkanélkülinek kell lenni."
+      },
+      {
+        "original": "Haber trabajado previamente en el sector.",
+        "hu": "Korábban a szektorban kellett dolgozni."
+      },
+      {
+        "original": "Inscribirse en el Registro de Conductores de vehículos VTC de la Comunidad de Madrid y acreditar requisitos.",
+        "hu": "Regisztrálni kell a Madridi Közösség VTC sofőr nyilvántartásába és igazolni a követelmények teljesítését."
+      },
+      {
+        "original": "Pagar una tasa adicional.",
+        "hu": "Egy extra díjat kell fizetni."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "seed-234",
+    "source": "Nyolcadik 30-as blokk",
+    "module": "IV",
+    "q": "¿Mediante qué tipo de plataformas operan habitualmente los servicios de VTC, según se menciona en la información relacionada con el decreto 5/2024 que regula el arrendamiento de vehículos con conductor?",
+    "hu": "Milyen típusú platformokon működnek általában a VTC szolgáltatások a 5/2024-es rendelet szerint?",
+    "answers": [
+      {
+        "original": "Plataformas de radio-taxi tradicionales.",
+        "hu": "Hagyományos rádiótaxi platformokon."
+      },
+      {
+        "original": "Plataformas digitales.",
+        "hu": "Digitális platformokon."
+      },
+      {
+        "original": "Puntos de parada fijos en la vía pública.",
+        "hu": "Fix megállóhelyeken az utcán."
+      },
+      {
+        "original": "Llamadas telefónicas exclusivamente.",
+        "hu": "Kizárólag telefonhívások útján."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "seed-235",
+    "source": "Nyolcadik 30-as blokk",
+    "module": "IV",
+    "q": "¿Qué documento acredita que el vehículo está al corriente de las obligaciones fiscales?",
+    "hu": "Melyik dokumentum igazolja, hogy a jármű adózási kötelezettségei rendezettek?",
+    "answers": [
+      {
+        "original": "El permiso de circulación.",
+        "hu": "A forgalmi engedély."
+      },
+      {
+        "original": "El recibo del Impuesto de Vehículos de Traccción Mecánica.",
+        "hu": "A gépjárműadó befizetését igazoló bizonylat."
+      },
+      {
+        "original": "La tarjeta de transporte.",
+        "hu": "A fuvarozási kártya."
+      },
+      {
+        "original": "El seguro del coche.",
+        "hu": "Az autó biztosítása."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "seed-236",
+    "source": "Nyolcadik 30-as blokk",
+    "module": "IV",
+    "q": "¿Cómo debe contratarse el servicio de VTC?",
+    "hu": "Hogyan kell a VTC szolgáltatást megrendelni?",
+    "answers": [
+      {
+        "original": "Puede ser verbal y acordarse el precio al final del trayecto.",
+        "hu": "Lehet szóbeli, és az ár a végén kerül megállapításra."
+      },
+      {
+        "original": "Debe formalizarse por escrito (físico o electrónico) antes de iniciar el servicio.",
+        "hu": "Írásban (fizikai vagy elektronikus formában) kell rögzíteni a szolgáltatás megkezdése előtt."
+      },
+      {
+        "original": "Sólo es necesario un acuerdo verbal si el servicio es en el ámbito urbano.",
+        "hu": "Csak városi szolgáltatás esetén elegendő a szóbeli megállapodás."
+      },
+      {
+        "original": "El contrato solo es necesario para servicios de larga distancia.",
+        "hu": "Szerződés csak hosszú távú szolgáltatás esetén szükséges."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "seed-237",
+    "source": "Nyolcadik 30-as blokk",
+    "module": "IV",
+    "q": "¿Qué se considera un servicio discrecional en el transporte de pasajeros?",
+    "hu": "Mit tekintünk diszkrecionális (nem menetrend szerinti) személyszállítási szolgáltatásnak?",
+    "answers": [
+      {
+        "original": "Un servicio secreto",
+        "hu": "Titkos szolgáltatást."
+      },
+      {
+        "original": "Un servicio que se ofrece libremente en la calle",
+        "hu": "Utcán szabadon kínált szolgáltatást."
+      },
+      {
+        "original": "Un servicio que no está sujeto a horarios ni rutas fijas preestablecidas",
+        "hu": "Olyan szolgáltatást, amely nincs fix menetrendhez vagy útvonalhoz kötve."
+      },
+      {
+        "original": "Un servicio para turistas",
+        "hu": "Turistáknak szóló szolgáltatást."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "seed-238",
+    "source": "Nyolcadik 30-as blokk",
+    "module": "IV",
+    "q": "¿Qué Ley autonómica desarrolla el Decreto 5/2024, de 10 de enero, de la Comunidad de Madrid?",
+    "hu": "Mely autonóm törvény egészíti ki a Madridi Közösség 2024. január 10-i 5/2024-es rendeletét?",
+    "answers": [
+      {
+        "original": "Ley 16/1987, de Ordenación de los Transportes Terrestres.",
+        "hu": "16/1987-es törvény a szárazföldi közlekedésről."
+      },
+      {
+        "original": "Ley 20/1998, de Ordenación y Coordinación de los Transportes Urbanos.",
+        "hu": "20/1998-as törvény a városi közlekedésről."
+      },
+      {
+        "original": "Ley 1/2024 de Economía Circular.",
+        "hu": "1/2024-es körforgásos gazdaságról szóló törvény."
+      },
+      {
+        "original": "Ley 39/2015, de Procedimiento Administrativo.",
+        "hu": "39/2015-ös közigazgatási eljárásról szóló törvény."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "seed-239",
+    "source": "Nyolcadik 30-as blokk",
+    "module": "IV",
+    "q": "Durante el Desarrollo de un servicio contratado por plaza con pago individual se cumplirán, entre otras, las siguientes condiciones:",
+    "hu": "Egy egyéni fizetésű, helyre szóló szolgáltatás során az alábbi feltételek közül melyeknek kell teljesülniük:",
+    "answers": [
+      {
+        "original": "No se admitirán paradas intermedias, en ningún caso.",
+        "hu": "Köztes megállók semmilyen esetben nem engedélyezettek."
+      },
+      {
+        "original": "Se podrá abandoner el vehículos antes de llegar al punto de destino indicado pero no supondrá la finalización del servicio",
+        "hu": "Lehetőség van a jármű elhagyására a célállomás előtt, de ez nem jelenti a szolgáltatás végét."
+      },
+      {
+        "original": "El itinerario será el que el usuario diga , sea o no sea el más adecuado.",
+        "hu": "Az útvonal mindig az lesz, amit az utas mond, függetlenül attól, hogy az a legjobb-e."
+      },
+      {
+        "original": "El itinerario será el más directo o adecuado entre el inicio y el final del trayecto principal.",
+        "hu": "Az útvonal a legközvetlenebb vagy legmegfelelőbb lesz a kiindulási és a végpont között."
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "seed-240",
+    "source": "Nyolcadik 30-as blokk",
+    "module": "IV",
+    "q": "A los efectos de salvaguardar los derecho a de las personas usuarias de este tipo de servicios (en VTC), las empresas con las que se realiza la contratación de los mismos deberán (entre otros requisitos):",
+    "hu": "A VTC szolgáltatások felhasználóinak jogainak védelme érdekében a szolgáltatást nyújtó cégeknek (egyebek mellett):",
+    "answers": [
+      {
+        "original": "Es recomendable que tengan hojas de reclamaciones.",
+        "hu": "Ajánlott, hogy legyen panaszkezelő űrlapjuk."
+      },
+      {
+        "original": "Contar, para las personas con discapacidad, con un medio accesible de comunicación vía web y con un número de atención telefónica accesible a través de texto.",
+        "hu": "Biztosítaniuk kell a fogyatékkal élők számára hozzáférhető webes kommunikációs csatornát és szövegesen is elérhető telefonos ügyfélszolgálatot."
+      },
+      {
+        "original": "Es recomendable llevar en los vehículos hojas de reclamaciones.",
+        "hu": "Ajánlott panaszkezelő űrlapot tartani a járművekben."
+      },
+      {
+        "original": "No utilizar el nombre del usuario.",
+        "hu": "Nem használhatják a felhasználó nevét."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "seed-241",
+    "source": "new_questions.txt",
+    "module": "I",
+    "q": "¿Cuál de las siguientes definiciones corresponde a la palabra “caja”?",
+    "hu": "A következő meghatározások közül melyik felel meg a „caja” („doboz, láda vagy pénztár”) szónak?",
+    "answers": [
+      {
+        "original": "Musgo que se cría en la corteza de algunos árboles.",
+        "hu": "Moha, amely egyes fák kérgén nő."
+      },
+      {
+        "original": "Edificio para habitar.",
+        "hu": "Lakás céljára szolgáló épület."
+      },
+      {
+        "original": "Recipiente de diferentes materiales, tamaños y formas, generalmente con tapa, que sirve para guardar o transportar cosas.",
+        "hu": "Különböző anyagokból, méretekből és formákból álló, általában fedéllel rendelkező edény, amely arra szolgál, hogy dolgokat tároljon vagy szállítson."
+      },
+      {
+        "original": "Pieza de mobiliario que permite que los seres humanos se acuesten en ella.",
+        "hu": "Bútor darab, amely lehetővé teszi, hogy az emberek rajta lefeküdjenek."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "seed-242",
+    "source": "new_questions.txt",
+    "module": "I",
+    "q": "¿Cuál de las siguientes definiciones corresponde a la palabra “cocina”?",
+    "hu": "A következő meghatározások közül melyik felel meg a „cocina” („konyha”) szónak?",
+    "answers": [
+      {
+        "original": "Acción de comer a una hora determinada del día.",
+        "hu": "Az evés cselekedete a nap egy meghatározott időpontjában."
+      },
+      {
+        "original": "Habitación de una casa u otro edificio que dispone de instalaciones adecuadas para cocinar.",
+        "hu": "Egy ház vagy más épület helyisége, amely megfelelő berendezésekkel rendelkezik a főzéshez."
+      },
+      {
+        "original": "Comida que se toma a última hora del día, al atardecer o por la noche.",
+        "hu": "Étel, amelyet a nap utolsó óráiban, alkonyatkor vagy este fogyasztanak."
+      },
+      {
+        "original": "Reunión de personas para merendar.",
+        "hu": "Személyek összejövetele uzsonnázásra."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "seed-243",
+    "source": "new_questions.txt",
+    "module": "I",
+    "q": "¿Qué significa el refrán “El que mucho abarca, poco aprieta”?",
+    "hu": "Mit jelent az „El que mucho abarca, poco aprieta” („Aki túl sokat markol, keveset fog”) közmondás?",
+    "answers": [
+      {
+        "original": "Que es bueno hacer mucho deporte.",
+        "hu": "Hogy sokat sportolni jó."
+      },
+      {
+        "original": "Que hay que tener cuidado para que no se te olviden las cosas.",
+        "hu": "Hogy óvatosnak kell lenni, nehogy elfelejtsd a dolgokat."
+      },
+      {
+        "original": "Que es mejor concentrarse en pocas cosas para lograr mejores resultados.",
+        "hu": "Hogy jobb kevés dologra koncentrálni a jobb eredmények elérése érdekében."
+      },
+      {
+        "original": "Que hay que intentar hacer muchas cosas a la vez para lograr buenos resultados.",
+        "hu": "Hogy meg kell próbálni egyszerre sok dolgot csinálni, hogy jó eredményeket érjünk el."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "seed-244",
+    "source": "new_questions.txt",
+    "module": "I",
+    "q": "¿Qué significa el refrán “Más vale pájaro en mano que ciento volando”?",
+    "hu": "Mit jelent a 'Jobb egy madár a kézben, mint száz a levegőben' közmondás?",
+    "answers": [
+      {
+        "original": "Que hay que respetar a los pájaros y dejarlos en libertad.",
+        "hu": "Hogy tiszteletben kell tartani a madarakat és szabadon kell őket engedni."
+      },
+      {
+        "original": "Que hay que ver el futuro con esperanza.",
+        "hu": "Hogy a jövőt reménnyel kell nézni."
+      },
+      {
+        "original": "Que es mejor algo seguro, aunque sea poco, que la incierta probabilidad de grandes beneficios.",
+        "hu": "Hogy jobb valami biztos, még ha kevés is, mint a nagy haszon bizonytalan esélye."
+      },
+      {
+        "original": "Que hay que perseguir tus sueños, aunque sea muy difícil.",
+        "hu": "Hogy követni kell az álmaidat, még ha nagyon nehéz is."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "seed-245",
+    "source": "new_questions.txt",
+    "module": "I",
+    "q": "¿Qué pareja de palabras no significan lo mismo?",
+    "hu": "Melyik szópár nem ugyanazt jelenti?",
+    "answers": [
+      {
+        "original": "Antiguo- Nuevo.",
+        "hu": "Régi- Új."
+      },
+      {
+        "original": "Olor- Aroma.",
+        "hu": "Szag- Illat."
+      },
+      {
+        "original": "Cabello- Pelo.",
+        "hu": "Haj- Haj."
+      },
+      {
+        "original": "Escuchar- Oír.",
+        "hu": "Hallgatni- Hallani."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "seed-246",
+    "source": "new_questions.txt",
+    "module": "I",
+    "q": "¿Qué pareja de palabras no significan lo mismo?",
+    "hu": "Melyik szópár nem ugyanazt jelenti?",
+    "answers": [
+      {
+        "original": "Flaco- Delgado.",
+        "hu": "Sovány- Vékony."
+      },
+      {
+        "original": "Complejo- Difícil.",
+        "hu": "Bonyolult- Nehéz."
+      },
+      {
+        "original": "Remoto- Cercano.",
+        "hu": "Távoli- Közeli."
+      },
+      {
+        "original": "Boda- Matrimonio.",
+        "hu": "Esküvő- Házasság."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "seed-247",
+    "source": "new_questions.txt",
+    "module": "I",
+    "q": "Actor es a escenario como profesor es a",
+    "hu": "A színész a színpadhoz úgy van, ahogy a tanár a",
+    "answers": [
+      {
+        "original": "Educación.",
+        "hu": "Oktatás."
+      },
+      {
+        "original": "Maestro.",
+        "hu": "Tanár."
+      },
+      {
+        "original": "Aula.",
+        "hu": "Tanterem."
+      },
+      {
+        "original": "Enseñanza.",
+        "hu": "Tanítás."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "seed-248",
+    "source": "new_questions.txt",
+    "module": "I",
+    "q": "Coche es a conducir como bicicleta es a",
+    "hu": "A kocsi a vezetéshez hasonlóan a kerékpár a",
+    "answers": [
+      {
+        "original": "Navegar.",
+        "hu": "Hajózni."
+      },
+      {
+        "original": "Velocidad.",
+        "hu": "Sebesség."
+      },
+      {
+        "original": "Jugar.",
+        "hu": "Játszani."
+      },
+      {
+        "original": "Montar.",
+        "hu": "Biciklizni."
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "seed-249",
+    "source": "new_questions.txt",
+    "module": "I",
+    "q": "Rueda es a vehículo como raíz es a",
+    "hu": "A kerék a járműhöz olyan, mint a gyökér a",
+    "answers": [
+      {
+        "original": "Árbol.",
+        "hu": "Fa."
+      },
+      {
+        "original": "Abono.",
+        "hu": "Trágya."
+      },
+      {
+        "original": "Agua.",
+        "hu": "Víz."
+      },
+      {
+        "original": "Sol.",
+        "hu": "Nap."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "seed-250",
+    "source": "new_questions.txt",
+    "module": "I",
+    "q": "Lo contrario de abrir es",
+    "hu": "Az „abrir” („kinyitni”) ellentéte",
+    "answers": [
+      {
+        "original": "Elevar.",
+        "hu": "Emelni."
+      },
+      {
+        "original": "Cerrar.",
+        "hu": "Bezárni."
+      },
+      {
+        "original": "Desplegar.",
+        "hu": "Kibontani."
+      },
+      {
+        "original": "Descubrir.",
+        "hu": "Felfedezni."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "seed-251",
+    "source": "new_questions.txt",
+    "module": "I",
+    "q": "Lo contrario de lejos es:",
+    "hu": "A „lejos” („messze”) ellentéte:",
+    "answers": [
+      {
+        "original": "Alejado.",
+        "hu": "Távoli."
+      },
+      {
+        "original": "Cerca.",
+        "hu": "Közel."
+      },
+      {
+        "original": "Distancia.",
+        "hu": "Távolság."
+      },
+      {
+        "original": "Metro.",
+        "hu": "Méter."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "seed-252",
+    "source": "new_questions.txt",
+    "module": "I",
+    "q": "Lo contrario de fácil es",
+    "hu": "A „fácil” („könnyű”) ellentéte az",
+    "answers": [
+      {
+        "original": "Correcto.",
+        "hu": "Helyes."
+      },
+      {
+        "original": "Difícil.",
+        "hu": "Nehéz."
+      },
+      {
+        "original": "Sencillo",
+        "hu": "Egyszerű"
+      },
+      {
+        "original": "Ambiguo",
+        "hu": "Kétértelmű"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "seed-253",
+    "source": "new_questions.txt",
+    "module": "I",
+    "q": "¿Qué palabra significa lo mismo que idéntico?",
+    "hu": "Melyik szó jelenti ugyanazt, mint az 'azonos'?",
+    "answers": [
+      {
+        "original": "Diferente.",
+        "hu": "Különböző."
+      },
+      {
+        "original": "Identificación.",
+        "hu": "Azonosítás."
+      },
+      {
+        "original": "Parecido.",
+        "hu": "Hasonló."
+      },
+      {
+        "original": "Igual.",
+        "hu": "Ugyanaz."
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "seed-254",
+    "source": "new_questions.txt",
+    "module": "I",
+    "q": "¿Qué palabra significa lo mismo que acabar?",
+    "hu": "Melyik szó jelent ugyanazt, mint az „acabar” („befejezni”)?",
+    "answers": [
+      {
+        "original": "Disminuir.",
+        "hu": "Csökkenni."
+      },
+      {
+        "original": "Comenzar.",
+        "hu": "Kezdeni."
+      },
+      {
+        "original": "Restar.",
+        "hu": "Kivonni."
+      },
+      {
+        "original": "Terminar.",
+        "hu": "Befejezni."
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "seed-255",
+    "source": "new_questions.txt",
+    "module": "I",
+    "q": "De las siguientes palabras, una no guarda relación con el resto. ¿Cuál es?",
+    "hu": "A következő szavak közül az egyik nem áll kapcsolatban a többivel. Melyik?",
+    "answers": [
+      {
+        "original": "Dedo.",
+        "hu": "Ujj"
+      },
+      {
+        "original": "Brazo.",
+        "hu": "Kar"
+      },
+      {
+        "original": "Guante.",
+        "hu": "Kesztyű"
+      },
+      {
+        "original": "Mano.",
+        "hu": "Kéz"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "seed-256",
+    "source": "new_questions.txt",
+    "module": "I",
+    "q": "¿Cuál de estas palabras no tiene relación con el resto?",
+    "hu": "Melyik ezek közül a szó nincs kapcsolatban a többivel?",
+    "answers": [
+      {
+        "original": "Riachuelo.",
+        "hu": "Patak"
+      },
+      {
+        "original": "Roble.",
+        "hu": "Tölgy"
+      },
+      {
+        "original": "Encina.",
+        "hu": "Holm tölgy"
+      },
+      {
+        "original": "Pino.",
+        "hu": "Fenyő"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "seed-257",
+    "source": "new_questions.txt",
+    "module": "I",
+    "q": "¿Qué palabra no guarda relación con el resto?",
+    "hu": "Melyik szó nem áll kapcsolatban a többivel?",
+    "answers": [
+      {
+        "original": "Juventud.",
+        "hu": "Ifjúság."
+      },
+      {
+        "original": "Adolescencia.",
+        "hu": "Serdülőkor."
+      },
+      {
+        "original": "Escuela.",
+        "hu": "Iskola."
+      },
+      {
+        "original": "Vejez.",
+        "hu": "Időskor."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "seed-258",
+    "source": "new_questions.txt",
+    "module": "I",
+    "q": "¿Qué significa el refrán “De tal palo tal astilla”?",
+    "hu": "Mit jelent a „De tal palo tal astilla” („Amilyen a fa, olyan a forgácsa”) közmondás?",
+    "answers": [
+      {
+        "original": "Los familiares no se parecen entre ellos.",
+        "hu": "A családtagok nem hasonlítanak egymásra."
+      },
+      {
+        "original": "Los hijos suelen parecerse a sus padres.",
+        "hu": "A gyerekek általában hasonlítanak a szüleikre."
+      },
+      {
+        "original": "Hay que tener cuidado con los palos para no clavarnos astillas.",
+        "hu": "Óvatosnak kell lenni a botokkal, nehogy szálkát kapjunk."
+      },
+      {
+        "original": "Los hijos no suelen parecerse a los padres.",
+        "hu": "A gyerekek általában nem hasonlítanak a szüleikre."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "seed-259",
+    "source": "new_questions.txt",
+    "module": "I",
+    "q": "Coche es a conducir como bicicleta es a",
+    "hu": "Az autó olyan a vezetéshez, mint a kerékpár a",
+    "answers": [
+      {
+        "original": "Montar.",
+        "hu": "biciklizni"
+      },
+      {
+        "original": "Velocidad.",
+        "hu": "sebesség"
+      },
+      {
+        "original": "Jugar.",
+        "hu": "játszani"
+      },
+      {
+        "original": "Navegar.",
+        "hu": "hajózni"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "seed-260",
+    "source": "new_questions.txt",
+    "module": "I",
+    "q": "Doctor es a hospital como mecánico es a",
+    "hu": "Az orvos ugyanúgy viszonyul a kórházhoz, mint a szerelő a",
+    "answers": [
+      {
+        "original": "Trabajo.",
+        "hu": "Munka."
+      },
+      {
+        "original": "Empleo.",
+        "hu": "Állás."
+      },
+      {
+        "original": "Coches.",
+        "hu": "Autók."
+      },
+      {
+        "original": "Taller.",
+        "hu": "Műhely."
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "seed-261",
+    "source": "new_questions.txt",
+    "module": "IV",
+    "q": "Cuando una persona con discapacidad entre es su Autotaxi la actitud correcta es:",
+    "hu": "Amikor egy fogyatékossággal élő személy beszáll az Ön autótaxisába, a helyes magatartás a következő:",
+    "answers": [
+      {
+        "original": "Preguntar desde cuándo tiene la discapacidad.",
+        "hu": "Megkérdezni, mióta áll fenn a fogyatékossága."
+      },
+      {
+        "original": "No realizar preguntas relacionadas con la discapacidad ya que pertenecen a su intimidad.",
+        "hu": "Nem feltenni a fogyatékosságra vonatkozó kérdéseket, mivel azok az ő intimitásához tartoznak."
+      },
+      {
+        "original": "Realizar preguntas para averiguar por qué tiene discapacidad.",
+        "hu": "Kérdéseket feltenni azért, hogy megtudja, miért van fogyatékossága."
+      },
+      {
+        "original": "No hablar ni preguntar nada a la persona con discapacidad.",
+        "hu": "Nem beszélni, és semmit sem kérdezni a fogyatékossággal élő személytől."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "seed-262",
+    "source": "new_questions.txt",
+    "module": "IV",
+    "q": "Los vehículos no podrán superar la antigüedad de:",
+    "hu": "A járművek nem haladhatják meg az alábbi életkort:",
+    "answers": [
+      {
+        "original": "10 años contados desde su adquisición.",
+        "hu": "10 év az átvételüktől számítva."
+      },
+      {
+        "original": "9 años contados desde su adquisición.",
+        "hu": "9 év az átvételüktől számítva."
+      },
+      {
+        "original": "10 años contados desde su primera matriculación.",
+        "hu": "10 év az első forgalomba helyezésüktől számítva."
+      },
+      {
+        "original": "10 años contados desde su homologación.",
+        "hu": "10 év a homologizációjuktól számítva."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "seed-263",
+    "source": "new_questions.txt",
+    "module": "IV",
+    "q": "¿Cómo debe ser la carrocería de un vehículo autotaxi?",
+    "hu": "Hogyan kell lennie egy autotaxi jármű karosszériájának?",
+    "answers": [
+      {
+        "original": "Cerrada.",
+        "hu": "Zárt."
+      },
+      {
+        "original": "Cerrada o descapotable.",
+        "hu": "Zárt vagy nyitható tetejű."
+      },
+      {
+        "original": "Resistente.",
+        "hu": "Ellenálló."
+      },
+      {
+        "original": "Brillante.",
+        "hu": "Fényes."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "seed-264",
+    "source": "new_questions.txt",
+    "module": "IV",
+    "q": "¿Cuál es el número de plazas máximo en un vehículo autotaxi?",
+    "hu": "Mennyi a maximális férőhelyszám egy autótaxi járműben?",
+    "answers": [
+      {
+        "original": "No hay límite máximo regulado.",
+        "hu": "Nincs szabályozott maximális korlát."
+      },
+      {
+        "original": "9, incluido el conductor.",
+        "hu": "9, beleértve a vezetőt."
+      },
+      {
+        "original": "5, incluido el conductor.",
+        "hu": "5, beleértve a vezetőt."
+      },
+      {
+        "original": "9 más el conductor.",
+        "hu": "9 plusz a vezető."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "seed-265",
+    "source": "new_questions.txt",
+    "module": "IV",
+    "q": "Los vehículos autotaxi deberán ir provistos de:",
+    "hu": "Az autotaxi járműveket fel kell szerelni:",
+    "answers": [
+      {
+        "original": "Taxímetro únicamente.",
+        "hu": "Csak taxaméterrel."
+      },
+      {
+        "original": "Sistema tarifario integrado por taxímetro y módulo luminoso.",
+        "hu": "Taxaméterből és világító modulból álló tarifarendszer."
+      },
+      {
+        "original": "Todas son falsas.",
+        "hu": "Mindegyik hamis."
+      },
+      {
+        "original": "Taxímetro en el salpicadero.",
+        "hu": "Taxaméter a műszerfalon."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "seed-266",
+    "source": "new_questions.txt",
+    "module": "IV",
+    "q": "Los vehículos autotaxi deberán ir provistos de:",
+    "hu": "Az autotaxi járműveket fel kell szerelni:",
+    "answers": [
+      {
+        "original": "Alarma de exceso de horas.",
+        "hu": "Órák túllépését jelző riasztó."
+      },
+      {
+        "original": "Sistema de regulación para cumplir con las 16 horas.",
+        "hu": "Szabályozó rendszer a 16 óra betartásához."
+      },
+      {
+        "original": "Elemento de control horario.",
+        "hu": "Időellenőrző elem."
+      },
+      {
+        "original": "Tacógrafo.",
+        "hu": "Tachográf."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "seed-267",
+    "source": "new_questions.txt",
+    "module": "IV",
+    "q": "El tique de la Impresora deberá contener:",
+    "hu": "A nyomtató jegyének tartalmaznia kell:",
+    "answers": [
+      {
+        "original": "Nacionalidad del pasajero.",
+        "hu": "Az utas állampolgársága."
+      },
+      {
+        "original": "Todas son correctas.",
+        "hu": "Mindegyik helyes."
+      },
+      {
+        "original": "Destino final del viajero.",
+        "hu": "Az utazó végső úti célja."
+      },
+      {
+        "original": "Origen y destino del viaje.",
+        "hu": "Az utazás kiindulási helye és célállomása."
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "seed-268",
+    "source": "new_questions.txt",
+    "module": "IV",
+    "q": "¿Cómo debe ser la mampara de un vehículo autotaxi?",
+    "hu": "Hogyan kell lennie egy autotaxi jármű válaszfalának?",
+    "answers": [
+      {
+        "original": "De metacrilato.",
+        "hu": "Metakrilátból."
+      },
+      {
+        "original": "Transparente.",
+        "hu": "Áttetsző."
+      },
+      {
+        "original": "Blindada.",
+        "hu": "Páncélozott."
+      },
+      {
+        "original": "Antibalas.",
+        "hu": "Golyóálló."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "seed-269",
+    "source": "new_questions.txt",
+    "module": "IV",
+    "q": "¿Qué debe permitir la mampara en un vehículo de autotaxi?",
+    "hu": "Mit kell lehetővé tennie a mamparának egy autotaxi járműben?",
+    "answers": [
+      {
+        "original": "Debe permitir la intimidad de los viajeros.",
+        "hu": "Biztosítania kell az utasok intimitását."
+      },
+      {
+        "original": "Ha de contar con un altavoz bidireccional.",
+        "hu": "Kétirányú hangszóróval kell rendelkeznie."
+      },
+      {
+        "original": "Permitirá la comunicación visual entre el conductor y los usuarios.",
+        "hu": "Lehetővé teszi a vezető és az utasok közötti vizuális kommunikációt."
+      },
+      {
+        "original": "Permitirá la comunicación verbal entre el conductor y los usuarios.",
+        "hu": "Lehetővé teszi a vezető és az utasok közötti szóbeli kommunikációt."
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "seed-270",
+    "source": "new_questions.txt",
+    "module": "IV",
+    "q": "¿En qué color debe ir pintada la franja diagonal de un vehículo autotaxi?",
+    "hu": "Milyen színűre kell festeni az autotaxi jármű átlós sávját?",
+    "answers": [
+      {
+        "original": "Pintada en blanco.",
+        "hu": "Fehérre festve."
+      },
+      {
+        "original": "Pintada en verde.",
+        "hu": "Zöldre festve."
+      },
+      {
+        "original": "Pintada en azul.",
+        "hu": "Kékre festve."
+      },
+      {
+        "original": "Pintada en rojo.",
+        "hu": "Pirosra festve."
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "seed-271",
+    "source": "new_questions.txt",
+    "module": "IV",
+    "q": "¿Debe un autotaxi llevar el distintivo ambiental?",
+    "hu": "Kell-e egy autótaxinak környezeti matrica?",
+    "answers": [
+      {
+        "original": "Sí.",
+        "hu": "Igen."
+      },
+      {
+        "original": "No, porque son todos cero y ECO.",
+        "hu": "Nem, mert mindegyikük CERO vagy ECO besorolású."
+      },
+      {
+        "original": "No, porque es un Servicio Público.",
+        "hu": "Nem, mert ez egy közszolgáltatás."
+      },
+      {
+        "original": "No, porque tapa la tarjeta identificativa.",
+        "hu": "Nem, mert eltakarja az azonosító kártyát."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "seed-272",
+    "source": "new_questions.txt",
+    "module": "IV",
+    "q": "¿Cuál es el número máximo de anuncios de marca permitidos en un eurotaxi?",
+    "hu": "Mi az egy eurotaxiban megengedett márkareklámok maximális száma?",
+    "answers": [
+      {
+        "original": "3.",
+        "hu": "3."
+      },
+      {
+        "original": "2.",
+        "hu": "2."
+      },
+      {
+        "original": "4.",
+        "hu": "4."
+      },
+      {
+        "original": "No hay número máximo.",
+        "hu": "Nincs maximális szám."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "seed-273",
+    "source": "new_questions.txt",
+    "module": "IV",
+    "q": "Para obtener el permiso municipal de conductor de autotaxi, ¿qué antigüedad mínima se exige en el permiso de conducción?",
+    "hu": "Az autótaxi-vezetői önkormányzati engedély megszerzéséhez a vezetői engedélyen milyen minimális időtartam meglétét írják elő?",
+    "answers": [
+      {
+        "original": "Ser mayor de edad.",
+        "hu": "Nagykorúnak lenni."
+      },
+      {
+        "original": "Seis meses.",
+        "hu": "Hat hónap."
+      },
+      {
+        "original": "Dos años.",
+        "hu": "Két év."
+      },
+      {
+        "original": "Un año.",
+        "hu": "Egy év."
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "seed-274",
+    "source": "new_questions.txt",
+    "module": "IV",
+    "q": "Para obtener el permiso municipal de conductor de autotaxi será necesario:",
+    "hu": "Az autótaxi-vezetői önkormányzati engedély megszerzéséhez szükséges:",
+    "answers": [
+      {
+        "original": "Ser declarado apto en el examen que convoca a tal efecto el Ayuntamiento de Madrid.",
+        "hu": "Alkalmasnak nyilvánítsák azon a vizsgán, amelyet e célból a Madrid Önkormányzata hirdet meg."
+      },
+      {
+        "original": "Ser declarado apto en el examen que convoca a tal efecto la Policía Municipal.",
+        "hu": "Alkalmasnak nyilvánítsák azon a vizsgán, amelyet e célból az önkormányzati rendőrség hirdet meg."
+      },
+      {
+        "original": "Ser declarado apto en el examen que convoca la subdelegación del Gobierno.",
+        "hu": "Alkalmasnak nyilvánítsák azon a vizsgán, amelyet a Kormány aldelegációja hirdet meg."
+      },
+      {
+        "original": "Ser declarado apto en el examen que convoca a tal efecto la Consejería de Transportes.",
+        "hu": "Alkalmasnak nyilvánítsák azon a vizsgán, amelyet e célból a Közlekedési Minisztérium hirdet meg."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "seed-275",
+    "source": "new_questions.txt",
+    "module": "IV",
+    "q": "El acuerdo de iniciación del procedimiento de extinción del permiso municipal de conductor de autotaxi contendrá:",
+    "hu": "Az autótaxi-vezetői önkormányzati engedély megszüntetésére irányuló eljárás megindításáról szóló határozat tartalmazni fogja:",
+    "answers": [
+      {
+        "original": "Relación de testimonios de la denuncia.",
+        "hu": "A feljelentés tanúvallomásainak felsorolása."
+      },
+      {
+        "original": "Relación de las personas intervinientes en los hechos objeto de análisis.",
+        "hu": "A vizsgálat tárgyát képező tényekben közreműködő személyek felsorolása."
+      },
+      {
+        "original": "Relación de los hechos y circunstancias que induzcan a apreciar que se van a perder en un futuro los requisitos para su obtención.",
+        "hu": "A tények és körülmények felsorolása, amelyek arra indítanak, hogy megállapítsuk: a jövőben elvesznek a megszerzéséhez szükséges követelmények."
+      },
+      {
+        "original": "Relación de los hechos y circunstancias que induzcan a apreciar, racional y fundadamente, que carece de alguno de los requisitos que se exigieron para su obtención.",
+        "hu": "A tények és körülmények felsorolása, amelyek racionálisan és megalapozottan arra indítanak, hogy megállapítsuk: hiányzik belőle valamelyik a megszerzéséhez megkövetelt feltételek közül."
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "seed-276",
+    "source": "new_questions.txt",
+    "module": "IV",
+    "q": "¿Qué debe contener necesariamente la tarjeta de identificación del conductor de un vehículo de autotaxi?",
+    "hu": "Mit kell feltétlenül tartalmaznia az autotaxi jármű vezetőjének azonosító kártyájának?",
+    "answers": [
+      {
+        "original": "Nombre y apellidos del conductor y su fotografía.",
+        "hu": "A vezető családi és utóneve és a fényképe."
+      },
+      {
+        "original": "Nombre y apellidos del conductor y del titular de la licencia.",
+        "hu": "A vezető és a jogosítvány tulajdonosának családi és utóneve."
+      },
+      {
+        "original": "Todas son falsas.",
+        "hu": "Mind hamisak."
+      },
+      {
+        "original": "Nombre y apellidos del titular de la licencia.",
+        "hu": "A jogosítvány tulajdonosának családi és utóneve."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "seed-277",
+    "source": "new_questions.txt",
+    "module": "IV",
+    "q": "La titularidad de licencia de autotaxi será compatible con el ejercicio de cualquier otra actividad:",
+    "hu": "Az autótaxi-engedély birtoklása összeegyeztethető bármely más tevékenység gyakorlásával:",
+    "answers": [
+      {
+        "original": "Industrial.",
+        "hu": "Ipari."
+      },
+      {
+        "original": "Comercial.",
+        "hu": "Kereskedelmi."
+      },
+      {
+        "original": "Mercantil.",
+        "hu": "Üzleti."
+      },
+      {
+        "original": "Todas son correctas.",
+        "hu": "Mindegyik helyes."
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "seed-278",
+    "source": "new_questions.txt",
+    "module": "IV",
+    "q": "Con carácter general, la licencia número 1448, ¿qué día descansará?",
+    "hu": "Általánosságban véve, a 1448-as engedély melyik napon fog pihenni?",
+    "answers": [
+      {
+        "original": "Martes.",
+        "hu": "Kedd."
+      },
+      {
+        "original": "Miércoles.",
+        "hu": "Szerda."
+      },
+      {
+        "original": "Jueves.",
+        "hu": "Csütörtök."
+      },
+      {
+        "original": "Lunes.",
+        "hu": "Hétfő."
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "seed-279",
+    "source": "new_questions.txt",
+    "module": "IV",
+    "q": "Las licencias cuyos ordinales terminen en número par…",
+    "hu": "Azok az engedélyek, amelyek sorszámai páros számra végződnek…",
+    "answers": [
+      {
+        "original": "Descansarán los sábados y domingos impares.",
+        "hu": "Pihenni fognak a páratlan szombatokon és vasárnapokon."
+      },
+      {
+        "original": "Trabajarán los sábados y domingos impares.",
+        "hu": "Dolgozni fognak a páratlan szombatokon és vasárnapokon."
+      },
+      {
+        "original": "Trabajarán los sábados pares y los domingos impares.",
+        "hu": "Dolgozni fognak a páros szombatokon és a páratlan vasárnapokon."
+      },
+      {
+        "original": "Descansarán los sábados y domingos pares.",
+        "hu": "Pihenni fognak a páros szombatokon és vasárnapokon."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "seed-280",
+    "source": "new_questions.txt",
+    "module": "IV",
+    "q": "¿Cuándo puede negarse a transportar el conductor de un autotaxi un perro de asistencia?",
+    "hu": "Mikor tagadhatja meg egy autotaxi vezetője, hogy szállítson egy segítő kutyát?",
+    "answers": [
+      {
+        "original": "Si no va en jaula.",
+        "hu": "Ha nincs ketrecben."
+      },
+      {
+        "original": "Nunca.",
+        "hu": "Soha."
+      },
+      {
+        "original": "Si es alérgico a los animales.",
+        "hu": "Ha allergiás az állatokra."
+      },
+      {
+        "original": "Si no cabe en el maletero.",
+        "hu": "Ha nem fér be a csomagtartóba."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "seed-281",
+    "source": "new_questions.txt",
+    "module": "IV",
+    "q": "Es causa de interrupción provisional del taxímetro una parada producida por:",
+    "hu": "A taxióra ideiglenes megszakításának oka egy megállás, amelyet:",
+    "answers": [
+      {
+        "original": "Invasión del carril bus taxi.",
+        "hu": "Behajtás a busz-taxi sávba."
+      },
+      {
+        "original": "Retraso.",
+        "hu": "Késés."
+      },
+      {
+        "original": "Accidente.",
+        "hu": "Baleset."
+      },
+      {
+        "original": "Atasco.",
+        "hu": "Forgalmi torlódás."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "seed-282",
+    "source": "new_questions.txt",
+    "module": "IV",
+    "q": "¿Qué le puede cobrar el conductor a un pasajero en caso de accidente que haga imposible continuar el servicio?",
+    "hu": "Mit kérhet a sofőr egy utastól abban az esetben, ha egy baleset lehetetlenné teszi a szolgáltatás folytatását?",
+    "answers": [
+      {
+        "original": "Lo que lleve marcado el taxímetro ese momento.",
+        "hu": "Amit a taxaméter abban a pillanatban mutat."
+      },
+      {
+        "original": "Nada.",
+        "hu": "Semmit."
+      },
+      {
+        "original": "Dependerá de quién sea la culpa del accidente.",
+        "hu": "Attól függ, hogy kinek volt a hibája a balesetnek."
+      },
+      {
+        "original": "El importe del servicio hasta ese momento, descontada la cuantía del inicio de servicio.",
+        "hu": "A szolgáltatás eddigi díja, levonva az indulási díj összegét."
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "seed-283",
+    "source": "new_questions.txt",
+    "module": "IV",
+    "q": "Durante la prestación del servicio es obligatorio llevar a bordo del vehículo:",
+    "hu": "A szolgáltatás nyújtása során kötelező a járművön tartani:",
+    "answers": [
+      {
+        "original": "Permiso municipal de conductor de autotaxi.",
+        "hu": "Autótaxi-vezetői önkormányzati engedély."
+      },
+      {
+        "original": "Certificado de antecedentes penales por delitos sexuales.",
+        "hu": "Bűnügyi előéleti igazolás szexuális bűncselekményekről."
+      },
+      {
+        "original": "Certificado médico de no padecimiento de enfermedad infectocontagiosa.",
+        "hu": "Orvosi igazolás arról, hogy nem szenved fertőző betegségben."
+      },
+      {
+        "original": "Título de la ESO o equivalente.",
+        "hu": "A kötelező középfokú oktatás bizonyítványa vagy azzal egyenértékű."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "seed-284",
+    "source": "new_questions.txt",
+    "module": "IV",
+    "q": "¿Puede un usuario comer o beber en el taxi?",
+    "hu": "Egy utas ehet vagy ihat a taxiban?",
+    "answers": [
+      {
+        "original": "Solo beber.",
+        "hu": "Csak inni."
+      },
+      {
+        "original": "Sí.",
+        "hu": "Igen."
+      },
+      {
+        "original": "No.",
+        "hu": "Nem."
+      },
+      {
+        "original": "Solo comer.",
+        "hu": "Csak enni."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "seed-285",
+    "source": "new_questions.txt",
+    "module": "IV",
+    "q": "¿Hasta qué cantidad están obligados los conductores a devolver el cambio de moneda?",
+    "hu": "Mekkora összegig kötelesek a járművezetők visszaadni a visszajáró pénzt?",
+    "answers": [
+      {
+        "original": "20 euros.",
+        "hu": "20 euró."
+      },
+      {
+        "original": "20 euros o dólares.",
+        "hu": "20 euró vagy 20 dollár."
+      },
+      {
+        "original": "50 euros.",
+        "hu": "50 euró."
+      },
+      {
+        "original": "20 euros en caso de pago por Bizum o tarjeta.",
+        "hu": "20 euró Bizum vagy kártyás fizetés esetén."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "seed-286",
+    "source": "new_questions.txt",
+    "module": "IV",
+    "q": "Si no fuera posible seguir el itinerario elegido por el viajero o el más directo, el conductor podrá:",
+    "hu": "Ha nem lenne lehetséges követni az utazó által választott útvonalat vagy a legközvetlenebb útvonalat, a járművezető megteheti:",
+    "answers": [
+      {
+        "original": "Elegir otro alternativo y comunicarlo al pasajero que deberá manifestar su conformidad.",
+        "hu": "Másik alternatívát választani és azt közölni az utassal, akinek kifejeznie kell az egyetértését."
+      },
+      {
+        "original": "Dar por finalizado el servicio.",
+        "hu": "A szolgáltatást befejezettnek nyilvánítani."
+      },
+      {
+        "original": "Elegir otro alternativo.",
+        "hu": "Másik alternatívát választani."
+      },
+      {
+        "original": "Elegir otro alternativo y comunicarlo al pasajero.",
+        "hu": "Másik alternatívát választani és azt közölni az utassal."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-test1-001",
+    "source": "proformatrans-test1",
+    "module": "I",
+    "q": "¿Cuál es un ejemplo de oración compuesta?",
+    "hu": "Melyik példa összetett mondatra?",
+    "answers": [
+      {
+        "original": "Vine y te llamé",
+        "hu": "Jöttem és felhívtalak."
+      },
+      {
+        "original": "Pedro come",
+        "hu": "Pedro eszik."
+      },
+      {
+        "original": "Llueve mucho",
+        "hu": "Nagyon esik az eső."
+      },
+      {
+        "original": "Salieron",
+        "hu": "Elmentek."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-test1-002",
+    "source": "proformatrans-test1",
+    "module": "I",
+    "q": "¿Quién escribió El Quijote?",
+    "hu": "Ki írta a Don Quijotét?",
+    "answers": [
+      {
+        "original": "Miguel de Cervantes",
+        "hu": "Miguel de Cervantes"
+      },
+      {
+        "original": "Gabriel García Márquez",
+        "hu": "Gabriel García Márquez"
+      },
+      {
+        "original": "Lope de Vega",
+        "hu": "Lope de Vega"
+      },
+      {
+        "original": "Jorge Luis Borges",
+        "hu": "Jorge Luis Borges"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-test1-003",
+    "source": "proformatrans-test1",
+    "module": "I",
+    "q": "Elija la respuesta que sea más correcta frente a esta afirmación, \"Estar entre la espada y la pared.\"",
+    "hu": "Válaszd ki a leghelyesebb választ erre a kifejezésre: „Két tűz közé kerülni / szorult helyzetben lenni.”",
+    "answers": [
+      {
+        "original": "Tener que tomar una decisión difícil.",
+        "hu": "Nehéz döntést kell meghozni."
+      },
+      {
+        "original": "Estar en un combate.",
+        "hu": "Harcban lenni."
+      },
+      {
+        "original": "Estar en una pared.",
+        "hu": "Egy falon lenni."
+      },
+      {
+        "original": "Tener que ir a dos sitios.",
+        "hu": "Két helyre kell menni."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-test1-004",
+    "source": "proformatrans-test1",
+    "module": "I",
+    "q": "¿Qué palabra no guarda relación con el resto?",
+    "hu": "Melyik szó nem kapcsolódik a többihez?",
+    "answers": [
+      {
+        "original": "Oriundo.",
+        "hu": "Származó / odavalósi."
+      },
+      {
+        "original": "Atávico.",
+        "hu": "Atavisztikus / ősi."
+      },
+      {
+        "original": "Heredado.",
+        "hu": "Örökölt."
+      },
+      {
+        "original": "Ancestral.",
+        "hu": "Ősi."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-test1-005",
+    "source": "proformatrans-test1",
+    "module": "I",
+    "q": "¿Qué tipo de palabra es \"rápido\" en la oración \"Corre rápido\"?",
+    "hu": "Milyen szófaj a „rápido” a „Corre rápido” mondatban?",
+    "answers": [
+      {
+        "original": "Adverbio",
+        "hu": "Határozószó"
+      },
+      {
+        "original": "Adjetivo",
+        "hu": "Melléknév"
+      },
+      {
+        "original": "Sustantivo",
+        "hu": "Főnév"
+      },
+      {
+        "original": "Verbo",
+        "hu": "Ige"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-test1-006",
+    "source": "proformatrans-test1",
+    "module": "I",
+    "q": "Mi amigo Juan y Pedro, que es el padre de su mujer, ______ aficionados al baloncesto. Pedro le acompaña a disfrutar de los partidos del Estudiantes los domingos porque es el único día que no ______.",
+    "hu": "A barátom, Juan és Pedro, aki a felesége apja, ______ a kosárlabda rajongói. Pedro elkíséri őt vasárnaponként az Estudiantes meccseire, mert ez az egyetlen nap, amikor nem ______.",
+    "answers": [
+      {
+        "original": "Son / trabaja",
+        "hu": "Vannak / dolgozik"
+      },
+      {
+        "original": "Es / trabaja",
+        "hu": "Van / dolgozik"
+      },
+      {
+        "original": "Son / trabajan",
+        "hu": "Vannak / dolgoznak"
+      },
+      {
+        "original": "Es / trabajan",
+        "hu": "Van / dolgoznak"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-test1-007",
+    "source": "proformatrans-test1",
+    "module": "I",
+    "q": "¿Cuál de estas palabras es un adverbio?",
+    "hu": "Az alábbi szavak közül melyik határozószó?",
+    "answers": [
+      {
+        "original": "Azul",
+        "hu": "Kék"
+      },
+      {
+        "original": "Comer",
+        "hu": "Enni"
+      },
+      {
+        "original": "Rápidamente",
+        "hu": "Gyorsan"
+      },
+      {
+        "original": "Camión",
+        "hu": "Teherautó"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-test1-008",
+    "source": "proformatrans-test1",
+    "module": "I",
+    "q": "¿Qué gas respiramos del aire?",
+    "hu": "Melyik gázt lélegezzük be a levegőből?",
+    "answers": [
+      {
+        "original": "Helio",
+        "hu": "Hélium"
+      },
+      {
+        "original": "Oxígeno",
+        "hu": "Oxigén"
+      },
+      {
+        "original": "Dióxido de carbono",
+        "hu": "Szén-dioxid"
+      },
+      {
+        "original": "Hidrógeno",
+        "hu": "Hidrogén"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-test1-010",
+    "source": "proformatrans-test1",
+    "module": "I",
+    "q": "¿Qué oración es gramaticalmente correcta y expresa una acción en desarrollo?",
+    "hu": "Melyik mondat nyelvtanilag helyes, és fejez ki folyamatban lévő cselekvést?",
+    "answers": [
+      {
+        "original": "Nosotros estamos cocinado la cena para toda la familia esta noche.",
+        "hu": "Mi főzve vagyunk a vacsorát az egész családnak ma este."
+      },
+      {
+        "original": "Nosotros cocinado estamos la cena para toda la familia esta noche.",
+        "hu": "Mi főzve vagyunk a vacsorát az egész családnak ma este."
+      },
+      {
+        "original": "Nosotros estamos cocinando la cena para toda la familia esta noche.",
+        "hu": "Ma este vacsorát főzünk az egész családnak."
+      },
+      {
+        "original": "Nosotros ser cocinando la cena para toda la familia esta noche.",
+        "hu": "Mi lenni főzve a vacsorát az egész családnak ma este."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-test1-011",
+    "source": "proformatrans-test1",
+    "module": "I",
+    "q": "Jaime: ¿Sabes quién ________ esa joven vestida de blanco que estaba con Héctor? Felipe: No tengo ni idea, ________ su hermana, porque físicamente se parecían muchísimo.",
+    "hu": "Jaime: Tudod, ki ________ az a fehérbe öltözött fiatal nő, aki Héctorral volt? Felipe: Fogalmam sincs, ________ a nővére/húga, mert külsőre nagyon hasonlítottak.",
+    "answers": [
+      {
+        "original": "Era / sería",
+        "hu": "Volt / lehetett volna"
+      },
+      {
+        "original": "Fue / sería",
+        "hu": "Volt / lehetett volna"
+      },
+      {
+        "original": "Era / serán",
+        "hu": "Volt / lesznek"
+      },
+      {
+        "original": "Fue / será",
+        "hu": "Volt / lesz"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-test1-012",
+    "source": "proformatrans-test1",
+    "module": "I",
+    "q": "¿Qué tipo de oración es: 'Ven aquí ahora mismo.'?",
+    "hu": "Milyen típusú mondat ez: „Gyere ide most azonnal.”?",
+    "answers": [
+      {
+        "original": "Interrogativa",
+        "hu": "Kérdő"
+      },
+      {
+        "original": "Imperativa",
+        "hu": "Felszólító"
+      },
+      {
+        "original": "Enunciativa",
+        "hu": "Kijelentő"
+      },
+      {
+        "original": "Exclamativa",
+        "hu": "Felkiáltó"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-test1-013",
+    "source": "proformatrans-test1",
+    "module": "I",
+    "q": "¿Qué estructura presenta un texto argumentativo clásico?",
+    "hu": "Milyen szerkezete van egy klasszikus érvelő szövegnek?",
+    "answers": [
+      {
+        "original": "Pregunta, respuesta",
+        "hu": "Kérdés, válasz"
+      },
+      {
+        "original": "Introducción, tesis, argumentos, conclusión",
+        "hu": "Bevezetés, tézis, érvek, következtetés"
+      },
+      {
+        "original": "Título, imágenes, ejemplos",
+        "hu": "Cím, képek, példák"
+      },
+      {
+        "original": "Inicio, nudo, desenlace",
+        "hu": "Bevezetés, bonyodalom, lezárás"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-test1-014",
+    "source": "proformatrans-test1",
+    "module": "I",
+    "q": "¿Cuál de las siguientes definiciones corresponde a la palabra \"señal\"?",
+    "hu": "Az alábbi meghatározások közül melyik felel meg a „señal” szónak?",
+    "answers": [
+      {
+        "original": "Superficie reflectante para mejorar la visibilidad",
+        "hu": "Fényvisszaverő felület a láthatóság javítására"
+      },
+      {
+        "original": "Indicación visual o acústica que regula el tráfico",
+        "hu": "Vizuális vagy hangjelzés, amely szabályozza a forgalmat"
+      },
+      {
+        "original": "Mecanismo que permite el encendido",
+        "hu": "Mechanizmus, amely lehetővé teszi a bekapcsolást"
+      },
+      {
+        "original": "Objeto decorativo utilizado en interiores",
+        "hu": "Beltérben használt dísztárgy"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-test1-015",
+    "source": "proformatrans-test1",
+    "module": "I",
+    "q": "¿Qué palabra tiene un significado similar a 'amable'?",
+    "hu": "Melyik szó jelentése hasonló az „amable” szóhoz?",
+    "answers": [
+      {
+        "original": "Rudo",
+        "hu": "Durva"
+      },
+      {
+        "original": "Cortés",
+        "hu": "Udvarias"
+      },
+      {
+        "original": "Honesto",
+        "hu": "Őszinte"
+      },
+      {
+        "original": "Noble",
+        "hu": "Nemes"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-test1-016",
+    "source": "proformatrans-test1",
+    "module": "I",
+    "q": "¿Cuál de las siguientes afirmaciones es una falacia?",
+    "hu": "Az alábbi állítások közül melyik téves következtetés?",
+    "answers": [
+      {
+        "original": "El agua hierve a 100°C",
+        "hu": "A víz 100°C-on forr."
+      },
+      {
+        "original": "Todos los humanos son mortales",
+        "hu": "Minden ember halandó."
+      },
+      {
+        "original": "Si llueve, me mojo",
+        "hu": "Ha esik, megázom."
+      },
+      {
+        "original": "Desde que uso esta pulsera me va mejor en el trabajo",
+        "hu": "Amióta ezt a karkötőt használom, jobban megy a munkám."
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-test1-017",
+    "source": "proformatrans-test1",
+    "module": "I",
+    "q": "Elige la respuesta correcta: Hoy es mi cumpleaños, mi madre me despertó, desayuné, de camino al cole me encontré con Benito. ¿Quién me felicitó primero?",
+    "hu": "Válaszd ki a helyes választ: Ma van a születésnapom, anyám felébresztett, megreggeliztem, az iskolába menet találkoztam Benitóval. Ki köszöntött fel először?",
+    "answers": [
+      {
+        "original": "Benito",
+        "hu": "Benito"
+      },
+      {
+        "original": "Mis amigos en el colegio",
+        "hu": "A barátaim az iskolában"
+      },
+      {
+        "original": "Mi madre",
+        "hu": "Anyám"
+      },
+      {
+        "original": "Mi padre",
+        "hu": "Apám"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-test1-018",
+    "source": "proformatrans-test1",
+    "module": "I",
+    "q": "¿Cuál es la función de un verbo?",
+    "hu": "Mi az ige funkciója?",
+    "answers": [
+      {
+        "original": "Describir al sustantivo",
+        "hu": "A főnév leírása"
+      },
+      {
+        "original": "Nombrar personas, lugares o cosas",
+        "hu": "Személyek, helyek vagy dolgok megnevezése"
+      },
+      {
+        "original": "Indicar acciones",
+        "hu": "Cselekvések jelölése"
+      },
+      {
+        "original": "Conectar oraciones",
+        "hu": "Mondatok összekapcsolása"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-test1-019",
+    "source": "proformatrans-test1",
+    "module": "I",
+    "q": "...es a cocina como chef es a...",
+    "hu": "… úgy viszonyul a konyhához, ahogy a séf a …",
+    "answers": [
+      {
+        "original": "Plato – Sartén.",
+        "hu": "Tányér – serpenyő."
+      },
+      {
+        "original": "Restaurante – Receta.",
+        "hu": "Étterem – recept."
+      },
+      {
+        "original": "Comida – Ingrediente.",
+        "hu": "Étel – hozzávaló."
+      },
+      {
+        "original": "Sabor – Fuego.",
+        "hu": "Íz – tűz."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-test1-020",
+    "source": "proformatrans-test1",
+    "module": "I",
+    "q": "¿Qué tipo de palabra es \"grande\" en la oración \"Ese coche es grande\"?",
+    "hu": "Milyen szófaj a „grande” az „Ese coche es grande” mondatban?",
+    "answers": [
+      {
+        "original": "Verbo",
+        "hu": "Ige"
+      },
+      {
+        "original": "Pronombre",
+        "hu": "Névmás"
+      },
+      {
+        "original": "Adjetivo",
+        "hu": "Melléknév"
+      },
+      {
+        "original": "Sustantivo",
+        "hu": "Főnév"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo1-test2-001",
+    "source": "proformatrans-modulo1-test2",
+    "module": "I",
+    "q": "¿Qué signo de puntuación se usa para unir dos ideas relacionadas en una misma oración?",
+    "hu": "Melyik írásjelet használjuk két, egymással összefüggő gondolat összekapcsolására ugyanabban a mondatban?",
+    "answers": [
+      {
+        "original": "Guion",
+        "hu": "Kötőjel"
+      },
+      {
+        "original": "Coma",
+        "hu": "Vessző"
+      },
+      {
+        "original": "Punto y coma",
+        "hu": "Pontosvessző"
+      },
+      {
+        "original": "Punto",
+        "hu": "Pont"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo1-test2-002",
+    "source": "proformatrans-modulo1-test2",
+    "module": "I",
+    "q": "¿Qué palabra no pertenece al grupo, considerando la función dentro de un sistema informático?",
+    "hu": "Melyik szó nem tartozik a csoportba, ha egy informatikai rendszerben betöltött funkciót nézzük?",
+    "answers": [
+      {
+        "original": "Teclado",
+        "hu": "Billentyűzet"
+      },
+      {
+        "original": "Procesador",
+        "hu": "Processzor"
+      },
+      {
+        "original": "Monitor",
+        "hu": "Monitor"
+      },
+      {
+        "original": "Portátil",
+        "hu": "Laptop / hordozható számítógép"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo1-test2-003",
+    "source": "proformatrans-modulo1-test2",
+    "module": "I",
+    "q": "¿Cuál de las siguientes definiciones corresponde a la palabra \"maletero\"?",
+    "hu": "Az alábbi meghatározások közül melyik felel meg a „maletero” („csomagtartó”) szónak?",
+    "answers": [
+      {
+        "original": "Compartimento trasero de un vehículo para guardar equipaje",
+        "hu": "A jármű hátsó rekesze csomagok tárolására"
+      },
+      {
+        "original": "Mirar el GPS cada vez que cambie la ruta",
+        "hu": "Megnézni a GPS-t minden alkalommal, amikor változik az útvonal"
+      },
+      {
+        "original": "Dispositivo que activa el sistema de luces del vehículo",
+        "hu": "A jármű világítási rendszerét aktiváló eszköz"
+      },
+      {
+        "original": "Espacio donde se ubican las ruedas del vehículo",
+        "hu": "Az a hely, ahol a jármű kerekei találhatók"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo1-test2-004",
+    "source": "proformatrans-modulo1-test2",
+    "module": "I",
+    "q": "¿Qué haces si se pincha una rueda?",
+    "hu": "Mit teszel, ha defektet kap az egyik kerék?",
+    "answers": [
+      {
+        "original": "Apagar el motor sin señalizar",
+        "hu": "Leállítani a motort jelzés nélkül"
+      },
+      {
+        "original": "Continuar conduciendo",
+        "hu": "Tovább vezetni"
+      },
+      {
+        "original": "Seguir lentamente",
+        "hu": "Lassan továbbhaladni"
+      },
+      {
+        "original": "Cambiar la rueda o usar kit",
+        "hu": "Kicserélni a kereket vagy javítókészletet használni"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo1-test2-005",
+    "source": "proformatrans-modulo1-test2",
+    "module": "I",
+    "q": "¿Dónde están los estudiantes?",
+    "hu": "Hol vannak a diákok?",
+    "answers": [
+      {
+        "original": "Los estudiantes están hasta el aula esperando al profesor.",
+        "hu": "A diákok az osztályteremig vannak, és várják a tanárt."
+      },
+      {
+        "original": "Los estudiantes están sin el aula esperando al profesor.",
+        "hu": "A diákok az osztályterem nélkül vannak, és várják a tanárt."
+      },
+      {
+        "original": "Los estudiantes están fuera del aula esperando al profesor.",
+        "hu": "A diákok az osztálytermen kívül vannak, és várják a tanárt."
+      },
+      {
+        "original": "Los estudiantes están dentro el aula esperando al profesor.",
+        "hu": "A diákok az osztályterem belül vannak, és várják a tanárt."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo1-test2-006",
+    "source": "proformatrans-modulo1-test2",
+    "module": "I",
+    "q": "¿Qué categoría gramatical es 'aunque'?",
+    "hu": "Milyen nyelvtani kategória az „aunque” („bár, habár”)?",
+    "answers": [
+      {
+        "original": "Preposición",
+        "hu": "Elöljárószó"
+      },
+      {
+        "original": "Adjetivo",
+        "hu": "Melléknév"
+      },
+      {
+        "original": "Interjección",
+        "hu": "Indulatszó"
+      },
+      {
+        "original": "Conjunción",
+        "hu": "Kötőszó"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo1-test2-007",
+    "source": "proformatrans-modulo1-test2",
+    "module": "I",
+    "q": "Complete la frase con la opción correcta: \"El tráfico muy denso hoy.\"",
+    "hu": "Egészítsd ki a mondatot a helyes opcióval: „A forgalom ma nagyon sűrű.”",
+    "answers": [
+      {
+        "original": "estuvimos.",
+        "hu": "voltunk."
+      },
+      {
+        "original": "están.",
+        "hu": "vannak."
+      },
+      {
+        "original": "está.",
+        "hu": "van."
+      },
+      {
+        "original": "estuve.",
+        "hu": "voltam."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo1-test2-009",
+    "source": "proformatrans-modulo1-test2",
+    "module": "I",
+    "q": "¿Qué parte del cuerpo usamos para oír?",
+    "hu": "Melyik testrészünket használjuk hallásra?",
+    "answers": [
+      {
+        "original": "Nariz",
+        "hu": "Orr"
+      },
+      {
+        "original": "Oreja",
+        "hu": "Fül"
+      },
+      {
+        "original": "Ojo",
+        "hu": "Szem"
+      },
+      {
+        "original": "Boca",
+        "hu": "Száj"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo1-test2-010",
+    "source": "proformatrans-modulo1-test2",
+    "module": "I",
+    "q": "¿Cuál es la función de un sustantivo?",
+    "hu": "Mi a főnév funkciója?",
+    "answers": [
+      {
+        "original": "Conectar oraciones",
+        "hu": "Mondatok összekapcsolása"
+      },
+      {
+        "original": "Nombrar personas, lugares o cosas",
+        "hu": "Személyek, helyek vagy dolgok megnevezése"
+      },
+      {
+        "original": "Describir al sustantivo",
+        "hu": "A főnév leírása"
+      },
+      {
+        "original": "Indicar acciones",
+        "hu": "Cselekvések jelölése"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo1-test2-011",
+    "source": "proformatrans-modulo1-test2",
+    "module": "I",
+    "q": "¿Qué oración está en voz pasiva?",
+    "hu": "Melyik mondat van szenvedő szerkezetben?",
+    "answers": [
+      {
+        "original": "El coche detiene",
+        "hu": "Az autó megállít."
+      },
+      {
+        "original": "El conductor detuvo el coche",
+        "hu": "A vezető megállította az autót."
+      },
+      {
+        "original": "Detienen el coche",
+        "hu": "Megállítják az autót."
+      },
+      {
+        "original": "El coche fue detenido por el conductor",
+        "hu": "Az autót a vezető állította meg."
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo1-test2-012",
+    "source": "proformatrans-modulo1-test2",
+    "module": "I",
+    "q": "¿Cuál es la forma correcta del verbo en esta oración: \"Yo ___ temprano\"?",
+    "hu": "Mi az ige helyes alakja ebben a mondatban: „Én korán ___”?",
+    "answers": [
+      {
+        "original": "llegas",
+        "hu": "érkezel"
+      },
+      {
+        "original": "llegan",
+        "hu": "érkeznek"
+      },
+      {
+        "original": "llego",
+        "hu": "érkezem"
+      },
+      {
+        "original": "llegáis",
+        "hu": "érkeztek"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo1-test2-013",
+    "source": "proformatrans-modulo1-test2",
+    "module": "I",
+    "q": "¿Cuál es el significado del refrán: 'Más vale pájaro en mano que cien volando'?",
+    "hu": "Mit jelent a közmondás: „Jobb egy madár a kézben, mint száz a levegőben”?",
+    "answers": [
+      {
+        "original": "Mejor tener amigos",
+        "hu": "Jobb, ha vannak barátaink"
+      },
+      {
+        "original": "Los pájaros son importantes",
+        "hu": "A madarak fontosak"
+      },
+      {
+        "original": "Hay que volar",
+        "hu": "Repülni kell"
+      },
+      {
+        "original": "Es mejor lo seguro que lo incierto",
+        "hu": "Jobb a biztos, mint a bizonytalan"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo1-test2-014",
+    "source": "proformatrans-modulo1-test2",
+    "module": "I",
+    "q": "«¿Puedo abrir la ventana?». ¿Cómo respondes formalmente y de forma educada \"que no\"?",
+    "hu": "„Kinyithatom az ablakot?” Hogyan válaszolsz formálisan és udvariasan nemet?",
+    "answers": [
+      {
+        "original": "Abrir?..., ni lo sueñe!",
+        "hu": "Kinyitni?... arról ne is álmodjon!"
+      },
+      {
+        "original": "Perdone, pero estoy resfriado.",
+        "hu": "Elnézést, de meg vagyok fázva."
+      },
+      {
+        "original": "Disculpe, pero está resuelta.",
+        "hu": "Elnézést, de meg van oldva."
+      },
+      {
+        "original": "Sí, sí, ábrela.",
+        "hu": "Igen, igen, nyisd ki."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo1-test2-015",
+    "source": "proformatrans-modulo1-test2",
+    "module": "I",
+    "q": "¿Dónde ______ Marcos? Pues, no sé, ______ en el supermercado.",
+    "hu": "Hol ______ Marcos? Hát, nem tudom, ______ a szupermarketben.",
+    "answers": [
+      {
+        "original": "Estará / estaba",
+        "hu": "lesz / volt"
+      },
+      {
+        "original": "Está / estará",
+        "hu": "van / lehet"
+      },
+      {
+        "original": "Va a estar / estuvo",
+        "hu": "ott lesz / volt"
+      },
+      {
+        "original": "Estaría / será",
+        "hu": "lenne / lesz"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo1-test2-018",
+    "source": "proformatrans-modulo1-test2",
+    "module": "I",
+    "q": "¿Qué refrán significa que la prisa no es buena consejera?",
+    "hu": "Melyik közmondás jelenti azt, hogy a sietség rossz tanácsadó?",
+    "answers": [
+      {
+        "original": "Perro ladrador, poco mordedor.",
+        "hu": "Amelyik kutya ugat, az nem harap."
+      },
+      {
+        "original": "A quien madruga, Dios lo ayuda.",
+        "hu": "Ki korán kel, aranyat lel."
+      },
+      {
+        "original": "Más vale tarde que nunca.",
+        "hu": "Jobb későn, mint soha."
+      },
+      {
+        "original": "Vísteme despacio que tengo prisa.",
+        "hu": "Lassan öltöztess, mert sietek."
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo1-test2-019",
+    "source": "proformatrans-modulo1-test2",
+    "module": "I",
+    "q": "¿Cuál definición corresponde a 'acera'?",
+    "hu": "Melyik meghatározás felel meg az „acera” („járda”) szónak?",
+    "answers": [
+      {
+        "original": "Parte de la vía en la que se prohíbe el tránsito de peatones",
+        "hu": "Az útnak az a része, ahol tilos a gyalogosforgalom"
+      },
+      {
+        "original": "Parte de la vía entre dos poblados por donde pueden circular las bicis",
+        "hu": "Az út két település közötti része, ahol kerékpárok közlekedhetnek"
+      },
+      {
+        "original": "Parte de la vía destinada al tránsito de peatones",
+        "hu": "Az útnak a gyalogosok közlekedésére szolgáló része"
+      },
+      {
+        "original": "Parte de la vía destinada al uso de los vehículos de movilidad personal",
+        "hu": "Az útnak a személyi mobilitási eszközök használatára szolgáló része"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo1-test2-020",
+    "source": "proformatrans-modulo1-test2",
+    "module": "I",
+    "q": "'A mal tiempo, buena cara' sugiere:",
+    "hu": "Az „A mal tiempo, buena cara” („Rossz időben is jó arcot vágni”) azt sugallja:",
+    "answers": [
+      {
+        "original": "Ser positivo ante las dificultades",
+        "hu": "Pozitívan hozzáállni a nehézségekhez"
+      },
+      {
+        "original": "Aceptar las derrotas",
+        "hu": "Elfogadni a vereségeket"
+      },
+      {
+        "original": "Evitar los problemas",
+        "hu": "Elkerülni a problémákat"
+      },
+      {
+        "original": "Reír en todo momento",
+        "hu": "Mindig nevetni"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo1-test3-001",
+    "source": "proformatrans-modulo1-test3",
+    "module": "I",
+    "q": "¿Cuál de las siguientes definiciones corresponde a la palabra \"peatón\"?",
+    "hu": "Az alábbi meghatározások közül melyik felel meg a „peatón” („gyalogos”) szónak?",
+    "answers": [
+      {
+        "original": "Componente esencial para la dirección",
+        "hu": "A kormányzáshoz nélkülözhetetlen alkatrész"
+      },
+      {
+        "original": "Sistema de frenos de un vehículo",
+        "hu": "Egy jármű fékrendszere"
+      },
+      {
+        "original": "Persona que transita a pie por una vía pública",
+        "hu": "Olyan személy, aki gyalog közlekedik közúton vagy közterületen"
+      },
+      {
+        "original": "Elemento que proporciona tracción",
+        "hu": "Tapadást biztosító elem"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo1-test3-003",
+    "source": "proformatrans-modulo1-test3",
+    "module": "I",
+    "q": "Marque el tiempo verbal subjuntivo:",
+    "hu": "Jelöld meg a kötőmódú igealakot:",
+    "answers": [
+      {
+        "original": "Le llevaré a la plaza de Sol.",
+        "hu": "Elviszem a Sol térre."
+      },
+      {
+        "original": "Ayer llovió.",
+        "hu": "Tegnap esett az eső."
+      },
+      {
+        "original": "Si tuviera mas tiempo.",
+        "hu": "Ha több időm lenne."
+      },
+      {
+        "original": "Nosotros caminemos.",
+        "hu": "Menjünk / sétáljunk mi."
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo1-test3-004",
+    "source": "proformatrans-modulo1-test3",
+    "module": "I",
+    "q": "¿Cuál es el sujeto en la oración: 'El gato comió el pescado ayer.'",
+    "hu": "Mi az alany ebben a mondatban: „A macska tegnap megette a halat.”?",
+    "answers": [
+      {
+        "original": "El gato",
+        "hu": "A macska"
+      },
+      {
+        "original": "ayer",
+        "hu": "tegnap"
+      },
+      {
+        "original": "comió",
+        "hu": "megette"
+      },
+      {
+        "original": "el pescado",
+        "hu": "a halat"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo1-test3-005",
+    "source": "proformatrans-modulo1-test3",
+    "module": "I",
+    "q": "¿Cuál es la forma correcta de expresar el destinatario de la carta?",
+    "hu": "Melyik a helyes módja annak, hogy kifejezzük, kinek szól a levél?",
+    "answers": [
+      {
+        "original": "La carta es para ti y tu familia, con mucho cariño.",
+        "hu": "A levél neked és a családodnak szól, sok szeretettel."
+      },
+      {
+        "original": "La carta va delante ti y tu familia, con amabilidad.",
+        "hu": "A levél előtted és a családod előtt megy, kedvességgel."
+      },
+      {
+        "original": "La carta está mediante ti y tu familia, enviada con afecto.",
+        "hu": "A levél rajtad és a családodon keresztül van, szeretettel küldve."
+      },
+      {
+        "original": "La carta es con ti y tu familia, con mucho afecto.",
+        "hu": "A levél veled és a családoddal van, sok szeretettel."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo1-test3-006",
+    "source": "proformatrans-modulo1-test3",
+    "module": "I",
+    "q": "¿Cuál de las siguientes palabras significa lo mismo que \"defectuoso\"?",
+    "hu": "Az alábbi szavak közül melyik jelentése ugyanaz, mint a „defectuoso” („hibás, tökéletlen”)?",
+    "answers": [
+      {
+        "original": "Impecable",
+        "hu": "Kifogástalan"
+      },
+      {
+        "original": "Perfecto",
+        "hu": "Tökéletes"
+      },
+      {
+        "original": "Preciso",
+        "hu": "Pontos"
+      },
+      {
+        "original": "Imperfecto",
+        "hu": "Tökéletlen"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo1-test3-007",
+    "source": "proformatrans-modulo1-test3",
+    "module": "I",
+    "q": "¿Qué tipo de oración es \"¡Qué sorpresa verte aquí!\"?",
+    "hu": "Milyen típusú mondat ez: „Micsoda meglepetés itt látni téged!”?",
+    "answers": [
+      {
+        "original": "Imperativa",
+        "hu": "Felszólító"
+      },
+      {
+        "original": "Exclamativa",
+        "hu": "Felkiáltó"
+      },
+      {
+        "original": "Interrogativa",
+        "hu": "Kérdő"
+      },
+      {
+        "original": "Declarativa",
+        "hu": "Kijelentő"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo1-test3-008",
+    "source": "proformatrans-modulo1-test3",
+    "module": "I",
+    "q": "¿Qué palabra tiene un significado similar a \"grande\"?",
+    "hu": "Melyik szó jelentése hasonló a „grande” („nagy”) szóhoz?",
+    "answers": [
+      {
+        "original": "Pequeño",
+        "hu": "Kicsi"
+      },
+      {
+        "original": "Enorme",
+        "hu": "Hatalmas"
+      },
+      {
+        "original": "Viejo",
+        "hu": "Öreg / régi"
+      },
+      {
+        "original": "Bajo",
+        "hu": "Alacsony"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo1-test3-009",
+    "source": "proformatrans-modulo1-test3",
+    "module": "I",
+    "q": "¿Qué palabra completa mejor la frase? — \"El coche _____ muy rápido.\"",
+    "hu": "Melyik szó egészíti ki legjobban a mondatot? „Az autó nagyon gyorsan _____.”",
+    "answers": [
+      {
+        "original": "Corre",
+        "hu": "megy / fut"
+      },
+      {
+        "original": "Juega",
+        "hu": "játszik"
+      },
+      {
+        "original": "Vuela",
+        "hu": "repül"
+      },
+      {
+        "original": "Comió",
+        "hu": "evett"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo1-test3-010",
+    "source": "proformatrans-modulo1-test3",
+    "module": "I",
+    "q": "¿Qué opción muestra comportamiento profesional ante una queja?",
+    "hu": "Melyik opció mutat szakmai/professzionális viselkedést panasz esetén?",
+    "answers": [
+      {
+        "original": "Reírse",
+        "hu": "Nevetni rajta"
+      },
+      {
+        "original": "Ignorar",
+        "hu": "Figyelmen kívül hagyni"
+      },
+      {
+        "original": "Escuchar y ofrecer solución",
+        "hu": "Meghallgatni és megoldást kínálni"
+      },
+      {
+        "original": "Justificar",
+        "hu": "Magyarázkodni / igazolni magát"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo1-test3-011",
+    "source": "proformatrans-modulo1-test3",
+    "module": "I",
+    "q": "¿Qué tipo de palabra es \"ellos\"?",
+    "hu": "Milyen szófaj az „ellos” („ők”)?",
+    "answers": [
+      {
+        "original": "Sustantivo",
+        "hu": "Főnév"
+      },
+      {
+        "original": "Adjetivo",
+        "hu": "Melléknév"
+      },
+      {
+        "original": "Pronombre",
+        "hu": "Névmás"
+      },
+      {
+        "original": "Verbo",
+        "hu": "Ige"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo1-test3-012",
+    "source": "proformatrans-modulo1-test3",
+    "module": "I",
+    "q": "¿Cuál de estos elementos ayuda a ahorrar combustible?",
+    "hu": "Az alábbiak közül melyik segít üzemanyagot megtakarítani?",
+    "answers": [
+      {
+        "original": "Conducir en marchas bajas siempre",
+        "hu": "Mindig alacsony sebességfokozatban vezetni"
+      },
+      {
+        "original": "Acelerar al máximo",
+        "hu": "Maximálisan gyorsítani"
+      },
+      {
+        "original": "Frenar bruscamente",
+        "hu": "Hirtelen fékezni"
+      },
+      {
+        "original": "Conducir a velocidad constante",
+        "hu": "Állandó sebességgel vezetni"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo1-test3-014",
+    "source": "proformatrans-modulo1-test3",
+    "module": "I",
+    "q": "¿Qué palabra es un sinónimo de \"amplio\"?",
+    "hu": "Melyik szó a „amplio” („tágas, széles”) szinonimája?",
+    "answers": [
+      {
+        "original": "Pequeño",
+        "hu": "Kicsi"
+      },
+      {
+        "original": "Extenso",
+        "hu": "Kiterjedt / tágas"
+      },
+      {
+        "original": "Corto",
+        "hu": "Rövid"
+      },
+      {
+        "original": "Reducido",
+        "hu": "Csökkentett / szűk"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo1-test3-015",
+    "source": "proformatrans-modulo1-test3",
+    "module": "I",
+    "q": "¿Cuál es una frase con sujeto implícito?",
+    "hu": "Melyik mondatban van rejtett alany?",
+    "answers": [
+      {
+        "original": "Ella comió pizza",
+        "hu": "Ő pizzát evett"
+      },
+      {
+        "original": "Yo comí pizza",
+        "hu": "Én pizzát ettem"
+      },
+      {
+        "original": "Comí pizza",
+        "hu": "Pizzát ettem"
+      },
+      {
+        "original": "Ustedes comen pizza",
+        "hu": "Önök pizzát esznek"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo1-test3-016",
+    "source": "proformatrans-modulo1-test3",
+    "module": "I",
+    "q": "¿Qué tipo de oración es: '¡Qué sorpresa!'?",
+    "hu": "Milyen típusú mondat ez: „Micsoda meglepetés!”?",
+    "answers": [
+      {
+        "original": "Imperativa",
+        "hu": "Felszólító"
+      },
+      {
+        "original": "Enunciativa",
+        "hu": "Kijelentő"
+      },
+      {
+        "original": "Interrogativa",
+        "hu": "Kérdő"
+      },
+      {
+        "original": "Exclamativa",
+        "hu": "Felkiáltó"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo1-test3-017",
+    "source": "proformatrans-modulo1-test3",
+    "module": "I",
+    "q": "Sol es a día como luna es a:",
+    "hu": "A nap úgy viszonyul a nappalhoz, ahogy a hold a következőhöz:",
+    "answers": [
+      {
+        "original": "Mañana",
+        "hu": "Reggel / holnap"
+      },
+      {
+        "original": "Noche",
+        "hu": "Éjszaka"
+      },
+      {
+        "original": "Tarde",
+        "hu": "Délután / este"
+      },
+      {
+        "original": "Mediodía",
+        "hu": "Dél"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo1-test3-018",
+    "source": "proformatrans-modulo1-test3",
+    "module": "I",
+    "q": "Elige la opción que contiene un arcaísmo.",
+    "hu": "Válaszd ki azt az opciót, amely archaizmust tartalmaz.",
+    "answers": [
+      {
+        "original": "Computadora",
+        "hu": "Számítógép"
+      },
+      {
+        "original": "Lámpara",
+        "hu": "Lámpa"
+      },
+      {
+        "original": "Teléfono",
+        "hu": "Telefon"
+      },
+      {
+        "original": "Agora",
+        "hu": "Agora / régi alak: most"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo1-test3-019",
+    "source": "proformatrans-modulo1-test3",
+    "module": "I",
+    "q": "Elija la respuesta que sea correcta de entre las siguientes respecto a esta afirmación \"estar en el séptimo cielo\":",
+    "hu": "Válaszd ki a helyes választ erre a kifejezésre: „estar en el séptimo cielo” („a hetedik mennyországban lenni”):",
+    "answers": [
+      {
+        "original": "Estar muy feliz.",
+        "hu": "Nagyon boldognak lenni."
+      },
+      {
+        "original": "Volar alto.",
+        "hu": "Magasan repülni."
+      },
+      {
+        "original": "Estar en el suelo.",
+        "hu": "A földön lenni."
+      },
+      {
+        "original": "Ser un ángel.",
+        "hu": "Angyalnak lenni."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo1-test3-020",
+    "source": "proformatrans-modulo1-test3",
+    "module": "I",
+    "q": "¿Qué tipo de palabra es 'correr'?",
+    "hu": "Milyen szófaj a „correr” („futni”)?",
+    "answers": [
+      {
+        "original": "Adverbio",
+        "hu": "Határozószó"
+      },
+      {
+        "original": "Adjetivo",
+        "hu": "Melléknév"
+      },
+      {
+        "original": "Verbo",
+        "hu": "Ige"
+      },
+      {
+        "original": "Sustantivo",
+        "hu": "Főnév"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo1-test4-001",
+    "source": "proformatrans-modulo1-test4",
+    "module": "I",
+    "q": "¿Qué significa la expresión \"estar en las nubes\"?",
+    "hu": "Mit jelent az „estar en las nubes” („a felhőkben járni”, elkalandozottnak lenni) kifejezés?",
+    "answers": [
+      {
+        "original": "Estar en un sitio alto.",
+        "hu": "Magas helyen lenni."
+      },
+      {
+        "original": "Estar soñando literalmente.",
+        "hu": "Szó szerint álmodni."
+      },
+      {
+        "original": "Volar en avión.",
+        "hu": "Repülőn utazni."
+      },
+      {
+        "original": "Estar distraído.",
+        "hu": "Szórakozottnak / elkalandozottnak lenni."
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo1-test4-002",
+    "source": "proformatrans-modulo1-test4",
+    "module": "I",
+    "q": "Tener \"mucha labia\" quiere decir:",
+    "hu": "Mit jelent a „tener mucha labia” („jó beszélőkéje van”) kifejezés?",
+    "answers": [
+      {
+        "original": "Hablar con habilidad y persuasión",
+        "hu": "Ügyesen és meggyőzően beszélni"
+      },
+      {
+        "original": "Decir mentiras",
+        "hu": "Hazugságokat mondani"
+      },
+      {
+        "original": "Hablar con torpeza",
+        "hu": "Ügyetlenül beszélni"
+      },
+      {
+        "original": "Ser culto",
+        "hu": "Műveltnek lenni"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo1-test4-006",
+    "source": "proformatrans-modulo1-test4",
+    "module": "I",
+    "q": "¿Qué tiempo verbal se usa en \"Mañana iremos al cine\"?",
+    "hu": "Milyen igeidő szerepel ebben a mondatban: „Mañana iremos al cine” („Holnap moziba megyünk”)?",
+    "answers": [
+      {
+        "original": "Condicional",
+        "hu": "Feltételes mód"
+      },
+      {
+        "original": "Futuro",
+        "hu": "Jövő idő"
+      },
+      {
+        "original": "Pasado",
+        "hu": "Múlt idő"
+      },
+      {
+        "original": "Presente",
+        "hu": "Jelen idő"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo1-test4-007",
+    "source": "proformatrans-modulo1-test4",
+    "module": "I",
+    "q": "Significado de \"esporádico\":",
+    "hu": "Mit jelent az „esporádico” („szórványos, alkalmi”) szó?",
+    "answers": [
+      {
+        "original": "Previsto con antelación.",
+        "hu": "Előre tervezett."
+      },
+      {
+        "original": "Ocasional y sin regularidad.",
+        "hu": "Alkalmi és nem rendszeres."
+      },
+      {
+        "original": "Breve pero constante.",
+        "hu": "Rövid, de állandó."
+      },
+      {
+        "original": "Prolongado y frecuente.",
+        "hu": "Hosszan tartó és gyakori."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo1-test4-008",
+    "source": "proformatrans-modulo1-test4",
+    "module": "I",
+    "q": "¿Qué significa 'Quien avisa no es traidor'?",
+    "hu": "Mit jelent a „Quien avisa no es traidor” („aki előre szól, nem áruló”) mondás?",
+    "answers": [
+      {
+        "original": "Ser un espía",
+        "hu": "Kémnek lenni"
+      },
+      {
+        "original": "Ser desleal",
+        "hu": "Hűtlennek / lojálisnak nem lenni"
+      },
+      {
+        "original": "Contar un secreto",
+        "hu": "Elárulni egy titkot"
+      },
+      {
+        "original": "Advertir a alguien antes de actuar",
+        "hu": "Figyelmeztetni valakit cselekvés előtt"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo1-test4-009",
+    "source": "proformatrans-modulo1-test4",
+    "module": "I",
+    "q": "¿Qué tipo de palabra es 'rápidamente'?",
+    "hu": "Milyen szófajú a „rápidamente” („gyorsan”) szó?",
+    "answers": [
+      {
+        "original": "Verbo",
+        "hu": "Ige"
+      },
+      {
+        "original": "Sustantivo",
+        "hu": "Főnév"
+      },
+      {
+        "original": "Adverbio",
+        "hu": "Határozószó"
+      },
+      {
+        "original": "Adjetivo",
+        "hu": "Melléknév"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo1-test4-010",
+    "source": "proformatrans-modulo1-test4",
+    "module": "I",
+    "q": "¿Qué función cumple la palabra subrayada en: 'Pedro llegó *temprano* a casa'?",
+    "hu": "Milyen szerepet tölt be az aláhúzott szó ebben a mondatban: „Pedro llegó temprano a casa” („Pedro korán hazaért”)?",
+    "answers": [
+      {
+        "original": "Complemento directo",
+        "hu": "Tárgy"
+      },
+      {
+        "original": "Complemento circunstancial de tiempo",
+        "hu": "Időhatározó"
+      },
+      {
+        "original": "Verbo",
+        "hu": "Ige"
+      },
+      {
+        "original": "Sujeto",
+        "hu": "Alany"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo1-test4-011",
+    "source": "proformatrans-modulo1-test4",
+    "module": "I",
+    "q": "¿Qué palabra es un sinónimo de \"feliz\"?",
+    "hu": "Melyik szó a „feliz” („boldog”) szinonimája?",
+    "answers": [
+      {
+        "original": "Apagado",
+        "hu": "Lehangolt / tompa"
+      },
+      {
+        "original": "Alegre",
+        "hu": "Vidám"
+      },
+      {
+        "original": "Triste",
+        "hu": "Szomorú"
+      },
+      {
+        "original": "Amargo",
+        "hu": "Keserű"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo1-test4-012",
+    "source": "proformatrans-modulo1-test4",
+    "module": "I",
+    "q": "¿Qué palabra tiene un significado similar a 'valiente'?",
+    "hu": "Melyik szó jelentése hasonló a „valiente” („bátor”) szóhoz?",
+    "answers": [
+      {
+        "original": "Miedoso.",
+        "hu": "Félénk."
+      },
+      {
+        "original": "Asustado.",
+        "hu": "Ijedt."
+      },
+      {
+        "original": "Intrépido.",
+        "hu": "Rettenthetetlen."
+      },
+      {
+        "original": "Cobarde.",
+        "hu": "Gyáva."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo1-test4-013",
+    "source": "proformatrans-modulo1-test4",
+    "module": "I",
+    "q": "Seleccione la forma verbal que corresponde al pretérito perfecto simple de indicativo.",
+    "hu": "Válaszd ki azt az igealakot, amely a kijelentő mód egyszerű befejezett múltjához tartozik.",
+    "answers": [
+      {
+        "original": "Ella escribió una carta a su amiga.",
+        "hu": "Ő levelet írt a barátnőjének."
+      },
+      {
+        "original": "Ella escribía una carta a su amiga.",
+        "hu": "Ő levelet írogatott / éppen levelet írt a barátnőjének."
+      },
+      {
+        "original": "Ella ha escrito una carta a su amiga.",
+        "hu": "Ő írt / megírt egy levelet a barátnőjének."
+      },
+      {
+        "original": "Ella escribirá una carta a su amiga.",
+        "hu": "Ő levelet fog írni a barátnőjének."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo1-test4-014",
+    "source": "proformatrans-modulo1-test4",
+    "module": "I",
+    "q": "¿Qué signo de puntuación se usa para introducir una cita?",
+    "hu": "Melyik írásjel használható idézet bevezetésére?",
+    "answers": [
+      {
+        "original": "Paréntesis",
+        "hu": "Zárójel"
+      },
+      {
+        "original": "Punto",
+        "hu": "Pont"
+      },
+      {
+        "original": "Punto y coma",
+        "hu": "Pontosvessző"
+      },
+      {
+        "original": "Comillas",
+        "hu": "Idézőjel"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo1-test4-015",
+    "source": "proformatrans-modulo1-test4",
+    "module": "I",
+    "q": "¿Qué palabra tiene un significado contrario a \"nuevo\"?",
+    "hu": "Melyik szó jelentése ellentétes a „nuevo” („új”) szóval?",
+    "answers": [
+      {
+        "original": "Moderno",
+        "hu": "Modern"
+      },
+      {
+        "original": "Reciente",
+        "hu": "Friss / nemrég történt"
+      },
+      {
+        "original": "Actual",
+        "hu": "Jelenlegi"
+      },
+      {
+        "original": "Viejo",
+        "hu": "Régi / öreg"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo1-test4-016",
+    "source": "proformatrans-modulo1-test4",
+    "module": "I",
+    "q": "¿Qué es un campo semántico?",
+    "hu": "Mi az a szemantikai mező?",
+    "answers": [
+      {
+        "original": "Un sinónimo",
+        "hu": "Egy szinonima"
+      },
+      {
+        "original": "Un sustantivo colectivo",
+        "hu": "Egy gyűjtőnév"
+      },
+      {
+        "original": "Un prefijo",
+        "hu": "Egy előtag"
+      },
+      {
+        "original": "Un grupo de palabras relacionadas por significado",
+        "hu": "Jelentésük alapján összefüggő szavak csoportja"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo1-test4-017",
+    "source": "proformatrans-modulo1-test4",
+    "module": "I",
+    "q": "Complete correctamente la oración considerando la concordancia gramatical: \"Los pasajeros ___ el cinturón de seguridad ___ durante todo el trayecto.\"",
+    "hu": "Egészítsd ki helyesen a mondatot a nyelvtani egyeztetés alapján: „Az utasoknak az egész út alatt ___ a biztonsági övet ___.”",
+    "answers": [
+      {
+        "original": "Deben usar, correctamente abrochado",
+        "hu": "használniuk kell, megfelelően becsatolva"
+      },
+      {
+        "original": "Deben usar, correctamente abrochados",
+        "hu": "használniuk kell, megfelelően becsatolva"
+      },
+      {
+        "original": "Debe usa, correctamente abrochado",
+        "hu": "kell használ, megfelelően becsatolva"
+      },
+      {
+        "original": "Debe usar, correctamente abrochado",
+        "hu": "használnia kell, megfelelően becsatolva"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo1-test4-018",
+    "source": "proformatrans-modulo1-test4",
+    "module": "I",
+    "q": "¿Cuál de las siguientes palabras significa lo mismo que \"restricción\"?",
+    "hu": "Az alábbi szavak közül melyik jelenti ugyanazt, mint a „restricción” („korlátozás”)?",
+    "answers": [
+      {
+        "original": "Permiso",
+        "hu": "Engedély"
+      },
+      {
+        "original": "Limitación",
+        "hu": "Korlátozás"
+      },
+      {
+        "original": "Licencia",
+        "hu": "Engedély / jogosítvány"
+      },
+      {
+        "original": "Apertura",
+        "hu": "Nyitás / nyitottság"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo1-test4-019",
+    "source": "proformatrans-modulo1-test4",
+    "module": "I",
+    "q": "¿Qué refrán significa que es mejor hacer las cosas con calma?",
+    "hu": "Melyik közmondás jelenti azt, hogy jobb nyugodtan, kapkodás nélkül végezni a dolgokat?",
+    "answers": [
+      {
+        "original": "Vísteme despacio que tengo prisa.",
+        "hu": "Lassan öltöztess, mert sietek."
+      },
+      {
+        "original": "No por mucho madrugar amanece más temprano.",
+        "hu": "Attól, hogy korábban kelsz, nem virrad hamarabb."
+      },
+      {
+        "original": "Cría cuervos y te sacarán los ojos.",
+        "hu": "Nevelj hollókat, és kivájják a szemed."
+      },
+      {
+        "original": "Cuando el río suena, agua lleva.",
+        "hu": "Ha zúg a folyó, vizet hord."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo1-test4-020",
+    "source": "proformatrans-modulo1-test4",
+    "module": "I",
+    "q": "¿Qué es prosa poética?",
+    "hu": "Mi a költői próza?",
+    "answers": [
+      {
+        "original": "Ensayo con estructura métrica",
+        "hu": "Metrikus szerkezetű esszé"
+      },
+      {
+        "original": "Texto narrativo con rima",
+        "hu": "Rímes elbeszélő szöveg"
+      },
+      {
+        "original": "Poema sin significado",
+        "hu": "Jelentés nélküli vers"
+      },
+      {
+        "original": "Texto con estilo poético sin verso",
+        "hu": "Költői stílusú, de nem versben írt szöveg"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo2-test1-001",
+    "source": "proformatrans-modulo2-test1",
+    "module": "II",
+    "q": "¿Cuál es el nombre del Colegio Mayor que tiene su domicilio en la calle Isaac Peral, 58?",
+    "hu": "Mi annak a Colegio Mayornak a neve, amelynek címe Isaac Peral utca 58?",
+    "answers": [
+      {
+        "original": "San Pablo",
+        "hu": "San Pablo"
+      },
+      {
+        "original": "Antonio Nebrija",
+        "hu": "Antonio Nebrija"
+      },
+      {
+        "original": "Blanca de Castilla",
+        "hu": "Blanca de Castilla"
+      },
+      {
+        "original": "Chaminade",
+        "hu": "Chaminade"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo2-test1-002",
+    "source": "proformatrans-modulo2-test1",
+    "module": "II",
+    "q": "¿Qué espacio verde madrileño se encuentra en el barrio de Moratalaz?",
+    "hu": "Melyik madridi zöldterület található Moratalaz városrészben?",
+    "answers": [
+      {
+        "original": "Parque Darwin",
+        "hu": "Parque Darwin"
+      },
+      {
+        "original": "Parque del Oeste",
+        "hu": "Parque del Oeste"
+      },
+      {
+        "original": "Parque Enrique Tierno Galván",
+        "hu": "Parque Enrique Tierno Galván"
+      },
+      {
+        "original": "Parque La Cuña Verde",
+        "hu": "Parque La Cuña Verde"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo2-test1-003",
+    "source": "proformatrans-modulo2-test1",
+    "module": "II",
+    "q": "¿En qué paseo se encuentra el cine Amaya?",
+    "hu": "Melyik sétányon / úton található az Amaya mozi?",
+    "answers": [
+      {
+        "original": "General Martínez Campos",
+        "hu": "General Martínez Campos"
+      },
+      {
+        "original": "Paseo del Prado",
+        "hu": "Paseo del Prado"
+      },
+      {
+        "original": "Paseo de las Delicias",
+        "hu": "Paseo de las Delicias"
+      },
+      {
+        "original": "Paseo de la Castellana",
+        "hu": "Paseo de la Castellana"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo2-test1-004",
+    "source": "proformatrans-modulo2-test1",
+    "module": "II",
+    "q": "¿Cuál es la torre más alta del complejo Cuatro Torres Business Area?",
+    "hu": "Melyik a Cuatro Torres Business Area komplexum legmagasabb tornya?",
+    "answers": [
+      {
+        "original": "Torre Espacio",
+        "hu": "Torre Espacio"
+      },
+      {
+        "original": "Torre PwC",
+        "hu": "Torre PwC"
+      },
+      {
+        "original": "Torre de Cristal",
+        "hu": "Torre de Cristal"
+      },
+      {
+        "original": "Torre Cepsa",
+        "hu": "Torre Cepsa"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test1-005",
+    "source": "proformatrans-modulo2-test1",
+    "module": "II",
+    "q": "¿Qué debes hacer si el GPS deja de funcionar mientras conduces?",
+    "hu": "Mit kell tenned, ha a GPS vezetés közben leáll?",
+    "answers": [
+      {
+        "original": "Llamar a un amigo para pedir indicaciones",
+        "hu": "Felhívni egy barátot útbaigazításért"
+      },
+      {
+        "original": "Parar en un lugar seguro y reiniciar la aplicación",
+        "hu": "Biztonságos helyen megállni és újraindítani az alkalmazást"
+      },
+      {
+        "original": "Continuar conduciendo y esperar que se solucione solo",
+        "hu": "Tovább vezetni és várni, hogy magától megoldódjon"
+      },
+      {
+        "original": "Cambiar a otra aplicación mientras conduces",
+        "hu": "Vezetés közben másik alkalmazásra váltani"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo2-test1-006",
+    "source": "proformatrans-modulo2-test1",
+    "module": "II",
+    "q": "¿Qué edificio madrileño destaca por su torre con reloj de 30 metros?",
+    "hu": "Melyik madridi épület nevezetes a 30 méteres óratornyáról?",
+    "answers": [
+      {
+        "original": "Congreso de los Diputados",
+        "hu": "Képviselőház"
+      },
+      {
+        "original": "Edificio Telefónica",
+        "hu": "Edificio Telefónica"
+      },
+      {
+        "original": "Senado",
+        "hu": "Szenátus"
+      },
+      {
+        "original": "Palacio Real",
+        "hu": "Királyi Palota"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo2-test1-007",
+    "source": "proformatrans-modulo2-test1",
+    "module": "II",
+    "q": "¿Qué edificio madrileño alberga las Cortes Generales de España?",
+    "hu": "Melyik madridi épület ad otthont Spanyolország parlamentjének, a Cortes Generalesnek?",
+    "answers": [
+      {
+        "original": "Palacio del Congreso de los Diputados",
+        "hu": "Palacio del Congreso de los Diputados"
+      },
+      {
+        "original": "Senado",
+        "hu": "Szenátus"
+      },
+      {
+        "original": "Palacio de Cibeles",
+        "hu": "Palacio de Cibeles"
+      },
+      {
+        "original": "Palacio de Linares",
+        "hu": "Palacio de Linares"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo2-test1-008",
+    "source": "proformatrans-modulo2-test1",
+    "module": "II",
+    "q": "¿Qué estación forma parte del Tren de Arganda?",
+    "hu": "Melyik állomás része a Tren de Argandának?",
+    "answers": [
+      {
+        "original": "Puerta de Arganda",
+        "hu": "Puerta de Arganda"
+      },
+      {
+        "original": "Estación de Vallecas",
+        "hu": "Estación de Vallecas"
+      },
+      {
+        "original": "Estación del Jarama",
+        "hu": "Estación del Jarama"
+      },
+      {
+        "original": "Estación de Vicálvaro",
+        "hu": "Estación de Vicálvaro"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test1-009",
+    "source": "proformatrans-modulo2-test1",
+    "module": "II",
+    "q": "¿Qué se debe hacer si necesitas cambiar la ruta en el GPS mientras estás conduciendo?",
+    "hu": "Mit kell tenni, ha vezetés közben módosítani kell az útvonalat a GPS-ben?",
+    "answers": [
+      {
+        "original": "Parar en un lugar seguro antes de realizar cualquier ajuste.",
+        "hu": "Biztonságos helyen megállni, mielőtt bármilyen beállítást elvégzel."
+      },
+      {
+        "original": "Ignorar el GPS y seguir conduciendo.",
+        "hu": "Figyelmen kívül hagyni a GPS-t és tovább vezetni."
+      },
+      {
+        "original": "Hacerlo inmediatamente mientras conduces.",
+        "hu": "Azonnal megcsinálni vezetés közben."
+      },
+      {
+        "original": "Continuar sin ajustes hasta terminar el trayecto.",
+        "hu": "Beállítás nélkül továbbmenni az út végéig."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo2-test1-010",
+    "source": "proformatrans-modulo2-test1",
+    "module": "II",
+    "q": "¿Qué ciudad madrileña acoge la Fiesta del Motín, declarada de Interés Turístico Nacional?",
+    "hu": "Melyik madridi település ad otthont a Fiesta del Motín ünnepnek, amelyet nemzeti turisztikai érdekűnek nyilvánítottak?",
+    "answers": [
+      {
+        "original": "Chinchón",
+        "hu": "Chinchón"
+      },
+      {
+        "original": "Torrejón de Ardoz",
+        "hu": "Torrejón de Ardoz"
+      },
+      {
+        "original": "Navalcarnero",
+        "hu": "Navalcarnero"
+      },
+      {
+        "original": "Aranjuez",
+        "hu": "Aranjuez"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo2-test1-011",
+    "source": "proformatrans-modulo2-test1",
+    "module": "II",
+    "q": "¿Qué beneficio ofrece la integración de Waze con Spotify?",
+    "hu": "Milyen előnyt nyújt a Waze és a Spotify integrációja?",
+    "answers": [
+      {
+        "original": "Muestra la velocidad en tiempo real",
+        "hu": "Valós időben mutatja a sebességet"
+      },
+      {
+        "original": "Permite buscar rutas más cortas",
+        "hu": "Lehetővé teszi rövidebb útvonalak keresését"
+      },
+      {
+        "original": "Escuchar música sin salir de la aplicación",
+        "hu": "Zenehallgatás az alkalmazás elhagyása nélkül"
+      },
+      {
+        "original": "Activa la navegación sin conexión",
+        "hu": "Bekapcsolja az offline navigációt"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test1-012",
+    "source": "proformatrans-modulo2-test1",
+    "module": "II",
+    "q": "¿Cuál de estas calles es conocida por su vida nocturna y locales de música en vivo?",
+    "hu": "Az alábbi utcák közül melyik ismert az éjszakai életéről és élőzenés helyeiről?",
+    "answers": [
+      {
+        "original": "Calle Huertas.",
+        "hu": "Calle Huertas."
+      },
+      {
+        "original": "Calle Elvira.",
+        "hu": "Calle Elvira."
+      },
+      {
+        "original": "Calle Betis.",
+        "hu": "Calle Betis."
+      },
+      {
+        "original": "Calle Estafeta.",
+        "hu": "Calle Estafeta."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo2-test1-013",
+    "source": "proformatrans-modulo2-test1",
+    "module": "II",
+    "q": "El dióxido de azufre se representa como:",
+    "hu": "Hogyan jelölik a kén-dioxidot?",
+    "answers": [
+      {
+        "original": "CO2.",
+        "hu": "CO2."
+      },
+      {
+        "original": "SO2.",
+        "hu": "SO2."
+      },
+      {
+        "original": "O3.",
+        "hu": "O3."
+      },
+      {
+        "original": "H2O.",
+        "hu": "H2O."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo2-test1-014",
+    "source": "proformatrans-modulo2-test1",
+    "module": "II",
+    "q": "¿Cuál es el nombre de la famosa escultura del Oso y el Madroño?",
+    "hu": "Mi a neve a híres Medve és Eperfácska szobornak?",
+    "answers": [
+      {
+        "original": "Estatua de la Villa",
+        "hu": "Estatua de la Villa"
+      },
+      {
+        "original": "Monumento de la Comunidad",
+        "hu": "Monumento de la Comunidad"
+      },
+      {
+        "original": "Símbolo de Madrid",
+        "hu": "Madrid jelképe"
+      },
+      {
+        "original": "Escultura de la Puerta del Sol",
+        "hu": "Puerta del Sol-i szobor"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test1-015",
+    "source": "proformatrans-modulo2-test1",
+    "module": "II",
+    "q": "¿Cuál es la ventaja de los mapas de TomTom GO?",
+    "hu": "Mi a TomTom GO térképek előnye?",
+    "answers": [
+      {
+        "original": "Son en 3D y descargables para su uso sin conexión",
+        "hu": "3D-sek és letölthetők offline használatra"
+      },
+      {
+        "original": "Solo funcionan con conexión a internet",
+        "hu": "Csak internetkapcsolattal működnek"
+      },
+      {
+        "original": "Son gratuitos en todas sus versiones",
+        "hu": "Minden verziójuk ingyenes"
+      },
+      {
+        "original": "No requieren actualizaciones",
+        "hu": "Nem igényelnek frissítést"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo2-test1-016",
+    "source": "proformatrans-modulo2-test1",
+    "module": "II",
+    "q": "¿Cómo deben adaptarse las infraestructuras urbanas a las Zonas de Bajas Emisiones (ZBE) según la Ley 7/2021?",
+    "hu": "Hogyan kell a városi infrastruktúrákat az alacsony kibocsátású zónákhoz (ZBE) igazítani a 7/2021-es törvény szerint?",
+    "answers": [
+      {
+        "original": "Reducir las áreas peatonales.",
+        "hu": "Csökkenteni a gyalogos területeket."
+      },
+      {
+        "original": "Construir más aparcamientos para vehículos.",
+        "hu": "Több parkolót építeni járművek számára."
+      },
+      {
+        "original": "Incrementando la capacidad de las autopistas.",
+        "hu": "Növelni az autópályák kapacitását."
+      },
+      {
+        "original": "Incorporando zonas de recarga y carriles bici.",
+        "hu": "Töltőpontokat és kerékpársávokat kialakítva."
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo2-test1-017",
+    "source": "proformatrans-modulo2-test1",
+    "module": "II",
+    "q": "¿Qué localidad es famosa por su plaza mayor porticada y su anís?",
+    "hu": "Melyik település híres árkádos főteréről és ánizslikőréről?",
+    "answers": [
+      {
+        "original": "San Martín de Valdeiglesias",
+        "hu": "San Martín de Valdeiglesias"
+      },
+      {
+        "original": "Torrejón de Ardoz",
+        "hu": "Torrejón de Ardoz"
+      },
+      {
+        "original": "Chinchón",
+        "hu": "Chinchón"
+      },
+      {
+        "original": "Navalcarnero",
+        "hu": "Navalcarnero"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test1-018",
+    "source": "proformatrans-modulo2-test1",
+    "module": "II",
+    "q": "¿Cuál de las siguientes calles se encuentra dentro de la Zona de Bajas Emisiones de Especial Protección (ZBEDEP) del Distrito Centro?",
+    "hu": "Az alábbi utcák közül melyik található a Centro kerület különleges védelmű alacsony kibocsátású zónáján (ZBEDEP) belül?",
+    "answers": [
+      {
+        "original": "El paseo de la Castellana.",
+        "hu": "Paseo de la Castellana."
+      },
+      {
+        "original": "La calle Arturo Soria.",
+        "hu": "Calle Arturo Soria."
+      },
+      {
+        "original": "La calle Gran Vía.",
+        "hu": "Calle Gran Vía."
+      },
+      {
+        "original": "La calle Bravo Murillo.",
+        "hu": "Calle Bravo Murillo."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test1-020",
+    "source": "proformatrans-modulo2-test1",
+    "module": "II",
+    "q": "¿Qué tipo de vehículos pueden acceder a todas las áreas urbanas sin restricciones de contaminación?",
+    "hu": "Milyen típusú járművek hajthatnak be minden városi területre szennyezési korlátozások nélkül?",
+    "answers": [
+      {
+        "original": "Vehículos de categoría B",
+        "hu": "B kategóriájú járművek"
+      },
+      {
+        "original": "Vehículos con etiqueta B y C",
+        "hu": "B és C címkével rendelkező járművek"
+      },
+      {
+        "original": "Vehículos con etiqueta Cero Emisiones",
+        "hu": "Nulla kibocsátás címkével rendelkező járművek"
+      },
+      {
+        "original": "Vehículos de categoría C",
+        "hu": "C kategóriájú járművek"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test2-001",
+    "source": "proformatrans-modulo2-test2",
+    "module": "II",
+    "q": "¿Qué municipio alberga el Museo del Ferrocarril de Madrid?",
+    "hu": "Melyik településen található a Madridi Vasútmúzeum?",
+    "answers": [
+      {
+        "original": "Leganés",
+        "hu": "Leganés"
+      },
+      {
+        "original": "Alcorcón",
+        "hu": "Alcorcón"
+      },
+      {
+        "original": "Getafe",
+        "hu": "Getafe"
+      },
+      {
+        "original": "Madrid capital",
+        "hu": "Madrid főváros"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo2-test2-002",
+    "source": "proformatrans-modulo2-test2",
+    "module": "II",
+    "q": "¿Cuál es el efecto de aplicar zonas de bajas emisiones?",
+    "hu": "Mi az alacsony kibocsátású zónák alkalmazásának hatása?",
+    "answers": [
+      {
+        "original": "Desaparición de carriles bici.",
+        "hu": "A kerékpársávok eltűnése."
+      },
+      {
+        "original": "Mejora de la calidad del aire.",
+        "hu": "A levegőminőség javulása."
+      },
+      {
+        "original": "Aumento del tráfico.",
+        "hu": "A forgalom növekedése."
+      },
+      {
+        "original": "Reducción del transporte público.",
+        "hu": "A tömegközlekedés csökkenése."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo2-test2-003",
+    "source": "proformatrans-modulo2-test2",
+    "module": "II",
+    "q": "¿Qué parque madrileño contiene un laberinto vegetal y un palacete neoclásico?",
+    "hu": "Melyik madridi parkban található növénylabirintus és neoklasszicista kis palota?",
+    "answers": [
+      {
+        "original": "Parque Juan Carlos I",
+        "hu": "Parque Juan Carlos I"
+      },
+      {
+        "original": "Parque del Capricho",
+        "hu": "Parque del Capricho"
+      },
+      {
+        "original": "Parque de El Retiro",
+        "hu": "Parque de El Retiro"
+      },
+      {
+        "original": "Casa de Campo",
+        "hu": "Casa de Campo"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo2-test2-005",
+    "source": "proformatrans-modulo2-test2",
+    "module": "II",
+    "q": "¿Cuáles de estas calles atraviesan la Plaza de los Sagrados Corazones?",
+    "hu": "Az alábbi utcák közül melyik halad át a Plaza de los Sagrados Corazones téren?",
+    "answers": [
+      {
+        "original": "Calle del Hierro",
+        "hu": "Calle del Hierro"
+      },
+      {
+        "original": "Avda. América",
+        "hu": "Avenida de América"
+      },
+      {
+        "original": "Avda. de Pablo Neruda",
+        "hu": "Avenida de Pablo Neruda"
+      },
+      {
+        "original": "Avda. de Concha Espina",
+        "hu": "Avenida de Concha Espina"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo2-test2-006",
+    "source": "proformatrans-modulo2-test2",
+    "module": "II",
+    "q": "¿Qué puente une Arganzuela con Legazpi en Madrid Río?",
+    "hu": "Melyik híd köti össze Arganzuelát Legazpival Madrid Ríónál?",
+    "answers": [
+      {
+        "original": "Puente de Toledo",
+        "hu": "Puente de Toledo"
+      },
+      {
+        "original": "Pasarela Perrault",
+        "hu": "Pasarela Perrault"
+      },
+      {
+        "original": "Puente de Segovia",
+        "hu": "Puente de Segovia"
+      },
+      {
+        "original": "Puente del Rey",
+        "hu": "Puente del Rey"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo2-test2-007",
+    "source": "proformatrans-modulo2-test2",
+    "module": "II",
+    "q": "¿Qué nombre recibe el eje que une el Paseo del Prado, Recoletos y Castellana?",
+    "hu": "Mi a neve annak a tengelynek, amely összeköti a Paseo del Pradót, Recoletost és Castellanát?",
+    "answers": [
+      {
+        "original": "Paseo Verde",
+        "hu": "Paseo Verde"
+      },
+      {
+        "original": "Eje Cultural",
+        "hu": "Kulturális tengely"
+      },
+      {
+        "original": "Paseo del Arte",
+        "hu": "Paseo del Arte"
+      },
+      {
+        "original": "Paseo del Norte",
+        "hu": "Paseo del Norte"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test2-008",
+    "source": "proformatrans-modulo2-test2",
+    "module": "II",
+    "q": "El mercado de San Miguel es famoso por su oferta:",
+    "hu": "Miről híres a San Miguel piac kínálata?",
+    "answers": [
+      {
+        "original": "Textil.",
+        "hu": "Textilipari."
+      },
+      {
+        "original": "Estilística.",
+        "hu": "Stilisztikai."
+      },
+      {
+        "original": "Culinaria.",
+        "hu": "Kulináris / gasztronómiai."
+      },
+      {
+        "original": "Literaria.",
+        "hu": "Irodalmi."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test2-009",
+    "source": "proformatrans-modulo2-test2",
+    "module": "II",
+    "q": "Según la Ley 7/2021 de cambio climático y transición energética, ¿cuál es el principal requisito técnico que deben cumplir los vehículos VTC para operar legalmente en Zonas de Bajas Emisiones (ZBE) de municipios con más de 50.000 habitantes a partir de 2023?",
+    "hu": "A 7/2021-es klímaváltozási és energetikai átállási törvény szerint mi a fő műszaki követelmény a VTC-járművek számára ahhoz, hogy 2023-tól jogszerűen működhessenek az 50 000 főnél nagyobb települések alacsony kibocsátású zónáiban (ZBE)?",
+    "answers": [
+      {
+        "original": "Disponer del distintivo ambiental que permita la entrada o acreditar una exención específica.",
+        "hu": "Rendelkezni olyan környezetvédelmi címkével, amely engedélyezi a behajtást, vagy igazolni egy konkrét mentességet."
+      },
+      {
+        "original": "Circular exclusivamente con etiqueta CERO.",
+        "hu": "Kizárólag CERO címkével közlekedni."
+      },
+      {
+        "original": "Poseer tracción híbrida con más de 200 CV.",
+        "hu": "Több mint 200 lóerős hibrid hajtással rendelkezni."
+      },
+      {
+        "original": "Contar con un sistema GPS conectado a la DGT.",
+        "hu": "A DGT-hez kapcsolt GPS-rendszerrel rendelkezni."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo2-test2-011",
+    "source": "proformatrans-modulo2-test2",
+    "module": "II",
+    "q": "¿Qué edificio madrileño fue sede del Banco Central y es ahora un hotel de lujo?",
+    "hu": "Melyik madridi épület volt a Banco Central székháza, és ma luxusszálloda?",
+    "answers": [
+      {
+        "original": "Edificio España",
+        "hu": "Edificio España"
+      },
+      {
+        "original": "Edificio Metrópolis",
+        "hu": "Edificio Metrópolis"
+      },
+      {
+        "original": "Edificio Gran Vía 1",
+        "hu": "Edificio Gran Vía 1"
+      },
+      {
+        "original": "Palacio de Villahermosa",
+        "hu": "Palacio de Villahermosa"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test2-012",
+    "source": "proformatrans-modulo2-test2",
+    "module": "II",
+    "q": "¿Qué edificio madrileño fue originalmente una central eléctrica?",
+    "hu": "Melyik madridi épület volt eredetileg elektromos erőmű?",
+    "answers": [
+      {
+        "original": "Museo Reina Sofía",
+        "hu": "Museo Reina Sofía"
+      },
+      {
+        "original": "Museo del Prado",
+        "hu": "Museo del Prado"
+      },
+      {
+        "original": "Palacio de Cibeles",
+        "hu": "Palacio de Cibeles"
+      },
+      {
+        "original": "CaixaForum",
+        "hu": "CaixaForum"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo2-test2-013",
+    "source": "proformatrans-modulo2-test2",
+    "module": "II",
+    "q": "¿Qué mercado fue el principal centro de abastos en el Madrid del siglo XX?",
+    "hu": "Melyik piac volt Madrid fő ellátópiaca a 20. században?",
+    "answers": [
+      {
+        "original": "Mercado de Barceló",
+        "hu": "Mercado de Barceló"
+      },
+      {
+        "original": "Mercado de Maravillas",
+        "hu": "Mercado de Maravillas"
+      },
+      {
+        "original": "Mercado de San Fernando",
+        "hu": "Mercado de San Fernando"
+      },
+      {
+        "original": "Mercado de la Cebada",
+        "hu": "Mercado de la Cebada"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo2-test2-014",
+    "source": "proformatrans-modulo2-test2",
+    "module": "II",
+    "q": "La Estación Sur de Autobuses se encuentra en:",
+    "hu": "Hol található a Déli Buszpályaudvar (Estación Sur de Autobuses)?",
+    "answers": [
+      {
+        "original": "Menéndez Álvaro.",
+        "hu": "Menéndez Álvaro."
+      },
+      {
+        "original": "Méndez Álvaro.",
+        "hu": "Méndez Álvaro."
+      },
+      {
+        "original": "Moncloa.",
+        "hu": "Moncloa."
+      },
+      {
+        "original": "Avenida de América.",
+        "hu": "Avenida de América."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo2-test2-015",
+    "source": "proformatrans-modulo2-test2",
+    "module": "II",
+    "q": "¿En qué municipio del oeste de Madrid se encuentra el Parque Madrid SnowZone, una de las pocas pistas de esquí cubiertas de Europa?",
+    "hu": "Madrid nyugati részének melyik településén található a Madrid SnowZone park, Európa egyik kevés fedett sípályájával?",
+    "answers": [
+      {
+        "original": "Las Rozas",
+        "hu": "Las Rozas"
+      },
+      {
+        "original": "Boadilla del Monte",
+        "hu": "Boadilla del Monte"
+      },
+      {
+        "original": "Majadahonda",
+        "hu": "Majadahonda"
+      },
+      {
+        "original": "Arroyomolinos",
+        "hu": "Arroyomolinos"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo2-test2-016",
+    "source": "proformatrans-modulo2-test2",
+    "module": "II",
+    "q": "¿En qué calle se encuentra ubicado el Colegio Mayor San Agustín?",
+    "hu": "Melyik utcában található a Colegio Mayor San Agustín?",
+    "answers": [
+      {
+        "original": "Don Ramón Menéndez Pidal",
+        "hu": "Don Ramón Menéndez Pidal"
+      },
+      {
+        "original": "Avda. de Séneca",
+        "hu": "Avenida de Séneca"
+      },
+      {
+        "original": "Serrano",
+        "hu": "Serrano"
+      },
+      {
+        "original": "Avda. Gregorio del Amo",
+        "hu": "Avenida Gregorio del Amo"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo2-test2-017",
+    "source": "proformatrans-modulo2-test2",
+    "module": "II",
+    "q": "¿Qué ventaja tiene el sistema Galileo sobre el GPS en entornos urbanos?",
+    "hu": "Milyen előnye van a Galileo rendszernek a GPS-szel szemben városi környezetben?",
+    "answers": [
+      {
+        "original": "Mayor velocidad de conexión",
+        "hu": "Nagyobb kapcsolódási sebesség"
+      },
+      {
+        "original": "Mayor compatibilidad con dispositivos antiguos",
+        "hu": "Nagyobb kompatibilitás régi eszközökkel"
+      },
+      {
+        "original": "Mayor precisión",
+        "hu": "Nagyobb pontosság"
+      },
+      {
+        "original": "Menos consumo de batería",
+        "hu": "Alacsonyabb akkumulátorfogyasztás"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test2-018",
+    "source": "proformatrans-modulo2-test2",
+    "module": "II",
+    "q": "¿Qué museo se encuentra junto al Faro de Moncloa?",
+    "hu": "Melyik múzeum található a Faro de Moncloa mellett?",
+    "answers": [
+      {
+        "original": "Museo del Prado",
+        "hu": "Museo del Prado"
+      },
+      {
+        "original": "Museo de América",
+        "hu": "Museo de América"
+      },
+      {
+        "original": "Museo de Ciencias Naturales",
+        "hu": "Természettudományi Múzeum"
+      },
+      {
+        "original": "Museo Cerralbo",
+        "hu": "Museo Cerralbo"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo2-test2-019",
+    "source": "proformatrans-modulo2-test2",
+    "module": "II",
+    "q": "¿Qué glorieta encontramos a lo largo de la Avda. de Logroño a su paso por la M-11?",
+    "hu": "Melyik körforgalmat találjuk az Avenida de Logroño mentén, ahol az M-11 mellett halad?",
+    "answers": [
+      {
+        "original": "Glorieta de las Reales Academias",
+        "hu": "Glorieta de las Reales Academias"
+      },
+      {
+        "original": "Glorieta de Cuatro Caminos",
+        "hu": "Glorieta de Cuatro Caminos"
+      },
+      {
+        "original": "Glorieta de Bilbao",
+        "hu": "Glorieta de Bilbao"
+      },
+      {
+        "original": "Glorieta Ermita de la Virgen de la Soledad",
+        "hu": "Glorieta Ermita de la Virgen de la Soledad"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo2-test3-001",
+    "source": "proformatrans-modulo2-test3",
+    "module": "II",
+    "q": "¿Cuándo puede un VTC circular por el carril bus?",
+    "hu": "Mikor közlekedhet egy VTC a buszsávban?",
+    "answers": [
+      {
+        "original": "Siempre que esté expresamente autorizado en la señalización instalada.",
+        "hu": "Amikor ezt a kihelyezett jelzés kifejezetten engedélyezi."
+      },
+      {
+        "original": "Nunca.",
+        "hu": "Soha."
+      },
+      {
+        "original": "Siempre, sin ninguna restricción.",
+        "hu": "Mindig, minden korlátozás nélkül."
+      },
+      {
+        "original": "Solo si transporta más de cuatro pasajeros.",
+        "hu": "Csak akkor, ha több mint négy utast szállít."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo2-test3-003",
+    "source": "proformatrans-modulo2-test3",
+    "module": "II",
+    "q": "¿Qué acción es necesaria para acceder a una ZBE en episodios de alta contaminación?",
+    "hu": "Milyen intézkedés szükséges ahhoz, hogy magas szennyezettségű időszakokban be lehessen hajtani egy ZBE-be?",
+    "answers": [
+      {
+        "original": "Respetar las limitaciones de acceso establecidas.",
+        "hu": "A megállapított behajtási korlátozások betartása."
+      },
+      {
+        "original": "Usar climatización para reducir emisiones.",
+        "hu": "Klímaberendezés használata a kibocsátások csökkentésére."
+      },
+      {
+        "original": "Incrementar el uso de combustibles fósiles.",
+        "hu": "A fosszilis üzemanyagok használatának növelése."
+      },
+      {
+        "original": "Realizar trayectos largos.",
+        "hu": "Hosszú utak megtétele."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo2-test3-004",
+    "source": "proformatrans-modulo2-test3",
+    "module": "II",
+    "q": "¿En cuál de las siguientes plazas está situada la Plaza de Toros de Las Ventas?",
+    "hu": "Az alábbi terek közül melyiken található a Las Ventas bikaviadal-aréna?",
+    "answers": [
+      {
+        "original": "Plaza de Lavapiés.",
+        "hu": "Plaza de Lavapiés."
+      },
+      {
+        "original": "Plaza de San Diego.",
+        "hu": "Plaza de San Diego."
+      },
+      {
+        "original": "Plaza de Chamberí.",
+        "hu": "Plaza de Chamberí."
+      },
+      {
+        "original": "Plaza de Agustín González.",
+        "hu": "Plaza de Agustín González."
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo2-test3-005",
+    "source": "proformatrans-modulo2-test3",
+    "module": "II",
+    "q": "¿Qué importante museo de arte se encuentra en el Paseo del Prado?",
+    "hu": "Melyik jelentős művészeti múzeum található a Paseo del Pradón?",
+    "answers": [
+      {
+        "original": "Museo Thyssen",
+        "hu": "Museo Thyssen"
+      },
+      {
+        "original": "Museo Sorolla",
+        "hu": "Museo Sorolla"
+      },
+      {
+        "original": "CaixaForum",
+        "hu": "CaixaForum"
+      },
+      {
+        "original": "Museo del Prado",
+        "hu": "Museo del Prado"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo2-test3-006",
+    "source": "proformatrans-modulo2-test3",
+    "module": "II",
+    "q": "¿Cuál es una buena práctica al usar aplicaciones GPS en condiciones climáticas adversas?",
+    "hu": "Mi a jó gyakorlat GPS-alkalmazások használatakor kedvezőtlen időjárási körülmények között?",
+    "answers": [
+      {
+        "original": "Aumentar el brillo de la pantalla del móvil",
+        "hu": "A mobil képernyő fényerejének növelése"
+      },
+      {
+        "original": "Consultar el GPS solo en carreteras rectas",
+        "hu": "A GPS ellenőrzése csak egyenes útszakaszokon"
+      },
+      {
+        "original": "Usar comandos de voz para evitar distracciones visuales",
+        "hu": "Hangparancsok használata a vizuális figyelemelterelés elkerülésére"
+      },
+      {
+        "original": "Apagar el GPS",
+        "hu": "A GPS kikapcsolása"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test3-007",
+    "source": "proformatrans-modulo2-test3",
+    "module": "II",
+    "q": "¿Cuál de los siguientes distintivos permite circular con menos restricciones en episodios de alta contaminación?",
+    "hu": "Az alábbi környezetvédelmi címkék közül melyik enged kevesebb korlátozással közlekedni magas szennyezettségű időszakokban?",
+    "answers": [
+      {
+        "original": "B",
+        "hu": "B"
+      },
+      {
+        "original": "Sin etiqueta",
+        "hu": "Címke nélkül"
+      },
+      {
+        "original": "C",
+        "hu": "C"
+      },
+      {
+        "original": "ECO",
+        "hu": "ECO"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo2-test3-008",
+    "source": "proformatrans-modulo2-test3",
+    "module": "II",
+    "q": "¿Dónde está situado el club Golf Park?",
+    "hu": "Hol található a Golf Park klub?",
+    "answers": [
+      {
+        "original": "Parque del Oeste.",
+        "hu": "Parque del Oeste."
+      },
+      {
+        "original": "Retiro.",
+        "hu": "Retiro."
+      },
+      {
+        "original": "Cuatro Torres Business Area.",
+        "hu": "Cuatro Torres Business Area."
+      },
+      {
+        "original": "Parque Empresarial La Moraleja.",
+        "hu": "Parque Empresarial La Moraleja."
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo2-test3-009",
+    "source": "proformatrans-modulo2-test3",
+    "module": "II",
+    "q": "¿Por qué es recomendable usar un soporte magnético para el móvil al utilizar el GPS?",
+    "hu": "Miért ajánlott mágneses telefontartót használni GPS használatakor?",
+    "answers": [
+      {
+        "original": "Permite ajustar el móvil sin quitar la vista de la carretera",
+        "hu": "Lehetővé teszi a telefon állítását anélkül, hogy levennénk a szemünket az útról"
+      },
+      {
+        "original": "Reduce el consumo de datos",
+        "hu": "Csökkenti az adatfogyasztást"
+      },
+      {
+        "original": "Mejora la calidad de la señal",
+        "hu": "Javítja a jel minőségét"
+      },
+      {
+        "original": "Evita que el móvil se sobrecaliente",
+        "hu": "Megakadályozza, hogy a mobil túlmelegedjen"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo2-test3-010",
+    "source": "proformatrans-modulo2-test3",
+    "module": "II",
+    "q": "¿Cuál es el principal aeropuerto de Madrid?",
+    "hu": "Melyik Madrid fő repülőtere?",
+    "answers": [
+      {
+        "original": "Aeropuerto de Torrejón",
+        "hu": "Torrejóni repülőtér"
+      },
+      {
+        "original": "Aeropuerto de Barajas-Adolfo Suárez",
+        "hu": "Barajas-Adolfo Suárez repülőtér"
+      },
+      {
+        "original": "Aeropuerto de Cuatro Vientos",
+        "hu": "Cuatro Vientos repülőtér"
+      },
+      {
+        "original": "Aeropuerto de Getafe",
+        "hu": "Getafe repülőtér"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo2-test3-011",
+    "source": "proformatrans-modulo2-test3",
+    "module": "II",
+    "q": "Los vehículos de más de 8 plazas matriculados desde 2014 llevan etiqueta:",
+    "hu": "A 2014 óta forgalomba helyezett, több mint 8 ülőhelyes járművek milyen címkét kapnak?",
+    "answers": [
+      {
+        "original": "B.",
+        "hu": "B."
+      },
+      {
+        "original": "ECO.",
+        "hu": "ECO."
+      },
+      {
+        "original": "C.",
+        "hu": "C."
+      },
+      {
+        "original": "Azul.",
+        "hu": "Kék."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test3-012",
+    "source": "proformatrans-modulo2-test3",
+    "module": "II",
+    "q": "¿Qué calle en Madrid es famosa por sus cines y teatros?",
+    "hu": "Melyik madridi utca híres a mozijairól és színházairól?",
+    "answers": [
+      {
+        "original": "Calle Fuencarral",
+        "hu": "Calle Fuencarral"
+      },
+      {
+        "original": "Ninguna de las anteriores",
+        "hu": "A fentiek egyike sem"
+      },
+      {
+        "original": "Calle Serrano",
+        "hu": "Calle Serrano"
+      },
+      {
+        "original": "Gran Vía",
+        "hu": "Gran Vía"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo2-test3-013",
+    "source": "proformatrans-modulo2-test3",
+    "module": "II",
+    "q": "¿En qué calle se encuentra ubicado el Cine Doré?",
+    "hu": "Melyik utcában található a Cine Doré?",
+    "answers": [
+      {
+        "original": "Calle Santa Isabel.",
+        "hu": "Calle Santa Isabel."
+      },
+      {
+        "original": "Calle Gran Vía.",
+        "hu": "Calle Gran Vía."
+      },
+      {
+        "original": "Calle Fuencarral.",
+        "hu": "Calle Fuencarral."
+      },
+      {
+        "original": "Calle Arenal.",
+        "hu": "Calle Arenal."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo2-test3-014",
+    "source": "proformatrans-modulo2-test3",
+    "module": "II",
+    "q": "¿Qué municipio madrileño es famoso por la Ruta de los Molinos, un recorrido por antiguos molinos de agua?",
+    "hu": "Melyik madridi település híres a Ruta de los Molinos útvonalról, amely régi vízimalmok mellett halad?",
+    "answers": [
+      {
+        "original": "Chapinería",
+        "hu": "Chapinería"
+      },
+      {
+        "original": "Villaviciosa de Odón",
+        "hu": "Villaviciosa de Odón"
+      },
+      {
+        "original": "Villamantilla",
+        "hu": "Villamantilla"
+      },
+      {
+        "original": "Aldea del Fresno",
+        "hu": "Aldea del Fresno"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo2-test3-015",
+    "source": "proformatrans-modulo2-test3",
+    "module": "II",
+    "q": "¿Cuál de estos pueblos es conocido por su Fiesta de la Maya, en la que se visten cruces de flores y se celebra cada 2 de mayo?",
+    "hu": "Az alábbi települések közül melyik ismert a Fiesta de la Maya ünnepéről, amikor virágkereszteket díszítenek, és amelyet minden május 2-án tartanak?",
+    "answers": [
+      {
+        "original": "San Lorenzo de El Escorial",
+        "hu": "San Lorenzo de El Escorial"
+      },
+      {
+        "original": "El Molar",
+        "hu": "El Molar"
+      },
+      {
+        "original": "Colmenar Viejo",
+        "hu": "Colmenar Viejo"
+      },
+      {
+        "original": "Navalcarnero",
+        "hu": "Navalcarnero"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test3-016",
+    "source": "proformatrans-modulo2-test3",
+    "module": "II",
+    "q": "¿Cuál de los siguientes hoteles está situado junto al Tanatorio de la M-30?",
+    "hu": "Az alábbi hotelek közül melyik található az M-30 ravatalozó mellett?",
+    "answers": [
+      {
+        "original": "Hotel Gran Vía",
+        "hu": "Hotel Gran Vía"
+      },
+      {
+        "original": "Novotel Madrid",
+        "hu": "Novotel Madrid"
+      },
+      {
+        "original": "Hotel Mayorazgo",
+        "hu": "Hotel Mayorazgo"
+      },
+      {
+        "original": "NH Collection Madrid",
+        "hu": "NH Collection Madrid"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo2-test3-017",
+    "source": "proformatrans-modulo2-test3",
+    "module": "II",
+    "q": "¿Qué estación de metro tiene una réplica de una antigua estación de los años 20?",
+    "hu": "Melyik metróállomáson található egy régi, 1920-as évekbeli állomás másolata?",
+    "answers": [
+      {
+        "original": "Sol",
+        "hu": "Sol"
+      },
+      {
+        "original": "Gran Vía",
+        "hu": "Gran Vía"
+      },
+      {
+        "original": "Chamberí",
+        "hu": "Chamberí"
+      },
+      {
+        "original": "Bilbao",
+        "hu": "Bilbao"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test3-018",
+    "source": "proformatrans-modulo2-test3",
+    "module": "II",
+    "q": "¿Qué conjunto escultórico representa el Descendimiento en el Monasterio de El Escorial?",
+    "hu": "Melyik szoborcsoport ábrázolja a Levételt a keresztről az El Escorial kolostorban?",
+    "answers": [
+      {
+        "original": "Pompeo Leoni",
+        "hu": "Pompeo Leoni"
+      },
+      {
+        "original": "Juan de Juni",
+        "hu": "Juan de Juni"
+      },
+      {
+        "original": "Juan de Borgoña",
+        "hu": "Juan de Borgoña"
+      },
+      {
+        "original": "Gregorio Fernández",
+        "hu": "Gregorio Fernández"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo2-test3-019",
+    "source": "proformatrans-modulo2-test3",
+    "module": "II",
+    "q": "¿Dónde se ubica el Parque Nacional de la Sierra de Guadarrama dentro de la Comunidad de Madrid?",
+    "hu": "Hol helyezkedik el a Sierra de Guadarrama Nemzeti Park a Madridi Közösségen belül?",
+    "answers": [
+      {
+        "original": "En el este, cerca de Alcalá de Henares",
+        "hu": "Keleten, Alcalá de Henares közelében"
+      },
+      {
+        "original": "En el noroeste, junto a la Sierra de Malagón",
+        "hu": "Északnyugaton, a Sierra de Malagón mellett"
+      },
+      {
+        "original": "En el norte, entre Rascafría y Navacerrada",
+        "hu": "Északon, Rascafría és Navacerrada között"
+      },
+      {
+        "original": "En el sur, cerca de Aranjuez",
+        "hu": "Délen, Aranjuez közelében"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test3-020",
+    "source": "proformatrans-modulo2-test3",
+    "module": "II",
+    "q": "¿Qué antiguo hospital alberga hoy la sede del Ministerio de Sanidad?",
+    "hu": "Melyik régi kórház ad ma otthont az Egészségügyi Minisztérium székhelyének?",
+    "answers": [
+      {
+        "original": "Hospital de la Princesa",
+        "hu": "Hospital de la Princesa"
+      },
+      {
+        "original": "Hospital General de Madrid",
+        "hu": "Hospital General de Madrid"
+      },
+      {
+        "original": "Hospital del Buen Suceso",
+        "hu": "Hospital del Buen Suceso"
+      },
+      {
+        "original": "Hospital de San Carlos",
+        "hu": "Hospital de San Carlos"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo2-test4-001",
+    "source": "proformatrans-modulo2-test4",
+    "module": "II",
+    "q": "En el Palacio de Cibeles se encuentra la sede:",
+    "hu": "A Palacio de Cibeles épületében található a következő székhelye:",
+    "answers": [
+      {
+        "original": "Delegación del Gobierno.",
+        "hu": "Kormányküldöttség."
+      },
+      {
+        "original": "Diputación Provincial.",
+        "hu": "Tartományi tanács."
+      },
+      {
+        "original": "Ayuntamiento de Madrid.",
+        "hu": "Madridi Városháza."
+      },
+      {
+        "original": "Comunidad de Madrid.",
+        "hu": "Madridi Közösség."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test4-002",
+    "source": "proformatrans-modulo2-test4",
+    "module": "II",
+    "q": "¿Dónde está situada Radio Intercontinental?",
+    "hu": "Hol található a Radio Intercontinental?",
+    "answers": [
+      {
+        "original": "Paseo de la Castellana",
+        "hu": "Paseo de la Castellana"
+      },
+      {
+        "original": "Avenida de América",
+        "hu": "Avenida de América"
+      },
+      {
+        "original": "Calle Valenzuela",
+        "hu": "Calle Valenzuela"
+      },
+      {
+        "original": "Calle Modesto la Fuente",
+        "hu": "Calle Modesto la Fuente"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo2-test4-003",
+    "source": "proformatrans-modulo2-test4",
+    "module": "II",
+    "q": "¿Qué palacio se encuentra al borde del río Tajo y forma parte del Patrimonio Mundial?",
+    "hu": "Melyik palota található a Tajo folyó partján, és része a világörökségnek?",
+    "answers": [
+      {
+        "original": "Palacio de Aranjuez",
+        "hu": "Palacio de Aranjuez"
+      },
+      {
+        "original": "Palacio del Pardo",
+        "hu": "Palacio del Pardo"
+      },
+      {
+        "original": "Palacio Real de Madrid",
+        "hu": "Madridi Királyi Palota"
+      },
+      {
+        "original": "Palacio de Boadilla",
+        "hu": "Palacio de Boadilla"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo2-test4-004",
+    "source": "proformatrans-modulo2-test4",
+    "module": "II",
+    "q": "¿En qué municipio NO encontraríamos un Hipermercado Carrefour?",
+    "hu": "Melyik településen NEM találnánk Carrefour hipermarketet?",
+    "answers": [
+      {
+        "original": "Las Rozas",
+        "hu": "Las Rozas"
+      },
+      {
+        "original": "Alcorcón",
+        "hu": "Alcorcón"
+      },
+      {
+        "original": "Majadahonda",
+        "hu": "Majadahonda"
+      },
+      {
+        "original": "San Fernando de Henares",
+        "hu": "San Fernando de Henares"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo2-test4-005",
+    "source": "proformatrans-modulo2-test4",
+    "module": "II",
+    "q": "¿Qué localidad conserva un teatro de corte neoclásico construido por Carlos III?",
+    "hu": "Melyik településen maradt fenn egy III. Károly által építtetett neoklasszicista udvari színház?",
+    "answers": [
+      {
+        "original": "Alcalá de Henares",
+        "hu": "Alcalá de Henares"
+      },
+      {
+        "original": "San Lorenzo de El Escorial",
+        "hu": "San Lorenzo de El Escorial"
+      },
+      {
+        "original": "Aranjuez",
+        "hu": "Aranjuez"
+      },
+      {
+        "original": "El Escorial",
+        "hu": "El Escorial"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo2-test4-006",
+    "source": "proformatrans-modulo2-test4",
+    "module": "II",
+    "q": "¿Dónde se encuentra el Tribunal Supremo?",
+    "hu": "Hol található a Legfelsőbb Bíróság?",
+    "answers": [
+      {
+        "original": "Plaza de la Villa de París",
+        "hu": "Plaza de la Villa de París"
+      },
+      {
+        "original": "Plaza de la Lealtad",
+        "hu": "Plaza de la Lealtad"
+      },
+      {
+        "original": "Calle Mayor",
+        "hu": "Calle Mayor"
+      },
+      {
+        "original": "Calle Alcalá",
+        "hu": "Calle Alcalá"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo2-test4-007",
+    "source": "proformatrans-modulo2-test4",
+    "module": "II",
+    "q": "¿En qué municipio del oeste de Madrid se encuentra el Parque Natural del Curso Medio del Río Guadarrama, una importante zona de biodiversidad?",
+    "hu": "Madrid nyugati részén melyik településen található a Río Guadarrama középső folyásának természeti parkja, egy fontos biodiverzitási terület?",
+    "answers": [
+      {
+        "original": "Boadilla del Monte",
+        "hu": "Boadilla del Monte"
+      },
+      {
+        "original": "Las Rozas",
+        "hu": "Las Rozas"
+      },
+      {
+        "original": "Majadahonda",
+        "hu": "Majadahonda"
+      },
+      {
+        "original": "Villaviciosa de Odón",
+        "hu": "Villaviciosa de Odón"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo2-test4-008",
+    "source": "proformatrans-modulo2-test4",
+    "module": "II",
+    "q": "Dirección del Colegio Oficial de Médicos:",
+    "hu": "Az Orvosi Kamara címe:",
+    "answers": [
+      {
+        "original": "Calle Atocha 50.",
+        "hu": "Calle Atocha 50."
+      },
+      {
+        "original": "Doctor Fleming 99.",
+        "hu": "Doctor Fleming 99."
+      },
+      {
+        "original": "Calle Santa Isabel 51.",
+        "hu": "Calle Santa Isabel 51."
+      },
+      {
+        "original": "Alberto Alcocer 25.",
+        "hu": "Alberto Alcocer 25."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test4-009",
+    "source": "proformatrans-modulo2-test4",
+    "module": "II",
+    "q": "Los vehículos híbridos no enchufables deben llevar el distintivo B.",
+    "hu": "A nem tölthető hibrid járműveknek B környezetvédelmi címkét kell viselniük.",
+    "answers": [
+      {
+        "original": "Falso.",
+        "hu": "Hamis."
+      },
+      {
+        "original": "Solo durante el día.",
+        "hu": "Csak nappal."
+      },
+      {
+        "original": "Solo durante la noche.",
+        "hu": "Csak éjszaka."
+      },
+      {
+        "original": "Verdadero.",
+        "hu": "Igaz."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo2-test4-010",
+    "source": "proformatrans-modulo2-test4",
+    "module": "II",
+    "q": "¿Qué municipio destaca por su embalse y la torre del Telégrafo?",
+    "hu": "Melyik település nevezetes a víztározójáról és a távírótoronyról?",
+    "answers": [
+      {
+        "original": "Valdemorillo",
+        "hu": "Valdemorillo"
+      },
+      {
+        "original": "Torrelodones",
+        "hu": "Torrelodones"
+      },
+      {
+        "original": "Cercedilla",
+        "hu": "Cercedilla"
+      },
+      {
+        "original": "Boadilla del Monte",
+        "hu": "Boadilla del Monte"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo2-test4-011",
+    "source": "proformatrans-modulo2-test4",
+    "module": "II",
+    "q": "Origen de la clasificación ambiental:",
+    "hu": "A környezetvédelmi besorolás eredete:",
+    "answers": [
+      {
+        "original": "Ordenanza municipal.",
+        "hu": "Önkormányzati rendelet."
+      },
+      {
+        "original": "Plan Nacional de Calidad del Aire.",
+        "hu": "Nemzeti Levegőminőségi Terv."
+      },
+      {
+        "original": "ITV.",
+        "hu": "Műszaki vizsga."
+      },
+      {
+        "original": "Plan de residuos.",
+        "hu": "Hulladékgazdálkodási terv."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo2-test4-012",
+    "source": "proformatrans-modulo2-test4",
+    "module": "II",
+    "q": "¿Qué calle es reconocida por su tradición cultural vinculada a librerías independientes, comercios de antigüedades y una intensa vida bohemia desde el siglo XIX?",
+    "hu": "Melyik utca ismert a 19. század óta a független könyvesboltokhoz, régiségkereskedésekhez és élénk bohém élethez kötődő kulturális hagyományáról?",
+    "answers": [
+      {
+        "original": "Calle del Barquillo.",
+        "hu": "Calle del Barquillo."
+      },
+      {
+        "original": "Calle de Valverde.",
+        "hu": "Calle de Valverde."
+      },
+      {
+        "original": "Calle de San Mateo.",
+        "hu": "Calle de San Mateo."
+      },
+      {
+        "original": "Calle del Pez.",
+        "hu": "Calle del Pez."
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo2-test4-013",
+    "source": "proformatrans-modulo2-test4",
+    "module": "II",
+    "q": "¿En qué calle se encuentra \"Casa Patas\"?",
+    "hu": "Melyik utcában található a \"Casa Patas\"?",
+    "answers": [
+      {
+        "original": "Calle Preciados",
+        "hu": "Calle Preciados"
+      },
+      {
+        "original": "Calle Cuchilleros",
+        "hu": "Calle Cuchilleros"
+      },
+      {
+        "original": "Calle Cañizares",
+        "hu": "Calle Cañizares"
+      },
+      {
+        "original": "Calle Mayor",
+        "hu": "Calle Mayor"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test4-014",
+    "source": "proformatrans-modulo2-test4",
+    "module": "II",
+    "q": "¿Qué festividad madrileña celebra al patrón en mayo?",
+    "hu": "Melyik madridi ünnep ünnepli a védőszentet májusban?",
+    "answers": [
+      {
+        "original": "San Miguel Arcángel",
+        "hu": "San Miguel Arcángel"
+      },
+      {
+        "original": "Ninguna de las anteriores",
+        "hu": "A fentiek egyike sem"
+      },
+      {
+        "original": "San Antonio de la Florida",
+        "hu": "San Antonio de la Florida"
+      },
+      {
+        "original": "San Isidro Labrador",
+        "hu": "San Isidro Labrador"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo2-test4-015",
+    "source": "proformatrans-modulo2-test4",
+    "module": "II",
+    "q": "¿Qué palacio está rodeado por los Jardines del Príncipe y fue declarado Patrimonio de la Humanidad?",
+    "hu": "Melyik palotát veszik körül a Jardines del Príncipe kertek, és nyilvánították a világörökség részévé?",
+    "answers": [
+      {
+        "original": "Palacio de El Pardo",
+        "hu": "Palacio de El Pardo"
+      },
+      {
+        "original": "Palacio de Aranjuez",
+        "hu": "Palacio de Aranjuez"
+      },
+      {
+        "original": "Palacio Real de Madrid",
+        "hu": "Madridi Királyi Palota"
+      },
+      {
+        "original": "Palacio de la Zarzuela",
+        "hu": "Palacio de la Zarzuela"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo2-test4-016",
+    "source": "proformatrans-modulo2-test4",
+    "module": "II",
+    "q": "¿En qué municipio se encuentra el Pabellón Fernando Martín?",
+    "hu": "Melyik településen található a Pabellón Fernando Martín?",
+    "answers": [
+      {
+        "original": "Getafe",
+        "hu": "Getafe"
+      },
+      {
+        "original": "Alcalá de Henares",
+        "hu": "Alcalá de Henares"
+      },
+      {
+        "original": "Móstoles",
+        "hu": "Móstoles"
+      },
+      {
+        "original": "Fuenlabrada",
+        "hu": "Fuenlabrada"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo2-test4-017",
+    "source": "proformatrans-modulo2-test4",
+    "module": "II",
+    "q": "¿En qué pueblo madrileño se encuentra el Arboreto Luis Ceballos, un centro de educación ambiental con una gran variedad de especies forestales?",
+    "hu": "Melyik madridi településen található a Luis Ceballos arborétum, egy erdei fajokban gazdag környezeti oktatóközpont?",
+    "answers": [
+      {
+        "original": "San Lorenzo de El Escorial",
+        "hu": "San Lorenzo de El Escorial"
+      },
+      {
+        "original": "Guadarrama",
+        "hu": "Guadarrama"
+      },
+      {
+        "original": "Alpedrete",
+        "hu": "Alpedrete"
+      },
+      {
+        "original": "Collado Mediano",
+        "hu": "Collado Mediano"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo2-test4-018",
+    "source": "proformatrans-modulo2-test4",
+    "module": "II",
+    "q": "¿Qué edificio tiene una cúpula sostenida por cariátides en su fachada?",
+    "hu": "Melyik épület homlokzatán található kariatidák által tartott kupola?",
+    "answers": [
+      {
+        "original": "Banco de España",
+        "hu": "Banco de España"
+      },
+      {
+        "original": "Edificio de las Cariátides",
+        "hu": "Edificio de las Cariátides"
+      },
+      {
+        "original": "Edificio Telefónica",
+        "hu": "Edificio Telefónica"
+      },
+      {
+        "original": "Palacio de Linares",
+        "hu": "Palacio de Linares"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo2-test4-019",
+    "source": "proformatrans-modulo2-test4",
+    "module": "II",
+    "q": "¿Qué puente une la Casa de Campo con la Catedral de la Almudena?",
+    "hu": "Melyik híd köti össze a Casa de Campót az Almudena-székesegyházzal?",
+    "answers": [
+      {
+        "original": "Puente del Rey",
+        "hu": "Puente del Rey"
+      },
+      {
+        "original": "Puente de Toledo",
+        "hu": "Puente de Toledo"
+      },
+      {
+        "original": "Puente de Segovia",
+        "hu": "Puente de Segovia"
+      },
+      {
+        "original": "Puente de los Franceses",
+        "hu": "Puente de los Franceses"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo2-test4-020",
+    "source": "proformatrans-modulo2-test4",
+    "module": "II",
+    "q": "¿Qué edificio en Madrid es famoso por su arquitectura neo mudéjar y su uso como centro cultural?",
+    "hu": "Melyik madridi épület híres neomudéjar építészetéről és kulturális központként való használatáról?",
+    "answers": [
+      {
+        "original": "Palacio de la Alfarería.",
+        "hu": "Palacio de la Alfarería."
+      },
+      {
+        "original": "Palacio de la Magdalena.",
+        "hu": "Palacio de la Magdalena."
+      },
+      {
+        "original": "La gran maqueta del Alcázar de Sevilla.",
+        "hu": "A sevillai Alcázar nagy makettje."
+      },
+      {
+        "original": "Palacio de Velázquez.",
+        "hu": "Palacio de Velázquez."
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo2-test5-001",
+    "source": "proformatrans-modulo2-test5",
+    "module": "II",
+    "q": "¿Qué templo egipcio, originalmente ubicado cerca de la Primera Catarata del Nilo y dedicado a Amón e Isis, fue reconstruido piedra por piedra en Madrid como parte del programa internacional de salvamento de monumentos nubios?",
+    "hu": "Melyik egyiptomi templomot, amely eredetileg a Nílus első kataraktája közelében állt, és Amonnak valamint Ízisznek volt szentelve, építették újjá kőről kőre Madridban a núbiai műemlékek megmentésére irányuló nemzetközi program részeként?",
+    "answers": [
+      {
+        "original": "Templo de Dendur.",
+        "hu": "Dendur temploma."
+      },
+      {
+        "original": "Templo de Edfu.",
+        "hu": "Edfu temploma."
+      },
+      {
+        "original": "Templo de Kalabsha.",
+        "hu": "Kalabsha temploma."
+      },
+      {
+        "original": "Templo de Debod.",
+        "hu": "Debod temploma."
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo2-test5-002",
+    "source": "proformatrans-modulo2-test5",
+    "module": "II",
+    "q": "¿Dónde se ubica el Museo del Aire en la Comunidad de Madrid?",
+    "hu": "Hol található a Repülési Múzeum a Madridi Közösségben?",
+    "answers": [
+      {
+        "original": "Barajas",
+        "hu": "Barajas"
+      },
+      {
+        "original": "Cuatro Vientos",
+        "hu": "Cuatro Vientos"
+      },
+      {
+        "original": "Getafe",
+        "hu": "Getafe"
+      },
+      {
+        "original": "Torrejón",
+        "hu": "Torrejón"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo2-test5-003",
+    "source": "proformatrans-modulo2-test5",
+    "module": "II",
+    "q": "¿En qué municipio se encuentra la sede de Antena 3?",
+    "hu": "Melyik településen található az Antena 3 székhelye?",
+    "answers": [
+      {
+        "original": "Getafe",
+        "hu": "Getafe"
+      },
+      {
+        "original": "Coslada",
+        "hu": "Coslada"
+      },
+      {
+        "original": "Torrejón de Ardoz",
+        "hu": "Torrejón de Ardoz"
+      },
+      {
+        "original": "San Sebastián de los Reyes",
+        "hu": "San Sebastián de los Reyes"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo2-test5-004",
+    "source": "proformatrans-modulo2-test5",
+    "module": "II",
+    "q": "¿Qué museo alberga la mayor colección de obras de Goya?",
+    "hu": "Melyik múzeum őrzi Goya műveinek legnagyobb gyűjteményét?",
+    "answers": [
+      {
+        "original": "Museo Thyssen",
+        "hu": "Museo Thyssen"
+      },
+      {
+        "original": "Museo Reina Sofía",
+        "hu": "Museo Reina Sofía"
+      },
+      {
+        "original": "Museo del Prado",
+        "hu": "Museo del Prado"
+      },
+      {
+        "original": "Museo de América",
+        "hu": "Museo de América"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test5-006",
+    "source": "proformatrans-modulo2-test5",
+    "module": "II",
+    "q": "¿Qué deben hacer los conductores en caso de no contar con el distintivo ambiental adecuado?",
+    "hu": "Mit kell tenniük a járművezetőknek, ha nem rendelkeznek megfelelő környezetvédelmi matricával?",
+    "answers": [
+      {
+        "original": "Solicitar un permiso especial.",
+        "hu": "Külön engedélyt kérni."
+      },
+      {
+        "original": "Circular en Zonas de Bajas emisiones aumentando la velocidad al máximo.",
+        "hu": "Az alacsony kibocsátású zónákban a sebességet maximálisra növelve közlekedni."
+      },
+      {
+        "original": "Evitar circular en Zonas de Bajas Emisiones.",
+        "hu": "Kerülni az alacsony kibocsátású zónákban való közlekedést."
+      },
+      {
+        "original": "Circular sin restricciones.",
+        "hu": "Korlátozások nélkül közlekedni."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test5-007",
+    "source": "proformatrans-modulo2-test5",
+    "module": "II",
+    "q": "¿En qué localidad madrileña se encuentra el Parque de la Navidad de Torrejón de Ardoz, uno de los eventos navideños más grandes de España?",
+    "hu": "Melyik madridi településen található Torrejón de Ardoz karácsonyi parkja, Spanyolország egyik legnagyobb karácsonyi eseménye?",
+    "answers": [
+      {
+        "original": "San Sebastián de los Reyes",
+        "hu": "San Sebastián de los Reyes"
+      },
+      {
+        "original": "Torrejón de Ardoz",
+        "hu": "Torrejón de Ardoz"
+      },
+      {
+        "original": "Getafe",
+        "hu": "Getafe"
+      },
+      {
+        "original": "Alcalá de Henares",
+        "hu": "Alcalá de Henares"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo2-test5-008",
+    "source": "proformatrans-modulo2-test5",
+    "module": "II",
+    "q": "¿Qué municipio acoge el Museo Picasso - Colección Eugenio Arias?",
+    "hu": "Melyik település ad otthont a Picasso Múzeum - Eugenio Arias Gyűjteménynek?",
+    "answers": [
+      {
+        "original": "Torrelaguna",
+        "hu": "Torrelaguna"
+      },
+      {
+        "original": "Rascafría",
+        "hu": "Rascafría"
+      },
+      {
+        "original": "Algete",
+        "hu": "Algete"
+      },
+      {
+        "original": "Buitrago del Lozoya",
+        "hu": "Buitrago del Lozoya"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo2-test5-009",
+    "source": "proformatrans-modulo2-test5",
+    "module": "II",
+    "q": "¿Qué famoso jardín histórico fue diseñado por Juan de Villanueva?",
+    "hu": "Melyik híres történelmi kertet tervezte Juan de Villanueva?",
+    "answers": [
+      {
+        "original": "Parque del Capricho",
+        "hu": "Parque del Capricho"
+      },
+      {
+        "original": "Jardín de la Isla",
+        "hu": "Jardín de la Isla"
+      },
+      {
+        "original": "Jardín Botánico",
+        "hu": "Botanikus kert"
+      },
+      {
+        "original": "Jardín del Príncipe",
+        "hu": "Jardín del Príncipe"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test5-011",
+    "source": "proformatrans-modulo2-test5",
+    "module": "II",
+    "q": "¿Cuál es la estación de metro más cercana al Ministerio de Industria y Energía?",
+    "hu": "Melyik metróállomás van legközelebb az Ipari és Energiaügyi Minisztériumhoz?",
+    "answers": [
+      {
+        "original": "Nuevos Ministerios",
+        "hu": "Nuevos Ministerios"
+      },
+      {
+        "original": "Cuzco",
+        "hu": "Cuzco"
+      },
+      {
+        "original": "Santiago Bernabéu",
+        "hu": "Santiago Bernabéu"
+      },
+      {
+        "original": "Colombia",
+        "hu": "Colombia"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo2-test5-012",
+    "source": "proformatrans-modulo2-test5",
+    "module": "II",
+    "q": "¿Qué hospital podemos encontrar en el Paseo de la Castellana?",
+    "hu": "Melyik kórház található a Paseo de la Castellanán?",
+    "answers": [
+      {
+        "original": "Hospital Universitario de La Paz",
+        "hu": "Hospital Universitario de La Paz"
+      },
+      {
+        "original": "Hospital General Gregorio Marañón",
+        "hu": "Hospital General Gregorio Marañón"
+      },
+      {
+        "original": "Hospital Clínico San Carlos",
+        "hu": "Hospital Clínico San Carlos"
+      },
+      {
+        "original": "Hospital Infanta Leonor",
+        "hu": "Hospital Infanta Leonor"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo2-test5-014",
+    "source": "proformatrans-modulo2-test5",
+    "module": "II",
+    "q": "¿Qué vehículos pueden circular sin restricciones en episodios de contaminación alta?",
+    "hu": "Milyen járművek közlekedhetnek korlátozás nélkül magas szennyezettségi epizódok idején?",
+    "answers": [
+      {
+        "original": "Vehículos con etiqueta C",
+        "hu": "C matricával rendelkező járművek"
+      },
+      {
+        "original": "Vehículos con etiqueta B",
+        "hu": "B matricával rendelkező járművek"
+      },
+      {
+        "original": "Vehículos con etiqueta ECO y Cero Emisiones",
+        "hu": "ECO és Cero Emisiones matricával rendelkező járművek"
+      },
+      {
+        "original": "Vehículos con etiqueta C y B",
+        "hu": "C és B matricával rendelkező járművek"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test5-015",
+    "source": "proformatrans-modulo2-test5",
+    "module": "II",
+    "q": "¿Qué colina madrileña ofrece vistas a la Casa de Campo y al Palacio Real?",
+    "hu": "Melyik madridi domb kínál kilátást a Casa de Campóra és a Királyi Palotára?",
+    "answers": [
+      {
+        "original": "Colina de los Molinos",
+        "hu": "Colina de los Molinos"
+      },
+      {
+        "original": "Cuesta de San Vicente",
+        "hu": "Cuesta de San Vicente"
+      },
+      {
+        "original": "Montaña del Príncipe Pío",
+        "hu": "Montaña del Príncipe Pío"
+      },
+      {
+        "original": "Cerro Almodóvar",
+        "hu": "Cerro Almodóvar"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test5-016",
+    "source": "proformatrans-modulo2-test5",
+    "module": "II",
+    "q": "¿Cuál de los siguientes museos está ubicado en el Pº del Prado, 8, junto a la Plaza de las Cortes?",
+    "hu": "Az alábbi múzeumok közül melyik található a Paseo del Prado 8. szám alatt, a Plaza de las Cortes mellett?",
+    "answers": [
+      {
+        "original": "Museo de Cera",
+        "hu": "Museo de Cera"
+      },
+      {
+        "original": "Museo del Prado",
+        "hu": "Museo del Prado"
+      },
+      {
+        "original": "Casa de la Moneda",
+        "hu": "Casa de la Moneda"
+      },
+      {
+        "original": "Museo Thyssen Bornemisza",
+        "hu": "Museo Thyssen Bornemisza"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo2-test5-017",
+    "source": "proformatrans-modulo2-test5",
+    "module": "II",
+    "q": "¿En qué plaza se encuentra el Gran Hotel Conde Duque?",
+    "hu": "Melyik téren található a Gran Hotel Conde Duque?",
+    "answers": [
+      {
+        "original": "Plaza de Santo Domingo",
+        "hu": "Plaza de Santo Domingo"
+      },
+      {
+        "original": "Plaza Conde Valle de Suchil",
+        "hu": "Plaza Conde Valle de Suchil"
+      },
+      {
+        "original": "Plaza Dos de Mayo",
+        "hu": "Plaza Dos de Mayo"
+      },
+      {
+        "original": "Plaza de Olavide",
+        "hu": "Plaza de Olavide"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo2-test5-018",
+    "source": "proformatrans-modulo2-test5",
+    "module": "II",
+    "q": "¿En qué calle se encuentra la Jefatura Provincial de Tráfico?",
+    "hu": "Melyik utcában található a tartományi közlekedési főkapitányság?",
+    "answers": [
+      {
+        "original": "Arturo Soria, 143",
+        "hu": "Arturo Soria, 143"
+      },
+      {
+        "original": "Calle Serrano, 80",
+        "hu": "Calle Serrano, 80"
+      },
+      {
+        "original": "Paseo de la Castellana, 112",
+        "hu": "Paseo de la Castellana, 112"
+      },
+      {
+        "original": "Bravo Murillo, 78",
+        "hu": "Bravo Murillo, 78"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo2-test5-020",
+    "source": "proformatrans-modulo2-test5",
+    "module": "II",
+    "q": "¿Qué mirador se encuentra en lo alto del Faro de Moncloa?",
+    "hu": "Melyik kilátó található a Faro de Moncloa tetején?",
+    "answers": [
+      {
+        "original": "Mirador de Madrid",
+        "hu": "Mirador de Madrid"
+      },
+      {
+        "original": "Mirador del Príncipe",
+        "hu": "Mirador del Príncipe"
+      },
+      {
+        "original": "Mirador de Goya",
+        "hu": "Mirador de Goya"
+      },
+      {
+        "original": "Mirador Real",
+        "hu": "Mirador Real"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo2-test6-001",
+    "source": "proformatrans-modulo2-test6",
+    "module": "II",
+    "q": "¿Qué edificio de Madrid fue un antiguo mercado y hoy alberga puestos gourmet?",
+    "hu": "Melyik madridi épület volt régen piac, és ma gourmet standoknak ad otthont?",
+    "answers": [
+      {
+        "original": "Mercado de Chamberí",
+        "hu": "Mercado de Chamberí"
+      },
+      {
+        "original": "Mercado de San Antón",
+        "hu": "Mercado de San Antón"
+      },
+      {
+        "original": "Mercado de San Miguel",
+        "hu": "Mercado de San Miguel"
+      },
+      {
+        "original": "Mercado de Maravillas",
+        "hu": "Mercado de Maravillas"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test6-002",
+    "source": "proformatrans-modulo2-test6",
+    "module": "II",
+    "q": "¿Qué debes hacer para actualizar los mapas del GPS?",
+    "hu": "Mit kell tenned a GPS térképeinek frissítéséhez?",
+    "answers": [
+      {
+        "original": "Llevar el GPS a una tienda de electrónica",
+        "hu": "Elvinni a GPS-t egy elektronikai üzletbe"
+      },
+      {
+        "original": "No es necesario actualizar los mapas",
+        "hu": "Nem szükséges frissíteni a térképeket"
+      },
+      {
+        "original": "Descargar las actualizaciones desde la web del fabricante",
+        "hu": "Letölteni a frissítéseket a gyártó weboldaláról"
+      },
+      {
+        "original": "Apagar y encender el GPS",
+        "hu": "Ki- és bekapcsolni a GPS-t"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test6-003",
+    "source": "proformatrans-modulo2-test6",
+    "module": "II",
+    "q": "¿Qué famosa fuente se encuentra frente al Palacio de Cibeles?",
+    "hu": "Melyik híres szökőkút található a Palacio de Cibeles előtt?",
+    "answers": [
+      {
+        "original": "Fuente de Cibeles",
+        "hu": "Cibeles-kút"
+      },
+      {
+        "original": "Fuente de Apolo",
+        "hu": "Apolló-kút"
+      },
+      {
+        "original": "Fuente de la Alcachofa",
+        "hu": "Alcachofa-kút"
+      },
+      {
+        "original": "Fuente de Neptuno",
+        "hu": "Neptun-kút"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo2-test6-005",
+    "source": "proformatrans-modulo2-test6",
+    "module": "II",
+    "q": "¿Qué famoso mercado se encuentra cerca de la Plaza Mayor?",
+    "hu": "Melyik híres piac található a Plaza Mayor közelében?",
+    "answers": [
+      {
+        "original": "Mercado de la Cebada",
+        "hu": "Mercado de la Cebada"
+      },
+      {
+        "original": "Mercado de Antón Martín",
+        "hu": "Mercado de Antón Martín"
+      },
+      {
+        "original": "Mercado de San Miguel",
+        "hu": "Mercado de San Miguel"
+      },
+      {
+        "original": "Mercado de Vallehermoso",
+        "hu": "Mercado de Vallehermoso"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test6-006",
+    "source": "proformatrans-modulo2-test6",
+    "module": "II",
+    "q": "¿Qué parque nacional se encuentra en parte dentro de la Comunidad de Madrid?",
+    "hu": "Melyik nemzeti park található részben a Madridi Közösség területén?",
+    "answers": [
+      {
+        "original": "Picos de Europa",
+        "hu": "Picos de Europa"
+      },
+      {
+        "original": "Monfragüe",
+        "hu": "Monfragüe"
+      },
+      {
+        "original": "Sierra de Guadarrama",
+        "hu": "Sierra de Guadarrama"
+      },
+      {
+        "original": "Sierra de las Nieves",
+        "hu": "Sierra de las Nieves"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test6-008",
+    "source": "proformatrans-modulo2-test6",
+    "module": "II",
+    "q": "Si el GPS propone una ruta más larga sin tráfico, ¿qué hacer?",
+    "hu": "Ha a GPS hosszabb, de forgalommentes útvonalat javasol, mit kell tenni?",
+    "answers": [
+      {
+        "original": "Evaluar si se ahorra tiempo con la ruta larga",
+        "hu": "Mérlegelni, hogy a hosszabb útvonallal lehet-e időt megtakarítani"
+      },
+      {
+        "original": "Ignorarla y seguir la más corta",
+        "hu": "Figyelmen kívül hagyni, és a rövidebbet követni"
+      },
+      {
+        "original": "Detenerse y preguntar a un peatón",
+        "hu": "Megállni és megkérdezni egy gyalogost"
+      },
+      {
+        "original": "Apagar el GPS",
+        "hu": "Kikapcsolni a GPS-t"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo2-test6-009",
+    "source": "proformatrans-modulo2-test6",
+    "module": "II",
+    "q": "Los vehículos con distintivo ECO pueden circular libremente en episodios de alta contaminación en Madrid.",
+    "hu": "Az ECO környezetvédelmi matricával rendelkező járművek szabadon közlekedhetnek magas szennyezettségi epizódok idején Madridban.",
+    "answers": [
+      {
+        "original": "Depende del número de su matrícula.",
+        "hu": "A rendszámuktól függ."
+      },
+      {
+        "original": "En todos los escenarios.",
+        "hu": "Minden helyzetben."
+      },
+      {
+        "original": "Solo durante el día.",
+        "hu": "Csak nappal."
+      },
+      {
+        "original": "En casi todos los escenarios.",
+        "hu": "Majdnem minden helyzetben."
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo2-test6-010",
+    "source": "proformatrans-modulo2-test6",
+    "module": "II",
+    "q": "¿Qué sitio de Madrid es famoso por su cambio de guardia?",
+    "hu": "Melyik madridi hely híres az őrségváltásáról?",
+    "answers": [
+      {
+        "original": "Templo de Debod",
+        "hu": "Debod temploma"
+      },
+      {
+        "original": "Plaza Mayor",
+        "hu": "Plaza Mayor"
+      },
+      {
+        "original": "Palacio Real",
+        "hu": "Királyi Palota"
+      },
+      {
+        "original": "Palacio de Linares",
+        "hu": "Linares-palota"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test6-012",
+    "source": "proformatrans-modulo2-test6",
+    "module": "II",
+    "q": "¿Qué edificio madrileño destaca por tener azulejos del siglo XVIII?",
+    "hu": "Melyik madridi épület híres a XVIII. századi csempéiről?",
+    "answers": [
+      {
+        "original": "Real Fábrica de Tapices",
+        "hu": "Királyi Kárpitszövő Manufaktúra"
+      },
+      {
+        "original": "Casa de la Panadería",
+        "hu": "Casa de la Panadería"
+      },
+      {
+        "original": "Iglesia de San Antonio de los Alemanes",
+        "hu": "San Antonio de los Alemanes-templom"
+      },
+      {
+        "original": "Monasterio de las Descalzas",
+        "hu": "Descalzas-kolostor"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test6-013",
+    "source": "proformatrans-modulo2-test6",
+    "module": "II",
+    "q": "¿Qué cerro es el punto más alto de Madrid capital?",
+    "hu": "Melyik domb Madrid városának legmagasabb pontja?",
+    "answers": [
+      {
+        "original": "Cerro Garabitas",
+        "hu": "Cerro Garabitas"
+      },
+      {
+        "original": "Cerro del Tío Pío",
+        "hu": "Cerro del Tío Pío"
+      },
+      {
+        "original": "Cerro de la Plata",
+        "hu": "Cerro de la Plata"
+      },
+      {
+        "original": "Cerro de los Ángeles",
+        "hu": "Cerro de los Ángeles"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo2-test6-016",
+    "source": "proformatrans-modulo2-test6",
+    "module": "II",
+    "q": "¿En qué municipio madrileño se encuentra el Monasterio de San Lorenzo de El Escorial?",
+    "hu": "Melyik madridi településen található a San Lorenzo de El Escorial kolostor?",
+    "answers": [
+      {
+        "original": "Boadilla del Monte",
+        "hu": "Boadilla del Monte"
+      },
+      {
+        "original": "El Escorial",
+        "hu": "El Escorial"
+      },
+      {
+        "original": "Aranjuez",
+        "hu": "Aranjuez"
+      },
+      {
+        "original": "Alcalá de Henares",
+        "hu": "Alcalá de Henares"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo2-test6-017",
+    "source": "proformatrans-modulo2-test6",
+    "module": "II",
+    "q": "¿Qué famoso autor vivió en la Casa-Museo de Lope de Vega en Madrid?",
+    "hu": "Melyik híres szerző élt a madridi Lope de Vega házmúzeumban?",
+    "answers": [
+      {
+        "original": "Lope de Vega",
+        "hu": "Lope de Vega"
+      },
+      {
+        "original": "Quevedo",
+        "hu": "Quevedo"
+      },
+      {
+        "original": "Miguel de Cervantes",
+        "hu": "Miguel de Cervantes"
+      },
+      {
+        "original": "Calderón de la Barca",
+        "hu": "Calderón de la Barca"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo2-test6-018",
+    "source": "proformatrans-modulo2-test6",
+    "module": "II",
+    "q": "¿Qué edificio madrileño fue residencia de la familia real hasta el siglo XX?",
+    "hu": "Melyik madridi épület volt a királyi család rezidenciája a XX. századig?",
+    "answers": [
+      {
+        "original": "Palacio de Linares",
+        "hu": "Linares-palota"
+      },
+      {
+        "original": "Palacio Real de Madrid",
+        "hu": "Madridi Királyi Palota"
+      },
+      {
+        "original": "Palacio de Velázquez",
+        "hu": "Velázquez-palota"
+      },
+      {
+        "original": "Palacio de Cibeles",
+        "hu": "Cibeles-palota"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo2-test6-019",
+    "source": "proformatrans-modulo2-test6",
+    "module": "II",
+    "q": "¿Qué edificio madrileño tiene la cúpula más grande de España?",
+    "hu": "Melyik madridi épületnek van Spanyolország legnagyobb kupolája?",
+    "answers": [
+      {
+        "original": "Basílica de San Francisco el Grande",
+        "hu": "San Francisco el Grande-bazilika"
+      },
+      {
+        "original": "Catedral de la Almudena",
+        "hu": "Almudena-székesegyház"
+      },
+      {
+        "original": "Iglesia de San Manuel y San Benito",
+        "hu": "San Manuel és San Benito-templom"
+      },
+      {
+        "original": "Iglesia de San Jerónimo",
+        "hu": "San Jerónimo-templom"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo2-test6-020",
+    "source": "proformatrans-modulo2-test6",
+    "module": "II",
+    "q": "¿Junto a qué plaza está el restaurante \"Club 31\"?",
+    "hu": "Melyik tér mellett található a \"Club 31\" étterem?",
+    "answers": [
+      {
+        "original": "Cánovas del Castillo",
+        "hu": "Cánovas del Castillo"
+      },
+      {
+        "original": "Dr. Gregorio Marañón",
+        "hu": "Dr. Gregorio Marañón"
+      },
+      {
+        "original": "La Independencia",
+        "hu": "La Independencia"
+      },
+      {
+        "original": "Puerta del Sol",
+        "hu": "Puerta del Sol"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test7-003",
+    "source": "proformatrans-modulo2-test7",
+    "module": "II",
+    "q": "¿Qué localidad madrileña está en el centro del Parque Nacional de Guadarrama?",
+    "hu": "Melyik madridi település található a Guadarrama Nemzeti Park központjában?",
+    "answers": [
+      {
+        "original": "Manzanares el Real",
+        "hu": "Manzanares el Real"
+      },
+      {
+        "original": "Navacerrada",
+        "hu": "Navacerrada"
+      },
+      {
+        "original": "Rascafría",
+        "hu": "Rascafría"
+      },
+      {
+        "original": "Cercedilla",
+        "hu": "Cercedilla"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test7-004",
+    "source": "proformatrans-modulo2-test7",
+    "module": "II",
+    "q": "¿En qué carretera se encuentra el Tanatorio Sur?",
+    "hu": "Melyik úton található a Tanatorio Sur?",
+    "answers": [
+      {
+        "original": "A-42 (Toledo)",
+        "hu": "A-42 (Toledo)"
+      },
+      {
+        "original": "M-607 (Colmenar Viejo)",
+        "hu": "M-607 (Colmenar Viejo)"
+      },
+      {
+        "original": "A-5 (Extremadura)",
+        "hu": "A-5 (Extremadura)"
+      },
+      {
+        "original": "A-2 (Zaragoza)",
+        "hu": "A-2 (Zaragoza)"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo2-test7-005",
+    "source": "proformatrans-modulo2-test7",
+    "module": "II",
+    "q": "¿En qué localidad del noroeste de Madrid se encuentra el Puente del Perdón, una construcción histórica sobre el río Lozoya?",
+    "hu": "Madrid északnyugati részének melyik településén található a Puente del Perdón, a Lozoya folyó feletti történelmi építmény?",
+    "answers": [
+      {
+        "original": "Rascafría",
+        "hu": "Rascafría"
+      },
+      {
+        "original": "Cercedilla",
+        "hu": "Cercedilla"
+      },
+      {
+        "original": "Los Molinos",
+        "hu": "Los Molinos"
+      },
+      {
+        "original": "San Lorenzo de El Escorial",
+        "hu": "San Lorenzo de El Escorial"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo2-test7-006",
+    "source": "proformatrans-modulo2-test7",
+    "module": "II",
+    "q": "¿Qué complejo de ocio y cultura se encuentra en el antiguo Matadero de Madrid?",
+    "hu": "Melyik szabadidős és kulturális komplexum található Madrid egykori vágóhídján?",
+    "answers": [
+      {
+        "original": "CentroCentro",
+        "hu": "CentroCentro"
+      },
+      {
+        "original": "CaixaForum",
+        "hu": "CaixaForum"
+      },
+      {
+        "original": "Matadero Madrid",
+        "hu": "Matadero Madrid"
+      },
+      {
+        "original": "La Casa Encendida",
+        "hu": "La Casa Encendida"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test7-008",
+    "source": "proformatrans-modulo2-test7",
+    "module": "II",
+    "q": "¿Cuál es la calle más larga de Madrid?",
+    "hu": "Melyik Madrid leghosszabb utcája?",
+    "answers": [
+      {
+        "original": "Calle Arturo Soria.",
+        "hu": "Calle Arturo Soria."
+      },
+      {
+        "original": "Calle Bravo Murillo.",
+        "hu": "Calle Bravo Murillo."
+      },
+      {
+        "original": "Ninguna de las anteriores.",
+        "hu": "A fentiek közül egyik sem."
+      },
+      {
+        "original": "Paseo de la Castellana.",
+        "hu": "Paseo de la Castellana."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test7-009",
+    "source": "proformatrans-modulo2-test7",
+    "module": "II",
+    "q": "¿Dónde está el Parque Europa con réplicas de monumentos europeos?",
+    "hu": "Hol található a Parque Europa, amely európai műemlékek másolatait tartalmazza?",
+    "answers": [
+      {
+        "original": "Torrejón de Ardoz",
+        "hu": "Torrejón de Ardoz"
+      },
+      {
+        "original": "Rivas-Vaciamadrid",
+        "hu": "Rivas-Vaciamadrid"
+      },
+      {
+        "original": "Móstoles",
+        "hu": "Móstoles"
+      },
+      {
+        "original": "Leganés",
+        "hu": "Leganés"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo2-test7-010",
+    "source": "proformatrans-modulo2-test7",
+    "module": "II",
+    "q": "¿Qué hacer si el GPS se bloquea en plena ruta?",
+    "hu": "Mit kell tenni, ha a GPS útközben lefagy?",
+    "answers": [
+      {
+        "original": "Detener el vehículo de modo inmediato",
+        "hu": "Azonnal megállítani a járművet"
+      },
+      {
+        "original": "Arreglarlo inmediatamente",
+        "hu": "Azonnal megjavítani"
+      },
+      {
+        "original": "Esperar a que se arregle",
+        "hu": "Megvárni, amíg magától megjavul"
+      },
+      {
+        "original": "Reiniciar la app o dispositivo cuando sea seguro",
+        "hu": "Újraindítani az alkalmazást vagy az eszközt, amikor ez biztonságos"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo2-test7-012",
+    "source": "proformatrans-modulo2-test7",
+    "module": "II",
+    "q": "¿Cuál de los siguientes municipios cuenta con un Hospital General?",
+    "hu": "Az alábbi települések közül melyik rendelkezik általános kórházzal?",
+    "answers": [
+      {
+        "original": "Rivas-Vaciamadrid",
+        "hu": "Rivas-Vaciamadrid"
+      },
+      {
+        "original": "Alcorcón",
+        "hu": "Alcorcón"
+      },
+      {
+        "original": "Móstoles",
+        "hu": "Móstoles"
+      },
+      {
+        "original": "Coslada",
+        "hu": "Coslada"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test7-013",
+    "source": "proformatrans-modulo2-test7",
+    "module": "II",
+    "q": "¿Qué edificio madrileño, situado en el Parque del Retiro y construido en 1887 para una exposición sobre Filipinas, es hoy una sede emblemática de exposiciones temporales del Museo Reina Sofía?",
+    "hu": "Melyik madridi épület található a Retiro parkban, 1887-ben épült egy Fülöp-szigetekről szóló kiállításra, és ma a Reina Sofía Múzeum időszaki kiállításainak emblematikus helyszíne?",
+    "answers": [
+      {
+        "original": "Palacio de los Duques de Medinaceli.",
+        "hu": "Palacio de los Duques de Medinaceli."
+      },
+      {
+        "original": "Palacio de las Artes Reina Sofía.",
+        "hu": "Palacio de las Artes Reina Sofía."
+      },
+      {
+        "original": "Palacio de Cristal.",
+        "hu": "Palacio de Cristal."
+      },
+      {
+        "original": "Palacio de Velázquez.",
+        "hu": "Palacio de Velázquez."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test7-014",
+    "source": "proformatrans-modulo2-test7",
+    "module": "II",
+    "q": "¿Qué iglesia madrileña está dedicada al patrón de la ciudad y alberga su sepulcro?",
+    "hu": "Melyik madridi templomot szentelték a város védőszentjének, és őrzi a sírját?",
+    "answers": [
+      {
+        "original": "Iglesia de San Isidro, en la calle Mayor.",
+        "hu": "San Isidro-templom, a Calle Mayoron."
+      },
+      {
+        "original": "Iglesia de San Ginés, en la calle Arenal.",
+        "hu": "San Ginés-templom, a Calle Arenalon."
+      },
+      {
+        "original": "Iglesia de San Isidro, en la calle Toledo.",
+        "hu": "San Isidro-templom, a Calle Toledón."
+      },
+      {
+        "original": "Iglesia de San Ginés, en la calle de la Paloma.",
+        "hu": "San Ginés-templom, a Calle de la Palomán."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test7-015",
+    "source": "proformatrans-modulo2-test7",
+    "module": "II",
+    "q": "Boadilla del Monte está situado:",
+    "hu": "Boadilla del Monte elhelyezkedése:",
+    "answers": [
+      {
+        "original": "Al este de Madrid.",
+        "hu": "Madridtól keletre."
+      },
+      {
+        "original": "Al sur de Madrid.",
+        "hu": "Madridtól délre."
+      },
+      {
+        "original": "Al norte de Madrid.",
+        "hu": "Madridtól északra."
+      },
+      {
+        "original": "Al oeste de Madrid.",
+        "hu": "Madridtól nyugatra."
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo2-test7-016",
+    "source": "proformatrans-modulo2-test7",
+    "module": "II",
+    "q": "¿Qué jardín madrileño fue diseñado para la familia real y es de estilo inglés?",
+    "hu": "Melyik madridi kertet tervezték a királyi család számára, és angol stílusú?",
+    "answers": [
+      {
+        "original": "Jardín de la Isla",
+        "hu": "Jardín de la Isla"
+      },
+      {
+        "original": "Jardín de los Frailes",
+        "hu": "Jardín de los Frailes"
+      },
+      {
+        "original": "Jardín Botánico",
+        "hu": "Botanikus kert"
+      },
+      {
+        "original": "Jardín del Moro",
+        "hu": "Jardín del Moro"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo2-test7-019",
+    "source": "proformatrans-modulo2-test7",
+    "module": "II",
+    "q": "¿Qué función de una aplicación GPS puede ser especialmente útil en áreas rurales?",
+    "hu": "A GPS-alkalmazás melyik funkciója lehet különösen hasznos vidéki területeken?",
+    "answers": [
+      {
+        "original": "La función de alerta de animales en la vía.",
+        "hu": "Az úton lévő állatokra figyelmeztető funkció."
+      },
+      {
+        "original": "Alerta de peatones de avanzada edad.",
+        "hu": "Idős gyalogosokra figyelmeztető jelzés."
+      },
+      {
+        "original": "La función de vista satelital.",
+        "hu": "A műholdas nézet funkció."
+      },
+      {
+        "original": "La función de modo peatonal.",
+        "hu": "A gyalogos mód funkció."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test7-020",
+    "source": "proformatrans-modulo2-test7",
+    "module": "II",
+    "q": "En escenario 5 de alerta, ¿quién puede circular?",
+    "hu": "Az 5-ös riasztási forgatókönyvben ki közlekedhet?",
+    "answers": [
+      {
+        "original": "Nadie.",
+        "hu": "Senki."
+      },
+      {
+        "original": "CERO y ECO.",
+        "hu": "CERO és ECO címkések."
+      },
+      {
+        "original": "Todos con peaje.",
+        "hu": "Mindenki útdíjjal."
+      },
+      {
+        "original": "Solo ECO.",
+        "hu": "Csak ECO címkések."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo2-test8-001",
+    "source": "proformatrans-modulo2-test8",
+    "module": "II",
+    "q": "¿En qué dirección se encuentran la Cadena SER y el Diario Cinco Días?",
+    "hu": "Milyen címen található a Cadena SER és a Diario Cinco Días?",
+    "answers": [
+      {
+        "original": "Paseo del Prado, 2",
+        "hu": "Paseo del Prado, 2"
+      },
+      {
+        "original": "Gran Vía, 32",
+        "hu": "Gran Vía, 32"
+      },
+      {
+        "original": "O'Donnell, 77",
+        "hu": "O'Donnell, 77"
+      },
+      {
+        "original": "Recoletos, 5",
+        "hu": "Recoletos, 5"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo2-test8-002",
+    "source": "proformatrans-modulo2-test8",
+    "module": "II",
+    "q": "¿Qué museo madrileño está dedicado a la historia de la ciudad?",
+    "hu": "Melyik madridi múzeum foglalkozik a város történetével?",
+    "answers": [
+      {
+        "original": "Museo Arqueológico",
+        "hu": "Régészeti Múzeum"
+      },
+      {
+        "original": "Museo de Historia de Madrid",
+        "hu": "Madridi Történeti Múzeum"
+      },
+      {
+        "original": "Museo de San Isidro",
+        "hu": "San Isidro Múzeum"
+      },
+      {
+        "original": "Museo del Prado",
+        "hu": "Prado Múzeum"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo2-test8-003",
+    "source": "proformatrans-modulo2-test8",
+    "module": "II",
+    "q": "¿Dónde se encuentra la Ermita de San Nicasio?",
+    "hu": "Hol található a San Nicasio-remetelak?",
+    "answers": [
+      {
+        "original": "Leganés",
+        "hu": "Leganés"
+      },
+      {
+        "original": "Getafe",
+        "hu": "Getafe"
+      },
+      {
+        "original": "San Sebastián de los Reyes",
+        "hu": "San Sebastián de los Reyes"
+      },
+      {
+        "original": "Pinto",
+        "hu": "Pinto"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo2-test8-004",
+    "source": "proformatrans-modulo2-test8",
+    "module": "II",
+    "q": "¿Qué edificio fue la antigua Real Fábrica de Porcelana del Buen Retiro?",
+    "hu": "Melyik épület volt a Buen Retiro egykori Királyi Porcelángyára?",
+    "answers": [
+      {
+        "original": "Palacio de Velázquez",
+        "hu": "Velázquez-palota"
+      },
+      {
+        "original": "Pabellón de los Jardines",
+        "hu": "Kerti pavilon"
+      },
+      {
+        "original": "Palacio de Cristal",
+        "hu": "Kristálypalota"
+      },
+      {
+        "original": "Museo del Prado",
+        "hu": "Prado Múzeum"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo2-test8-005",
+    "source": "proformatrans-modulo2-test8",
+    "module": "II",
+    "q": "¿Qué jardín de la Comunidad de Madrid tiene una rosaleda premiada internacionalmente?",
+    "hu": "A Madridi Közösség melyik kertjében található nemzetközileg díjazott rózsakert?",
+    "answers": [
+      {
+        "original": "Jardín del Príncipe",
+        "hu": "Jardín del Príncipe"
+      },
+      {
+        "original": "Parque del Oeste",
+        "hu": "Parque del Oeste"
+      },
+      {
+        "original": "Parque de El Retiro",
+        "hu": "El Retiro park"
+      },
+      {
+        "original": "Jardín Botánico",
+        "hu": "Botanikus kert"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo2-test8-006",
+    "source": "proformatrans-modulo2-test8",
+    "module": "II",
+    "q": "¿Qué edificio acoge exposiciones temporales y se ubica en el antiguo Círculo de Bellas Artes?",
+    "hu": "Melyik épület ad otthont időszaki kiállításoknak, és az egykori Círculo de Bellas Artes épületében található?",
+    "answers": [
+      {
+        "original": "Círculo de Bellas Artes",
+        "hu": "Círculo de Bellas Artes"
+      },
+      {
+        "original": "CentroCentro",
+        "hu": "CentroCentro"
+      },
+      {
+        "original": "CaixaForum",
+        "hu": "CaixaForum"
+      },
+      {
+        "original": "Palacio de Cristal",
+        "hu": "Kristálypalota"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo2-test8-007",
+    "source": "proformatrans-modulo2-test8",
+    "module": "II",
+    "q": "¿Cuál de las siguientes direcciones corresponde al Campo de Fútbol Municipal Cerro del Espino?",
+    "hu": "Az alábbi címek közül melyik tartozik a Cerro del Espino városi futballpályához?",
+    "answers": [
+      {
+        "original": "Ctra. de Alcalá a Torrejón, pk 5",
+        "hu": "Alcalá és Torrejón közötti út, 5. km"
+      },
+      {
+        "original": "Ctra. de Alcobendas a San Sebastián, pk 8",
+        "hu": "Alcobendas és San Sebastián közötti út, 8. km"
+      },
+      {
+        "original": "Ctra. de Pozuelo a Majadahonda, s/n",
+        "hu": "Pozuelo és Majadahonda közötti út, szám nélkül"
+      },
+      {
+        "original": "Ctra. de Las Rozas, pk 3",
+        "hu": "Las Rozas-i út, 3. km"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test8-008",
+    "source": "proformatrans-modulo2-test8",
+    "module": "II",
+    "q": "¿Qué edificio se encuentra cerca de la estación de Cercanías Renfe de Entrevías?",
+    "hu": "Melyik épület található az Entrevías Renfe elővárosi vasútállomás közelében?",
+    "answers": [
+      {
+        "original": "El Museo del Prado",
+        "hu": "A Prado Múzeum"
+      },
+      {
+        "original": "La Asamblea de Madrid",
+        "hu": "A Madridi Közgyűlés"
+      },
+      {
+        "original": "El Matadero de Madrid",
+        "hu": "A Matadero Madrid"
+      },
+      {
+        "original": "El Congreso de los Diputados",
+        "hu": "A Képviselőház"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo2-test8-010",
+    "source": "proformatrans-modulo2-test8",
+    "module": "II",
+    "q": "¿Dónde está ubicado el gestor de navegación aérea de España (ENAIRE), antiguamente conocido como AENA?",
+    "hu": "Hol található Spanyolország léginavigációs szolgáltatója (ENAIRE), korábbi nevén AENA?",
+    "answers": [
+      {
+        "original": "Calle de Génova",
+        "hu": "Génova utca"
+      },
+      {
+        "original": "Av. de Aragón",
+        "hu": "Aragón sugárút"
+      },
+      {
+        "original": "Calle Zurbano",
+        "hu": "Zurbano utca"
+      },
+      {
+        "original": "Paseo del General Martínez Campos",
+        "hu": "General Martínez Campos sétány"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo2-test8-011",
+    "source": "proformatrans-modulo2-test8",
+    "module": "II",
+    "q": "¿Qué edificio alberga las Cortes Generales en Madrid?",
+    "hu": "Melyik épület ad otthont Madridban a Cortes Generalesnek?",
+    "answers": [
+      {
+        "original": "El Senado",
+        "hu": "A Szenátus"
+      },
+      {
+        "original": "El Congreso de los Diputados",
+        "hu": "A Képviselőház"
+      },
+      {
+        "original": "El Palacio de Cibeles",
+        "hu": "A Cibeles-palota"
+      },
+      {
+        "original": "El Palacio Real",
+        "hu": "A Királyi Palota"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo2-test8-012",
+    "source": "proformatrans-modulo2-test8",
+    "module": "II",
+    "q": "¿En qué localidad madrileña se encuentra el Parque Nacional de la Sierra de Guadarrama, un área protegida de gran valor ecológico?",
+    "hu": "Melyik madridi településen található a Sierra de Guadarrama Nemzeti Park, ez a nagy ökológiai értékű védett terület?",
+    "answers": [
+      {
+        "original": "Manzanares el Real",
+        "hu": "Manzanares el Real"
+      },
+      {
+        "original": "Lozoya",
+        "hu": "Lozoya"
+      },
+      {
+        "original": "Rascafría",
+        "hu": "Rascafría"
+      },
+      {
+        "original": "Cercedilla",
+        "hu": "Cercedilla"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo2-test8-013",
+    "source": "proformatrans-modulo2-test8",
+    "module": "II",
+    "q": "La conocida Estación Sur de Autobuses se encuentra en:",
+    "hu": "A jól ismert Déli Autóbusz-állomás itt található:",
+    "answers": [
+      {
+        "original": "Príncipe Pío.",
+        "hu": "Príncipe Pío."
+      },
+      {
+        "original": "Méndez Álvaro.",
+        "hu": "Méndez Álvaro."
+      },
+      {
+        "original": "Plaza Elíptica.",
+        "hu": "Plaza Elíptica."
+      },
+      {
+        "original": "Moncloa.",
+        "hu": "Moncloa."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo2-test8-014",
+    "source": "proformatrans-modulo2-test8",
+    "module": "II",
+    "q": "¿Qué eje urbano de más de 6 km de longitud, que atraviesa Madrid de norte a sur, alberga la sede de numerosas instituciones financieras y embajadas, consolidándose como el principal distrito financiero de la capital?",
+    "hu": "Melyik több mint 6 km hosszú, Madridot észak-déli irányban átszelő városi tengely ad otthont számos pénzügyi intézmény és nagykövetség székhelyének, és vált a főváros fő pénzügyi negyedévé?",
+    "answers": [
+      {
+        "original": "Paseo de la Castellana.",
+        "hu": "Paseo de la Castellana."
+      },
+      {
+        "original": "Calle Serrano.",
+        "hu": "Calle Serrano."
+      },
+      {
+        "original": "Avenida de América.",
+        "hu": "Avenida de América."
+      },
+      {
+        "original": "Paseo del Prado.",
+        "hu": "Paseo del Prado."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo2-test8-016",
+    "source": "proformatrans-modulo2-test8",
+    "module": "II",
+    "q": "¿Dónde está la Fundación Ramón Areces?",
+    "hu": "Hol található a Ramón Areces Alapítvány?",
+    "answers": [
+      {
+        "original": "Calle Serrano",
+        "hu": "Serrano utca"
+      },
+      {
+        "original": "Avenida de América",
+        "hu": "Avenida de América"
+      },
+      {
+        "original": "Calle Vitruvio",
+        "hu": "Vitruvio utca"
+      },
+      {
+        "original": "Calle Velázquez",
+        "hu": "Velázquez utca"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test8-017",
+    "source": "proformatrans-modulo2-test8",
+    "module": "II",
+    "q": "¿Qué museo madrileño alberga la colección del marqués de Cerralbo?",
+    "hu": "Melyik madridi múzeum őrzi Cerralbo márki gyűjteményét?",
+    "answers": [
+      {
+        "original": "Museo Cerralbo",
+        "hu": "Cerralbo Múzeum"
+      },
+      {
+        "original": "Museo del Prado",
+        "hu": "Prado Múzeum"
+      },
+      {
+        "original": "Museo Lázaro Galdiano",
+        "hu": "Lázaro Galdiano Múzeum"
+      },
+      {
+        "original": "Museo Sorolla",
+        "hu": "Sorolla Múzeum"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo2-test8-019",
+    "source": "proformatrans-modulo2-test8",
+    "module": "II",
+    "q": "¿Qué fenómeno natural es frecuente en los veranos madrileños?",
+    "hu": "Melyik természeti jelenség gyakori a madridi nyarakon?",
+    "answers": [
+      {
+        "original": "Altas temperaturas",
+        "hu": "Magas hőmérsékletek"
+      },
+      {
+        "original": "Niebla densa",
+        "hu": "Sűrű köd"
+      },
+      {
+        "original": "Lluvias torrenciales",
+        "hu": "Záporok / felhőszakadások"
+      },
+      {
+        "original": "Heladas intensas",
+        "hu": "Erős fagyok"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo2-test8-020",
+    "source": "proformatrans-modulo2-test8",
+    "module": "II",
+    "q": "¿Qué famosa pinacoteca madrileña posee \"Las Meninas\" de Velázquez?",
+    "hu": "Melyik híres madridi képtár őrzi Velázquez \"Las Meninas\" című festményét?",
+    "answers": [
+      {
+        "original": "Museo Cerralbo",
+        "hu": "Cerralbo Múzeum"
+      },
+      {
+        "original": "Museo del Prado",
+        "hu": "Prado Múzeum"
+      },
+      {
+        "original": "Museo Lázaro Galdiano",
+        "hu": "Lázaro Galdiano Múzeum"
+      },
+      {
+        "original": "Museo Reina Sofía",
+        "hu": "Reina Sofía Múzeum"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo2-test9-002",
+    "source": "proformatrans-modulo2-test9",
+    "module": "II",
+    "q": "¿Dónde está Plaza Río 2?",
+    "hu": "Hol található a Plaza Río 2?",
+    "answers": [
+      {
+        "original": "Av. del Manzanares 210.",
+        "hu": "Av. del Manzanares 210."
+      },
+      {
+        "original": "Av. de los Poblados 100.",
+        "hu": "Av. de los Poblados 100."
+      },
+      {
+        "original": "Pº de Santa María de la Cabeza s/n.",
+        "hu": "Pº de Santa María de la Cabeza s/n."
+      },
+      {
+        "original": "Av. Menéndez Pelayo 55.",
+        "hu": "Av. Menéndez Pelayo 55."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo2-test9-003",
+    "source": "proformatrans-modulo2-test9",
+    "module": "II",
+    "q": "¿Qué hacer si el GPS avisa de una vía con animales sueltos?",
+    "hu": "Mit kell tenni, ha a GPS szabadon lévő állatokra figyelmeztet az úton?",
+    "answers": [
+      {
+        "original": "Reducir la velocidad y conducir con precaución",
+        "hu": "Csökkenteni a sebességet és óvatosan vezetni"
+      },
+      {
+        "original": "Ignorar la alerta",
+        "hu": "Figyelmen kívül hagyni a riasztást"
+      },
+      {
+        "original": "Cambiar de coche",
+        "hu": "Autót cserélni"
+      },
+      {
+        "original": "Apagar el GPS",
+        "hu": "Kikapcsolni a GPS-t"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo2-test9-005",
+    "source": "proformatrans-modulo2-test9",
+    "module": "II",
+    "q": "¿Cuál de estos espacios naturales es un punto de interés cercano a Collado Villalba?",
+    "hu": "Az alábbi természeti területek közül melyik Collado Villalba közeli látnivaló?",
+    "answers": [
+      {
+        "original": "La Maliciosa",
+        "hu": "La Maliciosa"
+      },
+      {
+        "original": "Parque Natural de la Albufera",
+        "hu": "Parque Natural de la Albufera"
+      },
+      {
+        "original": "Parque Nacional de Doñana",
+        "hu": "Parque Nacional de Doñana"
+      },
+      {
+        "original": "Cañón del Río Lobos",
+        "hu": "Cañón del Río Lobos"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo2-test9-006",
+    "source": "proformatrans-modulo2-test9",
+    "module": "II",
+    "q": "¿Cuál es la forma más segura de recibir indicaciones mientras conduces?",
+    "hu": "Mi a legbiztonságosabb módja annak, hogy vezetés közben útvonalutasításokat kapjunk?",
+    "answers": [
+      {
+        "original": "Pedir a un pasajero que lea las indicaciones",
+        "hu": "Pedir a un pasajero que lea las indicaciones"
+      },
+      {
+        "original": "Mirar la pantalla del móvil",
+        "hu": "Mirar la pantalla del móvil"
+      },
+      {
+        "original": "Detenerse en cada cruce para revisar la ruta",
+        "hu": "Detenerse en cada cruce para revisar la ruta"
+      },
+      {
+        "original": "Usar comandos de voz",
+        "hu": "Usar comandos de voz"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo2-test9-009",
+    "source": "proformatrans-modulo2-test9",
+    "module": "II",
+    "q": "¿En qué plaza se encuentra la Casa de la Panadería?",
+    "hu": "Melyik téren található a Casa de la Panadería?",
+    "answers": [
+      {
+        "original": "Plaza de España",
+        "hu": "Plaza de España"
+      },
+      {
+        "original": "Plaza de Callao",
+        "hu": "Plaza de Callao"
+      },
+      {
+        "original": "Plaza Mayor",
+        "hu": "Plaza Mayor"
+      },
+      {
+        "original": "Plaza de la Villa",
+        "hu": "Plaza de la Villa"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test9-010",
+    "source": "proformatrans-modulo2-test9",
+    "module": "II",
+    "q": "¿Junto a qué paseo se encuentra el Intercambiador de Moncloa?",
+    "hu": "Melyik sétány mellett található a Moncloa közlekedési csomópont?",
+    "answers": [
+      {
+        "original": "Paseo de Eduardo Dato",
+        "hu": "Paseo de Eduardo Dato"
+      },
+      {
+        "original": "Paseo de Moret",
+        "hu": "Paseo de Moret"
+      },
+      {
+        "original": "Paseo de la Habana",
+        "hu": "Paseo de la Habana"
+      },
+      {
+        "original": "Paseo de Recoletos",
+        "hu": "Paseo de Recoletos"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo2-test9-011",
+    "source": "proformatrans-modulo2-test9",
+    "module": "II",
+    "q": "¿Cuál es la dirección del Estadio Santiago Bernabéu?",
+    "hu": "Mi a Santiago Bernabéu Stadion címe?",
+    "answers": [
+      {
+        "original": "C/ Ortega y Gasset, nº 27",
+        "hu": "C/ Ortega y Gasset, nº 27"
+      },
+      {
+        "original": "Paseo de Recoletos, nº 45",
+        "hu": "Paseo de Recoletos, nº 45"
+      },
+      {
+        "original": "C/ Serrano, nº 110",
+        "hu": "C/ Serrano, nº 110"
+      },
+      {
+        "original": "C/ Concha Espina, nº 1",
+        "hu": "C/ Concha Espina, nº 1"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo2-test9-015",
+    "source": "proformatrans-modulo2-test9",
+    "module": "II",
+    "q": "¿En qué calle se encuentra la oficina de Asilo y Refugio, que está en la misma ubicación que el Registro Civil?",
+    "hu": "Melyik utcában található a Menekültügyi és Menedékjogi Hivatal, amely ugyanott van, mint az anyakönyvi hivatal?",
+    "answers": [
+      {
+        "original": "Santa Isabel",
+        "hu": "Santa Isabel"
+      },
+      {
+        "original": "Príncipe de Vergara",
+        "hu": "Príncipe de Vergara"
+      },
+      {
+        "original": "Pradillo",
+        "hu": "Pradillo"
+      },
+      {
+        "original": "Miguel Ángel",
+        "hu": "Miguel Ángel"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test9-017",
+    "source": "proformatrans-modulo2-test9",
+    "module": "II",
+    "q": "¿Dónde está el Museo de las Ilusiones?",
+    "hu": "Hol található az Illúziók Múzeuma?",
+    "answers": [
+      {
+        "original": "Plaza de la Paja.",
+        "hu": "Plaza de la Paja."
+      },
+      {
+        "original": "Calle de Espronceda 1.",
+        "hu": "Calle de Espronceda 1."
+      },
+      {
+        "original": "Calle de Lavapiés 14.",
+        "hu": "Calle de Lavapiés 14."
+      },
+      {
+        "original": "Calle del Doctor Cortezo 8.",
+        "hu": "Calle del Doctor Cortezo 8."
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo2-test9-018",
+    "source": "proformatrans-modulo2-test9",
+    "module": "II",
+    "q": "¿Qué antiguo monasterio se encuentra en Valdemoro y es Bien de Interés Cultural?",
+    "hu": "Melyik régi kolostor található Valdemoróban, és minősül kulturális érdekeltségű értéknek?",
+    "answers": [
+      {
+        "original": "Convento de la Encarnación",
+        "hu": "Convento de la Encarnación"
+      },
+      {
+        "original": "Convento de las Clarisas",
+        "hu": "Convento de las Clarisas"
+      },
+      {
+        "original": "Convento de la Asunción de Nuestra Señora",
+        "hu": "Convento de la Asunción de Nuestra Señora"
+      },
+      {
+        "original": "Monasterio de los Jerónimos",
+        "hu": "Monasterio de los Jerónimos"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo2-test9-019",
+    "source": "proformatrans-modulo2-test9",
+    "module": "II",
+    "q": "En la calle Cava Baja nº 35 se encuentra:",
+    "hu": "Mi található a Cava Baja utca 35. szám alatt?",
+    "answers": [
+      {
+        "original": "Casa Lucio.",
+        "hu": "Casa Lucio."
+      },
+      {
+        "original": "El Espejo.",
+        "hu": "El Espejo."
+      },
+      {
+        "original": "Museo del Prado.",
+        "hu": "Museo del Prado."
+      },
+      {
+        "original": "Ayuntamiento.",
+        "hu": "Ayuntamiento."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo2-test10-001",
+    "source": "proformatrans-modulo2-test10",
+    "module": "II",
+    "q": "¿En qué calle se encuentra la sede del Periódico de Cataluña?",
+    "hu": "Melyik utcában található a Periódico de Cataluña szerkesztősége?",
+    "answers": [
+      {
+        "original": "Calle O’Donnell",
+        "hu": "Calle O’Donnell"
+      },
+      {
+        "original": "Paseo del Prado",
+        "hu": "Paseo del Prado"
+      },
+      {
+        "original": "Calle de Alcalá",
+        "hu": "Calle de Alcalá"
+      },
+      {
+        "original": "Calle Serrano",
+        "hu": "Calle Serrano"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo2-test10-002",
+    "source": "proformatrans-modulo2-test10",
+    "module": "II",
+    "q": "¿Qué sitio está en Carrera de San Jerónimo s/n?",
+    "hu": "Mi található a Carrera de San Jerónimo szám nélküli címén?",
+    "answers": [
+      {
+        "original": "Basílica de Jesús de Medinaceli.",
+        "hu": "Basílica de Jesús de Medinaceli."
+      },
+      {
+        "original": "Congreso de los Diputados.",
+        "hu": "Congreso de los Diputados."
+      },
+      {
+        "original": "Casa Lope de Vega.",
+        "hu": "Casa Lope de Vega."
+      },
+      {
+        "original": "El Senado.",
+        "hu": "El Senado."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo2-test10-005",
+    "source": "proformatrans-modulo2-test10",
+    "module": "II",
+    "q": "¿Dónde se encuentra la Real Academia Española?",
+    "hu": "Hol található a Spanyol Királyi Akadémia?",
+    "answers": [
+      {
+        "original": "Calle Mayor",
+        "hu": "Calle Mayor"
+      },
+      {
+        "original": "Calle Valdés",
+        "hu": "Calle Valdés"
+      },
+      {
+        "original": "Plaza de la Villa",
+        "hu": "Plaza de la Villa"
+      },
+      {
+        "original": "Calle Felipe IV",
+        "hu": "Calle Felipe IV"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo2-test10-008",
+    "source": "proformatrans-modulo2-test10",
+    "module": "II",
+    "q": "¿Qué estación de tren está conectada directamente con el aeropuerto de Barajas?",
+    "hu": "Melyik vasútállomás kapcsolódik közvetlenül a barajasi repülőtérhez?",
+    "answers": [
+      {
+        "original": "Chamartín",
+        "hu": "Chamartín"
+      },
+      {
+        "original": "Atocha",
+        "hu": "Atocha"
+      },
+      {
+        "original": "Recoletos",
+        "hu": "Recoletos"
+      },
+      {
+        "original": "Nuevos Ministerios",
+        "hu": "Nuevos Ministerios"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo2-test10-009",
+    "source": "proformatrans-modulo2-test10",
+    "module": "II",
+    "q": "¿Qué edificio madrileño tiene en su fachada el lema \"Fiel espejo de la vida\"?",
+    "hu": "Melyik madridi épület homlokzatán szerepel a „Fiel espejo de la vida” jelmondat?",
+    "answers": [
+      {
+        "original": "Teatro Español",
+        "hu": "Teatro Español"
+      },
+      {
+        "original": "Biblioteca Nacional",
+        "hu": "Biblioteca Nacional"
+      },
+      {
+        "original": "Ateneo de Madrid",
+        "hu": "Ateneo de Madrid"
+      },
+      {
+        "original": "Casa de América",
+        "hu": "Casa de América"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo2-test10-010",
+    "source": "proformatrans-modulo2-test10",
+    "module": "II",
+    "q": "¿Qué lago artificial se encuentra en el centro de El Retiro?",
+    "hu": "Melyik mesterséges tó található az El Retiro közepén?",
+    "answers": [
+      {
+        "original": "Estanque Grande",
+        "hu": "Estanque Grande"
+      },
+      {
+        "original": "Estanque del Ángel",
+        "hu": "Estanque del Ángel"
+      },
+      {
+        "original": "Estanque del Rey",
+        "hu": "Estanque del Rey"
+      },
+      {
+        "original": "Estanque del Palacio",
+        "hu": "Estanque del Palacio"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo2-test10-011",
+    "source": "proformatrans-modulo2-test10",
+    "module": "II",
+    "q": "¿Dónde se encuentra la famosa Puerta del Sol?",
+    "hu": "Hol található a híres Puerta del Sol?",
+    "answers": [
+      {
+        "original": "En el centro de Madrid",
+        "hu": "En el centro de Madrid"
+      },
+      {
+        "original": "En Getafe",
+        "hu": "En Getafe"
+      },
+      {
+        "original": "En Aranjuez",
+        "hu": "En Aranjuez"
+      },
+      {
+        "original": "En Alcalá de Henares",
+        "hu": "En Alcalá de Henares"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo2-test10-012",
+    "source": "proformatrans-modulo2-test10",
+    "module": "II",
+    "q": "¿Cuál de los siguientes hoteles tiene su domicilio en el Paseo de la Castellana, 220?",
+    "hu": "Az alábbi hotelek közül melyiknek a címe Paseo de la Castellana 220?",
+    "answers": [
+      {
+        "original": "Villamagna",
+        "hu": "Villamagna"
+      },
+      {
+        "original": "Meliá Madrid Serrano",
+        "hu": "Meliá Madrid Serrano"
+      },
+      {
+        "original": "Castellana Intercontinental",
+        "hu": "Castellana Intercontinental"
+      },
+      {
+        "original": "Castilla Plaza",
+        "hu": "Castilla Plaza"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo2-test10-014",
+    "source": "proformatrans-modulo2-test10",
+    "module": "II",
+    "q": "¿Cuál de estos restaurantes no se encuentra en la calle Cuchilleros?",
+    "hu": "Az alábbi éttermek közül melyik nem a Cuchilleros utcában található?",
+    "answers": [
+      {
+        "original": "Casa Botín",
+        "hu": "Casa Botín"
+      },
+      {
+        "original": "El Cuchi",
+        "hu": "El Cuchi"
+      },
+      {
+        "original": "Cuevas de Luis Candelas",
+        "hu": "Cuevas de Luis Candelas"
+      },
+      {
+        "original": "Casa Lucio",
+        "hu": "Casa Lucio"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo2-test10-015",
+    "source": "proformatrans-modulo2-test10",
+    "module": "II",
+    "q": "¿Dónde se encuentra la Torre de los Lujanes?",
+    "hu": "Hol található a Torre de los Lujanes?",
+    "answers": [
+      {
+        "original": "Calle Atocha",
+        "hu": "Calle Atocha"
+      },
+      {
+        "original": "Plaza de la Villa",
+        "hu": "Plaza de la Villa"
+      },
+      {
+        "original": "Calle San Bernardo",
+        "hu": "Calle San Bernardo"
+      },
+      {
+        "original": "Plaza de Neptuno",
+        "hu": "Plaza de Neptuno"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo2-test10-016",
+    "source": "proformatrans-modulo2-test10",
+    "module": "II",
+    "q": "¿Cuál de los siguientes puentes, que atraviesa el río Manzanares, conecta el distrito de Argüelles con el de Puerta del Ángel, siendo uno de los más antiguos de Madrid y marcando la entrada a la ciudad desde el suroeste?",
+    "hu": "Az alábbi, Manzanares folyón átívelő hidak közül melyik köti össze Argüelles és Puerta del Ángel kerületét, Madrid egyik legrégebbi hídjaként jelölve a délnyugati bejáratot?",
+    "answers": [
+      {
+        "original": "Puente de Toledo.",
+        "hu": "Puente de Toledo."
+      },
+      {
+        "original": "Puente de Segovia.",
+        "hu": "Puente de Segovia."
+      },
+      {
+        "original": "Puente de San Isidro.",
+        "hu": "Puente de San Isidro."
+      },
+      {
+        "original": "Puente de la Reina Victoria.",
+        "hu": "Puente de la Reina Victoria."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo2-test10-017",
+    "source": "proformatrans-modulo2-test10",
+    "module": "II",
+    "q": "¿Qué municipio madrileño es famoso por su castillo del siglo XV y su mercado medieval?",
+    "hu": "Melyik madridi település híres a XV. századi váráról és középkori piacáról?",
+    "answers": [
+      {
+        "original": "Buitrago del Lozoya",
+        "hu": "Buitrago del Lozoya"
+      },
+      {
+        "original": "Manzanares el Real",
+        "hu": "Manzanares el Real"
+      },
+      {
+        "original": "Colmenar Viejo",
+        "hu": "Colmenar Viejo"
+      },
+      {
+        "original": "Torrelaguna",
+        "hu": "Torrelaguna"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo2-test10-018",
+    "source": "proformatrans-modulo2-test10",
+    "module": "II",
+    "q": "¿Qué ministerio es el más cercano a la Plaza Mayor?",
+    "hu": "Melyik minisztérium van a legközelebb a Plaza Mayorhoz?",
+    "answers": [
+      {
+        "original": "Ministerio de Cultura",
+        "hu": "Ministerio de Cultura"
+      },
+      {
+        "original": "Ministerio de Defensa",
+        "hu": "Ministerio de Defensa"
+      },
+      {
+        "original": "Ministerio de Asuntos Exteriores",
+        "hu": "Ministerio de Asuntos Exteriores"
+      },
+      {
+        "original": "Ministerio de Vivienda",
+        "hu": "Ministerio de Vivienda"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test10-019",
+    "source": "proformatrans-modulo2-test10",
+    "module": "II",
+    "q": "¿La Plaza Mayor es un lugar concurrido en Madrid por sus eventos y festividades?",
+    "hu": "A Plaza Mayor Madrid forgalmas helye az eseményei és ünnepségei miatt?",
+    "answers": [
+      {
+        "original": "No se realizan eventos allí.",
+        "hu": "Ott nem rendeznek eseményeket."
+      },
+      {
+        "original": "Falso.",
+        "hu": "Hamis."
+      },
+      {
+        "original": "Verdadero.",
+        "hu": "Igaz."
+      },
+      {
+        "original": "Solo es concurrida por turistas.",
+        "hu": "Csak turisták látogatják gyakran."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test11-001",
+    "source": "proformatrans-modulo2-test11",
+    "module": "II",
+    "q": "¿Qué facultad no se encuentra en la Ciudad Universitaria?",
+    "hu": "Melyik kar nem található a Ciudad Universitariában?",
+    "answers": [
+      {
+        "original": "Facultad de Derecho",
+        "hu": "Facultad de Derecho"
+      },
+      {
+        "original": "Facultad de Medicina",
+        "hu": "Facultad de Medicina"
+      },
+      {
+        "original": "E.T.S. de Ingenieros de Minas",
+        "hu": "E.T.S. de Ingenieros de Minas"
+      },
+      {
+        "original": "Facultad de Farmacia",
+        "hu": "Facultad de Farmacia"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test11-002",
+    "source": "proformatrans-modulo2-test11",
+    "module": "II",
+    "q": "¿Qué otro lugar pertenece al APC?",
+    "hu": "Melyik másik hely tartozik az APC-hez?",
+    "answers": [
+      {
+        "original": "Plaza de Castilla",
+        "hu": "Plaza de Castilla"
+      },
+      {
+        "original": "Plaza Mayor",
+        "hu": "Plaza Mayor"
+      },
+      {
+        "original": "Casa de Campo",
+        "hu": "Casa de Campo"
+      },
+      {
+        "original": "Valle de los Caídos",
+        "hu": "Valle de los Caídos"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo2-test11-003",
+    "source": "proformatrans-modulo2-test11",
+    "module": "II",
+    "q": "¿Cómo se denomina el gas ozono y su fórmula química?",
+    "hu": "Hogyan nevezik az ózongázt, és mi a kémiai képlete?",
+    "answers": [
+      {
+        "original": "O₃.",
+        "hu": "O₃."
+      },
+      {
+        "original": "NO₃.",
+        "hu": "NO₃."
+      },
+      {
+        "original": "HO₃.",
+        "hu": "HO₃."
+      },
+      {
+        "original": "SO₃.",
+        "hu": "SO₃."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo2-test11-004",
+    "source": "proformatrans-modulo2-test11",
+    "module": "II",
+    "q": "¿Qué edificio de Madrid alberga los frescos de Goya en la ermita de San Antonio de la Florida?",
+    "hu": "Madrid melyik épülete őrzi Goya freskóit a San Antonio de la Florida-remetelakban?",
+    "answers": [
+      {
+        "original": "La ermita de San Antonio de la Florida",
+        "hu": "La ermita de San Antonio de la Florida"
+      },
+      {
+        "original": "La Real Academia de Bellas Artes",
+        "hu": "La Real Academia de Bellas Artes"
+      },
+      {
+        "original": "El Museo del Prado",
+        "hu": "El Museo del Prado"
+      },
+      {
+        "original": "El Palacio Real",
+        "hu": "El Palacio Real"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo2-test11-005",
+    "source": "proformatrans-modulo2-test11",
+    "module": "II",
+    "q": "¿Cuál es el río más importante que atraviesa la Comunidad de Madrid?",
+    "hu": "Melyik a Madridi Közösségen áthaladó legfontosabb folyó?",
+    "answers": [
+      {
+        "original": "Guadarrama",
+        "hu": "Guadarrama"
+      },
+      {
+        "original": "Manzanares",
+        "hu": "Manzanares"
+      },
+      {
+        "original": "Tajo",
+        "hu": "Tajo"
+      },
+      {
+        "original": "Jarama",
+        "hu": "Jarama"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo2-test11-006",
+    "source": "proformatrans-modulo2-test11",
+    "module": "II",
+    "q": "¿Qué deben hacer los conductores con distintivo Cero emisiones en una ZBE?",
+    "hu": "Mit kell tenniük a Cero emisiones matricával rendelkező vezetőknek egy alacsony kibocsátású zónában?",
+    "answers": [
+      {
+        "original": "Reducir la velocidad.",
+        "hu": "Reducir la velocidad."
+      },
+      {
+        "original": "Mostrar el distintivo visible en el parabrisas.",
+        "hu": "Mostrar el distintivo visible en el parabrisas."
+      },
+      {
+        "original": "Usar vías secundarias.",
+        "hu": "Usar vías secundarias."
+      },
+      {
+        "original": "Solicitar un permiso adicional.",
+        "hu": "Solicitar un permiso adicional."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo2-test11-008",
+    "source": "proformatrans-modulo2-test11",
+    "module": "II",
+    "q": "La estación de metro más profunda de Madrid es:",
+    "hu": "Madrid legmélyebb metróállomása:",
+    "answers": [
+      {
+        "original": "La de Alonso Martínez.",
+        "hu": "La de Alonso Martínez."
+      },
+      {
+        "original": "La de Las Tablas.",
+        "hu": "La de Las Tablas."
+      },
+      {
+        "original": "La de Cuatro Caminos.",
+        "hu": "La de Cuatro Caminos."
+      },
+      {
+        "original": "La de Noviciado.",
+        "hu": "La de Noviciado."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test11-010",
+    "source": "proformatrans-modulo2-test11",
+    "module": "II",
+    "q": "¿Dónde está ubicada la Ciudad Deportiva del Real Madrid?",
+    "hu": "Hol található a Real Madrid sportvárosa?",
+    "answers": [
+      {
+        "original": "Pozuelo",
+        "hu": "Pozuelo"
+      },
+      {
+        "original": "Las Tablas",
+        "hu": "Las Tablas"
+      },
+      {
+        "original": "Montecarmelo",
+        "hu": "Montecarmelo"
+      },
+      {
+        "original": "Valdebebas",
+        "hu": "Valdebebas"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo2-test11-011",
+    "source": "proformatrans-modulo2-test11",
+    "module": "II",
+    "q": "¿Dónde está el restaurante \"Casa Mingo\"?",
+    "hu": "Hol található a „Casa Mingo” étterem?",
+    "answers": [
+      {
+        "original": "Avenida de América",
+        "hu": "Avenida de América"
+      },
+      {
+        "original": "Paseo de la Florida",
+        "hu": "Paseo de la Florida"
+      },
+      {
+        "original": "Calle Mayor",
+        "hu": "Calle Mayor"
+      },
+      {
+        "original": "Paseo del Prado",
+        "hu": "Paseo del Prado"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo2-test11-012",
+    "source": "proformatrans-modulo2-test11",
+    "module": "II",
+    "q": "¿Qué iglesia se encuentra al lado de la Puerta del Sol?",
+    "hu": "Melyik templom található a Puerta del Sol mellett?",
+    "answers": [
+      {
+        "original": "Iglesia de San Jerónimo",
+        "hu": "Iglesia de San Jerónimo"
+      },
+      {
+        "original": "Iglesia de San Ginés",
+        "hu": "Iglesia de San Ginés"
+      },
+      {
+        "original": "Colegiata de San Isidro",
+        "hu": "Colegiata de San Isidro"
+      },
+      {
+        "original": "Iglesia de San Andrés",
+        "hu": "Iglesia de San Andrés"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo2-test11-013",
+    "source": "proformatrans-modulo2-test11",
+    "module": "II",
+    "q": "¿En qué plaza se encuentra el Teatro de La Latina?",
+    "hu": "Melyik téren található a Teatro de La Latina?",
+    "answers": [
+      {
+        "original": "Plaza del Cordón",
+        "hu": "Plaza del Cordón"
+      },
+      {
+        "original": "Plaza Mayor",
+        "hu": "Plaza Mayor"
+      },
+      {
+        "original": "Plaza de Santa Ana",
+        "hu": "Plaza de Santa Ana"
+      },
+      {
+        "original": "Plaza de la Cebada",
+        "hu": "Plaza de la Cebada"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo2-test11-014",
+    "source": "proformatrans-modulo2-test11",
+    "module": "II",
+    "q": "¿Qué parque temático madrileño se ubica en San Martín de la Vega?",
+    "hu": "Melyik madridi vidámpark található San Martín de la Vegában?",
+    "answers": [
+      {
+        "original": "Micropolix",
+        "hu": "Micropolix"
+      },
+      {
+        "original": "Parque Warner",
+        "hu": "Parque Warner"
+      },
+      {
+        "original": "Faunia",
+        "hu": "Faunia"
+      },
+      {
+        "original": "Parque de Atracciones",
+        "hu": "Parque de Atracciones"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo2-test11-015",
+    "source": "proformatrans-modulo2-test11",
+    "module": "II",
+    "q": "¿Qué municipio madrileño es conocido por su histórica Fuente de los Caños y su casco antiguo bien conservado?",
+    "hu": "Melyik madridi település ismert történelmi Fuente de los Caños kútjáról és jól megőrzött óvárosáról?",
+    "answers": [
+      {
+        "original": "Torrelodones",
+        "hu": "Torrelodones"
+      },
+      {
+        "original": "Navalagamella",
+        "hu": "Navalagamella"
+      },
+      {
+        "original": "Galapagar",
+        "hu": "Galapagar"
+      },
+      {
+        "original": "Villanueva del Pardillo",
+        "hu": "Villanueva del Pardillo"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test11-018",
+    "source": "proformatrans-modulo2-test11",
+    "module": "II",
+    "q": "¿Qué clínica privada se encuentra en la Calle Pléyades, 25?",
+    "hu": "Melyik magánklinika található a Pléyades utca 25. szám alatt?",
+    "answers": [
+      {
+        "original": "Clínica La Zarzuela",
+        "hu": "Clínica La Zarzuela"
+      },
+      {
+        "original": "Clínica La Luz",
+        "hu": "Clínica La Luz"
+      },
+      {
+        "original": "Clínica San José",
+        "hu": "Clínica San José"
+      },
+      {
+        "original": "Clínica Santa Elena",
+        "hu": "Clínica Santa Elena"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo2-test11-020",
+    "source": "proformatrans-modulo2-test11",
+    "module": "II",
+    "q": "¿Cuál es la forma adecuada de usar un GPS mientras se conduce un vehículo?",
+    "hu": "Mi a GPS helyes használati módja járművezetés közben?",
+    "answers": [
+      {
+        "original": "Ajustar el GPS mientras se está conduciendo.",
+        "hu": "Vezetés közben állítani a GPS-t."
+      },
+      {
+        "original": "Consultar el GPS únicamente en cada semáforo.",
+        "hu": "Consultar el GPS únicamente en cada semáforo."
+      },
+      {
+        "original": "Ignorar las indicaciones del GPS y usar mapas en papel.",
+        "hu": "Ignorar las indicaciones del GPS y usar mapas en papel."
+      },
+      {
+        "original": "Configurar el GPS antes de iniciar el viaje.",
+        "hu": "Az út megkezdése előtt beállítani a GPS-t."
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo2-test12-001",
+    "source": "proformatrans-modulo2-test12",
+    "module": "II",
+    "q": "¿Qué carretera conecta Madrid con Guadalajara?",
+    "hu": "Melyik út köti össze Madridot Guadalajarával?",
+    "answers": [
+      {
+        "original": "A-4",
+        "hu": "A-4"
+      },
+      {
+        "original": "A-3",
+        "hu": "A-3"
+      },
+      {
+        "original": "A-5",
+        "hu": "A-5"
+      },
+      {
+        "original": "A-2",
+        "hu": "A-2"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo2-test12-002",
+    "source": "proformatrans-modulo2-test12",
+    "module": "II",
+    "q": "¿Dónde se encuentran los restos del escritor Miguel de Cervantes?",
+    "hu": "Hol találhatók Miguel de Cervantes író földi maradványai?",
+    "answers": [
+      {
+        "original": "Monasterio de las Trinitarias Descalzas",
+        "hu": "Monasterio de las Trinitarias Descalzas"
+      },
+      {
+        "original": "Universidad de Alcalá",
+        "hu": "Universidad de Alcalá"
+      },
+      {
+        "original": "Basílica de San Francisco el Grande",
+        "hu": "Basílica de San Francisco el Grande"
+      },
+      {
+        "original": "Catedral de la Almudena",
+        "hu": "Catedral de la Almudena"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo2-test12-003",
+    "source": "proformatrans-modulo2-test12",
+    "module": "II",
+    "q": "¿Qué villa madrileña fue famosa por sus vinos y sus corralas?",
+    "hu": "Melyik madridi település volt híres borairól és corraláiról?",
+    "answers": [
+      {
+        "original": "Arganda del Rey",
+        "hu": "Arganda del Rey"
+      },
+      {
+        "original": "Pinto",
+        "hu": "Pinto"
+      },
+      {
+        "original": "Navalcarnero",
+        "hu": "Navalcarnero"
+      },
+      {
+        "original": "San Martín de Valdeiglesias",
+        "hu": "San Martín de Valdeiglesias"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test12-006",
+    "source": "proformatrans-modulo2-test12",
+    "module": "II",
+    "q": "¿En qué distrito se encuentra la cadena de televisión Telecinco?",
+    "hu": "Melyik kerületben található a Telecinco televízió?",
+    "answers": [
+      {
+        "original": "Moncloa-Aravaca",
+        "hu": "Moncloa-Aravaca"
+      },
+      {
+        "original": "Fuencarral-El Pardo",
+        "hu": "Fuencarral-El Pardo"
+      },
+      {
+        "original": "Chamartín",
+        "hu": "Chamartín"
+      },
+      {
+        "original": "Tetuán",
+        "hu": "Tetuán"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo2-test12-007",
+    "source": "proformatrans-modulo2-test12",
+    "module": "II",
+    "q": "En un sistema de navegación GPS integrado en el vehículo, ¿cuál es el procedimiento más adecuado para modificar la representación cartográfica?",
+    "hu": "A járműbe épített GPS-navigációs rendszerben mi a legmegfelelőbb eljárás a térképi megjelenítés módosítására?",
+    "answers": [
+      {
+        "original": "Ajustar la configuración general de la pantalla.",
+        "hu": "Ajustar la configuración general de la pantalla."
+      },
+      {
+        "original": "Acceder al menú específico del GPS y seleccionar el tipo de mapa.",
+        "hu": "Acceder al menú específico del GPS y seleccionar el tipo de mapa."
+      },
+      {
+        "original": "No es posible modificar el tipo de mapa.",
+        "hu": "No es posible modificar el tipo de mapa."
+      },
+      {
+        "original": "Utilizar una brújula.",
+        "hu": "Utilizar una brújula."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo2-test12-008",
+    "source": "proformatrans-modulo2-test12",
+    "module": "II",
+    "q": "El campus de Ciudad Universitaria alberga la sede de:",
+    "hu": "A Ciudad Universitaria campus melyik intézménynek ad otthont?",
+    "answers": [
+      {
+        "original": "Universidad de Alcalá.",
+        "hu": "Universidad de Alcalá."
+      },
+      {
+        "original": "IE University.",
+        "hu": "IE University."
+      },
+      {
+        "original": "Universidad Complutense de Madrid.",
+        "hu": "Universidad Complutense de Madrid."
+      },
+      {
+        "original": "Universidad Carlos III.",
+        "hu": "Universidad Carlos III."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test12-009",
+    "source": "proformatrans-modulo2-test12",
+    "module": "II",
+    "q": "¿Qué construcción permite la comunicación entre los barrios de Moncloa y Argüelles por debajo de la ciudad?",
+    "hu": "Melyik építmény biztosít kapcsolatot Moncloa és Argüelles városrészei között a város alatt?",
+    "answers": [
+      {
+        "original": "Túnel de Bailén",
+        "hu": "Túnel de Bailén"
+      },
+      {
+        "original": "Túnel de Atocha",
+        "hu": "Túnel de Atocha"
+      },
+      {
+        "original": "Túnel de la risa",
+        "hu": "Túnel de la risa"
+      },
+      {
+        "original": "Túnel de la Cuesta de San Vicente",
+        "hu": "Túnel de la Cuesta de San Vicente"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo2-test12-010",
+    "source": "proformatrans-modulo2-test12",
+    "module": "II",
+    "q": "¿En qué avenida está el Ministerio de Economía y Hacienda?",
+    "hu": "Melyik sugárúton vagy utcában található a Gazdasági és Pénzügyminisztérium?",
+    "answers": [
+      {
+        "original": "Paseo del Prado",
+        "hu": "Paseo del Prado"
+      },
+      {
+        "original": "Avenida de América",
+        "hu": "Avenida de América"
+      },
+      {
+        "original": "Paseo de Recoletos",
+        "hu": "Paseo de Recoletos"
+      },
+      {
+        "original": "Calle Alcalá",
+        "hu": "Calle Alcalá"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo2-test12-012",
+    "source": "proformatrans-modulo2-test12",
+    "module": "II",
+    "q": "¿Qué vía conecta Madrid con Rivas-Vaciamadrid?",
+    "hu": "Melyik út köti össze Madridot Rivas-Vaciamadriddal?",
+    "answers": [
+      {
+        "original": "A-3",
+        "hu": "A-3"
+      },
+      {
+        "original": "M-607",
+        "hu": "M-607"
+      },
+      {
+        "original": "A-2",
+        "hu": "A-2"
+      },
+      {
+        "original": "M-30",
+        "hu": "M-30"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo2-test12-014",
+    "source": "proformatrans-modulo2-test12",
+    "module": "II",
+    "q": "¿Dónde se encuentran los Jardines de Cecilio Rodríguez?",
+    "hu": "Hol találhatók a Cecilio Rodríguez kertek?",
+    "answers": [
+      {
+        "original": "Casa de Campo",
+        "hu": "Casa de Campo"
+      },
+      {
+        "original": "Parque del Oeste",
+        "hu": "Parque del Oeste"
+      },
+      {
+        "original": "Parque Juan Carlos I",
+        "hu": "Parque Juan Carlos I"
+      },
+      {
+        "original": "Parque de El Retiro",
+        "hu": "Parque de El Retiro"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo2-test12-015",
+    "source": "proformatrans-modulo2-test12",
+    "module": "II",
+    "q": "¿Dónde se encuentra el Jardín Histórico de El Capricho?",
+    "hu": "Hol található az El Capricho történelmi kert?",
+    "answers": [
+      {
+        "original": "Hortaleza",
+        "hu": "Hortaleza"
+      },
+      {
+        "original": "Barajas",
+        "hu": "Barajas"
+      },
+      {
+        "original": "Salamanca",
+        "hu": "Salamanca"
+      },
+      {
+        "original": "Retiro",
+        "hu": "Retiro"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo2-test12-016",
+    "source": "proformatrans-modulo2-test12",
+    "module": "II",
+    "q": "¿Qué embalse es uno de los más grandes de la Comunidad de Madrid y abastece a la capital?",
+    "hu": "Melyik víztározó a Madridi Közösség egyik legnagyobbja, és látja el a fővárost?",
+    "answers": [
+      {
+        "original": "Embalse de El Atazar",
+        "hu": "Embalse de El Atazar"
+      },
+      {
+        "original": "Embalse de Valmayor",
+        "hu": "Embalse de Valmayor"
+      },
+      {
+        "original": "Embalse de San Juan",
+        "hu": "Embalse de San Juan"
+      },
+      {
+        "original": "Embalse de Santillana",
+        "hu": "Embalse de Santillana"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo2-test12-017",
+    "source": "proformatrans-modulo2-test12",
+    "module": "II",
+    "q": "¿Qué calle une las paradas de metro de Pueblo Nuevo y Quintana?",
+    "hu": "Melyik utca köti össze Pueblo Nuevo és Quintana metrómegállóit?",
+    "answers": [
+      {
+        "original": "Avenida de América",
+        "hu": "Avenida de América"
+      },
+      {
+        "original": "Calle Serrano",
+        "hu": "Calle Serrano"
+      },
+      {
+        "original": "Calle de Alcalá",
+        "hu": "Calle de Alcalá"
+      },
+      {
+        "original": "Calle Bravo Murillo",
+        "hu": "Calle Bravo Murillo"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test12-018",
+    "source": "proformatrans-modulo2-test12",
+    "module": "II",
+    "q": "¿Cerca de qué plaza está ubicado el Museo de Cera?",
+    "hu": "Melyik tér közelében található a Viaszmúzeum?",
+    "answers": [
+      {
+        "original": "Plaza de Castilla",
+        "hu": "Plaza de Castilla"
+      },
+      {
+        "original": "Plaza de Alonso Martínez",
+        "hu": "Plaza de Alonso Martínez"
+      },
+      {
+        "original": "Plaza de Cuzco",
+        "hu": "Plaza de Cuzco"
+      },
+      {
+        "original": "Plaza de Colón",
+        "hu": "Plaza de Colón"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo2-test12-020",
+    "source": "proformatrans-modulo2-test12",
+    "module": "II",
+    "q": "Una etiqueta azul con un 0 identifica:",
+    "hu": "A kék, 0-s címke ezt azonosítja:",
+    "answers": [
+      {
+        "original": "Vehículos diésel de última generación.",
+        "hu": "Vehículos diésel de última generación."
+      },
+      {
+        "original": "Vehículos híbridos y de gas.",
+        "hu": "Vehículos híbridos y de gas."
+      },
+      {
+        "original": "Vehículos de pila de combustible.",
+        "hu": "Vehículos de pila de combustible."
+      },
+      {
+        "original": "Vehículos CERO emisiones.",
+        "hu": "CERO kibocsátású járművek."
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo2-test13-001",
+    "source": "proformatrans-modulo2-test13",
+    "module": "II",
+    "q": "¿Qué valle está asociado al río Lozoya?",
+    "hu": "Melyik völgy kapcsolódik a Lozoya folyóhoz?",
+    "answers": [
+      {
+        "original": "Valle del Lozoya",
+        "hu": "Valle del Lozoya"
+      },
+      {
+        "original": "Valle del Alberche",
+        "hu": "Valle del Alberche"
+      },
+      {
+        "original": "Valle del Tajo",
+        "hu": "Valle del Tajo"
+      },
+      {
+        "original": "Valle del Jarama",
+        "hu": "Valle del Jarama"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo2-test13-003",
+    "source": "proformatrans-modulo2-test13",
+    "module": "II",
+    "q": "¿Qué etiqueta ambiental tienen los vehículos de gasolina Euro 3?",
+    "hu": "Milyen környezetvédelmi címkéjük van az Euro 3 benzines járműveknek?",
+    "answers": [
+      {
+        "original": "C",
+        "hu": "C"
+      },
+      {
+        "original": "B",
+        "hu": "B"
+      },
+      {
+        "original": "ECO",
+        "hu": "ECO"
+      },
+      {
+        "original": "Sin etiqueta",
+        "hu": "Címke nélkül"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo2-test13-004",
+    "source": "proformatrans-modulo2-test13",
+    "module": "II",
+    "q": "¿Qué palacio se encuentra en Boadilla del Monte?",
+    "hu": "Melyik palota található Boadilla del Montéban?",
+    "answers": [
+      {
+        "original": "Palacio de los Mendoza",
+        "hu": "Palacio de los Mendoza"
+      },
+      {
+        "original": "Palacio de Altamira",
+        "hu": "Palacio de Altamira"
+      },
+      {
+        "original": "Palacio del Infante Don Luis",
+        "hu": "Palacio del Infante Don Luis"
+      },
+      {
+        "original": "Palacio de El Pardo",
+        "hu": "Palacio de El Pardo"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test13-007",
+    "source": "proformatrans-modulo2-test13",
+    "module": "II",
+    "q": "¿Qué antiguo convento es hoy el Museo de San Isidro en Madrid?",
+    "hu": "Melyik egykori kolostor ma a madridi San Isidro Múzeum?",
+    "answers": [
+      {
+        "original": "Convento de la Merced",
+        "hu": "Convento de la Merced"
+      },
+      {
+        "original": "Convento de San Andrés",
+        "hu": "Convento de San Andrés"
+      },
+      {
+        "original": "Convento de San Plácido",
+        "hu": "Convento de San Plácido"
+      },
+      {
+        "original": "Convento de Nuestra Señora de la Consolación",
+        "hu": "Convento de Nuestra Señora de la Consolación"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo2-test13-008",
+    "source": "proformatrans-modulo2-test13",
+    "module": "II",
+    "q": "¿Qué calle NO confluye en Plaza de Castilla?",
+    "hu": "Melyik utca NEM fut be a Plaza de Castilla térre?",
+    "answers": [
+      {
+        "original": "Mateo Inurria.",
+        "hu": "Mateo Inurria."
+      },
+      {
+        "original": "Paseo de la Castellana.",
+        "hu": "Paseo de la Castellana."
+      },
+      {
+        "original": "Bravo Murillo.",
+        "hu": "Bravo Murillo."
+      },
+      {
+        "original": "Félix Boix.",
+        "hu": "Félix Boix."
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo2-test13-010",
+    "source": "proformatrans-modulo2-test13",
+    "module": "II",
+    "q": "¿Cuál es el domicilio del Teatro La Latina?",
+    "hu": "Mi a Teatro La Latina címe?",
+    "answers": [
+      {
+        "original": "Plaza de Murillo s/n.",
+        "hu": "Plaza de Murillo s/n."
+      },
+      {
+        "original": "Paseo de Moret 99.",
+        "hu": "Paseo de Moret 99."
+      },
+      {
+        "original": "Plaza de la Cebada 2.",
+        "hu": "Plaza de la Cebada 2."
+      },
+      {
+        "original": "Calle Cervantes 11.",
+        "hu": "Calle Cervantes 11."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test13-011",
+    "source": "proformatrans-modulo2-test13",
+    "module": "II",
+    "q": "¿Qué municipio de la Comunidad de Madrid es conocido por su histórico Puente Viejo, que data de la época medieval?",
+    "hu": "A Madridi Közösség melyik települése ismert középkori eredetű történelmi Régi hídjáról?",
+    "answers": [
+      {
+        "original": "Arganda del Rey",
+        "hu": "Arganda del Rey"
+      },
+      {
+        "original": "Chinchón",
+        "hu": "Chinchón"
+      },
+      {
+        "original": "Perales de Tajuña",
+        "hu": "Perales de Tajuña"
+      },
+      {
+        "original": "Titulcia",
+        "hu": "Titulcia"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo2-test13-012",
+    "source": "proformatrans-modulo2-test13",
+    "module": "II",
+    "q": "¿Qué estación de metro se considera la más profunda de Madrid?",
+    "hu": "Melyik metróállomást tartják Madrid legmélyebb állomásának?",
+    "answers": [
+      {
+        "original": "Cuatro Caminos",
+        "hu": "Cuatro Caminos"
+      },
+      {
+        "original": "Chamartín",
+        "hu": "Chamartín"
+      },
+      {
+        "original": "Plaza de Castilla",
+        "hu": "Plaza de Castilla"
+      },
+      {
+        "original": "Cuatro Vientos",
+        "hu": "Cuatro Vientos"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo2-test13-013",
+    "source": "proformatrans-modulo2-test13",
+    "module": "II",
+    "q": "El distintivo Eco se otorga a los vehículos eléctricos puros:",
+    "hu": "Az Eco címkét a tisztán elektromos járművek kapják:",
+    "answers": [
+      {
+        "original": "Verdadero.",
+        "hu": "Igaz."
+      },
+      {
+        "original": "A vehículos sin diésel y sin gasolina.",
+        "hu": "A vehículos sin diésel y sin gasolina."
+      },
+      {
+        "original": "Falso.",
+        "hu": "Hamis."
+      },
+      {
+        "original": "Solo a vehículos transformados a GLP.",
+        "hu": "Solo a vehículos transformados a GLP."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test13-015",
+    "source": "proformatrans-modulo2-test13",
+    "module": "II",
+    "q": "¿Qué construcción une Madrid Río con la zona del Matadero?",
+    "hu": "Melyik építmény köti össze Madrid Ríót a Matadero környékével?",
+    "answers": [
+      {
+        "original": "Puente de Toledo",
+        "hu": "Puente de Toledo"
+      },
+      {
+        "original": "Puente del Rey",
+        "hu": "Puente del Rey"
+      },
+      {
+        "original": "Puente de Praga",
+        "hu": "Puente de Praga"
+      },
+      {
+        "original": "Pasarela de Arganzuela",
+        "hu": "Pasarela de Arganzuela"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo2-test13-016",
+    "source": "proformatrans-modulo2-test13",
+    "module": "II",
+    "q": "¿Dónde se encuentra el Colegio Blanca de Castilla?",
+    "hu": "Hol található a Blanca de Castilla iskola?",
+    "answers": [
+      {
+        "original": "Paseo Eduardo Dato",
+        "hu": "Paseo Eduardo Dato"
+      },
+      {
+        "original": "Calle Serrano",
+        "hu": "Calle Serrano"
+      },
+      {
+        "original": "Calle Santa Engracia",
+        "hu": "Calle Santa Engracia"
+      },
+      {
+        "original": "Avenida de América",
+        "hu": "Avenida de América"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo2-test13-017",
+    "source": "proformatrans-modulo2-test13",
+    "module": "II",
+    "q": "¿Cuál es la dirección del Teatro Real?",
+    "hu": "Mi a Teatro Real címe?",
+    "answers": [
+      {
+        "original": "Calle Alcalá, 80",
+        "hu": "Calle Alcalá, 80"
+      },
+      {
+        "original": "Calle Recoletos, 15",
+        "hu": "Calle Recoletos, 15"
+      },
+      {
+        "original": "Gran Vía, 42",
+        "hu": "Gran Vía, 42"
+      },
+      {
+        "original": "Plaza de Isabel II, s/n",
+        "hu": "Plaza de Isabel II, s/n"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo2-test14-002",
+    "source": "proformatrans-modulo2-test14",
+    "module": "II",
+    "q": "¿Cuál es el cine más antiguo de Madrid, que sigue funcionando como tal?",
+    "hu": "Melyik Madrid legrégebbi mozija, amely még ma is moziként működik?",
+    "answers": [
+      {
+        "original": "Cine Capitol.",
+        "hu": "Cine Capitol."
+      },
+      {
+        "original": "Cines Renoir Retiro.",
+        "hu": "Cines Renoir Retiro."
+      },
+      {
+        "original": "Cine Doré.",
+        "hu": "Cine Doré."
+      },
+      {
+        "original": "Cine Callao.",
+        "hu": "Cine Callao."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test14-006",
+    "source": "proformatrans-modulo2-test14",
+    "module": "II",
+    "q": "En aplicaciones como Google Maps o Waze, ¿qué tecnología complementa al GPS?",
+    "hu": "Google Mapshez vagy Waze-hez hasonló alkalmazásokban melyik technológia egészíti ki a GPS-t?",
+    "answers": [
+      {
+        "original": "Señales de radio FM.",
+        "hu": "Señales de radio FM."
+      },
+      {
+        "original": "Giroscopio y acelerómetro.",
+        "hu": "Giroszkóp és gyorsulásmérő."
+      },
+      {
+        "original": "Señales de radio AM.",
+        "hu": "Señales de radio AM."
+      },
+      {
+        "original": "RFID.",
+        "hu": "RFID."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo2-test14-007",
+    "source": "proformatrans-modulo2-test14",
+    "module": "II",
+    "q": "¿En qué calle se encuentra la Escuela Universitaria de Ingeniería Técnica de Obras Públicas?",
+    "hu": "Melyik utcában található az Építőmérnöki Műszaki Egyetemi Iskola?",
+    "answers": [
+      {
+        "original": "Paseo de Infanta Isabel",
+        "hu": "Paseo de Infanta Isabel"
+      },
+      {
+        "original": "Paseo del Prado",
+        "hu": "Paseo del Prado"
+      },
+      {
+        "original": "Calle Alcalá",
+        "hu": "Calle Alcalá"
+      },
+      {
+        "original": "Calle Alfonso XII",
+        "hu": "Calle Alfonso XII"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo2-test14-010",
+    "source": "proformatrans-modulo2-test14",
+    "module": "II",
+    "q": "¿Dónde está la Fuente de los Galápagos?",
+    "hu": "Hol található a Galápagos-kút?",
+    "answers": [
+      {
+        "original": "Parque del Oeste",
+        "hu": "Parque del Oeste"
+      },
+      {
+        "original": "Casa de Campo",
+        "hu": "Casa de Campo"
+      },
+      {
+        "original": "Madrid Río",
+        "hu": "Madrid Río"
+      },
+      {
+        "original": "Parque del Retiro",
+        "hu": "Parque del Retiro"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo2-test14-014",
+    "source": "proformatrans-modulo2-test14",
+    "module": "II",
+    "q": "¿Dónde se encuentran las ruinas romanas de Complutum?",
+    "hu": "Hol találhatók Complutum római romjai?",
+    "answers": [
+      {
+        "original": "Torrejón de Ardoz",
+        "hu": "Torrejón de Ardoz"
+      },
+      {
+        "original": "Alcalá de Henares",
+        "hu": "Alcalá de Henares"
+      },
+      {
+        "original": "Getafe",
+        "hu": "Getafe"
+      },
+      {
+        "original": "Leganés",
+        "hu": "Leganés"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo2-test14-016",
+    "source": "proformatrans-modulo2-test14",
+    "module": "II",
+    "q": "¿Qué estación de cercanías da acceso directo a IFEMA?",
+    "hu": "Melyik elővárosi vasútállomás ad közvetlen hozzáférést az IFEMA-hoz?",
+    "answers": [
+      {
+        "original": "Nuevos Ministerios",
+        "hu": "Nuevos Ministerios"
+      },
+      {
+        "original": "Chamartín",
+        "hu": "Chamartín"
+      },
+      {
+        "original": "Rejas",
+        "hu": "Rejas"
+      },
+      {
+        "original": "Valdebebas",
+        "hu": "Valdebebas"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo2-test14-017",
+    "source": "proformatrans-modulo2-test14",
+    "module": "II",
+    "q": "¿Qué edificio alberga el Teatro Real de Madrid?",
+    "hu": "Melyik épület ad otthont a madridi Teatro Realnak?",
+    "answers": [
+      {
+        "original": "Palacio Real",
+        "hu": "Palacio Real"
+      },
+      {
+        "original": "Palacio de las Artes",
+        "hu": "Palacio de las Artes"
+      },
+      {
+        "original": "Edificio del Teatro Real",
+        "hu": "Edificio del Teatro Real"
+      },
+      {
+        "original": "Edificio Real",
+        "hu": "Edificio Real"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test14-018",
+    "source": "proformatrans-modulo2-test14",
+    "module": "II",
+    "q": "¿Qué autovía, parte de la red radial española, conecta Madrid con ciudades como Segovia o Ponferrada, sirviendo como vía estratégica hacia el noroeste peninsular?",
+    "hu": "Melyik, a spanyol sugaras úthálózathoz tartozó autópálya köti össze Madridot például Segoviával vagy Ponferradával, stratégiai útvonalként az északnyugati félszigeti területek felé?",
+    "answers": [
+      {
+        "original": "A-2.",
+        "hu": "A-2."
+      },
+      {
+        "original": "A-6.",
+        "hu": "A-6."
+      },
+      {
+        "original": "A-1.",
+        "hu": "A-1."
+      },
+      {
+        "original": "A-5.",
+        "hu": "A-5."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo2-test15-001",
+    "source": "proformatrans-modulo2-test15",
+    "module": "II",
+    "q": "¿Cuál es la principal recomendación para utilizar una aplicación GPS de manera segura mientras se conduce?",
+    "hu": "Mi a fő ajánlás egy GPS-alkalmazás biztonságos használatához vezetés közben?",
+    "answers": [
+      {
+        "original": "Mirar el GPS cada vez que cambie la ruta",
+        "hu": "Mirar el GPS cada vez que cambie la ruta"
+      },
+      {
+        "original": "Ajustar la ruta durante el trayecto",
+        "hu": "Ajustar la ruta durante el trayecto"
+      },
+      {
+        "original": "Mirar el GPS continuamente",
+        "hu": "Folyamatosan nézni a GPS-t"
+      },
+      {
+        "original": "Ajustar la ruta antes de empezar a conducir",
+        "hu": "Az útvonal beállítása az indulás előtt"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo2-test15-002",
+    "source": "proformatrans-modulo2-test15",
+    "module": "II",
+    "q": "¿Qué parque madrileño tiene una reproducción del Puente de Brooklyn?",
+    "hu": "Melyik madridi parkban található a Brooklyn híd másolata?",
+    "answers": [
+      {
+        "original": "Parque Lineal del Manzanares",
+        "hu": "Parque Lineal del Manzanares"
+      },
+      {
+        "original": "Casa de Campo",
+        "hu": "Casa de Campo"
+      },
+      {
+        "original": "Madrid Río",
+        "hu": "Madrid Río"
+      },
+      {
+        "original": "Parque del Oeste",
+        "hu": "Parque del Oeste"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test15-005",
+    "source": "proformatrans-modulo2-test15",
+    "module": "II",
+    "q": "¿La calle Trafalgar, en uno de sus tramos, discurre por debajo de qué plaza?",
+    "hu": "A Trafalgar utca egyik szakasza melyik tér alatt halad el?",
+    "answers": [
+      {
+        "original": "Plaza de Chamberí",
+        "hu": "Plaza de Chamberí"
+      },
+      {
+        "original": "Plaza de Olavide",
+        "hu": "Plaza de Olavide"
+      },
+      {
+        "original": "Plaza de España",
+        "hu": "Plaza de España"
+      },
+      {
+        "original": "Plaza de Cibeles",
+        "hu": "Plaza de Cibeles"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo2-test15-006",
+    "source": "proformatrans-modulo2-test15",
+    "module": "II",
+    "q": "¿Qué localidad del este de Madrid fue fundada en el siglo XVIII como una colonia industrial y conserva un importante conjunto histórico-artístico?",
+    "hu": "Madrid keleti részének melyik települését alapították a XVIII. században ipari kolóniaként, és őriz jelentős történelmi-művészeti együttest?",
+    "answers": [
+      {
+        "original": "Villar del Olmo",
+        "hu": "Villar del Olmo"
+      },
+      {
+        "original": "Pozuelo del Rey",
+        "hu": "Pozuelo del Rey"
+      },
+      {
+        "original": "Nuevo Baztán",
+        "hu": "Nuevo Baztán"
+      },
+      {
+        "original": "Campo Real",
+        "hu": "Campo Real"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test15-007",
+    "source": "proformatrans-modulo2-test15",
+    "module": "II",
+    "q": "¿Qué deben hacer los conductores de VTC si transportan pasajeros en un evento especial en una ZBE?",
+    "hu": "Mit kell tenniük a VTC-vezetőknek, ha különleges eseményen utasokat szállítanak egy alacsony kibocsátású zónában?",
+    "answers": [
+      {
+        "original": "Usar únicamente el modo de gasolina",
+        "hu": "Usar únicamente el modo de gasolina"
+      },
+      {
+        "original": "Desactivar el sistema de audio",
+        "hu": "Desactivar el sistema de audio"
+      },
+      {
+        "original": "Incrementar la velocidad para llegar a tiempo",
+        "hu": "Incrementar la velocidad para llegar a tiempo"
+      },
+      {
+        "original": "Asegurarse de que el vehículo tiene la etiqueta ambiental adecuada y cumplir con las restricciones",
+        "hu": "Meggyőződni arról, hogy a jármű megfelelő környezetvédelmi címkével rendelkezik, és betartani a korlátozásokat"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo2-test15-009",
+    "source": "proformatrans-modulo2-test15",
+    "module": "II",
+    "q": "En Carrera de San Jerónimo s/n se encuentra:",
+    "hu": "Mi található a Carrera de San Jerónimo szám nélküli címén?",
+    "answers": [
+      {
+        "original": "Santiago Bernabéu.",
+        "hu": "Santiago Bernabéu."
+      },
+      {
+        "original": "Fundación Jiménez Díaz.",
+        "hu": "Fundación Jiménez Díaz."
+      },
+      {
+        "original": "Congreso de los Diputados.",
+        "hu": "Congreso de los Diputados."
+      },
+      {
+        "original": "Senado.",
+        "hu": "Senado."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test15-010",
+    "source": "proformatrans-modulo2-test15",
+    "module": "II",
+    "q": "¿En qué calle se encuentra el cine Alphaville?",
+    "hu": "Melyik utcában található az Alphaville mozi?",
+    "answers": [
+      {
+        "original": "C/ Princesa",
+        "hu": "C/ Princesa"
+      },
+      {
+        "original": "C/ Preciados",
+        "hu": "C/ Preciados"
+      },
+      {
+        "original": "C/ Martín de los Heros",
+        "hu": "C/ Martín de los Heros"
+      },
+      {
+        "original": "C/ Hortaleza",
+        "hu": "C/ Hortaleza"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test15-012",
+    "source": "proformatrans-modulo2-test15",
+    "module": "II",
+    "q": "¿En qué distrito se encuentra la sede del diario El Mundo (Avenida de San Luis, 25)?",
+    "hu": "Melyik kerületben található az El Mundo napilap székhelye (Avenida de San Luis 25)?",
+    "answers": [
+      {
+        "original": "Hortaleza",
+        "hu": "Hortaleza"
+      },
+      {
+        "original": "Arganzuela",
+        "hu": "Arganzuela"
+      },
+      {
+        "original": "Chamartín",
+        "hu": "Chamartín"
+      },
+      {
+        "original": "Tetuán",
+        "hu": "Tetuán"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo2-test15-013",
+    "source": "proformatrans-modulo2-test15",
+    "module": "II",
+    "q": "¿Qué museo madrileño está ubicado en el antiguo Hospital General?",
+    "hu": "Melyik madridi múzeum található az egykori Általános Kórház épületében?",
+    "answers": [
+      {
+        "original": "Museo Arqueológico Nacional",
+        "hu": "Museo Arqueológico Nacional"
+      },
+      {
+        "original": "Museo Reina Sofía",
+        "hu": "Museo Reina Sofía"
+      },
+      {
+        "original": "Museo Sorolla",
+        "hu": "Museo Sorolla"
+      },
+      {
+        "original": "Museo del Prado",
+        "hu": "Museo del Prado"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo2-test15-014",
+    "source": "proformatrans-modulo2-test15",
+    "module": "II",
+    "q": "¿Qué espacio natural de Madrid contiene el Arboreto Luis Ceballos?",
+    "hu": "Madrid melyik természeti területén található a Luis Ceballos Arborétum?",
+    "answers": [
+      {
+        "original": "El Monte del Pardo",
+        "hu": "El Monte del Pardo"
+      },
+      {
+        "original": "Abantos y Zona de El Escorial",
+        "hu": "Abantos y Zona de El Escorial"
+      },
+      {
+        "original": "Parque Nacional de Guadarrama",
+        "hu": "Parque Nacional de Guadarrama"
+      },
+      {
+        "original": "Parque Regional del Sureste",
+        "hu": "Parque Regional del Sureste"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo2-test15-015",
+    "source": "proformatrans-modulo2-test15",
+    "module": "II",
+    "q": "¿Qué importante universidad histórica está en Alcalá de Henares?",
+    "hu": "Melyik fontos történelmi egyetem található Alcalá de Henaresben?",
+    "answers": [
+      {
+        "original": "Universidad de Alcalá",
+        "hu": "Universidad de Alcalá"
+      },
+      {
+        "original": "Universidad Autónoma",
+        "hu": "Universidad Autónoma"
+      },
+      {
+        "original": "Universidad Politécnica",
+        "hu": "Universidad Politécnica"
+      },
+      {
+        "original": "Universidad Complutense",
+        "hu": "Universidad Complutense"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo2-test15-016",
+    "source": "proformatrans-modulo2-test15",
+    "module": "II",
+    "q": "¿En qué ciudad de la Comunidad de Madrid se encuentran el Palacio y los Jardines de Aranjuez?",
+    "hu": "A Madridi Közösség melyik városában található az aranjuezi palota és kertek?",
+    "answers": [
+      {
+        "original": "El Escorial",
+        "hu": "El Escorial"
+      },
+      {
+        "original": "Alcalá de Henares",
+        "hu": "Alcalá de Henares"
+      },
+      {
+        "original": "Torrejón de Ardoz",
+        "hu": "Torrejón de Ardoz"
+      },
+      {
+        "original": "Aranjuez",
+        "hu": "Aranjuez"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo2-test15-018",
+    "source": "proformatrans-modulo2-test15",
+    "module": "II",
+    "q": "El Museo Reina Sofía se encuentra en la calle:",
+    "hu": "A Reina Sofía Múzeum ebben az utcában található:",
+    "answers": [
+      {
+        "original": "Santa Isabel.",
+        "hu": "Santa Isabel."
+      },
+      {
+        "original": "Santa Sofía.",
+        "hu": "Santa Sofía."
+      },
+      {
+        "original": "Santa María.",
+        "hu": "Santa María."
+      },
+      {
+        "original": "Santa Engracia.",
+        "hu": "Santa Engracia."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo2-test15-019",
+    "source": "proformatrans-modulo2-test15",
+    "module": "II",
+    "q": "¿Qué conocida calle de Madrid conecta la Plaza de Cibeles con la Plaza de Atocha?",
+    "hu": "Melyik ismert madridi utca köti össze a Plaza de Cibelest a Plaza de Atochával?",
+    "answers": [
+      {
+        "original": "Gran Vía",
+        "hu": "Gran Vía"
+      },
+      {
+        "original": "Calle Alcalá",
+        "hu": "Calle Alcalá"
+      },
+      {
+        "original": "Paseo de Recoletos",
+        "hu": "Paseo de Recoletos"
+      },
+      {
+        "original": "Paseo del Prado",
+        "hu": "Paseo del Prado"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo2-test16-001",
+    "source": "proformatrans-modulo2-test16",
+    "module": "II",
+    "q": "¿Qué edificio madrileño fue proyectado por Antonio Palacios como sede de Correos?",
+    "hu": "Melyik madridi épületet tervezte Antonio Palacios a posta székházának?",
+    "answers": [
+      {
+        "original": "Palacio de Cibeles",
+        "hu": "Palacio de Cibeles"
+      },
+      {
+        "original": "Palacio de Linares",
+        "hu": "Palacio de Linares"
+      },
+      {
+        "original": "Palacio Real",
+        "hu": "Palacio Real"
+      },
+      {
+        "original": "Palacio del Senado",
+        "hu": "Palacio del Senado"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo2-test16-002",
+    "source": "proformatrans-modulo2-test16",
+    "module": "II",
+    "q": "¿Cuál es el nombre del parque regional situado al sureste de la Comunidad?",
+    "hu": "Mi a Közösség délkeleti részén található regionális park neve?",
+    "answers": [
+      {
+        "original": "Parque Nacional de Guadarrama",
+        "hu": "Parque Nacional de Guadarrama"
+      },
+      {
+        "original": "Parque Regional del Curso Medio del Guadarrama",
+        "hu": "Parque Regional del Curso Medio del Guadarrama"
+      },
+      {
+        "original": "Parque Regional del Sureste",
+        "hu": "Parque Regional del Sureste"
+      },
+      {
+        "original": "Parque Regional de la Cuenca Alta del Manzanares",
+        "hu": "Parque Regional de la Cuenca Alta del Manzanares"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test16-003",
+    "source": "proformatrans-modulo2-test16",
+    "module": "II",
+    "q": "¿Qué complejo madrileño, inaugurado en 1980 y ampliado significativamente en el siglo XXI, se ha convertido en una de las mayores plataformas de ferias internacionales de Europa?",
+    "hu": "Melyik, 1980-ban megnyílt és a XXI. században jelentősen bővített madridi komplexum vált Európa egyik legnagyobb nemzetközi vásárplatformjává?",
+    "answers": [
+      {
+        "original": "IFEMA Madrid.",
+        "hu": "IFEMA Madrid."
+      },
+      {
+        "original": "CaixaForum Madrid.",
+        "hu": "CaixaForum Madrid."
+      },
+      {
+        "original": "Centro Cibeles.",
+        "hu": "Centro Cibeles."
+      },
+      {
+        "original": "Palacio de Congresos del Campo de las Naciones.",
+        "hu": "Palacio de Congresos del Campo de las Naciones."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo2-test16-004",
+    "source": "proformatrans-modulo2-test16",
+    "module": "II",
+    "q": "¿Qué parque alberga el Planetario de Madrid?",
+    "hu": "Melyik park ad otthont a Madridi Planetáriumnak?",
+    "answers": [
+      {
+        "original": "Casa de Campo",
+        "hu": "Casa de Campo"
+      },
+      {
+        "original": "Parque de las Naciones",
+        "hu": "Parque de las Naciones"
+      },
+      {
+        "original": "Parque de El Retiro",
+        "hu": "Parque de El Retiro"
+      },
+      {
+        "original": "Parque Enrique Tierno Galván",
+        "hu": "Parque Enrique Tierno Galván"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo2-test16-006",
+    "source": "proformatrans-modulo2-test16",
+    "module": "II",
+    "q": "¿Cuál de los siguientes Colegios Mayores tiene su domicilio en el Paseo de Juan XXIII, 13?",
+    "hu": "Az alábbi egyetemi kollégiumok közül melyik címe Paseo de Juan XXIII 13?",
+    "answers": [
+      {
+        "original": "Isabel la Católica",
+        "hu": "Isabel la Católica"
+      },
+      {
+        "original": "Santa María del Estudiante",
+        "hu": "Santa María del Estudiante"
+      },
+      {
+        "original": "Nuestra Señora de África",
+        "hu": "Nuestra Señora de África"
+      },
+      {
+        "original": "Jaime del Amo",
+        "hu": "Jaime del Amo"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo2-test16-007",
+    "source": "proformatrans-modulo2-test16",
+    "module": "II",
+    "q": "¿Cuál de los siguientes hospitales se encuentra en el distrito de Retiro?",
+    "hu": "Az alábbi kórházak közül melyik található Retiro kerületben?",
+    "answers": [
+      {
+        "original": "Gregorio Marañón",
+        "hu": "Gregorio Marañón"
+      },
+      {
+        "original": "Beata María Ana de Jesús",
+        "hu": "Beata María Ana de Jesús"
+      },
+      {
+        "original": "Clínico San Carlos",
+        "hu": "Clínico San Carlos"
+      },
+      {
+        "original": "Ramón y Cajal",
+        "hu": "Ramón y Cajal"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo2-test16-009",
+    "source": "proformatrans-modulo2-test16",
+    "module": "II",
+    "q": "¿Qué lugar es considerado el kilómetro cero de las carreteras radiales de España?",
+    "hu": "Melyik helyet tekintik Spanyolország sugaras útjainak nulla kilométerpontjának?",
+    "answers": [
+      {
+        "original": "Glorieta de Atocha",
+        "hu": "Glorieta de Atocha"
+      },
+      {
+        "original": "Puerta del Sol",
+        "hu": "Puerta del Sol"
+      },
+      {
+        "original": "Plaza Mayor",
+        "hu": "Plaza Mayor"
+      },
+      {
+        "original": "Plaza de España",
+        "hu": "Plaza de España"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo2-test16-012",
+    "source": "proformatrans-modulo2-test16",
+    "module": "II",
+    "q": "¿Qué distintivo medioambiental se otorga a los vehículos híbridos enchufables con una autonomía superior a 40km?",
+    "hu": "Milyen környezetvédelmi címkét kapnak a 40 km-nél nagyobb elektromos hatótávú plug-in hibrid járművek?",
+    "answers": [
+      {
+        "original": "B.",
+        "hu": "B."
+      },
+      {
+        "original": "C.",
+        "hu": "C."
+      },
+      {
+        "original": "Eco.",
+        "hu": "Eco."
+      },
+      {
+        "original": "Cero emisiones.",
+        "hu": "Cero emisiones."
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo2-test16-015",
+    "source": "proformatrans-modulo2-test16",
+    "module": "II",
+    "q": "¿En qué barrio está el Parque de las Siete Tetas?",
+    "hu": "Melyik városrészben található a Siete Tetas park?",
+    "answers": [
+      {
+        "original": "Tetuán",
+        "hu": "Tetuán"
+      },
+      {
+        "original": "Usera",
+        "hu": "Usera"
+      },
+      {
+        "original": "Vallecas",
+        "hu": "Vallecas"
+      },
+      {
+        "original": "Hortaleza",
+        "hu": "Hortaleza"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test16-017",
+    "source": "proformatrans-modulo2-test16",
+    "module": "II",
+    "q": "¿Cuál de estas construcciones se encuentra dentro del Parque del Retiro?",
+    "hu": "Az alábbi építmények közül melyik található a Retiro parkban?",
+    "answers": [
+      {
+        "original": "Palacio de Cristal",
+        "hu": "Palacio de Cristal"
+      },
+      {
+        "original": "Faro de Moncloa",
+        "hu": "Faro de Moncloa"
+      },
+      {
+        "original": "Puerta de Alcalá",
+        "hu": "Puerta de Alcalá"
+      },
+      {
+        "original": "Templo de Debod",
+        "hu": "Templo de Debod"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo2-test16-018",
+    "source": "proformatrans-modulo2-test16",
+    "module": "II",
+    "q": "¿Qué plaza alberga el restaurante \"Gourmet Experience Gran Vía\"?",
+    "hu": "Melyik téren található a „Gourmet Experience Gran Vía” étterem?",
+    "answers": [
+      {
+        "original": "Plaza del Callao.",
+        "hu": "Plaza del Callao."
+      },
+      {
+        "original": "Plaza de Cibeles.",
+        "hu": "Plaza de Cibeles."
+      },
+      {
+        "original": "Plaza de España.",
+        "hu": "Plaza de España."
+      },
+      {
+        "original": "Plaza del Carmen.",
+        "hu": "Plaza del Carmen."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo2-test16-019",
+    "source": "proformatrans-modulo2-test16",
+    "module": "II",
+    "q": "¿En qué municipio está el Hotel Antiguo Convento?",
+    "hu": "Melyik településen található a Hotel Antiguo Convento?",
+    "answers": [
+      {
+        "original": "Majadahonda",
+        "hu": "Majadahonda"
+      },
+      {
+        "original": "Boadilla del Monte",
+        "hu": "Boadilla del Monte"
+      },
+      {
+        "original": "Tres Cantos",
+        "hu": "Tres Cantos"
+      },
+      {
+        "original": "San Lorenzo de El Escorial",
+        "hu": "San Lorenzo de El Escorial"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo2-test17-002",
+    "source": "proformatrans-modulo2-test17",
+    "module": "II",
+    "q": "¿Dónde se encuentra el Parque de la Bombilla?",
+    "hu": "Hol található a Parque de la Bombilla?",
+    "answers": [
+      {
+        "original": "Avenida Ciudad de Barcelona.",
+        "hu": "Avenida Ciudad de Barcelona."
+      },
+      {
+        "original": "Avenida de América.",
+        "hu": "Avenida de América."
+      },
+      {
+        "original": "Avenida de Valladolid.",
+        "hu": "Avenida de Valladolid."
+      },
+      {
+        "original": "Avenida de Córdoba.",
+        "hu": "Avenida de Córdoba."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test17-007",
+    "source": "proformatrans-modulo2-test17",
+    "module": "II",
+    "q": "¿Qué mecanismo de comunicación oficial y permanente se utiliza para advertir a los conductores profesionales sobre las restricciones dinámicas en las ZBE, incluyendo cambios por episodios de alta contaminación?",
+    "hu": "Milyen hivatalos és állandó kommunikációs mechanizmust használnak a hivatásos sofőrök figyelmeztetésére az alacsony kibocsátású zónák dinamikus korlátozásairól, beleértve a magas szennyezettségi epizódok miatti változásokat?",
+    "answers": [
+      {
+        "original": "Radio AM local y televisión pública.",
+        "hu": "Radio AM local y televisión pública."
+      },
+      {
+        "original": "Señalización fija, paneles de mensaje variable y aplicaciones municipales autorizadas.",
+        "hu": "Rögzített jelzések, változtatható üzenetű táblák és engedélyezett önkormányzati alkalmazások."
+      },
+      {
+        "original": "Redes sociales del ayuntamiento y grupos de WhatsApp vecinales.",
+        "hu": "Redes sociales del ayuntamiento y grupos de WhatsApp vecinales."
+      },
+      {
+        "original": "Llamadas telefónicas automatizadas.",
+        "hu": "Llamadas telefónicas automatizadas."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo2-test17-011",
+    "source": "proformatrans-modulo2-test17",
+    "module": "II",
+    "q": "Según el Real Decreto 1052/2022, ¿qué sistema de evaluación es obligatorio para los ayuntamientos en relación con las ZBE, y qué parámetro debe actualizarse de forma periódica?",
+    "hu": "A 1052/2022-es királyi rendelet szerint milyen értékelési rendszer kötelező az önkormányzatok számára az alacsony kibocsátású zónákkal kapcsolatban, és melyik paramétert kell rendszeresen frissíteni?",
+    "answers": [
+      {
+        "original": "Emisión de tickets de aparcamiento en papel.",
+        "hu": "Emisión de tickets de aparcamiento en papel."
+      },
+      {
+        "original": "Nivel de ocupación media de taxis y VTC.",
+        "hu": "Nivel de ocupación media de taxis y VTC."
+      },
+      {
+        "original": "Índices de calidad del aire según estándares europeos y su publicación en plataformas digitales.",
+        "hu": "Az európai szabványok szerinti levegőminőségi indexek és azok közzététele digitális platformokon."
+      },
+      {
+        "original": "Conteo de vehículos contaminantes por hora.",
+        "hu": "Conteo de vehículos contaminantes por hora."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test17-013",
+    "source": "proformatrans-modulo2-test17",
+    "module": "II",
+    "q": "¿Cuál de estos municipios madrileños se encuentra en la Sierra Norte?",
+    "hu": "Az alábbi madridi települések közül melyik található a Sierra Norte területén?",
+    "answers": [
+      {
+        "original": "Alcorcón",
+        "hu": "Alcorcón"
+      },
+      {
+        "original": "Parla",
+        "hu": "Parla"
+      },
+      {
+        "original": "Rascafría",
+        "hu": "Rascafría"
+      },
+      {
+        "original": "Leganés",
+        "hu": "Leganés"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test17-015",
+    "source": "proformatrans-modulo2-test17",
+    "module": "II",
+    "q": "¿En qué distrito se encuentra la Embajada de Luxemburgo, ubicada en Claudio Coello, 78?",
+    "hu": "Melyik kerületben található Luxemburg nagykövetsége a Claudio Coello 78. szám alatt?",
+    "answers": [
+      {
+        "original": "Salamanca",
+        "hu": "Salamanca"
+      },
+      {
+        "original": "Retiro",
+        "hu": "Retiro"
+      },
+      {
+        "original": "Chamartín",
+        "hu": "Chamartín"
+      },
+      {
+        "original": "Chamberí",
+        "hu": "Chamberí"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo2-test17-016",
+    "source": "proformatrans-modulo2-test17",
+    "module": "II",
+    "q": "Al hablar de calidad del aire, los niveles de CO2 hacen referencia a:",
+    "hu": "A levegőminőség kapcsán a CO2-szintek erre utalnak:",
+    "answers": [
+      {
+        "original": "Nitrógeno.",
+        "hu": "Nitrogén."
+      },
+      {
+        "original": "Dióxido de carbono.",
+        "hu": "Szén-dioxid."
+      },
+      {
+        "original": "Monóxido de carbono.",
+        "hu": "Szén-monoxid."
+      },
+      {
+        "original": "Oxígeno.",
+        "hu": "Oxigén."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo2-test18-001",
+    "source": "proformatrans-modulo2-test18",
+    "module": "II",
+    "q": "¿Qué plaza madrileña fue antiguamente el principal mercado de la ciudad?",
+    "hu": "Melyik madridi tér volt régen a város fő piaca?",
+    "answers": [
+      {
+        "original": "Plaza Mayor",
+        "hu": "Plaza Mayor"
+      },
+      {
+        "original": "Plaza de Oriente",
+        "hu": "Plaza de Oriente"
+      },
+      {
+        "original": "Plaza de Cibeles",
+        "hu": "Plaza de Cibeles"
+      },
+      {
+        "original": "Plaza de España",
+        "hu": "Plaza de España"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo2-test18-002",
+    "source": "proformatrans-modulo2-test18",
+    "module": "II",
+    "q": "¿Qué edificio está ubicado en la Carretera del Pardo?",
+    "hu": "Melyik épület található a Carretera del Pardo út mentén?",
+    "answers": [
+      {
+        "original": "Palacio de Cibeles",
+        "hu": "Palacio de Cibeles"
+      },
+      {
+        "original": "Palacio de Buenavista",
+        "hu": "Palacio de Buenavista"
+      },
+      {
+        "original": "Palacio de la Zarzuela",
+        "hu": "Palacio de la Zarzuela"
+      },
+      {
+        "original": "Palacio de la Moncloa",
+        "hu": "Palacio de la Moncloa"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test18-004",
+    "source": "proformatrans-modulo2-test18",
+    "module": "II",
+    "q": "¿Qué cerro madrileño fue usado como base de la artillería en la Guerra Civil?",
+    "hu": "Melyik madridi dombot használták tüzérségi bázisként a polgárháborúban?",
+    "answers": [
+      {
+        "original": "Cerro de la Culebra",
+        "hu": "Cerro de la Culebra"
+      },
+      {
+        "original": "Cerro de San Blas",
+        "hu": "Cerro de San Blas"
+      },
+      {
+        "original": "Cerro Almodóvar",
+        "hu": "Cerro Almodóvar"
+      },
+      {
+        "original": "Cerro del Telégrafo",
+        "hu": "Cerro del Telégrafo"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test18-006",
+    "source": "proformatrans-modulo2-test18",
+    "module": "II",
+    "q": "¿Qué municipio madrileño es famoso por sus piscinas naturales de Riosequillo, situadas junto a un embalse?",
+    "hu": "Melyik madridi település híres a víztározó mellett található Riosequillo természetes strandjáról?",
+    "answers": [
+      {
+        "original": "Lozoya",
+        "hu": "Lozoya"
+      },
+      {
+        "original": "Cercedilla",
+        "hu": "Cercedilla"
+      },
+      {
+        "original": "Rascafría",
+        "hu": "Rascafría"
+      },
+      {
+        "original": "Manzanares el Real",
+        "hu": "Manzanares el Real"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo2-test18-007",
+    "source": "proformatrans-modulo2-test18",
+    "module": "II",
+    "q": "¿Qué hospital infantil se encuentra en la Avda. Menéndez Pelayo, 65?",
+    "hu": "Melyik gyermekkórház található az Avenida Menéndez Pelayo 65. szám alatt?",
+    "answers": [
+      {
+        "original": "Hospital Santa Cristina",
+        "hu": "Hospital Santa Cristina"
+      },
+      {
+        "original": "Hospital de San Rafael",
+        "hu": "Hospital de San Rafael"
+      },
+      {
+        "original": "Hospital Clínico San Carlos",
+        "hu": "Hospital Clínico San Carlos"
+      },
+      {
+        "original": "Hospital del Niño Jesús",
+        "hu": "Hospital del Niño Jesús"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo2-test18-009",
+    "source": "proformatrans-modulo2-test18",
+    "module": "II",
+    "q": "¿Qué edificio madrileño alberga la sede del Ayuntamiento desde 2007?",
+    "hu": "Melyik madridi épület ad otthont a városházának 2007 óta?",
+    "answers": [
+      {
+        "original": "Palacio de Cristal",
+        "hu": "Palacio de Cristal"
+      },
+      {
+        "original": "Palacio de Cibeles",
+        "hu": "Palacio de Cibeles"
+      },
+      {
+        "original": "Palacio de los Duques de Alba",
+        "hu": "Palacio de los Duques de Alba"
+      },
+      {
+        "original": "Palacio de Congresos",
+        "hu": "Palacio de Congresos"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo2-test18-011",
+    "source": "proformatrans-modulo2-test18",
+    "module": "II",
+    "q": "¿Qué famosa torre de Madrid tiene forma de vela torcida?",
+    "hu": "Melyik híres madridi torony alakja hasonlít csavart vitorlára?",
+    "answers": [
+      {
+        "original": "Torre Cepsa",
+        "hu": "Torre Cepsa"
+      },
+      {
+        "original": "Torre PwC",
+        "hu": "Torre PwC"
+      },
+      {
+        "original": "Torre Espacio",
+        "hu": "Torre Espacio"
+      },
+      {
+        "original": "Torre de Cristal",
+        "hu": "Torre de Cristal"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo2-test18-012",
+    "source": "proformatrans-modulo2-test18",
+    "module": "II",
+    "q": "¿Qué estación ferroviaria madrileña conserva un jardín tropical en su interior?",
+    "hu": "Melyik madridi vasútállomás őriz belsejében trópusi kertet?",
+    "answers": [
+      {
+        "original": "Príncipe Pío",
+        "hu": "Príncipe Pío"
+      },
+      {
+        "original": "Chamartín",
+        "hu": "Chamartín"
+      },
+      {
+        "original": "Atocha",
+        "hu": "Atocha"
+      },
+      {
+        "original": "Recoletos",
+        "hu": "Recoletos"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test18-013",
+    "source": "proformatrans-modulo2-test18",
+    "module": "II",
+    "q": "¿Junto a qué calles se ubica la Plaza de los Carros en Madrid?",
+    "hu": "Mely utcák mellett található Madridban a Plaza de los Carros?",
+    "answers": [
+      {
+        "original": "Calatrava y Toledo.",
+        "hu": "Calatrava y Toledo."
+      },
+      {
+        "original": "Calle Oriente y Plaza Mayor.",
+        "hu": "Calle Oriente y Plaza Mayor."
+      },
+      {
+        "original": "Don Pedro y Carrera de San Francisco.",
+        "hu": "Don Pedro y Carrera de San Francisco."
+      },
+      {
+        "original": "Gran Vía y Plaza de España.",
+        "hu": "Gran Vía y Plaza de España."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo2-test18-014",
+    "source": "proformatrans-modulo2-test18",
+    "module": "II",
+    "q": "¿Cuál de estos pueblos madrileños es conocido por su muralla medieval?",
+    "hu": "Az alábbi madridi települések közül melyik ismert középkori várfaláról?",
+    "answers": [
+      {
+        "original": "Buitrago del Lozoya.",
+        "hu": "Buitrago del Lozoya."
+      },
+      {
+        "original": "Nuevo Baztán.",
+        "hu": "Nuevo Baztán."
+      },
+      {
+        "original": "Villarejo de Salvanés.",
+        "hu": "Villarejo de Salvanés."
+      },
+      {
+        "original": "Cercedilla.",
+        "hu": "Cercedilla."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo2-test18-015",
+    "source": "proformatrans-modulo2-test18",
+    "module": "II",
+    "q": "¿Qué jardín histórico forma parte del Palacio de Aranjuez?",
+    "hu": "Melyik történelmi kert része az aranjuezi palotának?",
+    "answers": [
+      {
+        "original": "Jardín de la Isla",
+        "hu": "Jardín de la Isla"
+      },
+      {
+        "original": "Jardín de la Reina",
+        "hu": "Jardín de la Reina"
+      },
+      {
+        "original": "Jardín del Rey",
+        "hu": "Jardín del Rey"
+      },
+      {
+        "original": "Jardín Real",
+        "hu": "Jardín Real"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo2-test18-016",
+    "source": "proformatrans-modulo2-test18",
+    "module": "II",
+    "q": "¿Cuál de los siguientes parques de Madrid tiene mayor superficie?",
+    "hu": "Az alábbi madridi parkok közül melyik a legnagyobb területű?",
+    "answers": [
+      {
+        "original": "Parque de Valdebebas - Felipe VI.",
+        "hu": "Parque de Valdebebas - Felipe VI."
+      },
+      {
+        "original": "Parque del Retiro.",
+        "hu": "Parque del Retiro."
+      },
+      {
+        "original": "Parque Juan Carlos I.",
+        "hu": "Parque Juan Carlos I."
+      },
+      {
+        "original": "Casa de Campo.",
+        "hu": "Casa de Campo."
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo2-test18-017",
+    "source": "proformatrans-modulo2-test18",
+    "module": "II",
+    "q": "¿Dónde se encuentra el Colegio Mayor Santa Mónica?",
+    "hu": "Hol található a Santa Mónica egyetemi kollégium?",
+    "answers": [
+      {
+        "original": "Avenida de la Ilustración, 45",
+        "hu": "Avenida de la Ilustración, 45"
+      },
+      {
+        "original": "Calle Vallehermoso, 8",
+        "hu": "Calle Vallehermoso, 8"
+      },
+      {
+        "original": "Avenida Complutense, 3",
+        "hu": "Avenida Complutense, 3"
+      },
+      {
+        "original": "Paseo Juan XXIII, 19",
+        "hu": "Paseo Juan XXIII, 19"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo1-test5-001",
+    "source": "proformatrans-modulo1-test5",
+    "module": "I",
+    "q": "Si un texto expone tres puntos de vista y el autor critica solo uno, ¿cuál es su postura?",
+    "hu": "Ha egy szöveg három nézőpontot mutat be, és a szerző csak az egyiket kritizálja, mi az álláspontja?",
+    "answers": [
+      {
+        "original": "Es neutral",
+        "hu": "Semleges"
+      },
+      {
+        "original": "Está de acuerdo con todos",
+        "hu": "Mindegyikkel egyetért"
+      },
+      {
+        "original": "Desaprueba todos",
+        "hu": "Mindegyiket elutasítja"
+      },
+      {
+        "original": "Tiene postura crítica parcial",
+        "hu": "Részben kritikus álláspontja van"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo1-test5-002",
+    "source": "proformatrans-modulo1-test5",
+    "module": "I",
+    "q": "Elija la respuesta que sea correcta de entre las siguientes:",
+    "hu": "Válassza ki az alábbiak közül a helyes választ:",
+    "answers": [
+      {
+        "original": "El cuaderno está entre la mesa del comedor, junto a la lámpara.",
+        "hu": "El cuaderno está entre la mesa del comedor, junto a la lámpara."
+      },
+      {
+        "original": "El cuaderno está dentro la mesa del comedor, junto a la lámpara.",
+        "hu": "El cuaderno está dentro la mesa del comedor, junto a la lámpara."
+      },
+      {
+        "original": "El cuaderno está sobre la mesa del comedor, junto a la lámpara.",
+        "hu": "El cuaderno está sobre la mesa del comedor, junto a la lámpara."
+      },
+      {
+        "original": "El cuaderno está para la mesa del comedor, junto a la lámpara.",
+        "hu": "El cuaderno está para la mesa del comedor, junto a la lámpara."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo1-test5-003",
+    "source": "proformatrans-modulo1-test5",
+    "module": "I",
+    "q": "¿Qué oración expresa causa?",
+    "hu": "Melyik mondat fejez ki okot?",
+    "answers": [
+      {
+        "original": "Salí aunque llovía",
+        "hu": "Elmentem, bár esett"
+      },
+      {
+        "original": "Salí o llovía",
+        "hu": "Elmentem vagy esett"
+      },
+      {
+        "original": "Salí porque llovía",
+        "hu": "Elmentem, mert esett"
+      },
+      {
+        "original": "Salí y llovía",
+        "hu": "Elmentem és esett"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo1-test5-004",
+    "source": "proformatrans-modulo1-test5",
+    "module": "I",
+    "q": "¿Qué documentos son obligatorios en un vehículo profesional?",
+    "hu": "Milyen dokumentumok kötelezőek egy hivatásos járműben?",
+    "answers": [
+      {
+        "original": "Revista del coche",
+        "hu": "Az autó magazinja"
+      },
+      {
+        "original": "Manual del conductor",
+        "hu": "A sofőr kézikönyve"
+      },
+      {
+        "original": "Permiso de circulación y seguro",
+        "hu": "Forgalmi engedély és biztosítás"
+      },
+      {
+        "original": "Solo DNI",
+        "hu": "Csak személyi igazolvány"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo1-test5-005",
+    "source": "proformatrans-modulo1-test5",
+    "module": "I",
+    "q": "¿Qué palabra tiene un significado similar a ‘difícil’?",
+    "hu": "Melyik szó jelentése hasonló a „difícil” szóhoz?",
+    "answers": [
+      {
+        "original": "Sencillo.",
+        "hu": "Egyszerű."
+      },
+      {
+        "original": "Complicado.",
+        "hu": "Bonyolult."
+      },
+      {
+        "original": "Fácil.",
+        "hu": "Könnyű."
+      },
+      {
+        "original": "Simple.",
+        "hu": "Egyszerű."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo1-test5-006",
+    "source": "proformatrans-modulo1-test5",
+    "module": "I",
+    "q": "¿Qué palabra completa mejor la frase? — “El coche ______ muy rápido.”",
+    "hu": "Melyik szó egészíti ki legjobban a mondatot? — „El coche ______ muy rápido.”",
+    "answers": [
+      {
+        "original": "Corre",
+        "hu": "Fut / megy"
+      },
+      {
+        "original": "Comió",
+        "hu": "Evett"
+      },
+      {
+        "original": "Vuela",
+        "hu": "Repül"
+      },
+      {
+        "original": "Juega",
+        "hu": "Játszik"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo1-test5-007",
+    "source": "proformatrans-modulo1-test5",
+    "module": "I",
+    "q": "¿Cuál de las siguientes palabras significa lo mismo que \"capitular\"?",
+    "hu": "Az alábbi szavak közül melyik jelenti ugyanazt, mint a „capitular”?",
+    "answers": [
+      {
+        "original": "Resurgir",
+        "hu": "Újra felbukkanni"
+      },
+      {
+        "original": "Insistir",
+        "hu": "Ragaszkodni"
+      },
+      {
+        "original": "Rendirse",
+        "hu": "Megadni magát"
+      },
+      {
+        "original": "Vencer",
+        "hu": "Győzni"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo1-test5-008",
+    "source": "proformatrans-modulo1-test5",
+    "module": "I",
+    "q": "¿Qué oración tiene un error de concordancia?",
+    "hu": "Melyik mondatban van egyeztetési hiba?",
+    "answers": [
+      {
+        "original": "El niño juega",
+        "hu": "A fiú játszik"
+      },
+      {
+        "original": "Los niños juego",
+        "hu": "A fiúk játszom"
+      },
+      {
+        "original": "Los niños juegan",
+        "hu": "A fiúk játszanak"
+      },
+      {
+        "original": "Ella juega",
+        "hu": "Ő játszik"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo1-test5-010",
+    "source": "proformatrans-modulo1-test5",
+    "module": "I",
+    "q": "¿Qué palabra representa mejor el matiz semántico de “parsimonia”?",
+    "hu": "Melyik szó adja vissza legjobban a „parsimonia” jelentésárnyalatát?",
+    "answers": [
+      {
+        "original": "Alegría",
+        "hu": "Öröm"
+      },
+      {
+        "original": "Lentitud",
+        "hu": "Lassúság"
+      },
+      {
+        "original": "Compasión",
+        "hu": "Együttérzés"
+      },
+      {
+        "original": "Exageración",
+        "hu": "Túlzás"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo1-test5-011",
+    "source": "proformatrans-modulo1-test5",
+    "module": "I",
+    "q": "¿Qué oración tiene error?",
+    "hu": "Melyik mondat hibás?",
+    "answers": [
+      {
+        "original": "Tú vas a correr",
+        "hu": "Te futni fogsz"
+      },
+      {
+        "original": "Él va ir al cine",
+        "hu": "Ő moziba menni fog"
+      },
+      {
+        "original": "Ustedes van a bailar",
+        "hu": "Önök táncolni fognak"
+      },
+      {
+        "original": "Nosotros vamos a ir",
+        "hu": "Mi menni fogunk"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo1-test5-012",
+    "source": "proformatrans-modulo1-test5",
+    "module": "I",
+    "q": "“Meter la pata” significa:",
+    "hu": "A „meter la pata” jelentése:",
+    "answers": [
+      {
+        "original": "Bailar",
+        "hu": "Táncolni"
+      },
+      {
+        "original": "Irse rápido",
+        "hu": "Gyorsan elmenni"
+      },
+      {
+        "original": "Cometer un error",
+        "hu": "Hibát elkövetni"
+      },
+      {
+        "original": "Ayudar a alguien",
+        "hu": "Segíteni valakinek"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo1-test5-013",
+    "source": "proformatrans-modulo1-test5",
+    "module": "I",
+    "q": "¿Qué refrán significa que cada persona debe asumir sus propias responsabilidades?",
+    "hu": "Melyik közmondás jelenti azt, hogy mindenkinek vállalnia kell a saját felelősségét?",
+    "answers": [
+      {
+        "original": "El que la hace, la paga.",
+        "hu": "Aki megteszi, megfizet érte."
+      },
+      {
+        "original": "Perro ladrador, poco mordedor.",
+        "hu": "Perro ladrador, poco mordedor."
+      },
+      {
+        "original": "Cada palo aguante su vela.",
+        "hu": "Mindenki viselje a saját terhét."
+      },
+      {
+        "original": "No por mucho madrugar amanece más temprano.",
+        "hu": "No por mucho madrugar amanece más temprano."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo1-test5-014",
+    "source": "proformatrans-modulo1-test5",
+    "module": "I",
+    "q": "“Bailar con la más fea” implica:",
+    "hu": "A „bailar con la más fea” azt jelenti:",
+    "answers": [
+      {
+        "original": "Mala suerte o peor parte",
+        "hu": "Rossz szerencse vagy a rosszabb rész"
+      },
+      {
+        "original": "Diversión",
+        "hu": "Szórakozás"
+      },
+      {
+        "original": "Bailar en pareja",
+        "hu": "Párban táncolni"
+      },
+      {
+        "original": "Compromiso",
+        "hu": "Elkötelezettség"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo1-test5-016",
+    "source": "proformatrans-modulo1-test5",
+    "module": "I",
+    "q": "Complete la analogía: “Maestro es a escuela como médico es a...”",
+    "hu": "Egészítse ki az analógiát: „A tanár úgy viszonyul az iskolához, mint az orvos a...”",
+    "answers": [
+      {
+        "original": "Enfermero.",
+        "hu": "Enfermero."
+      },
+      {
+        "original": "Medicina.",
+        "hu": "Medicina."
+      },
+      {
+        "original": "Estudiante.",
+        "hu": "Estudiante."
+      },
+      {
+        "original": "Hospital.",
+        "hu": "Kórház."
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo1-test5-017",
+    "source": "proformatrans-modulo1-test5",
+    "module": "I",
+    "q": "¿Cuál de las siguientes palabras significa lo mismo que \"alocado\"?",
+    "hu": "Az alábbi szavak közül melyik jelenti ugyanazt, mint az „alocado”?",
+    "answers": [
+      {
+        "original": "Ordenado",
+        "hu": "Ordenado"
+      },
+      {
+        "original": "Cuidadoso",
+        "hu": "Cuidadoso"
+      },
+      {
+        "original": "Reflexivo",
+        "hu": "Reflexivo"
+      },
+      {
+        "original": "Aturdido",
+        "hu": "Zavart"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo1-test5-018",
+    "source": "proformatrans-modulo1-test5",
+    "module": "I",
+    "q": "¿Cuál de las siguientes palabras significa lo mismo que \"hacinamiento\"?",
+    "hu": "Az alábbi szavak közül melyik jelenti ugyanazt, mint a „hacinamiento”?",
+    "answers": [
+      {
+        "original": "Multitud",
+        "hu": "Tömeg"
+      },
+      {
+        "original": "Separación",
+        "hu": "Separación"
+      },
+      {
+        "original": "Espacio",
+        "hu": "Espacio"
+      },
+      {
+        "original": "Amplitud",
+        "hu": "Amplitud"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo1-test5-019",
+    "source": "proformatrans-modulo1-test5",
+    "module": "I",
+    "q": "¿Qué refrán significa que cada cosa tiene su momento?",
+    "hu": "Melyik közmondás jelenti azt, hogy mindennek megvan a maga ideje?",
+    "answers": [
+      {
+        "original": "El tiempo pone a cada uno en su lugar.",
+        "hu": "El tiempo pone a cada uno en su lugar."
+      },
+      {
+        "original": "Camarón que se duerme, se lo lleva la corriente.",
+        "hu": "Camarón que se duerme, se lo lleva la corriente."
+      },
+      {
+        "original": "A cada cerdo le llega su San Martín.",
+        "hu": "A cada cerdo le llega su San Martín."
+      },
+      {
+        "original": "A quien madruga, Dios lo ayuda.",
+        "hu": "A quien madruga, Dios lo ayuda."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo1-test6-001",
+    "source": "proformatrans-modulo1-test6",
+    "module": "I",
+    "q": "Complete la frase con la opción correcta: \"El pasajero la dirección al conductor.\"",
+    "hu": "Egészítse ki a mondatot a helyes opcióval: „El pasajero la dirección al conductor.”",
+    "answers": [
+      {
+        "original": "mostrando.",
+        "hu": "mostrando."
+      },
+      {
+        "original": "mostraría.",
+        "hu": "mostraría."
+      },
+      {
+        "original": "muestra.",
+        "hu": "megmutatja."
+      },
+      {
+        "original": "mostraron.",
+        "hu": "mostraron."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo1-test6-002",
+    "source": "proformatrans-modulo1-test6",
+    "module": "I",
+    "q": "¿Qué palabra es un verbo en infinitivo?",
+    "hu": "Melyik szó főnévi igenév?",
+    "answers": [
+      {
+        "original": "Corrido",
+        "hu": "Corrido"
+      },
+      {
+        "original": "Corriendo",
+        "hu": "Corriendo"
+      },
+      {
+        "original": "Correr",
+        "hu": "Futni"
+      },
+      {
+        "original": "Corre",
+        "hu": "Fut / megy"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo1-test6-003",
+    "source": "proformatrans-modulo1-test6",
+    "module": "I",
+    "q": "¿Qué significa el refrán: 'Al mal tiempo, buena cara'?",
+    "hu": "Mit jelent a közmondás: „Al mal tiempo, buena cara”?",
+    "answers": [
+      {
+        "original": "No salir cuando llueve",
+        "hu": "No salir cuando llueve"
+      },
+      {
+        "original": "Hay que ser optimista ante las dificultades",
+        "hu": "Optimistának kell lenni a nehézségekkel szemben"
+      },
+      {
+        "original": "Huir de los problemas",
+        "hu": "Huir de los problemas"
+      },
+      {
+        "original": "Aprovechar el mal clima",
+        "hu": "Aprovechar el mal clima"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo1-test6-004",
+    "source": "proformatrans-modulo1-test6",
+    "module": "I",
+    "q": "Elige la oración con concordancia correcta:",
+    "hu": "Válassza ki a helyes egyeztetésű mondatot:",
+    "answers": [
+      {
+        "original": "El niño juega en el parque.",
+        "hu": "A fiú a parkban játszik."
+      },
+      {
+        "original": "Los niñas juegan al fútbol.",
+        "hu": "Los niñas juegan al fútbol."
+      },
+      {
+        "original": "El niños juegan en el parque.",
+        "hu": "El niños juegan en el parque."
+      },
+      {
+        "original": "Las niñas juega con su perro.",
+        "hu": "Las niñas juega con su perro."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo1-test6-005",
+    "source": "proformatrans-modulo1-test6",
+    "module": "I",
+    "q": "Persona que aparenta ser inofensiva pero es peligrosa:",
+    "hu": "Olyan személy, aki ártalmatlannak tűnik, de veszélyes:",
+    "answers": [
+      {
+        "original": "Esconde una carta bajo la manga.",
+        "hu": "Esconde una carta bajo la manga."
+      },
+      {
+        "original": "Hay gato encerrado.",
+        "hu": "Hay gato encerrado."
+      },
+      {
+        "original": "Todo el pescado vendido.",
+        "hu": "Todo el pescado vendido."
+      },
+      {
+        "original": "Lobo con piel de cordero.",
+        "hu": "Báránybőrbe bújt farkas."
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo1-test6-006",
+    "source": "proformatrans-modulo1-test6",
+    "module": "I",
+    "q": "“Le das la mano y te toma el brazo” significa:",
+    "hu": "A „Le das la mano y te toma el brazo” jelentése:",
+    "answers": [
+      {
+        "original": "Ayuda mal entendida",
+        "hu": "Félreértett segítség"
+      },
+      {
+        "original": "Generosidad",
+        "hu": "Generosidad"
+      },
+      {
+        "original": "Solidaridad",
+        "hu": "Solidaridad"
+      },
+      {
+        "original": "Gratitud",
+        "hu": "Gratitud"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo1-test6-007",
+    "source": "proformatrans-modulo1-test6",
+    "module": "I",
+    "q": "¿Qué órgano bombea la sangre en el cuerpo?",
+    "hu": "Melyik szerv pumpálja a vért a testben?",
+    "answers": [
+      {
+        "original": "Corazón",
+        "hu": "Szív"
+      },
+      {
+        "original": "Pulmón",
+        "hu": "Pulmón"
+      },
+      {
+        "original": "Hígado",
+        "hu": "Hígado"
+      },
+      {
+        "original": "Corazon",
+        "hu": "Corazon"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo1-test6-008",
+    "source": "proformatrans-modulo1-test6",
+    "module": "I",
+    "q": "¿Qué oración contiene un pronombre reflexivo?",
+    "hu": "Melyik mondat tartalmaz visszaható névmást?",
+    "answers": [
+      {
+        "original": "Tú duermes",
+        "hu": "Tú duermes"
+      },
+      {
+        "original": "Él juega",
+        "hu": "Él juega"
+      },
+      {
+        "original": "Yo corro",
+        "hu": "Yo corro"
+      },
+      {
+        "original": "Me peino",
+        "hu": "Fésülködöm"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo1-test6-009",
+    "source": "proformatrans-modulo1-test6",
+    "module": "I",
+    "q": "Rueda es a vehículo como raíz es a...",
+    "hu": "A kerék úgy viszonyul a járműhöz, mint a gyökér a...",
+    "answers": [
+      {
+        "original": "Árbol",
+        "hu": "Fa"
+      },
+      {
+        "original": "Rama",
+        "hu": "Rama"
+      },
+      {
+        "original": "Flor",
+        "hu": "Flor"
+      },
+      {
+        "original": "Tierra",
+        "hu": "Tierra"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo1-test6-010",
+    "source": "proformatrans-modulo1-test6",
+    "module": "I",
+    "q": "¿Qué palabra es un antónimo de \"oscuro\"?",
+    "hu": "Melyik szó az „oscuro” ellentéte?",
+    "answers": [
+      {
+        "original": "Claro",
+        "hu": "Világos"
+      },
+      {
+        "original": "Negro",
+        "hu": "Negro"
+      },
+      {
+        "original": "Sombrío",
+        "hu": "Sombrío"
+      },
+      {
+        "original": "Profundo",
+        "hu": "Profundo"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo1-test6-011",
+    "source": "proformatrans-modulo1-test6",
+    "module": "I",
+    "q": "¿Cuál de las siguientes palabras no guarda relación con el resto?",
+    "hu": "Az alábbi szavak közül melyik nem kapcsolódik a többihez?",
+    "answers": [
+      {
+        "original": "Guante",
+        "hu": "Kesztyű"
+      },
+      {
+        "original": "Rodilla",
+        "hu": "Rodilla"
+      },
+      {
+        "original": "Codo",
+        "hu": "Codo"
+      },
+      {
+        "original": "Hombro",
+        "hu": "Hombro"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo1-test6-012",
+    "source": "proformatrans-modulo1-test6",
+    "module": "I",
+    "q": "Zapato es a pie como guante es a:",
+    "hu": "A cipő úgy viszonyul a lábhoz, mint a kesztyű a:",
+    "answers": [
+      {
+        "original": "Brazo.",
+        "hu": "Brazo."
+      },
+      {
+        "original": "Palma.",
+        "hu": "Palma."
+      },
+      {
+        "original": "Mano.",
+        "hu": "Kéz."
+      },
+      {
+        "original": "Carpo.",
+        "hu": "Carpo."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo1-test6-013",
+    "source": "proformatrans-modulo1-test6",
+    "module": "I",
+    "q": "Al llegar todos la esperaban expectantes. Entró en el auditorio y todos la observaron sin …………….. Tenía una mirada fría y calculadora, propia de una estrella de cine mundial.",
+    "hu": "Amikor megérkezett, mindenki várakozással figyelte. Belépett az előadóterembe, és mindenki …………….. nélkül nézte. Hideg, számító tekintete volt, mint egy világsztárnak.",
+    "answers": [
+      {
+        "original": "Parpadear",
+        "hu": "Pislogni"
+      },
+      {
+        "original": "Pasear",
+        "hu": "Pasear"
+      },
+      {
+        "original": "Esperar",
+        "hu": "Esperar"
+      },
+      {
+        "original": "orrer",
+        "hu": "orrer"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo1-test6-014",
+    "source": "proformatrans-modulo1-test6",
+    "module": "I",
+    "q": "¿Qué palabra tiene un significado similar a “rápido”?",
+    "hu": "Melyik szó jelentése hasonló a „rápido” szóhoz?",
+    "answers": [
+      {
+        "original": "Pesado",
+        "hu": "Pesado"
+      },
+      {
+        "original": "Veloz",
+        "hu": "Gyors"
+      },
+      {
+        "original": "Lento",
+        "hu": "Lento"
+      },
+      {
+        "original": "Torpe",
+        "hu": "Torpe"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo1-test6-016",
+    "source": "proformatrans-modulo1-test6",
+    "module": "I",
+    "q": "¿Qué significa 'A caballo regalado no se le mira el diente'?",
+    "hu": "Mit jelent az „A caballo regalado no se le mira el diente”?",
+    "answers": [
+      {
+        "original": "Hay que cuidar a los animales",
+        "hu": "Hay que cuidar a los animales"
+      },
+      {
+        "original": "Los caballos son valiosos",
+        "hu": "Los caballos son valiosos"
+      },
+      {
+        "original": "No hay que quejarse de lo que se recibe gratis",
+        "hu": "Nem kell panaszkodni arra, amit ingyen kapunk"
+      },
+      {
+        "original": "Hay que revisar bien los regalos",
+        "hu": "Hay que revisar bien los regalos"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo1-test6-017",
+    "source": "proformatrans-modulo1-test6",
+    "module": "I",
+    "q": "¿Qué forma es gramaticalmente correcta?",
+    "hu": "Melyik forma nyelvtanilag helyes?",
+    "answers": [
+      {
+        "original": "Abría habido",
+        "hu": "Abría habido"
+      },
+      {
+        "original": "Hubiese haber",
+        "hu": "Hubiese haber"
+      },
+      {
+        "original": "Hubiera habido",
+        "hu": "Lett volna"
+      },
+      {
+        "original": "Habría habido habido",
+        "hu": "Habría habido habido"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo1-test6-018",
+    "source": "proformatrans-modulo1-test6",
+    "module": "I",
+    "q": "¿Cuál de las siguientes palabras significa lo mismo que \"flexible\"?",
+    "hu": "Az alábbi szavak közül melyik jelenti ugyanazt, mint a „flexible”?",
+    "answers": [
+      {
+        "original": "Pacífico",
+        "hu": "Pacífico"
+      },
+      {
+        "original": "Lastimoso",
+        "hu": "Lastimoso"
+      },
+      {
+        "original": "Formal",
+        "hu": "Formal"
+      },
+      {
+        "original": "Dúctil",
+        "hu": "Hajlékony"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo1-test6-019",
+    "source": "proformatrans-modulo1-test6",
+    "module": "I",
+    "q": "¿Qué tipo de palabra es \"sueño\" en la oración \"Tuve un sueño extraño\"?",
+    "hu": "Milyen szófaj a „sueño” a „Tuve un sueño extraño” mondatban?",
+    "answers": [
+      {
+        "original": "Verbo",
+        "hu": "Verbo"
+      },
+      {
+        "original": "Pronombre",
+        "hu": "Pronombre"
+      },
+      {
+        "original": "Sustantivo",
+        "hu": "Főnév"
+      },
+      {
+        "original": "Adjetivo",
+        "hu": "Adjetivo"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo1-test7-001",
+    "source": "proformatrans-modulo1-test7",
+    "module": "I",
+    "q": "En el barrio de Cuatro Caminos cerca de donde vive la hermana de tu cuñado ¿sabes dónde ____________ una farmacia qué abra todos los miércoles por la tarde del mes de julio?",
+    "hu": "Cuatro Caminos negyedben, a sógorod nővérének lakóhelye közelében tudod, hol ____________ egy gyógyszertár, amely júliusban minden szerda délután nyitva tart?",
+    "answers": [
+      {
+        "original": "Enfermé",
+        "hu": "Enfermé"
+      },
+      {
+        "original": "Hay",
+        "hu": "Van"
+      },
+      {
+        "original": "Está",
+        "hu": "Está"
+      },
+      {
+        "original": "Es",
+        "hu": "Es"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo1-test7-002",
+    "source": "proformatrans-modulo1-test7",
+    "module": "I",
+    "q": "Hoy no ________ acercar a Javier, mi hijo pequeño, hasta el colegio porque ayer a las doce de la noche al llegar a casa mi mujer y yo ________ que la rueda trasera derecha de mi coche estaba pinchada.",
+    "hu": "Ma nem ________ elvinni Javiert, a kisebbik fiamat az iskolába, mert tegnap éjfélkor hazaérve a feleségemmel ________, hogy az autóm jobb hátsó kereke defektes volt.",
+    "answers": [
+      {
+        "original": "He podido / mirábamos",
+        "hu": "He podido / mirábamos"
+      },
+      {
+        "original": "Pudiese / vimos",
+        "hu": "Pudiese / vimos"
+      },
+      {
+        "original": "Pudiésemos / veríamos",
+        "hu": "Pudiésemos / veríamos"
+      },
+      {
+        "original": "Pude / vimos",
+        "hu": "Tudtam / láttuk"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo1-test7-003",
+    "source": "proformatrans-modulo1-test7",
+    "module": "I",
+    "q": "¿Cuál es la palabra correcta para referirse a una acción hecha en futuro?",
+    "hu": "Melyik a helyes szó egy jövőben végzett cselekvésre?",
+    "answers": [
+      {
+        "original": "Cantaría",
+        "hu": "Cantaría"
+      },
+      {
+        "original": "Canté",
+        "hu": "Canté"
+      },
+      {
+        "original": "Cantará",
+        "hu": "Énekelni fog"
+      },
+      {
+        "original": "Cantaba",
+        "hu": "Cantaba"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo1-test7-004",
+    "source": "proformatrans-modulo1-test7",
+    "module": "I",
+    "q": "Complete la analogía: “... es a jardín como césped es a...”",
+    "hu": "Egészítse ki az analógiát: „... úgy viszonyul a kerthez, mint a fű a...”",
+    "answers": [
+      {
+        "original": "Planta — Verde",
+        "hu": "Planta — Verde"
+      },
+      {
+        "original": "Pastel - Postre",
+        "hu": "Pastel - Postre"
+      },
+      {
+        "original": "Puerta - Cerrado",
+        "hu": "Puerta - Cerrado"
+      },
+      {
+        "original": "Estantería — Libro",
+        "hu": "Estantería — Libro"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo1-test7-005",
+    "source": "proformatrans-modulo1-test7",
+    "module": "I",
+    "q": "Significado de “contumaz”:",
+    "hu": "A „contumaz” jelentése:",
+    "answers": [
+      {
+        "original": "Torpe y casual.",
+        "hu": "Torpe y casual."
+      },
+      {
+        "original": "Reincidente y obstinado.",
+        "hu": "Visszaeső és makacs."
+      },
+      {
+        "original": "Único y aislado.",
+        "hu": "Único y aislado."
+      },
+      {
+        "original": "Arrepentido.",
+        "hu": "Arrepentido."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo1-test7-006",
+    "source": "proformatrans-modulo1-test7",
+    "module": "I",
+    "q": "¿Qué es un diptongo?",
+    "hu": "Mi a kettőshangzó?",
+    "answers": [
+      {
+        "original": "Dos vocales en una misma sílaba",
+        "hu": "Két magánhangzó ugyanabban a szótagban"
+      },
+      {
+        "original": "Dos vocales abiertas",
+        "hu": "Dos vocales abiertas"
+      },
+      {
+        "original": "Dos consonantes juntas",
+        "hu": "Dos consonantes juntas"
+      },
+      {
+        "original": "Una vocal y una consonante",
+        "hu": "Una vocal y una consonante"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo1-test7-007",
+    "source": "proformatrans-modulo1-test7",
+    "module": "I",
+    "q": "¿Qué elemento no es obligatorio en el vehículo?",
+    "hu": "Melyik elem nem kötelező a járműben?",
+    "answers": [
+      {
+        "original": "Botiquín",
+        "hu": "Botiquín"
+      },
+      {
+        "original": "Triángulo",
+        "hu": "Triángulo"
+      },
+      {
+        "original": "Chaleco reflectante",
+        "hu": "Chaleco reflectante"
+      },
+      {
+        "original": "Reproductor de música",
+        "hu": "Zenelejátszó"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo1-test7-008",
+    "source": "proformatrans-modulo1-test7",
+    "module": "I",
+    "q": "Paco: Voy a abrir una floristería en Parla y he pensado en buscar alguien joven que ___________ trabajar para que me ayude con el negocio. ¿Cómo se llama tu compañero de piso? Manolo: _________",
+    "hu": "Paco: Virágboltot nyitok Parlában, és arra gondoltam, keresek egy fiatal embert, aki ___________ dolgozni, hogy segítsen az üzletben. Hogy hívják a lakótársadat? Manolo: _________",
+    "answers": [
+      {
+        "original": "Necesite / No me recuerdo",
+        "hu": "Necesite / No me recuerdo"
+      },
+      {
+        "original": "Necesito / No me acuerdo",
+        "hu": "Necesito / No me acuerdo"
+      },
+      {
+        "original": "Necesite / No me acuerdo",
+        "hu": "Szüksége legyen / Nem emlékszem"
+      },
+      {
+        "original": "Necesito / No me recuerdo",
+        "hu": "Necesito / No me recuerdo"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo1-test7-009",
+    "source": "proformatrans-modulo1-test7",
+    "module": "I",
+    "q": "El cliente, cuyo equipaje estaba dañado, solicitó que se lo cambiara por otro, ……….. no estaba en mi mano hacerlo.",
+    "hu": "Az ügyfél, akinek a poggyásza sérült volt, kérte, hogy cseréljem ki egy másikra, ……….. nem állt módomban megtenni.",
+    "answers": [
+      {
+        "original": "Aun cuando.",
+        "hu": "Aun cuando."
+      },
+      {
+        "original": "Por más que.",
+        "hu": "Por más que."
+      },
+      {
+        "original": "A pesar de.",
+        "hu": "A pesar de."
+      },
+      {
+        "original": "Aunque.",
+        "hu": "Bár."
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo1-test7-010",
+    "source": "proformatrans-modulo1-test7",
+    "module": "I",
+    "q": "¿Cuál es el complemento directo en la oración: 'Juan lanzó el balón.'?",
+    "hu": "Mi a közvetlen tárgy a „Juan lanzó el balón.” mondatban?",
+    "answers": [
+      {
+        "original": "el balón",
+        "hu": "a labda"
+      },
+      {
+        "original": "al parque",
+        "hu": "al parque"
+      },
+      {
+        "original": "Juan",
+        "hu": "Juan"
+      },
+      {
+        "original": "con entusiasmo",
+        "hu": "con entusiasmo"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo1-test7-012",
+    "source": "proformatrans-modulo1-test7",
+    "module": "I",
+    "q": "¿Qué tipo de palabra es \"lluvia\"?",
+    "hu": "Milyen szófaj a „lluvia”?",
+    "answers": [
+      {
+        "original": "Pronombre",
+        "hu": "Pronombre"
+      },
+      {
+        "original": "Sustantivo",
+        "hu": "Főnév"
+      },
+      {
+        "original": "Adjetivo",
+        "hu": "Adjetivo"
+      },
+      {
+        "original": "Verbo",
+        "hu": "Verbo"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo1-test7-013",
+    "source": "proformatrans-modulo1-test7",
+    "module": "I",
+    "q": "Médico es a diagnóstico como abogado es a...",
+    "hu": "Az orvos úgy viszonyul a diagnózishoz, mint az ügyvéd a...",
+    "answers": [
+      {
+        "original": "Enfermedad",
+        "hu": "Enfermedad"
+      },
+      {
+        "original": "Sentencia",
+        "hu": "Sentencia"
+      },
+      {
+        "original": "Defensa",
+        "hu": "Védelem"
+      },
+      {
+        "original": "Juicio",
+        "hu": "Juicio"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo1-test7-014",
+    "source": "proformatrans-modulo1-test7",
+    "module": "I",
+    "q": "Complete la frase con la opción correcta: \"El autobús en perfectas condiciones.\"",
+    "hu": "Egészítse ki a mondatot a helyes opcióval: „El autobús en perfectas condiciones.”",
+    "answers": [
+      {
+        "original": "Se encontraste.",
+        "hu": "Se encontraste."
+      },
+      {
+        "original": "Se encuentra.",
+        "hu": "Található."
+      },
+      {
+        "original": "Se encontraría.",
+        "hu": "Se encontraría."
+      },
+      {
+        "original": "Encontrarse.",
+        "hu": "Encontrarse."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo1-test7-015",
+    "source": "proformatrans-modulo1-test7",
+    "module": "I",
+    "q": "“Más vale tarde que nunca” quiere decir:",
+    "hu": "A „Más vale tarde que nunca” azt jelenti:",
+    "answers": [
+      {
+        "original": "Hacerlo tarde es mejor que no hacerlo",
+        "hu": "Jobb későn megtenni, mint soha"
+      },
+      {
+        "original": "Llegar tarde siempre es malo",
+        "hu": "Llegar tarde siempre es malo"
+      },
+      {
+        "original": "Solo vale hacerlo a tiempo",
+        "hu": "Solo vale hacerlo a tiempo"
+      },
+      {
+        "original": "Es mejor no hacerlo",
+        "hu": "Es mejor no hacerlo"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo1-test7-016",
+    "source": "proformatrans-modulo1-test7",
+    "module": "I",
+    "q": "¿Cuál es la voz pasiva de: 'María leyó el libro'?",
+    "hu": "Mi a „María leyó el libro” szenvedő szerkezete?",
+    "answers": [
+      {
+        "original": "El libro lee María",
+        "hu": "El libro lee María"
+      },
+      {
+        "original": "María lee el libro",
+        "hu": "María lee el libro"
+      },
+      {
+        "original": "María leyó el libro",
+        "hu": "María leyó el libro"
+      },
+      {
+        "original": "El libro fue leído por María",
+        "hu": "A könyvet María olvasta el"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo1-test7-017",
+    "source": "proformatrans-modulo1-test7",
+    "module": "I",
+    "q": "¿Qué palabra es aguda?",
+    "hu": "Melyik szó véghangsúlyos?",
+    "answers": [
+      {
+        "original": "Árbol",
+        "hu": "Árbol"
+      },
+      {
+        "original": "Coche",
+        "hu": "Coche"
+      },
+      {
+        "original": "Canción",
+        "hu": "Dal"
+      },
+      {
+        "original": "Lápiz",
+        "hu": "Lápiz"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo1-test7-018",
+    "source": "proformatrans-modulo1-test7",
+    "module": "I",
+    "q": "Elija la pareja correcta de sinónimos:",
+    "hu": "Válassza ki a helyes szinonimapárt:",
+    "answers": [
+      {
+        "original": "Soslayar-Afrontar",
+        "hu": "Soslayar-Afrontar"
+      },
+      {
+        "original": "Tenaz-Voluble",
+        "hu": "Tenaz-Voluble"
+      },
+      {
+        "original": "Parco-Locuaz",
+        "hu": "Parco-Locuaz"
+      },
+      {
+        "original": "Sagaz-Perspicaz",
+        "hu": "Éles eszű - éleslátó"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo1-test7-019",
+    "source": "proformatrans-modulo1-test7",
+    "module": "I",
+    "q": "¿Qué tipo de palabra es \"hoy\" en la oración \"Hoy es un buen día\"?",
+    "hu": "Milyen szófaj a „hoy” a „Hoy es un buen día” mondatban?",
+    "answers": [
+      {
+        "original": "Adjetivo",
+        "hu": "Adjetivo"
+      },
+      {
+        "original": "Verbo",
+        "hu": "Verbo"
+      },
+      {
+        "original": "Sustantivo",
+        "hu": "Főnév"
+      },
+      {
+        "original": "Adverbio",
+        "hu": "Határozószó"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo1-test8-001",
+    "source": "proformatrans-modulo1-test8",
+    "module": "I",
+    "q": "Significado de “Actuar con sinceridad y sin engaños”:",
+    "hu": "Az „őszintén és megtévesztés nélkül cselekedni” jelentése:",
+    "answers": [
+      {
+        "original": "Hablar de más.",
+        "hu": "Hablar de más."
+      },
+      {
+        "original": "Hablar alto.",
+        "hu": "Hablar alto."
+      },
+      {
+        "original": "Hablar claro.",
+        "hu": "Világosan beszélni."
+      },
+      {
+        "original": "Hablar fuerte.",
+        "hu": "Hablar fuerte."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo1-test8-002",
+    "source": "proformatrans-modulo1-test8",
+    "module": "I",
+    "q": "¿Qué significa 'Estar como una cabra'?",
+    "hu": "Mit jelent az „Estar como una cabra”?",
+    "answers": [
+      {
+        "original": "Tener cuernos",
+        "hu": "Tener cuernos"
+      },
+      {
+        "original": "Ser un animal",
+        "hu": "Ser un animal"
+      },
+      {
+        "original": "Estar loco",
+        "hu": "Őrültnek lenni"
+      },
+      {
+        "original": "Comer hierba",
+        "hu": "Comer hierba"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo1-test8-005",
+    "source": "proformatrans-modulo1-test8",
+    "module": "I",
+    "q": "Ayer no __________, porque ________ enfermo.",
+    "hu": "Tegnap nem __________, mert beteg ________.",
+    "answers": [
+      {
+        "original": "Hubiera venido / estuviera",
+        "hu": "Hubiera venido / estuviera"
+      },
+      {
+        "original": "Vendré / estaré",
+        "hu": "Vendré / estaré"
+      },
+      {
+        "original": "Vine / estaba",
+        "hu": "Jöttem / voltam"
+      },
+      {
+        "original": "Vino / estoy",
+        "hu": "Vino / estoy"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo1-test8-009",
+    "source": "proformatrans-modulo1-test8",
+    "module": "I",
+    "q": "¿Qué refrán significa que el esfuerzo da frutos?",
+    "hu": "Melyik közmondás jelenti azt, hogy az erőfeszítés meghozza gyümölcsét?",
+    "answers": [
+      {
+        "original": "No hay peor sordo que el que no quiere oír.",
+        "hu": "No hay peor sordo que el que no quiere oír."
+      },
+      {
+        "original": "A buen entendedor, pocas palabras bastan.",
+        "hu": "A buen entendedor, pocas palabras bastan."
+      },
+      {
+        "original": "El que siembra, cosecha.",
+        "hu": "Aki vet, az arat."
+      },
+      {
+        "original": "No todo lo que brilla es oro.",
+        "hu": "No todo lo que brilla es oro."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo1-test8-010",
+    "source": "proformatrans-modulo1-test8",
+    "module": "I",
+    "q": "¿Qué signo se usa para indicar una pregunta?",
+    "hu": "Melyik jelet használjuk kérdés jelölésére?",
+    "answers": [
+      {
+        "original": "Signo de interrogación",
+        "hu": "Kérdőjel"
+      },
+      {
+        "original": "Signo de exclamación",
+        "hu": "Signo de exclamación"
+      },
+      {
+        "original": "Punto y coma",
+        "hu": "Punto y coma"
+      },
+      {
+        "original": "Comillas",
+        "hu": "Idézőjel"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo1-test8-011",
+    "source": "proformatrans-modulo1-test8",
+    "module": "I",
+    "q": "Elija la pareja correcta de antónimos:",
+    "hu": "Válassza ki a helyes antonimapárt:",
+    "answers": [
+      {
+        "original": "Acerbo – Suave",
+        "hu": "Acerbo – Suave"
+      },
+      {
+        "original": "Ignoto - célebre",
+        "hu": "Ismeretlen - híres"
+      },
+      {
+        "original": "Inicuo — Equitativo",
+        "hu": "Inicuo — Equitativo"
+      },
+      {
+        "original": "Lánguido — Perplejo",
+        "hu": "Lánguido — Perplejo"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo1-test8-013",
+    "source": "proformatrans-modulo1-test8",
+    "module": "I",
+    "q": "¿Cuál de las siguientes estructuras gramaticales es correcta y coherente en cuanto a tiempo verbal y concordancia?",
+    "hu": "Az alábbi nyelvtani szerkezetek közül melyik helyes és koherens igeidő és egyeztetés szempontjából?",
+    "answers": [
+      {
+        "original": "Nosotros viajaremos a París durante las vacaciones de verano, y regresaremos a casa en septiembre conforme a lo planificado.",
+        "hu": "A nyári szünetben Párizsba utazunk, és szeptemberben a terv szerint hazatérünk."
+      },
+      {
+        "original": "Nosotros hemos viajado a París durante las vacaciones de verano y fuimos regresados a casa en septiembre por un error.",
+        "hu": "Nosotros hemos viajado a París durante las vacaciones de verano y fuimos regresados a casa en septiembre por un error."
+      },
+      {
+        "original": "Nosotros ser viajando a París durante las vacaciones de verano, y regresamos a casa en septiembre sin reserva previa.",
+        "hu": "Nosotros ser viajando a París durante las vacaciones de verano, y regresamos a casa en septiembre sin reserva previa."
+      },
+      {
+        "original": "Nosotros estamos viajados a París durante las vacaciones de verano, y estamos regresados a casa en septiembre.",
+        "hu": "Nosotros estamos viajados a París durante las vacaciones de verano, y estamos regresados a casa en septiembre."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo1-test8-014",
+    "source": "proformatrans-modulo1-test8",
+    "module": "I",
+    "q": "Ojalá _________ buen tiempo mañana, porque quiero ir a la piscina.",
+    "hu": "Bárcsak _________ jó idő holnap, mert szeretnék uszodába menni.",
+    "answers": [
+      {
+        "original": "Hace",
+        "hu": "Hace"
+      },
+      {
+        "original": "Haría",
+        "hu": "Haría"
+      },
+      {
+        "original": "Haga",
+        "hu": "Legyen / tegyen"
+      },
+      {
+        "original": "Hará",
+        "hu": "Hará"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo1-test8-015",
+    "source": "proformatrans-modulo1-test8",
+    "module": "I",
+    "q": "Coche es a conducir como bicicleta es a...",
+    "hu": "Az autó úgy viszonyul a vezetéshez, mint a kerékpár a...",
+    "answers": [
+      {
+        "original": "Navegar",
+        "hu": "Navegar"
+      },
+      {
+        "original": "orrer",
+        "hu": "orrer"
+      },
+      {
+        "original": "Montar",
+        "hu": "Biciklizni / felülni"
+      },
+      {
+        "original": "Saltar",
+        "hu": "Saltar"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo1-test8-016",
+    "source": "proformatrans-modulo1-test8",
+    "module": "I",
+    "q": "Elija la opción que completa correctamente la analogía: Valentía es a cobardía como...",
+    "hu": "Válassza ki az opciót, amely helyesen egészíti ki az analógiát: A bátorság úgy viszonyul a gyávasághoz, mint...",
+    "answers": [
+      {
+        "original": "Prudencia es a imprudencia",
+        "hu": "Az óvatosság úgy viszonyul a meggondolatlansághoz"
+      },
+      {
+        "original": "Templanza es a moderación",
+        "hu": "Templanza es a moderación"
+      },
+      {
+        "original": "Generosidad es a altruismo",
+        "hu": "Generosidad es a altruismo"
+      },
+      {
+        "original": "Audacia es a coraje.",
+        "hu": "Audacia es a coraje."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo1-test8-017",
+    "source": "proformatrans-modulo1-test8",
+    "module": "I",
+    "q": "Normalmente desayuno café con leche, pero hoy ____________ sólo té.",
+    "hu": "Általában tejeskávét reggelizem, de ma ____________ csak teát.",
+    "answers": [
+      {
+        "original": "Desayunó",
+        "hu": "Desayunó"
+      },
+      {
+        "original": "Desayunando",
+        "hu": "Desayunando"
+      },
+      {
+        "original": "He desayunado",
+        "hu": "Reggeliztem"
+      },
+      {
+        "original": "Ha desayunado",
+        "hu": "Ha desayunado"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo1-test8-018",
+    "source": "proformatrans-modulo1-test8",
+    "module": "I",
+    "q": "¿Qué palabra no pertenece al grupo?",
+    "hu": "Melyik szó nem tartozik a csoportba?",
+    "answers": [
+      {
+        "original": "Enfermero",
+        "hu": "Enfermero"
+      },
+      {
+        "original": "Paciente",
+        "hu": "Paciente"
+      },
+      {
+        "original": "Médico",
+        "hu": "Médico"
+      },
+      {
+        "original": "Pintor",
+        "hu": "Festő"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo1-test8-019",
+    "source": "proformatrans-modulo1-test8",
+    "module": "I",
+    "q": "¿Cuál es el antónimo de 'feliz'?",
+    "hu": "Mi a „feliz” ellentéte?",
+    "answers": [
+      {
+        "original": "Alegre",
+        "hu": "Alegre"
+      },
+      {
+        "original": "Contento",
+        "hu": "Contento"
+      },
+      {
+        "original": "Triste",
+        "hu": "Szomorú"
+      },
+      {
+        "original": "Jovial",
+        "hu": "Jovial"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo1-test8-020",
+    "source": "proformatrans-modulo1-test8",
+    "module": "I",
+    "q": "¿Cuál es el sujeto en la oración: 'María estudia mucho.'",
+    "hu": "Mi az alany a „María estudia mucho.” mondatban?",
+    "answers": [
+      {
+        "original": "María",
+        "hu": "María"
+      },
+      {
+        "original": "el pescado",
+        "hu": "el pescado"
+      },
+      {
+        "original": "El gato",
+        "hu": "El gato"
+      },
+      {
+        "original": "comió",
+        "hu": "comió"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo1-test9-001",
+    "source": "proformatrans-modulo1-test9",
+    "module": "I",
+    "q": "¿Qué refrán significa que no hay que confiar en las apariencias?",
+    "hu": "Melyik közmondás jelenti azt, hogy nem szabad a látszatban bízni?",
+    "answers": [
+      {
+        "original": "Más vale maña que fuerza.",
+        "hu": "Más vale maña que fuerza."
+      },
+      {
+        "original": "No todo lo que brilla es oro.",
+        "hu": "Nem mind arany, ami fénylik."
+      },
+      {
+        "original": "Al que madruga, Dios lo ayuda.",
+        "hu": "Al que madruga, Dios lo ayuda."
+      },
+      {
+        "original": "Ojos que no ven, corazón que no siente.",
+        "hu": "Ojos que no ven, corazón que no siente."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo1-test9-002",
+    "source": "proformatrans-modulo1-test9",
+    "module": "I",
+    "q": "“Aforo completo” indica:",
+    "hu": "Az „aforo completo” jelentése:",
+    "answers": [
+      {
+        "original": "Capacidad máxima ocupada.",
+        "hu": "A maximális befogadóképesség betelt."
+      },
+      {
+        "original": "Reducción temporal.",
+        "hu": "Reducción temporal."
+      },
+      {
+        "original": "Entrada gratuita.",
+        "hu": "Entrada gratuita."
+      },
+      {
+        "original": "Cierre preventivo.",
+        "hu": "Cierre preventivo."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo1-test9-007",
+    "source": "proformatrans-modulo1-test9",
+    "module": "I",
+    "q": "El viernes pasado compramos una mesa de salón y cuatro sillas para el apartamento que hemos ………………. en Almuñécar.",
+    "hu": "Múlt pénteken nappaliasztalt és négy széket vettünk ahhoz az almuñécari lakáshoz, amelyet ……………….",
+    "answers": [
+      {
+        "original": "Construye",
+        "hu": "Construye"
+      },
+      {
+        "original": "Pintando",
+        "hu": "Pintando"
+      },
+      {
+        "original": "Heredado",
+        "hu": "Örökölt"
+      },
+      {
+        "original": "Invierto",
+        "hu": "Invierto"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo1-test9-008",
+    "source": "proformatrans-modulo1-test9",
+    "module": "I",
+    "q": "¿Cuál de estas oraciones está en voz pasiva?",
+    "hu": "Az alábbi mondatok közül melyik van szenvedő szerkezetben?",
+    "answers": [
+      {
+        "original": "El vaso fue roto por el niño",
+        "hu": "A poharat a fiú törte el"
+      },
+      {
+        "original": "El niño rompió el vaso",
+        "hu": "El niño rompió el vaso"
+      },
+      {
+        "original": "El niño rompía el vaso",
+        "hu": "El niño rompía el vaso"
+      },
+      {
+        "original": "El vaso rompía solo",
+        "hu": "El vaso rompía solo"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo1-test9-009",
+    "source": "proformatrans-modulo1-test9",
+    "module": "I",
+    "q": "____________ pronto por la mañana.",
+    "hu": "____________ korán reggel.",
+    "answers": [
+      {
+        "original": "Yo levanto",
+        "hu": "Yo levanto"
+      },
+      {
+        "original": "Me levanto",
+        "hu": "Felkelek"
+      },
+      {
+        "original": "Levantaré",
+        "hu": "Levantaré"
+      },
+      {
+        "original": "Levanta",
+        "hu": "Levanta"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo1-test9-010",
+    "source": "proformatrans-modulo1-test9",
+    "module": "I",
+    "q": "Elige la frase que, una vez ordenada, tiene sentido:",
+    "hu": "Válaszd ki azt a kifejezést, amely rendezve értelmes:",
+    "answers": [
+      {
+        "original": "La rompe la avaricia",
+        "hu": "La rompe la avaricia"
+      },
+      {
+        "original": "Mires el quien haz no a bien y",
+        "hu": "Mires el quien haz no a bien y"
+      },
+      {
+        "original": "Pierde la es lo que se último",
+        "hu": "Pierde la es lo que se último"
+      },
+      {
+        "original": "Vale prevenido por hombre",
+        "hu": "Vale prevenido por hombre"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo1-test9-012",
+    "source": "proformatrans-modulo1-test9",
+    "module": "I",
+    "q": "¿Cómo termina el refrán: 'A quien madruga...'",
+    "hu": "Hogyan végződik a közmondás: „A quien madruga...”?",
+    "answers": [
+      {
+        "original": "le falta café",
+        "hu": "le falta café"
+      },
+      {
+        "original": "se le va el tren",
+        "hu": "se le va el tren"
+      },
+      {
+        "original": "duerme poco",
+        "hu": "duerme poco"
+      },
+      {
+        "original": "Dios le ayuda",
+        "hu": "Dios le ayuda"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo1-test9-013",
+    "source": "proformatrans-modulo1-test9",
+    "module": "I",
+    "q": "¿Qué signo de puntuación indica una pausa breve en la lectura?",
+    "hu": "Melyik írásjel jelöl rövid szünetet olvasás közben?",
+    "answers": [
+      {
+        "original": "Signo de exclamación",
+        "hu": "Signo de exclamación"
+      },
+      {
+        "original": "Punto",
+        "hu": "Punto"
+      },
+      {
+        "original": "Punto y coma",
+        "hu": "Pontosvessző"
+      },
+      {
+        "original": "Coma",
+        "hu": "Vessző"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo1-test9-014",
+    "source": "proformatrans-modulo1-test9",
+    "module": "I",
+    "q": "Fuego es a petardo como viento es a:",
+    "hu": "A tűz úgy viszonyul a petárdához, mint a szél a:",
+    "answers": [
+      {
+        "original": "Sol",
+        "hu": "Sol"
+      },
+      {
+        "original": "Luna",
+        "hu": "Luna"
+      },
+      {
+        "original": "Cometa",
+        "hu": "Cometa"
+      },
+      {
+        "original": "Primavera",
+        "hu": "Primavera"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo1-test9-015",
+    "source": "proformatrans-modulo1-test9",
+    "module": "I",
+    "q": "Elija la respuesta correcta: “Viajamos…… tren hacia el norte del país durante las vacaciones”",
+    "hu": "Válassza ki a helyes választ: „Viajamos…… tren hacia el norte del país durante las vacaciones”",
+    "answers": [
+      {
+        "original": "En",
+        "hu": "-val/-vel / vonattal"
+      },
+      {
+        "original": "Sin",
+        "hu": "Sin"
+      },
+      {
+        "original": "Delante",
+        "hu": "Delante"
+      },
+      {
+        "original": "Con",
+        "hu": "Con"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo1-test9-016",
+    "source": "proformatrans-modulo1-test9",
+    "module": "I",
+    "q": "Elija la respuesta correcta: “Voy a casa…..mi amigo para estudiar toda la tarde.”",
+    "hu": "Válassza ki a helyes választ: „Voy a casa…..mi amigo para estudiar toda la tarde.”",
+    "answers": [
+      {
+        "original": "de",
+        "hu": "-nak/-nek / barátom házába"
+      },
+      {
+        "original": "mi",
+        "hu": "mi"
+      },
+      {
+        "original": "para",
+        "hu": "para"
+      },
+      {
+        "original": "delante",
+        "hu": "delante"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo1-test9-019",
+    "source": "proformatrans-modulo1-test9",
+    "module": "I",
+    "q": "¿Qué palabra es esdrújula?",
+    "hu": "Melyik szó esdrújula hangsúlyozású?",
+    "answers": [
+      {
+        "original": "Papel",
+        "hu": "Papel"
+      },
+      {
+        "original": "Cantar",
+        "hu": "Cantar"
+      },
+      {
+        "original": "Azul",
+        "hu": "Azul"
+      },
+      {
+        "original": "Cámara",
+        "hu": "Fényképezőgép / kamera"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo1-test10-002",
+    "source": "proformatrans-modulo1-test10",
+    "module": "I",
+    "q": "“Está lloviendo a cántaros” significa:",
+    "hu": "Az „Está lloviendo a cántaros” jelentése:",
+    "answers": [
+      {
+        "original": "No llueve",
+        "hu": "No llueve"
+      },
+      {
+        "original": "Llueve intensamente",
+        "hu": "Erősen esik"
+      },
+      {
+        "original": "Está lloviendo muy poco",
+        "hu": "Está lloviendo muy poco"
+      },
+      {
+        "original": "Llueve con barro",
+        "hu": "Llueve con barro"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo1-test10-003",
+    "source": "proformatrans-modulo1-test10",
+    "module": "I",
+    "q": "¿Cuál es la definición más precisa del término “acelerador” en el contexto automovilístico?",
+    "hu": "Mi az „acelerador” legpontosabb meghatározása autós környezetben?",
+    "answers": [
+      {
+        "original": "Comando mixto de control de velocidad que se acciona con las extremidades superiores e inferiores del conductor.",
+        "hu": "Comando mixto de control de velocidad que se acciona con las extremidades superiores e inferiores del conductor."
+      },
+      {
+        "original": "Pedal mediante el cual el conductor regula la potencia que se transmite a las ruedas motrices, permitiendo el control de la velocidad del vehículo.",
+        "hu": "Pedal mediante el cual el conductor regula la potencia que se transmite a las ruedas motrices, permitiendo el control de la velocidad del vehículo."
+      },
+      {
+        "original": "Dispositivo automatizado que modifica la potencia del motor sin interacción directa del conductor, utilizado en vehículos con piloto automático.",
+        "hu": "Dispositivo automatizado que modifica la potencia del motor sin interacción directa del conductor, utilizado en vehículos con piloto automático."
+      },
+      {
+        "original": "Sistema electrónico que mantiene la velocidad del vehículo sin necesidad de intervención física del conductor.",
+        "hu": "Sistema electrónico que mantiene la velocidad del vehículo sin necesidad de intervención física del conductor."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo1-test10-005",
+    "source": "proformatrans-modulo1-test10",
+    "module": "I",
+    "q": "¿Cuál es el sujeto en la oración: 'El perro de mi vecina ladra mucho'?",
+    "hu": "Mi az alany az „El perro de mi vecina ladra mucho” mondatban?",
+    "answers": [
+      {
+        "original": "El perro",
+        "hu": "A kutya"
+      },
+      {
+        "original": "Mucho",
+        "hu": "Mucho"
+      },
+      {
+        "original": "Mi vecina",
+        "hu": "Mi vecina"
+      },
+      {
+        "original": "Ladra",
+        "hu": "Ladra"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo1-test10-006",
+    "source": "proformatrans-modulo1-test10",
+    "module": "I",
+    "q": "¿Cuál es el modo verbal de 'hubiera comido'?",
+    "hu": "Milyen igemód a „hubiera comido”?",
+    "answers": [
+      {
+        "original": "Condicional",
+        "hu": "Condicional"
+      },
+      {
+        "original": "Subjuntivo",
+        "hu": "Kötőmód"
+      },
+      {
+        "original": "Indicativo",
+        "hu": "Indicativo"
+      },
+      {
+        "original": "Imperativo",
+        "hu": "Imperativo"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo1-test10-009",
+    "source": "proformatrans-modulo1-test10",
+    "module": "I",
+    "q": "Se puede …………….. desde este otero la Plaza de Toros y el edificio de capitanía.",
+    "hu": "Erről a dombról …………….. a bikaviadal-arénát és a kapitányság épületét.",
+    "answers": [
+      {
+        "original": "Divisar",
+        "hu": "Megpillantani"
+      },
+      {
+        "original": "Poder",
+        "hu": "Poder"
+      },
+      {
+        "original": "Construir",
+        "hu": "Construir"
+      },
+      {
+        "original": "Comprar",
+        "hu": "Comprar"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo1-test10-010",
+    "source": "proformatrans-modulo1-test10",
+    "module": "I",
+    "q": "¿Cuál es la forma correcta del verbo en la oración: 'Si yo ______ más tiempo, viajaría más'?",
+    "hu": "Mi a helyes igealak ebben a mondatban: „Si yo ______ más tiempo, viajaría más”?",
+    "answers": [
+      {
+        "original": "tuviera",
+        "hu": "lenne / volna"
+      },
+      {
+        "original": "tendría",
+        "hu": "tendría"
+      },
+      {
+        "original": "tengo",
+        "hu": "tengo"
+      },
+      {
+        "original": "tuve",
+        "hu": "tuve"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo1-test10-013",
+    "source": "proformatrans-modulo1-test10",
+    "module": "I",
+    "q": "PEDRO. — Ayer ………… a ver a Julia",
+    "hu": "PEDRO. — Tegnap ………… meglátogatni Juliát",
+    "answers": [
+      {
+        "original": "Iré",
+        "hu": "Iré"
+      },
+      {
+        "original": "Fui",
+        "hu": "Mentem"
+      },
+      {
+        "original": "Vais",
+        "hu": "Vais"
+      },
+      {
+        "original": "Irás",
+        "hu": "Irás"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo1-test10-016",
+    "source": "proformatrans-modulo1-test10",
+    "module": "I",
+    "q": "Completa con la palabra correcta: ¿Le has devuelto el bolígrafo a Manuel? - Sí, ______ he devuelto.",
+    "hu": "Egészítse ki a helyes szóval: Visszaadtad Manuelnek a tollat? - Igen, ______ visszaadtam.",
+    "answers": [
+      {
+        "original": "Le",
+        "hu": "Le"
+      },
+      {
+        "original": "Le lo",
+        "hu": "Le lo"
+      },
+      {
+        "original": "Lo le",
+        "hu": "Lo le"
+      },
+      {
+        "original": "Se lo",
+        "hu": "Neki azt"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo1-test10-018",
+    "source": "proformatrans-modulo1-test10",
+    "module": "I",
+    "q": "¿Qué refrán aconseja no hablar sin pensar?",
+    "hu": "Melyik közmondás tanácsolja, hogy ne beszéljünk gondolkodás nélkül?",
+    "answers": [
+      {
+        "original": "El que mucho habla, mucho yerra",
+        "hu": "El que mucho habla, mucho yerra"
+      },
+      {
+        "original": "En boca cerrada no entran moscas",
+        "hu": "En boca cerrada no entran moscas"
+      },
+      {
+        "original": "El pez por la boca muere",
+        "hu": "El pez por la boca muere"
+      },
+      {
+        "original": "Todas son correctas",
+        "hu": "Mindegyik helyes"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo1-test10-019",
+    "source": "proformatrans-modulo1-test10",
+    "module": "I",
+    "q": "¿Cuál de las siguientes palabras significa lo mismo que \"tosco\"?",
+    "hu": "Az alábbi szavak közül melyik jelenti ugyanazt, mint a „tosco”?",
+    "answers": [
+      {
+        "original": "Áspero",
+        "hu": "Érdes"
+      },
+      {
+        "original": "Suave",
+        "hu": "Suave"
+      },
+      {
+        "original": "Refinado",
+        "hu": "Refinado"
+      },
+      {
+        "original": "Elegante",
+        "hu": "Elegante"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo1-test11-001",
+    "source": "proformatrans-modulo1-test11",
+    "module": "I",
+    "q": "¿Qué tipo de oración es: '¿Vienes a clase mañana?'?",
+    "hu": "Milyen típusú mondat ez: „¿Vienes a clase mañana?”?",
+    "answers": [
+      {
+        "original": "Interrogativa",
+        "hu": "Kérdő"
+      },
+      {
+        "original": "Enunciativa",
+        "hu": "Enunciativa"
+      },
+      {
+        "original": "Exclamativa",
+        "hu": "Felkiáltó"
+      },
+      {
+        "original": "Imperativa",
+        "hu": "Imperativa"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo1-test11-003",
+    "source": "proformatrans-modulo1-test11",
+    "module": "I",
+    "q": "¿Qué palabra tiene un significado contrario a “corto”?",
+    "hu": "Melyik szó ellentétes jelentésű a „corto” szóval?",
+    "answers": [
+      {
+        "original": "Pequeño.",
+        "hu": "Pequeño."
+      },
+      {
+        "original": "Largo.",
+        "hu": "Largo."
+      },
+      {
+        "original": "Breve.",
+        "hu": "Breve."
+      },
+      {
+        "original": "Reducido.",
+        "hu": "Reducido."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo1-test11-007",
+    "source": "proformatrans-modulo1-test11",
+    "module": "I",
+    "q": "“Hacer castillos en el aire” expresa:",
+    "hu": "A „Hacer castillos en el aire” ezt fejezi ki:",
+    "answers": [
+      {
+        "original": "Soñar despierto",
+        "hu": "Soñar despierto"
+      },
+      {
+        "original": "Construir",
+        "hu": "Construir"
+      },
+      {
+        "original": "Luchar",
+        "hu": "Luchar"
+      },
+      {
+        "original": "Mentir",
+        "hu": "Mentir"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo1-test11-009",
+    "source": "proformatrans-modulo1-test11",
+    "module": "I",
+    "q": "¿Cuál de las siguientes palabras significa lo contrario que \"beato”?",
+    "hu": "Az alábbi szavak közül melyik a „beato” ellentéte?",
+    "answers": [
+      {
+        "original": "Impío",
+        "hu": "Istentelen"
+      },
+      {
+        "original": "Malvado",
+        "hu": "Malvado"
+      },
+      {
+        "original": "Derrotado",
+        "hu": "Derrotado"
+      },
+      {
+        "original": "Clerical",
+        "hu": "Clerical"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo1-test11-011",
+    "source": "proformatrans-modulo1-test11",
+    "module": "I",
+    "q": "Tadeo: fumar________ malo para la salud. Jerónimo: Pues, voy a dejar de fumar. Tadeo: pues eso________ bien, ¡hombre!",
+    "hu": "Tadeo: A dohányzás ________ rossz az egészségre. Jerónimo: Akkor leszokom. Tadeo: hát az ________ jó, ember!",
+    "answers": [
+      {
+        "original": "Está / es",
+        "hu": "Está / es"
+      },
+      {
+        "original": "Es / es",
+        "hu": "Es / es"
+      },
+      {
+        "original": "Es / está",
+        "hu": "Es / está"
+      },
+      {
+        "original": "Está / está",
+        "hu": "Está / está"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo1-test11-013",
+    "source": "proformatrans-modulo1-test11",
+    "module": "I",
+    "q": "El pasado fin de semana Marta y su padre Juan ………. una película en un cine de la Gran Vía y el próximo domingo ……… a ver una comedia al teatro.",
+    "hu": "Múlt hétvégén Marta és az apja, Juan ………. egy filmet egy Gran Vía-i moziban, jövő vasárnap pedig ……… színházba vígjátékot nézni.",
+    "answers": [
+      {
+        "original": "Verán – Estaban",
+        "hu": "Verán – Estaban"
+      },
+      {
+        "original": "Están viendo -- fueron",
+        "hu": "Están viendo -- fueron"
+      },
+      {
+        "original": "Querían – Regresaron",
+        "hu": "Querían – Regresaron"
+      },
+      {
+        "original": "Fueron a ver – Van a ir",
+        "hu": "Elmentek megnézni – menni fognak"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo1-test11-015",
+    "source": "proformatrans-modulo1-test11",
+    "module": "I",
+    "q": "¿Qué palabra es un antónimo de \"alegría\"?",
+    "hu": "Melyik szó az „alegría” ellentéte?",
+    "answers": [
+      {
+        "original": "Felicidad",
+        "hu": "Felicidad"
+      },
+      {
+        "original": "Risa",
+        "hu": "Risa"
+      },
+      {
+        "original": "Diversión",
+        "hu": "Diversión"
+      },
+      {
+        "original": "Tristeza",
+        "hu": "Szomorúság"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo1-test11-016",
+    "source": "proformatrans-modulo1-test11",
+    "module": "I",
+    "q": "¿Cuál es el sujeto en \"Juan y María fueron al mercado\"?",
+    "hu": "Mi az alany a „Juan y María fueron al mercado” mondatban?",
+    "answers": [
+      {
+        "original": "Fueron",
+        "hu": "Fueron"
+      },
+      {
+        "original": "Al mercado Juan y María",
+        "hu": "Al mercado Juan y María"
+      },
+      {
+        "original": "Juan y María",
+        "hu": "Juan és María"
+      },
+      {
+        "original": "Al mercado",
+        "hu": "Al mercado"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo1-test11-019",
+    "source": "proformatrans-modulo1-test11",
+    "module": "I",
+    "q": "Elija la respuesta correcta, entre las siguiente, respecto a esta afirmación: “Tener la mosca detrás de la oreja.”",
+    "hu": "Válassza ki a helyes választ erre a kifejezésre: „Tener la mosca detrás de la oreja.”",
+    "answers": [
+      {
+        "original": "Tener una mosca.",
+        "hu": "Tener una mosca."
+      },
+      {
+        "original": "Ser una mosca.",
+        "hu": "Ser una mosca."
+      },
+      {
+        "original": "Sospechar algo.",
+        "hu": "Gyanakodni valamire."
+      },
+      {
+        "original": "Escuchar un zumbido.",
+        "hu": "Escuchar un zumbido."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo1-test12-001",
+    "source": "proformatrans-modulo1-test12",
+    "module": "I",
+    "q": "Ahora las cocinas son ____________, pero antes ___________ más grandes.",
+    "hu": "Most a konyhák ____________, de régen ___________ nagyobbak.",
+    "answers": [
+      {
+        "original": "mplias / eran enormes",
+        "hu": "mplias / eran enormes"
+      },
+      {
+        "original": "Pequeñas / eran",
+        "hu": "Kicsik / voltak"
+      },
+      {
+        "original": "Grandes / serán",
+        "hu": "Grandes / serán"
+      },
+      {
+        "original": "Pequeñas / serán",
+        "hu": "Pequeñas / serán"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo1-test12-003",
+    "source": "proformatrans-modulo1-test12",
+    "module": "I",
+    "q": "¿Cuál de estas palabras lleva tilde solo si es interrogativa?",
+    "hu": "Az alábbi szavak közül melyik kap ékezetet csak kérdő használatban?",
+    "answers": [
+      {
+        "original": "Estos",
+        "hu": "Estos"
+      },
+      {
+        "original": "Este",
+        "hu": "Este"
+      },
+      {
+        "original": "Aquel",
+        "hu": "Aquel"
+      },
+      {
+        "original": "Que",
+        "hu": "Que"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo1-test12-005",
+    "source": "proformatrans-modulo1-test12",
+    "module": "I",
+    "q": "Hoy Cristina ......................... muy temprano y desayunó sola en la cocina.",
+    "hu": "Ma Cristina ......................... nagyon korán, és egyedül reggelizett a konyhában.",
+    "answers": [
+      {
+        "original": "Se levanta",
+        "hu": "Se levanta"
+      },
+      {
+        "original": "Se despertó",
+        "hu": "Felébredt"
+      },
+      {
+        "original": "Se despertará",
+        "hu": "Se despertará"
+      },
+      {
+        "original": "Despierta",
+        "hu": "Despierta"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo1-test12-006",
+    "source": "proformatrans-modulo1-test12",
+    "module": "I",
+    "q": "Es necesario que los estudiantes ________ una prueba de nivel al llegar a la escuela.",
+    "hu": "Szükséges, hogy a diákok ________ szintfelmérőt, amikor megérkeznek az iskolába.",
+    "answers": [
+      {
+        "original": "Harán",
+        "hu": "Harán"
+      },
+      {
+        "original": "Hagan",
+        "hu": "Tegyenek / készítsenek"
+      },
+      {
+        "original": "Hacen",
+        "hu": "Hacen"
+      },
+      {
+        "original": "Hubieran",
+        "hu": "Hubieran"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo1-test12-009",
+    "source": "proformatrans-modulo1-test12",
+    "module": "I",
+    "q": "¿Qué palabra tiene un significado contrario a “claro”?",
+    "hu": "Melyik szó ellentétes jelentésű a „claro” szóval?",
+    "answers": [
+      {
+        "original": "Luminoso.",
+        "hu": "Luminoso."
+      },
+      {
+        "original": "Oscuro.",
+        "hu": "Sötét."
+      },
+      {
+        "original": "Brillante.",
+        "hu": "Brillante."
+      },
+      {
+        "original": "Transparente.",
+        "hu": "Transparente."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo1-test12-011",
+    "source": "proformatrans-modulo1-test12",
+    "module": "I",
+    "q": "¿Cuál de las siguientes palabras significa lo mismo que \"orilla\"?",
+    "hu": "Az alábbi szavak közül melyik jelenti ugyanazt, mint az „orilla”?",
+    "answers": [
+      {
+        "original": "Dentro",
+        "hu": "Dentro"
+      },
+      {
+        "original": "Fondo",
+        "hu": "Fondo"
+      },
+      {
+        "original": "Borde",
+        "hu": "Szél / perem"
+      },
+      {
+        "original": "Profundidad",
+        "hu": "Profundidad"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo1-test12-012",
+    "source": "proformatrans-modulo1-test12",
+    "module": "I",
+    "q": "…es a fotografía como cámara es a…",
+    "hu": "… úgy viszonyul a fényképhez, mint a kamera a…",
+    "answers": [
+      {
+        "original": "Piscina – Calor.",
+        "hu": "Piscina – Calor."
+      },
+      {
+        "original": "Imagen – Lente.",
+        "hu": "Kép – lencse."
+      },
+      {
+        "original": "Árbol – Hoja.",
+        "hu": "Árbol – Hoja."
+      },
+      {
+        "original": "Camilla – Hospital.",
+        "hu": "Camilla – Hospital."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo1-test12-013",
+    "source": "proformatrans-modulo1-test12",
+    "module": "I",
+    "q": "¿Qué palabra contiene un diptongo?",
+    "hu": "Melyik szó tartalmaz kettőshangzót?",
+    "answers": [
+      {
+        "original": "Reloj.",
+        "hu": "Reloj."
+      },
+      {
+        "original": "País.",
+        "hu": "País."
+      },
+      {
+        "original": "Aire.",
+        "hu": "Levegő."
+      },
+      {
+        "original": "Poeta.",
+        "hu": "Poeta."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo1-test12-015",
+    "source": "proformatrans-modulo1-test12",
+    "module": "I",
+    "q": "'El que mucho abarca, poco aprieta' se refiere a:",
+    "hu": "Az „El que mucho abarca, poco aprieta” erre utal:",
+    "answers": [
+      {
+        "original": "El orden",
+        "hu": "El orden"
+      },
+      {
+        "original": "La ambición sin control",
+        "hu": "Kontroll nélküli ambíció"
+      },
+      {
+        "original": "El trabajo en equipo",
+        "hu": "El trabajo en equipo"
+      },
+      {
+        "original": "La paciencia",
+        "hu": "La paciencia"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo1-test12-017",
+    "source": "proformatrans-modulo1-test12",
+    "module": "I",
+    "q": "Elija la respuesta correcta respecto a la afirmación \"Mirarse el ombligo\":",
+    "hu": "Válassza ki a helyes választ a „Mirarse el ombligo” kifejezéshez:",
+    "answers": [
+      {
+        "original": "Ser escrutador.",
+        "hu": "Ser escrutador."
+      },
+      {
+        "original": "Mirar a los demás y ser altruista.",
+        "hu": "Mirar a los demás y ser altruista."
+      },
+      {
+        "original": "Ser egocéntrico y no pensar en los demás.",
+        "hu": "Önközpontúnak lenni és nem gondolni másokra."
+      },
+      {
+        "original": "Estar triste y cabizbajo.",
+        "hu": "Estar triste y cabizbajo."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo1-test12-020",
+    "source": "proformatrans-modulo1-test12",
+    "module": "I",
+    "q": "Para distraer a tu hermano pequeño durante los 30 minutos que _________ para que empiece el musical infantil, vamos ____________ una partida de cartas.",
+    "hu": "Hogy lefoglaljuk a kisöcsédet abban a 30 percben, ami _________ a gyerekmusical kezdetéig, ____________ egy kártyapartit.",
+    "answers": [
+      {
+        "original": "Falta / jugado",
+        "hu": "Falta / jugado"
+      },
+      {
+        "original": "Falta / echando",
+        "hu": "Falta / echando"
+      },
+      {
+        "original": "Faltan / echando",
+        "hu": "Hiányzik még / játszunk"
+      },
+      {
+        "original": "Faltan / escribiendo",
+        "hu": "Faltan / escribiendo"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo1-test13-001",
+    "source": "proformatrans-modulo1-test13",
+    "module": "I",
+    "q": "¿Qué refrán significa que hay que aprovechar el momento?",
+    "hu": "Melyik közmondás jelenti, hogy ki kell használni az alkalmat?",
+    "answers": [
+      {
+        "original": "A quien madruga, Dios lo ayuda",
+        "hu": "Aki korán kel, annak Isten segít"
+      },
+      {
+        "original": "A caballo regalado no se le mira el diente",
+        "hu": "A caballo regalado no se le mira el diente"
+      },
+      {
+        "original": "Al mal tiempo, buena cara",
+        "hu": "Al mal tiempo, buena cara"
+      },
+      {
+        "original": "Cuando el río suena, agua lleva",
+        "hu": "Cuando el río suena, agua lleva"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo1-test13-002",
+    "source": "proformatrans-modulo1-test13",
+    "module": "I",
+    "q": "Aprendizaje es a escuela como fe es a...",
+    "hu": "A tanulás úgy viszonyul az iskolához, mint a hit a...",
+    "answers": [
+      {
+        "original": "Ciencia",
+        "hu": "Ciencia"
+      },
+      {
+        "original": "Razón",
+        "hu": "Razón"
+      },
+      {
+        "original": "Ley",
+        "hu": "Ley"
+      },
+      {
+        "original": "Templo",
+        "hu": "Templom"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo1-test13-003",
+    "source": "proformatrans-modulo1-test13",
+    "module": "I",
+    "q": "¿Qué refrán significa que no hay que confiar en promesas vacías?",
+    "hu": "Melyik közmondás jelenti, hogy nem szabad üres ígéretekben bízni?",
+    "answers": [
+      {
+        "original": "A buen entendedor, pocas palabras bastan.",
+        "hu": "A buen entendedor, pocas palabras bastan."
+      },
+      {
+        "original": "Más vale tarde que nunca.",
+        "hu": "Más vale tarde que nunca."
+      },
+      {
+        "original": "Ojos que no ven, corazón que no siente.",
+        "hu": "Ojos que no ven, corazón que no siente."
+      },
+      {
+        "original": "Mucho ruido y pocas nueces.",
+        "hu": "Sok hűhó semmiért."
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo1-test13-004",
+    "source": "proformatrans-modulo1-test13",
+    "module": "I",
+    "q": "Expresión: “Conseguir un beneficio gracias al esfuerzo ajeno”:",
+    "hu": "Kifejezés: „Más erőfeszítéséből hasznot szerezni”:",
+    "answers": [
+      {
+        "original": "Dormirse en los laureles.",
+        "hu": "Dormirse en los laureles."
+      },
+      {
+        "original": "Poner el grito en el cielo.",
+        "hu": "Poner el grito en el cielo."
+      },
+      {
+        "original": "Recoger la cosecha ajena.",
+        "hu": "Más aratásának hasznát learatni."
+      },
+      {
+        "original": "Matar el gusanillo.",
+        "hu": "Matar el gusanillo."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo1-test13-005",
+    "source": "proformatrans-modulo1-test13",
+    "module": "I",
+    "q": "Completa la frase: “Siendo día festivo… el viaje ___ en quince minutos”",
+    "hu": "Egészítse ki: „Mivel ünnepnap volt... az út tizenöt perc alatt ___”",
+    "answers": [
+      {
+        "original": "Terminará.",
+        "hu": "Terminará."
+      },
+      {
+        "original": "Terminaba.",
+        "hu": "Terminaba."
+      },
+      {
+        "original": "Terminó.",
+        "hu": "Befejeződött."
+      },
+      {
+        "original": "Terminaría.",
+        "hu": "Terminaría."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo1-test13-006",
+    "source": "proformatrans-modulo1-test13",
+    "module": "I",
+    "q": "Jaime: ¿Sabes quién __________ esa joven vestida de blanco que estaba con Héctor? Felipe: No tengo ni idea, _________ su hermana, porque físicamente se parecían muchísimo.",
+    "hu": "Jaime: Tudod, ki __________ az a fehér ruhás fiatal nő Héctorral? Felipe: Fogalmam sincs, _________ a nővére, mert nagyon hasonlítottak.",
+    "answers": [
+      {
+        "original": "Era / serán",
+        "hu": "Era / serán"
+      },
+      {
+        "original": "Fue / sería",
+        "hu": "Fue / sería"
+      },
+      {
+        "original": "Era / sería",
+        "hu": "Volt / lehetett volna"
+      },
+      {
+        "original": "Fue / será",
+        "hu": "Fue / será"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo1-test13-009",
+    "source": "proformatrans-modulo1-test13",
+    "module": "I",
+    "q": "¿Qué palabra tiene un significado similar a 'perezoso'?",
+    "hu": "Melyik szó jelentése hasonló a „perezoso” szóhoz?",
+    "answers": [
+      {
+        "original": "Diligente.",
+        "hu": "Diligente."
+      },
+      {
+        "original": "Indolente.",
+        "hu": "Rest / lusta."
+      },
+      {
+        "original": "Pulcro.",
+        "hu": "Pulcro."
+      },
+      {
+        "original": "Beatífico.",
+        "hu": "Beatífico."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo1-test13-012",
+    "source": "proformatrans-modulo1-test13",
+    "module": "I",
+    "q": "¿Qué palabra es un sinónimo de \"tranquilo\"?",
+    "hu": "Melyik szó a „tranquilo” szinonimája?",
+    "answers": [
+      {
+        "original": "Relajado",
+        "hu": "Nyugodt"
+      },
+      {
+        "original": "Apurado",
+        "hu": "Apurado"
+      },
+      {
+        "original": "Aturdido",
+        "hu": "Aturdido"
+      },
+      {
+        "original": "Nervioso",
+        "hu": "Nervioso"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo1-test13-013",
+    "source": "proformatrans-modulo1-test13",
+    "module": "I",
+    "q": "¿Dónde se encuentra el cuaderno?",
+    "hu": "Hol található a füzet?",
+    "answers": [
+      {
+        "original": "Dentro la mesa del comedor, junto a una lámpara",
+        "hu": "Dentro la mesa del comedor, junto a una lámpara"
+      },
+      {
+        "original": "Bajo la mesa del comedor, justo a un lado de la lámpara del techo",
+        "hu": "Bajo la mesa del comedor, justo a un lado de la lámpara del techo"
+      },
+      {
+        "original": "Entre la mesa del comedor y debajo de la lámpara",
+        "hu": "Entre la mesa del comedor y debajo de la lámpara"
+      },
+      {
+        "original": "Sobre la mesa del comedor, bajo la lámpara del techo y junto al libro verde",
+        "hu": "Sobre la mesa del comedor, bajo la lámpara del techo y junto al libro verde"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo1-test13-014",
+    "source": "proformatrans-modulo1-test13",
+    "module": "I",
+    "q": "¿Qué expresión significa “de forma inesperada”?",
+    "hu": "Melyik kifejezés jelenti azt, hogy „váratlanul”?",
+    "answers": [
+      {
+        "original": "A la ligera",
+        "hu": "A la ligera"
+      },
+      {
+        "original": "En voz baja",
+        "hu": "En voz baja"
+      },
+      {
+        "original": "De repente",
+        "hu": "Hirtelen"
+      },
+      {
+        "original": "Poco a poco",
+        "hu": "Poco a poco"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo1-test13-016",
+    "source": "proformatrans-modulo1-test13",
+    "module": "I",
+    "q": "Científicos, deportistas y personas de diversas áreas han intentado \"dominar\" la naturaleza. Elige los beneficios que este hecho ha traído a la humanidad.",
+    "hu": "Tudósok, sportolók és más területek emberei próbálták „uralni” a természetet. Válaszd ki, milyen előnyöket hozott ez az emberiségnek.",
+    "answers": [
+      {
+        "original": "descubrimientos científicos y paz.",
+        "hu": "descubrimientos científicos y paz."
+      },
+      {
+        "original": "Superación personal y avances tecnológicos.",
+        "hu": "Önfejlesztés és technológiai fejlődés."
+      },
+      {
+        "original": "desarrollo de la tecnología y avances en la medicina.",
+        "hu": "desarrollo de la tecnología y avances en la medicina."
+      },
+      {
+        "original": "avances médicos y superación personal.",
+        "hu": "avances médicos y superación personal."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo1-test13-017",
+    "source": "proformatrans-modulo1-test13",
+    "module": "I",
+    "q": "¿Cuál es el sujeto de la oración \"El perro ladra fuerte\"?",
+    "hu": "Mi az alany az „El perro ladra fuerte” mondatban?",
+    "answers": [
+      {
+        "original": "El perro",
+        "hu": "A kutya"
+      },
+      {
+        "original": "la oración no tiene sujeto",
+        "hu": "la oración no tiene sujeto"
+      },
+      {
+        "original": "fuerte",
+        "hu": "fuerte"
+      },
+      {
+        "original": "ladra",
+        "hu": "ladra"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo1-test13-018",
+    "source": "proformatrans-modulo1-test13",
+    "module": "I",
+    "q": "¿Qué tipo de texto es un prospecto médico?",
+    "hu": "Milyen típusú szöveg egy gyógyszerbetegtájékoztató?",
+    "answers": [
+      {
+        "original": "Poético",
+        "hu": "Poético"
+      },
+      {
+        "original": "Narrativo",
+        "hu": "Narrativo"
+      },
+      {
+        "original": "Instructivo",
+        "hu": "Használati / útmutató jellegű"
+      },
+      {
+        "original": "Argumentativo",
+        "hu": "Argumentativo"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo1-test13-019",
+    "source": "proformatrans-modulo1-test13",
+    "module": "I",
+    "q": "¿Qué quiere decir 'Cuando el río suena, agua lleva'?",
+    "hu": "Mit jelent a „Cuando el río suena, agua lleva”?",
+    "answers": [
+      {
+        "original": "Que hay tormenta",
+        "hu": "Que hay tormenta"
+      },
+      {
+        "original": "Que el río crece",
+        "hu": "Que el río crece"
+      },
+      {
+        "original": "Que todo rumor tiene algo de verdad",
+        "hu": "Minden szóbeszédben van némi igazság"
+      },
+      {
+        "original": "Que hay agua cerca",
+        "hu": "Que hay agua cerca"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo1-test14-002",
+    "source": "proformatrans-modulo1-test14",
+    "module": "I",
+    "q": "¿Qué significa 'tedioso'?",
+    "hu": "Mit jelent a „tedioso”?",
+    "answers": [
+      {
+        "original": "Profundo",
+        "hu": "Profundo"
+      },
+      {
+        "original": "Rápido y dinámico",
+        "hu": "Rápido y dinámico"
+      },
+      {
+        "original": "Interesante",
+        "hu": "Interesante"
+      },
+      {
+        "original": "Largo y aburrido",
+        "hu": "Hosszú és unalmas"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo1-test14-004",
+    "source": "proformatrans-modulo1-test14",
+    "module": "I",
+    "q": "¿Qué es una perífrasis verbal?",
+    "hu": "Mi az igei körülírás?",
+    "answers": [
+      {
+        "original": "Una figura literaria",
+        "hu": "Una figura literaria"
+      },
+      {
+        "original": "Una clase de oración",
+        "hu": "Una clase de oración"
+      },
+      {
+        "original": "Una construcción verbal compuesta",
+        "hu": "Összetett igei szerkezet"
+      },
+      {
+        "original": "Una forma del subjuntivo",
+        "hu": "Una forma del subjuntivo"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo1-test14-005",
+    "source": "proformatrans-modulo1-test14",
+    "module": "I",
+    "q": "¿Qué refrán significa que el tiempo cura las heridas?",
+    "hu": "Melyik közmondás jelenti, hogy az idő begyógyítja a sebeket?",
+    "answers": [
+      {
+        "original": "Ojos que no ven, corazón que no siente.",
+        "hu": "Ojos que no ven, corazón que no siente."
+      },
+      {
+        "original": "No dejes para mañana lo que puedas hacer hoy.",
+        "hu": "No dejes para mañana lo que puedas hacer hoy."
+      },
+      {
+        "original": "A palabras necias, oídos sordos.",
+        "hu": "A palabras necias, oídos sordos."
+      },
+      {
+        "original": "El tiempo lo cura todo.",
+        "hu": "Az idő mindent begyógyít."
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo1-test14-008",
+    "source": "proformatrans-modulo1-test14",
+    "module": "I",
+    "q": "Cirujano es a bisturí como conductor es a...",
+    "hu": "A sebész úgy viszonyul a szikéhez, mint a sofőr a...",
+    "answers": [
+      {
+        "original": "Cinturón",
+        "hu": "Cinturón"
+      },
+      {
+        "original": "Pasajero",
+        "hu": "Pasajero"
+      },
+      {
+        "original": "Calle",
+        "hu": "Calle"
+      },
+      {
+        "original": "Volante",
+        "hu": "Kormány"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo1-test14-009",
+    "source": "proformatrans-modulo1-test14",
+    "module": "I",
+    "q": "¿Qué refrán significa que cada persona tiene su propio destino?",
+    "hu": "Melyik közmondás jelenti, hogy mindenkinek megvan a saját sorsa?",
+    "answers": [
+      {
+        "original": "La paciencia es la madre de la ciencia.",
+        "hu": "La paciencia es la madre de la ciencia."
+      },
+      {
+        "original": "Más vale prevenir que curar.",
+        "hu": "Más vale prevenir que curar."
+      },
+      {
+        "original": "A cada cerdo le llega su San Martín.",
+        "hu": "A cada cerdo le llega su San Martín."
+      },
+      {
+        "original": "No por mucho madrugar amanece más temprano.",
+        "hu": "No por mucho madrugar amanece más temprano."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo1-test14-011",
+    "source": "proformatrans-modulo1-test14",
+    "module": "I",
+    "q": "¿Cuál es el plural de 'esquí'?",
+    "hu": "Mi az „esquí” többes száma?",
+    "answers": [
+      {
+        "original": "Esquies",
+        "hu": "Esquies"
+      },
+      {
+        "original": "Esquíes",
+        "hu": "Esquíes"
+      },
+      {
+        "original": "Esquises",
+        "hu": "Esquises"
+      },
+      {
+        "original": "Esquís",
+        "hu": "Sílécek"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo1-test14-012",
+    "source": "proformatrans-modulo1-test14",
+    "module": "I",
+    "q": "¿Cuál es la forma correcta de decir que se ha roto algo?",
+    "hu": "Mi a helyes módja annak mondására, hogy valami eltört?",
+    "answers": [
+      {
+        "original": "Se ha rompido",
+        "hu": "Se ha rompido"
+      },
+      {
+        "original": "Se ha roto",
+        "hu": "Eltört"
+      },
+      {
+        "original": "Se ha rompío",
+        "hu": "Se ha rompío"
+      },
+      {
+        "original": "Se rompióse",
+        "hu": "Se rompióse"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo1-test14-013",
+    "source": "proformatrans-modulo1-test14",
+    "module": "I",
+    "q": "¿Cuál de las siguientes palabras es sinónimo de “ayudar”?",
+    "hu": "Az alábbi szavak közül melyik a „ayudar” szinonimája?",
+    "answers": [
+      {
+        "original": "Abandonar",
+        "hu": "Abandonar"
+      },
+      {
+        "original": "Obstaculizar",
+        "hu": "Obstaculizar"
+      },
+      {
+        "original": "Colaborar",
+        "hu": "Segíteni / együttműködni"
+      },
+      {
+        "original": "Retrasar",
+        "hu": "Retrasar"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo1-test14-015",
+    "source": "proformatrans-modulo1-test14",
+    "module": "I",
+    "q": "¿Qué función tiene la palabra 'aunque' en una oración?",
+    "hu": "Mi az „aunque” funkciója egy mondatban?",
+    "answers": [
+      {
+        "original": "Adjetiva",
+        "hu": "Adjetiva"
+      },
+      {
+        "original": "Adverbial",
+        "hu": "Adverbial"
+      },
+      {
+        "original": "Sustantiva",
+        "hu": "Sustantiva"
+      },
+      {
+        "original": "Conjunción",
+        "hu": "Conjunción"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo1-test14-016",
+    "source": "proformatrans-modulo1-test14",
+    "module": "I",
+    "q": "¿Qué refrán significa que hay que aprovechar las oportunidades?",
+    "hu": "Melyik közmondás jelenti, hogy ki kell használni a lehetőségeket?",
+    "answers": [
+      {
+        "original": "A caballo regalado, no se le mira el diente.",
+        "hu": "A caballo regalado, no se le mira el diente."
+      },
+      {
+        "original": "Más vale tarde que nunca.",
+        "hu": "Más vale tarde que nunca."
+      },
+      {
+        "original": "A río revuelto, ganancia de pescadores.",
+        "hu": "A río revuelto, ganancia de pescadores."
+      },
+      {
+        "original": "El que madruga, Dios lo ayuda.",
+        "hu": "El que madruga, Dios lo ayuda."
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo1-test14-017",
+    "source": "proformatrans-modulo1-test14",
+    "module": "I",
+    "q": "¿Qué palabra tiene un significado contrario a “caliente”?",
+    "hu": "Melyik szó ellentétes jelentésű a „caliente” szóval?",
+    "answers": [
+      {
+        "original": "Ardiente.",
+        "hu": "Ardiente."
+      },
+      {
+        "original": "Frío.",
+        "hu": "Hideg."
+      },
+      {
+        "original": "Cálido.",
+        "hu": "Cálido."
+      },
+      {
+        "original": "Abrasador.",
+        "hu": "Abrasador."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo1-test14-018",
+    "source": "proformatrans-modulo1-test14",
+    "module": "I",
+    "q": "Elige el ejemplo con leísmo aceptado por la RAE.",
+    "hu": "Válaszd ki a RAE által elfogadott leísmo példát.",
+    "answers": [
+      {
+        "original": "Le dije la verdad",
+        "hu": "Le dije la verdad"
+      },
+      {
+        "original": "Le vi en la fiesta",
+        "hu": "Láttam őt az ünnepségen"
+      },
+      {
+        "original": "La vi en el parque",
+        "hu": "La vi en el parque"
+      },
+      {
+        "original": "Le pegué la carta",
+        "hu": "Le pegué la carta"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo1-test14-020",
+    "source": "proformatrans-modulo1-test14",
+    "module": "I",
+    "q": "'Dime con quién andas y te diré quién eres' implica:",
+    "hu": "A „Dime con quién andas y te diré quién eres” azt jelenti:",
+    "answers": [
+      {
+        "original": "Uno es definido por sus relaciones",
+        "hu": "Az embert a kapcsolatai is meghatározzák"
+      },
+      {
+        "original": "La amistad no importa",
+        "hu": "La amistad no importa"
+      },
+      {
+        "original": "Hay que ser solitario",
+        "hu": "Hay que ser solitario"
+      },
+      {
+        "original": "Las personas cambian",
+        "hu": "Las personas cambian"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo1-test15-002",
+    "source": "proformatrans-modulo1-test15",
+    "module": "I",
+    "q": "¿Cuál es el antónimo de “rápido”?",
+    "hu": "Mi a „rápido” ellentéte?",
+    "answers": [
+      {
+        "original": "Débil",
+        "hu": "Débil"
+      },
+      {
+        "original": "Ligero",
+        "hu": "Ligero"
+      },
+      {
+        "original": "Pesado",
+        "hu": "Pesado"
+      },
+      {
+        "original": "Lento",
+        "hu": "Lento"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo1-test15-003",
+    "source": "proformatrans-modulo1-test15",
+    "module": "I",
+    "q": "¿Qué es un silogismo?",
+    "hu": "Mi a szillogizmus?",
+    "answers": [
+      {
+        "original": "Un insulto",
+        "hu": "Un insulto"
+      },
+      {
+        "original": "Una comparación",
+        "hu": "Una comparación"
+      },
+      {
+        "original": "Un razonamiento deductivo",
+        "hu": "Deduktív következtetés"
+      },
+      {
+        "original": "Una exageración",
+        "hu": "Una exageración"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo1-test15-006",
+    "source": "proformatrans-modulo1-test15",
+    "module": "I",
+    "q": "Elija la respuesta equivalente respecto a: “Todo es dudoso”",
+    "hu": "Válassza ki az egyenértékű választ: „Todo es dudoso”",
+    "answers": [
+      {
+        "original": "Todo es irrefutable.",
+        "hu": "Todo es irrefutable."
+      },
+      {
+        "original": "Todo es improbable.",
+        "hu": "Minden kétséges / valószínűtlen."
+      },
+      {
+        "original": "Todo es evidente.",
+        "hu": "Todo es evidente."
+      },
+      {
+        "original": "Todo es innegable.",
+        "hu": "Todo es innegable."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo1-test15-007",
+    "source": "proformatrans-modulo1-test15",
+    "module": "I",
+    "q": "¿Qué signo de puntuación se usa para indicar una pausa larga en un discurso?",
+    "hu": "Melyik írásjel jelöl hosszú szünetet beszédben?",
+    "answers": [
+      {
+        "original": "Dos puntos",
+        "hu": "Dos puntos"
+      },
+      {
+        "original": "Punto y coma",
+        "hu": "Punto y coma"
+      },
+      {
+        "original": "Coma",
+        "hu": "Coma"
+      },
+      {
+        "original": "Punto",
+        "hu": "Punto"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo1-test15-009",
+    "source": "proformatrans-modulo1-test15",
+    "module": "I",
+    "q": "Si un triángulo tiene tres lados iguales, se llama:",
+    "hu": "Ha egy háromszögnek három egyenlő oldala van, így hívják:",
+    "answers": [
+      {
+        "original": "Isósceles",
+        "hu": "Isósceles"
+      },
+      {
+        "original": "Irregular",
+        "hu": "Irregular"
+      },
+      {
+        "original": "Equilátero",
+        "hu": "Egyenlő oldalú"
+      },
+      {
+        "original": "Escaleno",
+        "hu": "Escaleno"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo1-test15-011",
+    "source": "proformatrans-modulo1-test15",
+    "module": "I",
+    "q": "Seleccione la opción correcta:",
+    "hu": "Válassza ki a helyes opciót:",
+    "answers": [
+      {
+        "original": "¿Dónde trabajas?.",
+        "hu": "Hol dolgozol?"
+      },
+      {
+        "original": "¿Dónde trabajas él?.",
+        "hu": "¿Dónde trabajas él?."
+      },
+      {
+        "original": "¿Dónde trabajando?.",
+        "hu": "¿Dónde trabajando?."
+      },
+      {
+        "original": "¿Dónde trabajas usted?.",
+        "hu": "¿Dónde trabajas usted?."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo1-test15-012",
+    "source": "proformatrans-modulo1-test15",
+    "module": "I",
+    "q": "El niño se escondió ______ cuando llegaron los invitados.",
+    "hu": "A fiú elbújt ______, amikor megérkeztek a vendégek.",
+    "answers": [
+      {
+        "original": "bajo la cama",
+        "hu": "az ágy alatt"
+      },
+      {
+        "original": "fuera la cama",
+        "hu": "fuera la cama"
+      },
+      {
+        "original": "dentro la cama",
+        "hu": "dentro la cama"
+      },
+      {
+        "original": "durante la cama",
+        "hu": "durante la cama"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo1-test15-014",
+    "source": "proformatrans-modulo1-test15",
+    "module": "I",
+    "q": "Actor es a escenario como profesor es a...",
+    "hu": "A színész úgy viszonyul a színpadhoz, mint a tanár a...",
+    "answers": [
+      {
+        "original": "Aula",
+        "hu": "Tanterem"
+      },
+      {
+        "original": "Escritorio",
+        "hu": "Escritorio"
+      },
+      {
+        "original": "Escuela",
+        "hu": "Escuela"
+      },
+      {
+        "original": "Biblioteca",
+        "hu": "Biblioteca"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo1-test15-015",
+    "source": "proformatrans-modulo1-test15",
+    "module": "I",
+    "q": "¿Qué hace un sujeto elíptico?",
+    "hu": "Mit tesz az elhallgatott alany?",
+    "answers": [
+      {
+        "original": "Lo cambia por adjetivo",
+        "hu": "Lo cambia por adjetivo"
+      },
+      {
+        "original": "Lo elimina pero lo da por entendido",
+        "hu": "Elhagyja, de érthetőnek veszi"
+      },
+      {
+        "original": "Usa sinónimos",
+        "hu": "Usa sinónimos"
+      },
+      {
+        "original": "Repite al sujeto",
+        "hu": "Repite al sujeto"
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo1-test15-016",
+    "source": "proformatrans-modulo1-test15",
+    "module": "I",
+    "q": "¿Qué refrán significa que no se debe desperdiciar algo útil?",
+    "hu": "Melyik közmondás jelenti, hogy nem szabad elpazarolni valami hasznosat?",
+    "answers": [
+      {
+        "original": "No hay mal que por bien no venga.",
+        "hu": "No hay mal que por bien no venga."
+      },
+      {
+        "original": "Perro ladrador, poco mordedor.",
+        "hu": "Perro ladrador, poco mordedor."
+      },
+      {
+        "original": "A caballo regalado, no se le mira el diente.",
+        "hu": "A caballo regalado, no se le mira el diente."
+      },
+      {
+        "original": "Ojos que no ven, corazón que no siente.",
+        "hu": "Ojos que no ven, corazón que no siente."
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo1-test15-017",
+    "source": "proformatrans-modulo1-test15",
+    "module": "I",
+    "q": "¿Qué refrán significa que cada persona es responsable de sus propios actos?",
+    "hu": "Melyik közmondás jelenti, hogy mindenki felelős a saját tetteiért?",
+    "answers": [
+      {
+        "original": "A caballo regalado, no se le mira el diente.",
+        "hu": "A caballo regalado, no se le mira el diente."
+      },
+      {
+        "original": "Cada palo aguante su vela.",
+        "hu": "Cada palo aguante su vela."
+      },
+      {
+        "original": "El que siembra, cosecha.",
+        "hu": "El que siembra, cosecha."
+      },
+      {
+        "original": "No hay mal que por bien no venga.",
+        "hu": "No hay mal que por bien no venga."
+      }
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "proformatrans-modulo1-test15-019",
+    "source": "proformatrans-modulo1-test15",
+    "module": "I",
+    "q": "¿Qué tipo de oración es: '¡Qué bonito es el mar!'?",
+    "hu": "Milyen típusú mondat ez: „¡Qué bonito es el mar!”?",
+    "answers": [
+      {
+        "original": "Interrogativa",
+        "hu": "Interrogativa"
+      },
+      {
+        "original": "Imperativa",
+        "hu": "Imperativa"
+      },
+      {
+        "original": "Exclamativa",
+        "hu": "Exclamativa"
+      },
+      {
+        "original": "Enunciativa",
+        "hu": "Enunciativa"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo1-test15-020",
+    "source": "proformatrans-modulo1-test15",
+    "module": "I",
+    "q": "¿Cuál es el sinónimo de “rápido”?",
+    "hu": "Mi a „rápido” szinonimája?",
+    "answers": [
+      {
+        "original": "Lento",
+        "hu": "Lento"
+      },
+      {
+        "original": "Torpe",
+        "hu": "Torpe"
+      },
+      {
+        "original": "Veloz",
+        "hu": "Veloz"
+      },
+      {
+        "original": "Pesado",
+        "hu": "Pesado"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo1-test16-001",
+    "source": "proformatrans-modulo1-test16",
+    "module": "I",
+    "q": "¿Qué palabra tiene un significado similar a ‘famoso’?",
+    "hu": "Melyik szó jelentése hasonló a „famoso” szóhoz?",
+    "answers": [
+      {
+        "original": "Conocido.",
+        "hu": "Ismert."
+      },
+      {
+        "original": "Desconocido.",
+        "hu": "Desconocido."
+      },
+      {
+        "original": "Anónimo.",
+        "hu": "Anónimo."
+      },
+      {
+        "original": "Oculto.",
+        "hu": "Oculto."
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo1-test16-003",
+    "source": "proformatrans-modulo1-test16",
+    "module": "I",
+    "q": "¿Dónde ________ Marcos? Pues, no sé, _________ en el supermercado.",
+    "hu": "Hol ________ Marcos? Hát nem tudom, _________ a szupermarketben.",
+    "answers": [
+      {
+        "original": "Va a estar / estuvo",
+        "hu": "Va a estar / estuvo"
+      },
+      {
+        "original": "Estará / estaba",
+        "hu": "Estará / estaba"
+      },
+      {
+        "original": "Está / estará",
+        "hu": "Van / lesz"
+      },
+      {
+        "original": "Estaría / será",
+        "hu": "Estaría / será"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo1-test16-004",
+    "source": "proformatrans-modulo1-test16",
+    "module": "I",
+    "q": "¿Qué palabra está escrita correctamente?",
+    "hu": "Melyik szó van helyesen írva?",
+    "answers": [
+      {
+        "original": "aver",
+        "hu": "aver"
+      },
+      {
+        "original": "haver",
+        "hu": "haver"
+      },
+      {
+        "original": "haber",
+        "hu": "haber"
+      },
+      {
+        "original": "ha ver",
+        "hu": "ha ver"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo1-test16-005",
+    "source": "proformatrans-modulo1-test16",
+    "module": "I",
+    "q": "De los siguientes elementos, uno es diferente a los demás. ¿Cuál es el distinto?",
+    "hu": "Az alábbi elemek közül egy eltér a többitől. Melyik az?",
+    "answers": [
+      {
+        "original": "Harina",
+        "hu": "Harina"
+      },
+      {
+        "original": "Leche",
+        "hu": "Leche"
+      },
+      {
+        "original": "azabache",
+        "hu": "gagát"
+      },
+      {
+        "original": "algodón",
+        "hu": "algodón"
+      }
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "proformatrans-modulo1-test16-008",
+    "source": "proformatrans-modulo1-test16",
+    "module": "I",
+    "q": "¿Cuál de las siguientes palabras significa lo contrario que \"alisar”?",
+    "hu": "Az alábbi szavak közül melyik az „alisar” ellentéte?",
+    "answers": [
+      {
+        "original": "Roturar",
+        "hu": "Feltörni"
+      },
+      {
+        "original": "Colonizar",
+        "hu": "Colonizar"
+      },
+      {
+        "original": "Suprimir",
+        "hu": "Suprimir"
+      },
+      {
+        "original": "Inservible",
+        "hu": "Inservible"
+      }
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "proformatrans-modulo1-test16-012",
+    "source": "proformatrans-modulo1-test16",
+    "module": "I",
+    "q": "¿Cuál de las siguientes palabras tiene un significado similar a “gastar”?",
+    "hu": "Az alábbi szavak közül melyik jelentése hasonló a „gastar” szóhoz?",
+    "answers": [
+      {
+        "original": "Retener",
+        "hu": "Retener"
+      },
+      {
+        "original": "Ahorrar",
+        "hu": "Ahorrar"
+      },
+      {
+        "original": "Acabar",
+        "hu": "Acabar"
+      },
+      {
+        "original": "Disipar",
+        "hu": "Elpazarolni / eloszlatni"
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo1-test16-013",
+    "source": "proformatrans-modulo1-test16",
+    "module": "I",
+    "q": "¿Cuál es la forma gramaticalmente correcta?",
+    "hu": "Melyik forma nyelvtanilag helyes?",
+    "answers": [
+      {
+        "original": "La reunión se celebrará con las tres de la tarde en punto.",
+        "hu": "La reunión se celebrará con las tres de la tarde en punto."
+      },
+      {
+        "original": "La reunión ocurre fuera las tres de la tarde exactas.",
+        "hu": "La reunión ocurre fuera las tres de la tarde exactas."
+      },
+      {
+        "original": "La reunión está por las tres de la tarde en punto.",
+        "hu": "La reunión está por las tres de la tarde en punto."
+      },
+      {
+        "original": "La reunión será a las tres de la tarde en punto.",
+        "hu": "A megbeszélés pontosan délután háromkor lesz."
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo1-test16-014",
+    "source": "proformatrans-modulo1-test16",
+    "module": "I",
+    "q": "¿Cuál es el antónimo de \"profundo\"?",
+    "hu": "Mi a „profundo” ellentéte?",
+    "answers": [
+      {
+        "original": "Liviano.",
+        "hu": "Liviano."
+      },
+      {
+        "original": "Obtuso.",
+        "hu": "Obtuso."
+      },
+      {
+        "original": "Hondo.",
+        "hu": "Hondo."
+      },
+      {
+        "original": "Somero.",
+        "hu": "Sekély."
+      }
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "proformatrans-modulo1-test16-015",
+    "source": "proformatrans-modulo1-test16",
+    "module": "I",
+    "q": "Buenos días, señora, ¿cómo ____________ esta mañana?",
+    "hu": "Jó napot, asszonyom, hogy ____________ ma reggel?",
+    "answers": [
+      {
+        "original": "Se encontraron",
+        "hu": "Se encontraron"
+      },
+      {
+        "original": "Me encuentro",
+        "hu": "Me encuentro"
+      },
+      {
+        "original": "Te encuentras",
+        "hu": "Te encuentras"
+      },
+      {
+        "original": "Se encuentra",
+        "hu": "van / érzi magát"
+      }
+    ],
+    "correctIndex": 3
+  }
+];

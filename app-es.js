@@ -1,47 +1,201 @@
-import { RULES, questionBank } from './questions.js';
+import { RULES, questionBank as questionBankEs } from './questions.js';
+import { questionBank as questionBankHu } from './questions-hu.js';
 
 const app = document.getElementById('app');
-const STORAGE_KEY = 'vtc_exam_state_es';
+const DEFAULT_LANGUAGE = 'es';
 
-const MODULE_META = {
-  I: {
-    key: 'I',
-    title: 'Módulo I',
-    description: 'Conocimiento de la lengua castellana; gramática y léxico.',
-    take: 12,
-    pass: 6,
+const QUESTION_BANKS = {
+  es: questionBankEs,
+  hu: questionBankHu,
+};
+
+const LANGUAGES = {
+  es: {
+    code: 'es',
+    label: 'Español',
+    shortLabel: 'ES',
   },
-  II: {
-    key: 'II',
-    title: 'Módulo II',
-    description: 'Conocimiento del medio físico; como sistemas de navegación, itinerarios y destinos de interés, etc.',
-    take: 18,
-    pass: 9,
+  hu: {
+    code: 'hu',
+    label: 'Magyar',
+    shortLabel: 'HU',
   },
-  III: {
-    key: 'III',
-    title: 'Módulo III',
-    description: 'Conocimiento de la accesibilidad y servicio público; atención al cliente, usuarios con discapacidad, menores de edad y animales domésticos, etc.',
-    take: 18,
-    pass: 9,
+};
+
+const TEXT = {
+  es: {
+    pageTitle: 'Simulador examen VTC Madrid V3',
+    homeSubtitle: 'Practica por módulos o inicia un test completo.',
+    homeTitle: '¿Cómo quieres practicar?',
+    homeIntro: 'Puedes empezar un examen completo o practicar un único módulo por separado.',
+    languageTitle: 'Idioma',
+    languageIntro: 'La aplicación se abre en español por defecto. Si prefieres practicar en otro idioma, puedes cambiarlo aquí.',
+    languageUrlHint: 'El idioma elegido queda reflejado en la URL, así podrás volver directamente a esta versión.',
+    startFullExam: 'Iniciar examen completo',
+    startPracticeMode: 'Práctica por módulos',
+    practiceByModules: 'Práctica por módulos',
+    practiceByModulesIntro: 'Elige un módulo para practicar de forma específica.',
+    back: 'Volver',
+    questions: 'preguntas',
+    passLabel: 'Para aprobar',
+    practiceModule: 'Practicar módulo',
+    correctSoFar: 'Respuestas correctas hasta ahora',
+    fullExam: 'Examen completo',
+    practice: 'Práctica',
+    newStart: 'Nuevo inicio',
+    previous: 'Anterior',
+    next: 'Siguiente',
+    finishTest: 'Finalizar test',
+    pendingAlert: 'Todavía hay preguntas sin responder. He saltado a la primera pregunta pendiente',
+    correct: 'Correcta',
+    incorrect: 'Incorrecta',
+    chosenAnswer: 'Tu respuesta',
+    correctAnswer: 'Respuesta correcta',
+    moduleResult: 'Resultado del módulo',
+    results: 'Resultados',
+    passed: 'Has aprobado',
+    failed: 'No has aprobado',
+    finalPassed: 'Resultado final: Has aprobado',
+    finalFailed: 'Resultado final: No has aprobado',
+    onlyWrong: 'Solo incorrectas',
+    allAnswers: 'Todas las respuestas',
+    newPractice: 'Nueva práctica',
+    newTest: 'Nuevo test',
+    reviewTest: 'Volver al test',
+    noResults: 'Sin resultados',
+    noWrongInModule: 'No hay respuestas incorrectas en este módulo.',
+    noQuestionsToShow: 'No hay preguntas para mostrar.',
+    unknownModule: 'Módulo desconocido.',
+    notEnoughQuestionsPrefix: 'El banco de preguntas de',
+    notEnoughQuestionsMiddle: 'no contiene suficientes preguntas. Hay',
+    notEnoughQuestionsSuffix: 'se necesitan',
+    notEnoughInFullPrefix: 'No hay suficientes preguntas en',
+    thereAre: 'Hay',
+    needed: 'se necesitan',
+    error: 'Error',
   },
-  IV: {
-    key: 'IV',
-    title: 'Módulo IV',
-    description: 'Conocimiento del marco jurídico aplicable a la actividad de transporte de viajeros.',
-    take: 12,
-    pass: 6,
+  hu: {
+    pageTitle: 'VTC Madrid vizsgagyakorló',
+    homeSubtitle: 'Gyakorolj modulonként, vagy indíts teljes tesztet.',
+    homeTitle: 'Hogyan szeretnél gyakorolni?',
+    homeIntro: 'Elkezdhetsz egy teljes tesztet, vagy külön is gyakorolhatod az egyes modulokat.',
+    languageTitle: 'Nyelv',
+    languageIntro: 'Az alkalmazás alapértelmezés szerint spanyolul indul. Ha szeretnél, itt válthatsz másik nyelvre.',
+    languageUrlHint: 'A kiválasztott nyelv az URL-ben is megjelenik, így később közvetlenül ezen a nyelven nyithatod meg a gyakorlót.',
+    startFullExam: 'Teljes teszt indítása',
+    startPracticeMode: 'Modulok gyakorlása',
+    practiceByModules: 'Modulok gyakorlása',
+    practiceByModulesIntro: 'Válassz modult, ha célzottan szeretnél gyakorolni.',
+    back: 'Vissza',
+    questions: 'kérdés',
+    passLabel: 'Sikeres teljesítéshez',
+    practiceModule: 'Modul gyakorlása',
+    correctSoFar: 'Eddigi helyes válaszok',
+    fullExam: 'Teljes teszt',
+    practice: 'Gyakorlás',
+    newStart: 'Új kezdés',
+    previous: 'Előző',
+    next: 'Következő',
+    finishTest: 'Teszt befejezése',
+    pendingAlert: 'Még vannak megválaszolatlan kérdések. Az első hiányzó kérdésre ugrottam',
+    correct: 'Helyes',
+    incorrect: 'Helytelen',
+    chosenAnswer: 'A válaszod',
+    correctAnswer: 'Helyes válasz',
+    moduleResult: 'Modul eredménye',
+    results: 'Eredmények',
+    passed: 'Sikerült',
+    failed: 'Nem sikerült',
+    finalPassed: 'Végeredmény: sikerült',
+    finalFailed: 'Végeredmény: nem sikerült',
+    onlyWrong: 'Csak a hibásak',
+    allAnswers: 'Összes válasz',
+    newPractice: 'Új gyakorlás',
+    newTest: 'Új teszt',
+    reviewTest: 'Vissza a teszthez',
+    noResults: 'Nincs találat',
+    noWrongInModule: 'Ebben a modulban nincs hibás válasz.',
+    noQuestionsToShow: 'Nincs megjeleníthető kérdés.',
+    unknownModule: 'Ismeretlen modul.',
+    notEnoughQuestionsPrefix: 'A kérdésbank ebben a modulban:',
+    notEnoughQuestionsMiddle: 'nem tartalmaz elég kérdést. Van',
+    notEnoughQuestionsSuffix: 'szükséges',
+    notEnoughInFullPrefix: 'Nincs elég kérdés ebben a modulban:',
+    thereAre: 'Van',
+    needed: 'szükséges',
+    error: 'Hiba',
+  },
+};
+
+const MODULE_META_BY_LANGUAGE = {
+  es: {
+    I: {
+      key: 'I',
+      title: 'Módulo I',
+      description: 'Conocimiento de la lengua castellana; gramática y léxico.',
+      take: 12,
+      pass: 6,
+    },
+    II: {
+      key: 'II',
+      title: 'Módulo II',
+      description: 'Conocimiento del medio físico; como sistemas de navegación, itinerarios y destinos de interés, etc.',
+      take: 18,
+      pass: 9,
+    },
+    III: {
+      key: 'III',
+      title: 'Módulo III',
+      description: 'Conocimiento de la accesibilidad y servicio público; atención al cliente, usuarios con discapacidad, menores de edad y animales domésticos, etc.',
+      take: 18,
+      pass: 9,
+    },
+    IV: {
+      key: 'IV',
+      title: 'Módulo IV',
+      description: 'Conocimiento del marco jurídico aplicable a la actividad de transporte de viajeros.',
+      take: 12,
+      pass: 6,
+    },
+  },
+  hu: {
+    I: {
+      key: 'I',
+      title: 'I. modul',
+      description: 'A spanyol nyelv ismerete; nyelvtan és szókincs.',
+      take: 12,
+      pass: 6,
+    },
+    II: {
+      key: 'II',
+      title: 'II. modul',
+      description: 'Földrajzi és tájékozódási ismeretek; navigációs rendszerek, útvonalak és fontos célpontok.',
+      take: 18,
+      pass: 9,
+    },
+    III: {
+      key: 'III',
+      title: 'III. modul',
+      description: 'Akadálymentesség és közszolgáltatás; ügyfélkezelés, fogyatékkal élő utasok, kiskorúak és háziállatok.',
+      take: 18,
+      pass: 9,
+    },
+    IV: {
+      key: 'IV',
+      title: 'IV. modul',
+      description: 'A személyszállítási tevékenységre vonatkozó jogi keretek ismerete.',
+      take: 12,
+      pass: 6,
+    },
   },
 };
 
 const moduleOrder = ['I', 'II', 'III', 'IV'];
 
-const moduleTitles = {
-  I: 'Módulo I',
-  II: 'Módulo II',
-  III: 'Módulo III',
-  IV: 'Módulo IV',
-};
+let currentLanguage = resolveLanguage();
+let questionBank = QUESTION_BANKS[currentLanguage] ?? QUESTION_BANKS[DEFAULT_LANGUAGE];
+let MODULE_META = MODULE_META_BY_LANGUAGE[currentLanguage] ?? MODULE_META_BY_LANGUAGE[DEFAULT_LANGUAGE];
+let moduleTitles = getModuleTitles(MODULE_META);
 
 const state = {
   mode: 'menu', // menu | exam | practice
@@ -53,6 +207,99 @@ const state = {
   currentIndex: 0,
   resultsFilter: 'wrong',
 };
+
+function resolveLanguage() {
+  const params = new URLSearchParams(window.location.search);
+  const lang = params.get('lang')?.toLowerCase();
+  return LANGUAGES[lang] ? lang : DEFAULT_LANGUAGE;
+}
+
+function getModuleTitles(moduleMeta) {
+  return Object.fromEntries(
+    Object.entries(moduleMeta).map(([key, value]) => [key, value.title])
+  );
+}
+
+function t(key) {
+  return TEXT[currentLanguage]?.[key] ?? TEXT[DEFAULT_LANGUAGE]?.[key] ?? key;
+}
+
+function getStorageKey() {
+  return `vtc_exam_state_${currentLanguage}`;
+}
+
+function getQuestionText(question) {
+  if (currentLanguage === DEFAULT_LANGUAGE) return question.q;
+  return question[currentLanguage] ?? question.q;
+}
+
+function getAnswerText(answer) {
+  if (currentLanguage === DEFAULT_LANGUAGE) return answer.original;
+  return answer[currentLanguage] ?? answer.original;
+}
+
+function syncDocumentLanguage() {
+  document.documentElement.lang = currentLanguage;
+  document.title = currentLanguage === 'hu'
+    ? 'VTC Madrid vizsgagyakorló'
+    : 'Simulador examen VTC Madrid V3 – Test gratis con preguntas reales';
+}
+
+function renderLanguageSwitcher() {
+  return `
+    <div class="language-switcher" aria-label="${escapeHtml(t('languageTitle'))}">
+      ${Object.values(LANGUAGES).map((language) => `
+        <button
+          type="button"
+          class="language-btn ${currentLanguage === language.code ? 'active' : ''}"
+          data-lang="${language.code}"
+          aria-pressed="${currentLanguage === language.code ? 'true' : 'false'}"
+        >
+          ${escapeHtml(language.shortLabel)}
+        </button>
+      `).join('')}
+    </div>
+  `;
+}
+
+function attachLanguageSwitcher() {
+  document.querySelectorAll('.language-btn').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const nextLanguage = btn.dataset.lang;
+      if (!LANGUAGES[nextLanguage] || nextLanguage === currentLanguage) return;
+
+      const url = new URL(window.location.href);
+      url.searchParams.set('lang', nextLanguage);
+      window.history.replaceState({}, '', url);
+
+      currentLanguage = nextLanguage;
+      questionBank = QUESTION_BANKS[currentLanguage] ?? QUESTION_BANKS[DEFAULT_LANGUAGE];
+      MODULE_META = MODULE_META_BY_LANGUAGE[currentLanguage] ?? MODULE_META_BY_LANGUAGE[DEFAULT_LANGUAGE];
+      moduleTitles = getModuleTitles(MODULE_META);
+      syncDocumentLanguage();
+
+      const restored = loadState();
+      if (!restored || state.mode === 'menu' || state.examQuestions.length === 0) {
+        state.mode = 'menu';
+        state.practiceModule = null;
+        state.examQuestions = [];
+        state.answers = {};
+        state.lockedAnswers = {};
+        state.submitted = false;
+        state.currentIndex = 0;
+        state.resultsFilter = 'wrong';
+        renderHome();
+        return;
+      }
+
+      if (state.submitted) {
+        renderResultsView();
+      } else {
+        renderExamView();
+      }
+    });
+  });
+}
 
 function shuffle(array) {
   const arr = [...array];
@@ -109,11 +356,11 @@ function saveState() {
     currentIndex: state.currentIndex,
     resultsFilter: state.resultsFilter,
   };
-  localStorage.setItem(STORAGE_KEY, JSON.stringify(snapshot));
+  localStorage.setItem(getStorageKey(), JSON.stringify(snapshot));
 }
 
 function loadState() {
-  const raw = localStorage.getItem(STORAGE_KEY);
+  const raw = localStorage.getItem(getStorageKey());
   if (!raw) return false;
 
   try {
@@ -144,7 +391,7 @@ function loadState() {
 }
 
 function clearState() {
-  localStorage.removeItem(STORAGE_KEY);
+  localStorage.removeItem(getStorageKey());
 }
 
 function getQuestionsByModule(moduleKey) {
@@ -167,7 +414,7 @@ function buildExam() {
 
     if (pool.length < needed) {
       throw new Error(
-        `No hay suficientes preguntas en ${moduleTitles[moduleKey]}. Hay ${pool.length}, se necesitan ${needed}.`
+        `${t('notEnoughInFullPrefix')} ${moduleTitles[moduleKey]}. ${t('thereAre')} ${pool.length}, ${t('needed')} ${needed}.`
       );
     }
 
@@ -190,12 +437,12 @@ function buildPracticeExam(moduleKey) {
   const pool = getQuestionsByModule(moduleKey);
 
   if (!config) {
-    throw new Error('Módulo desconocido.');
+    throw new Error(t('unknownModule'));
   }
 
   if (pool.length < config.take) {
     throw new Error(
-      `El banco de preguntas de ${config.title} no contiene suficientes preguntas. Hay ${pool.length}, se necesitan ${config.take}.`
+      `${t('notEnoughQuestionsPrefix')} ${config.title} ${t('notEnoughQuestionsMiddle')} ${pool.length}, ${t('notEnoughQuestionsSuffix')} ${config.take}.`
     );
   }
 
@@ -278,7 +525,7 @@ function renderLiveStats() {
           <div class="module-mini-card">
             <div class="module-mini-title">${escapeHtml(mod.title)}</div>
             <div class="module-mini-value">${totalCorrect} / ${mod.take}</div>
-            <div class="module-mini-pass">Para aprobar: ${mod.pass}</div>
+            <div class="module-mini-pass">${escapeHtml(t('passLabel'))}: ${mod.pass}</div>
           </div>
         </div>
       </section>
@@ -291,7 +538,7 @@ function renderLiveStats() {
     <section class="live-stats">
       <div class="live-stats-main">
         <div class="live-stat-card">
-          <div class="live-stat-label">Respuestas correctas hasta ahora</div>
+          <div class="live-stat-label">${escapeHtml(t('correctSoFar'))}</div>
           <div class="live-stat-value">${totalCorrect} / ${state.examQuestions.length}</div>
         </div>
       </div>
@@ -304,7 +551,7 @@ function renderLiveStats() {
             <div class="module-mini-card">
               <div class="module-mini-title">${escapeHtml(moduleTitles[moduleKey])}</div>
               <div class="module-mini-value">${correct} / ${rule.take}</div>
-              <div class="module-mini-pass">Para aprobar: ${rule.pass}</div>
+              <div class="module-mini-pass">${escapeHtml(t('passLabel'))}: ${rule.pass}</div>
             </div>
           `;
         }).join('')}
@@ -318,22 +565,33 @@ function renderHome() {
     <div class="page home-page">
       <header class="topbar">
         <div>
-          <h1>Simulador examen VTC Madrid V3</h1>
-          <p>Elige cómo quieres practicar.</p>
+          <h1>${escapeHtml(t('pageTitle'))}</h1>
+          <p>${escapeHtml(t('homeSubtitle'))}</p>
         </div>
       </header>
 
       <section class="welcome-card">
-        <h2>Inicio</h2>
-        <p>Puedes iniciar el examen completo o practicar un único módulo por separado.</p>
+        <h2>${escapeHtml(t('homeTitle'))}</h2>
+        <p>${escapeHtml(t('homeIntro'))}</p>
 
         <div class="mode-select">
-          <button id="start-full-exam" class="primary-btn">Iniciar examen</button>
-          <button id="start-practice-mode" class="secondary-btn">Práctica por módulos</button>
+          <button id="start-full-exam" class="primary-btn">${escapeHtml(t('startFullExam'))}</button>
+          <button id="start-practice-mode" class="secondary-btn">${escapeHtml(t('startPracticeMode'))}</button>
+        </div>
+
+        <div class="language-panel">
+          <div>
+            <h3>${escapeHtml(t('languageTitle'))}</h3>
+            <p>${escapeHtml(t('languageIntro'))}</p>
+            <p>${escapeHtml(t('languageUrlHint'))}</p>
+          </div>
+          ${renderLanguageSwitcher()}
         </div>
       </section>
     </div>
   `;
+
+  attachLanguageSwitcher();
 
   document.getElementById('start-full-exam')?.addEventListener('click', () => {
     buildExam();
@@ -355,12 +613,13 @@ function renderPracticeModuleSelect() {
     <div class="page">
       <header class="topbar">
         <div>
-          <h1>Práctica por módulos</h1>
-          <p>Elige un módulo para practicar de forma específica.</p>
+          <h1>${escapeHtml(t('practiceByModules'))}</h1>
+          <p>${escapeHtml(t('practiceByModulesIntro'))}</p>
         </div>
 
         <div class="topbar-actions">
-          <button id="back-home-btn" class="secondary-btn">Volver</button>
+          ${renderLanguageSwitcher()}
+          <button id="back-home-btn" class="secondary-btn">${escapeHtml(t('back'))}</button>
         </div>
       </header>
 
@@ -371,15 +630,15 @@ function renderPracticeModuleSelect() {
             <article class="module-card" data-module="${mod.key}">
               <div class="module-card-head">
                 <span class="module-badge">${escapeHtml(mod.title)}</span>
-                <span class="question-number">${mod.take} preguntas</span>
+                <span class="question-number">${mod.take} ${escapeHtml(t('questions'))}</span>
               </div>
 
               <h2>${escapeHtml(mod.title)}</h2>
               <p class="module-desc-es">${escapeHtml(mod.description)}</p>
 
               <div class="module-card-footer">
-                <span>Para aprobar: ${mod.pass} respuestas correctas</span>
-                <button class="primary-btn module-start-btn" data-module="${mod.key}">Practicar módulo</button>
+                <span>${escapeHtml(t('passLabel'))}: ${mod.pass}</span>
+                <button class="primary-btn module-start-btn" data-module="${mod.key}">${escapeHtml(t('practiceModule'))}</button>
               </div>
             </article>
           `;
@@ -387,6 +646,8 @@ function renderPracticeModuleSelect() {
       </section>
     </div>
   `;
+
+  attachLanguageSwitcher();
 
   document.getElementById('back-home-btn')?.addEventListener('click', () => {
     renderHome();
@@ -437,7 +698,7 @@ function renderExamView() {
           />
           <span>
             <strong>${String.fromCharCode(65 + index)}.</strong>
-            ${escapeHtml(answer.original)}
+            ${escapeHtml(getAnswerText(answer))}
           </span>
         </label>
       `;
@@ -448,18 +709,19 @@ function renderExamView() {
     <div class="page">
       <header class="topbar">
         <div>
-          <h1>Simulador examen VTC Madrid V3</h1>
+          <h1>${escapeHtml(t('pageTitle'))}</h1>
           <p>
             ${
               state.mode === 'practice' && practiceMeta
-                ? `Práctica • ${escapeHtml(practiceMeta.title)} • ${state.currentIndex + 1} / ${state.examQuestions.length}`
-                : `Examen completo • ${state.currentIndex + 1} / ${state.examQuestions.length}`
+                ? `${escapeHtml(t('practice'))} • ${escapeHtml(practiceMeta.title)} • ${state.currentIndex + 1} / ${state.examQuestions.length}`
+                : `${escapeHtml(t('fullExam'))} • ${state.currentIndex + 1} / ${state.examQuestions.length}`
             }
           </p>
         </div>
 
         <div class="topbar-actions">
-          <button id="new-exam-btn" class="secondary-btn">Nuevo inicio</button>
+          ${renderLanguageSwitcher()}
+          <button id="new-exam-btn" class="secondary-btn">${escapeHtml(t('newStart'))}</button>
         </div>
       </header>
 
@@ -475,10 +737,10 @@ function renderExamView() {
             <section class="practice-info-box">
               <div class="practice-info-head">
                 <span class="module-badge">${escapeHtml(practiceMeta.title)}</span>
-                <span class="question-number">${practiceMeta.take} preguntas</span>
+                <span class="question-number">${practiceMeta.take} ${escapeHtml(t('questions'))}</span>
               </div>
               <div class="practice-info-es">${escapeHtml(practiceMeta.description)}</div>
-              <div class="practice-info-pass">Para aprobar: ${practiceMeta.pass} respuestas correctas</div>
+              <div class="practice-info-pass">${escapeHtml(t('passLabel'))}: ${practiceMeta.pass}</div>
             </section>
           `
           : ''
@@ -490,7 +752,7 @@ function renderExamView() {
           <span class="question-number">#${state.currentIndex + 1}</span>
         </div>
 
-        <h2 class="question-title">${escapeHtml(question.q)}</h2>
+        <h2 class="question-title">${escapeHtml(getQuestionText(question))}</h2>
 
         <div class="answers-list">
           ${answersHtml}
@@ -499,19 +761,21 @@ function renderExamView() {
 
       <div class="nav-actions">
         <button id="prev-btn" class="secondary-btn" ${state.currentIndex === 0 ? 'disabled' : ''}>
-          Anterior
+          ${escapeHtml(t('previous'))}
         </button>
 
         ${
           isLastQuestion
-            ? `<button id="finish-btn" class="primary-btn">Finalizar test</button>`
-            : `<button id="next-btn" class="primary-btn">Siguiente</button>`
+            ? `<button id="finish-btn" class="primary-btn">${escapeHtml(t('finishTest'))}</button>`
+            : `<button id="next-btn" class="primary-btn">${escapeHtml(t('next'))}</button>`
         }
       </div>
 
       ${renderLiveStats()}
     </div>
   `;
+
+  attachLanguageSwitcher();
 
   document.querySelectorAll(`input[name="${CSS.escape(question.id)}"]`).forEach((input) => {
     input.addEventListener('change', (event) => {
@@ -547,7 +811,7 @@ function renderExamView() {
     if (firstUnanswered !== -1) {
       state.currentIndex = firstUnanswered;
       saveState();
-      alert(`Todavía hay preguntas sin responder. He saltado a la primera pregunta pendiente (#${firstUnanswered + 1}).`);
+      alert(`${t('pendingAlert')} (#${firstUnanswered + 1}).`);
       renderExamView();
       return;
     }
@@ -598,11 +862,11 @@ function createResultAnswerLine(answer, index, question, userAnswer) {
     <li class="${className}">
       <div>
         <strong>${String.fromCharCode(65 + index)}.</strong>
-        ${escapeHtml(answer.original)}
+        ${escapeHtml(getAnswerText(answer))}
       </div>
       <div class="result-flags">
-        ${isChosen ? '<span class="flag chosen">Tu respuesta</span>' : ''}
-        ${isCorrect ? '<span class="flag correct">Respuesta correcta</span>' : ''}
+        ${isChosen ? `<span class="flag chosen">${escapeHtml(t('chosenAnswer'))}</span>` : ''}
+        ${isCorrect ? `<span class="flag correct">${escapeHtml(t('correctAnswer'))}</span>` : ''}
       </div>
     </li>
   `;
@@ -621,11 +885,11 @@ function createResultCard(question, indexInModule) {
       <div class="result-card-head">
         <span class="question-number">#${indexInModule}</span>
         <span class="result-status ${isCorrect ? 'ok' : 'bad'}">
-          ${isCorrect ? 'Correcta' : 'Incorrecta'}
+          ${isCorrect ? escapeHtml(t('correct')) : escapeHtml(t('incorrect'))}
         </span>
       </div>
 
-      <div class="result-question-original">${escapeHtml(question.q)}</div>
+      <div class="result-question-original">${escapeHtml(getQuestionText(question))}</div>
 
       <ol class="result-answers">
         ${answersHtml}
@@ -646,13 +910,13 @@ function renderPracticeResultsView() {
       <article class="result-card ok">
         <div class="result-card-head">
           <span class="question-number">0</span>
-          <span class="result-status ok">Sin resultados</span>
+          <span class="result-status ok">${escapeHtml(t('noResults'))}</span>
         </div>
         <div class="result-question-original">
           ${
             state.resultsFilter === 'wrong'
-              ? 'No hay respuestas incorrectas en este módulo.'
-              : 'No hay preguntas para mostrar.'
+              ? escapeHtml(t('noWrongInModule'))
+              : escapeHtml(t('noQuestionsToShow'))
           }
         </div>
       </article>
@@ -662,17 +926,18 @@ function renderPracticeResultsView() {
     <div class="page">
       <header class="topbar">
         <div>
-          <h1>Resultado del módulo</h1>
+          <h1>${escapeHtml(t('moduleResult'))}</h1>
           <p class="final-status ${passed ? 'pass' : 'fail'}">
-            ${passed ? 'Has aprobado' : 'No has aprobado'}
+            ${passed ? escapeHtml(t('passed')) : escapeHtml(t('failed'))}
           </p>
         </div>
 
         <div class="topbar-actions">
-          <button id="filter-wrong-btn" class="${state.resultsFilter === 'wrong' ? 'primary-btn' : 'secondary-btn'}">Solo incorrectas</button>
-          <button id="filter-all-btn" class="${state.resultsFilter === 'all' ? 'primary-btn' : 'secondary-btn'}">Todas las respuestas</button>
-          <button id="retry-practice-btn" class="secondary-btn">Nueva práctica</button>
-          <button id="review-btn" class="primary-btn">Volver al test</button>
+          ${renderLanguageSwitcher()}
+          <button id="filter-wrong-btn" class="${state.resultsFilter === 'wrong' ? 'primary-btn' : 'secondary-btn'}">${escapeHtml(t('onlyWrong'))}</button>
+          <button id="filter-all-btn" class="${state.resultsFilter === 'all' ? 'primary-btn' : 'secondary-btn'}">${escapeHtml(t('allAnswers'))}</button>
+          <button id="retry-practice-btn" class="secondary-btn">${escapeHtml(t('newPractice'))}</button>
+          <button id="review-btn" class="primary-btn">${escapeHtml(t('reviewTest'))}</button>
         </div>
       </header>
 
@@ -680,8 +945,8 @@ function renderPracticeResultsView() {
         <div class="summary-card ${passed ? 'pass' : 'fail'}">
           <h3>${escapeHtml(mod.title)}</h3>
           <p>${correct} / ${mod.take}</p>
-          <p>Para aprobar: ${mod.pass}</p>
-          <strong>${passed ? 'Has aprobado' : 'No has aprobado'}</strong>
+          <p>${escapeHtml(t('passLabel'))}: ${mod.pass}</p>
+          <strong>${passed ? escapeHtml(t('passed')) : escapeHtml(t('failed'))}</strong>
         </div>
       </section>
 
@@ -696,6 +961,8 @@ function renderPracticeResultsView() {
       </section>
     </div>
   `;
+
+  attachLanguageSwitcher();
 
   document.getElementById('filter-wrong-btn')?.addEventListener('click', () => {
     state.resultsFilter = 'wrong';
@@ -750,8 +1017,8 @@ function renderFullExamResultsView() {
         <div class="summary-card ${m.passed ? 'pass' : 'fail'}">
           <h3>${escapeHtml(moduleTitles[m.moduleKey])}</h3>
           <p>${m.correct} / ${m.take}</p>
-          <p>Para aprobar: ${m.pass}</p>
-          <strong>${m.passed ? 'Has aprobado' : 'No has aprobado'}</strong>
+          <p>${escapeHtml(t('passLabel'))}: ${m.pass}</p>
+          <strong>${m.passed ? escapeHtml(t('passed')) : escapeHtml(t('failed'))}</strong>
         </div>
       `
     )
@@ -765,13 +1032,13 @@ function renderFullExamResultsView() {
           <article class="result-card ok">
             <div class="result-card-head">
               <span class="question-number">0</span>
-              <span class="result-status ok">Sin resultados</span>
+              <span class="result-status ok">${escapeHtml(t('noResults'))}</span>
             </div>
             <div class="result-question-original">
               ${
                 state.resultsFilter === 'wrong'
-                  ? 'No hay respuestas incorrectas en este módulo.'
-                  : 'No hay preguntas para mostrar.'
+                  ? escapeHtml(t('noWrongInModule'))
+                  : escapeHtml(t('noQuestionsToShow'))
               }
             </div>
           </article>
@@ -783,8 +1050,8 @@ function renderFullExamResultsView() {
             <h2>${escapeHtml(moduleTitles[moduleSummary.moduleKey])}</h2>
             <p>
               ${moduleSummary.correct} / ${moduleSummary.take}
-              • para aprobar: ${moduleSummary.pass}
-              • <strong>${moduleSummary.passed ? 'Has aprobado' : 'No has aprobado'}</strong>
+              • ${escapeHtml(t('passLabel'))}: ${moduleSummary.pass}
+              • <strong>${moduleSummary.passed ? escapeHtml(t('passed')) : escapeHtml(t('failed'))}</strong>
             </p>
           </div>
           <div class="result-grid">
@@ -799,16 +1066,17 @@ function renderFullExamResultsView() {
     <div class="page">
       <header class="topbar">
         <div>
-          <h1>Resultados</h1>
+          <h1>${escapeHtml(t('results'))}</h1>
           <p class="final-status ${overallPassed ? 'pass' : 'fail'}">
-            ${overallPassed ? 'Resultado final: Has aprobado' : 'Resultado final: No has aprobado'}
+            ${overallPassed ? escapeHtml(t('finalPassed')) : escapeHtml(t('finalFailed'))}
           </p>
         </div>
         <div class="topbar-actions">
-          <button id="filter-wrong-btn" class="${state.resultsFilter === 'wrong' ? 'primary-btn' : 'secondary-btn'}">Solo incorrectas</button>
-          <button id="filter-all-btn" class="${state.resultsFilter === 'all' ? 'primary-btn' : 'secondary-btn'}">Todas las respuestas</button>
-          <button id="retry-btn" class="secondary-btn">Nuevo test</button>
-          <button id="review-btn" class="primary-btn">Volver al test</button>
+          ${renderLanguageSwitcher()}
+          <button id="filter-wrong-btn" class="${state.resultsFilter === 'wrong' ? 'primary-btn' : 'secondary-btn'}">${escapeHtml(t('onlyWrong'))}</button>
+          <button id="filter-all-btn" class="${state.resultsFilter === 'all' ? 'primary-btn' : 'secondary-btn'}">${escapeHtml(t('allAnswers'))}</button>
+          <button id="retry-btn" class="secondary-btn">${escapeHtml(t('newTest'))}</button>
+          <button id="review-btn" class="primary-btn">${escapeHtml(t('reviewTest'))}</button>
         </div>
       </header>
 
@@ -819,6 +1087,8 @@ function renderFullExamResultsView() {
       ${detailsHtml}
     </div>
   `;
+
+  attachLanguageSwitcher();
 
   document.getElementById('filter-wrong-btn')?.addEventListener('click', () => {
     state.resultsFilter = 'wrong';
@@ -855,6 +1125,7 @@ function renderResultsView() {
 
 function init() {
   try {
+    syncDocumentLanguage();
     const restored = loadState();
 
     if (!restored || state.mode === 'menu' || state.examQuestions.length === 0) {
@@ -870,7 +1141,7 @@ function init() {
   } catch (error) {
     app.innerHTML = `
       <div class="page">
-        <h1>Error</h1>
+        <h1>${escapeHtml(t('error'))}</h1>
         <pre>${escapeHtml(error.message)}</pre>
       </div>
     `;
