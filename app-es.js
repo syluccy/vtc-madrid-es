@@ -29,8 +29,7 @@ const TEXT = {
     homeTitle: '¿Cómo quieres practicar?',
     homeIntro: 'Puedes empezar un examen completo o practicar un único módulo por separado.',
     languageTitle: 'Idioma',
-    languageIntro: 'La aplicación se abre en español por defecto. Si prefieres practicar en otro idioma, puedes cambiarlo aquí.',
-    languageUrlHint: 'El idioma elegido queda reflejado en la URL, así podrás volver directamente a esta versión.',
+    languageHint: 'Puedes cambiar el idioma en la esquina superior derecha.',
     startFullExam: 'Iniciar examen completo',
     startPracticeMode: 'Práctica por módulos',
     practiceByModules: 'Práctica por módulos',
@@ -80,8 +79,7 @@ const TEXT = {
     homeTitle: 'Hogyan szeretnél gyakorolni?',
     homeIntro: 'Elkezdhetsz egy teljes tesztet, vagy külön is gyakorolhatod az egyes modulokat.',
     languageTitle: 'Nyelv',
-    languageIntro: 'Az alkalmazás alapértelmezés szerint spanyolul indul. Ha szeretnél, itt válthatsz másik nyelvre.',
-    languageUrlHint: 'A kiválasztott nyelv az URL-ben is megjelenik, így később közvetlenül ezen a nyelven nyithatod meg a gyakorlót.',
+    languageHint: 'A nyelvet a jobb felső sarokban tudod módosítani.',
     startFullExam: 'Teljes teszt indítása',
     startPracticeMode: 'Modulok gyakorlása',
     practiceByModules: 'Modulok gyakorlása',
@@ -247,25 +245,23 @@ function syncDocumentLanguage() {
 
 function renderLanguageSwitcher() {
   return `
-    <div class="language-switcher" aria-label="${escapeHtml(t('languageTitle'))}">
-      ${Object.values(LANGUAGES).map((language) => `
-        <button
-          type="button"
-          class="language-btn ${currentLanguage === language.code ? 'active' : ''}"
-          data-lang="${language.code}"
-          aria-pressed="${currentLanguage === language.code ? 'true' : 'false'}"
-        >
-          ${escapeHtml(language.shortLabel)}
-        </button>
-      `).join('')}
-    </div>
+    <label class="language-switcher">
+      <span>${escapeHtml(t('languageTitle'))}</span>
+      <select class="language-select" aria-label="${escapeHtml(t('languageTitle'))}">
+        ${Object.values(LANGUAGES).map((language) => `
+          <option value="${language.code}" ${currentLanguage === language.code ? 'selected' : ''}>
+            ${escapeHtml(language.label)}
+          </option>
+        `).join('')}
+      </select>
+    </label>
   `;
 }
 
 function attachLanguageSwitcher() {
-  document.querySelectorAll('.language-btn').forEach((btn) => {
-    btn.addEventListener('click', () => {
-      const nextLanguage = btn.dataset.lang;
+  document.querySelectorAll('.language-select').forEach((select) => {
+    select.addEventListener('change', () => {
+      const nextLanguage = select.value;
       if (!LANGUAGES[nextLanguage] || nextLanguage === currentLanguage) return;
 
       const url = new URL(window.location.href);
@@ -568,24 +564,20 @@ function renderHome() {
           <h1>${escapeHtml(t('pageTitle'))}</h1>
           <p>${escapeHtml(t('homeSubtitle'))}</p>
         </div>
+
+        <div class="topbar-actions">
+          ${renderLanguageSwitcher()}
+        </div>
       </header>
 
       <section class="welcome-card">
         <h2>${escapeHtml(t('homeTitle'))}</h2>
         <p>${escapeHtml(t('homeIntro'))}</p>
+        <p class="language-hint">${escapeHtml(t('languageHint'))}</p>
 
         <div class="mode-select">
           <button id="start-full-exam" class="primary-btn">${escapeHtml(t('startFullExam'))}</button>
           <button id="start-practice-mode" class="secondary-btn">${escapeHtml(t('startPracticeMode'))}</button>
-        </div>
-
-        <div class="language-panel">
-          <div>
-            <h3>${escapeHtml(t('languageTitle'))}</h3>
-            <p>${escapeHtml(t('languageIntro'))}</p>
-            <p>${escapeHtml(t('languageUrlHint'))}</p>
-          </div>
-          ${renderLanguageSwitcher()}
         </div>
       </section>
     </div>
