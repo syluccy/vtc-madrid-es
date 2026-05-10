@@ -30,6 +30,8 @@ const TEXT = {
     homeIntro: 'Puedes empezar un examen completo o practicar un único módulo por separado.',
     languageTitle: 'Idioma',
     languageHint: 'Puedes cambiar el idioma en la esquina superior derecha.',
+    languageHelpTitle: 'Ayuda de idioma',
+    languageHelpBody: 'Las traducciones están pensadas como apoyo al aprendizaje, no como sustituto del español del examen. Durante la práctica se traduce la pregunta, pero las respuestas permanecen en español. Al revisar los resultados, también podrás ver las respuestas traducidas.',
     startFullExam: 'Iniciar examen completo',
     startPracticeMode: 'Práctica por módulos',
     practiceByModules: 'Práctica por módulos',
@@ -80,6 +82,8 @@ const TEXT = {
     homeIntro: 'Elkezdhetsz egy teljes tesztet, vagy külön is gyakorolhatod az egyes modulokat.',
     languageTitle: 'Nyelv',
     languageHint: 'A nyelvet a jobb felső sarokban tudod módosítani.',
+    languageHelpTitle: 'Nyelvi segítség',
+    languageHelpBody: 'A fordítások célja a tanulás támogatása, nem a spanyol vizsgaszöveg kiváltása. Gyakorlás közben a kérdést fordítjuk, de a válaszlehetőségek spanyolul maradnak. Az eredmények áttekintésekor már a válaszok fordítását is látni fogod.',
     startFullExam: 'Teljes teszt indítása',
     startPracticeMode: 'Modulok gyakorlása',
     practiceByModules: 'Modulok gyakorlása',
@@ -589,6 +593,10 @@ function renderHome() {
         <h2>${escapeHtml(t('homeTitle'))}</h2>
         <p>${escapeHtml(t('homeIntro'))}</p>
         <p class="language-hint">${escapeHtml(t('languageHint'))}</p>
+        <div class="language-help">
+          <h3>${escapeHtml(t('languageHelpTitle'))}</h3>
+          <p>${escapeHtml(t('languageHelpBody'))}</p>
+        </div>
 
         <div class="mode-select">
           <button id="start-full-exam" class="primary-btn">${escapeHtml(t('startFullExam'))}</button>
@@ -705,7 +713,7 @@ function renderExamView() {
           />
           <span>
             <strong>${String.fromCharCode(65 + index)}.</strong>
-            ${escapeHtml(getAnswerText(question, index))}
+            ${escapeHtml(getOriginalAnswerText(answer))}
           </span>
         </label>
       `;
