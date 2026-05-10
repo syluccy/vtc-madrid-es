@@ -1,12 +1,12 @@
-import { RULES, questionBank as questionBankEs } from './questions.js';
-import { questionBank as questionBankHu } from './questions-hu.js';
+import { RULES, questionBank } from './questions.js';
 
 const app = document.getElementById('app');
 const DEFAULT_LANGUAGE = 'es';
 
-const QUESTION_BANKS = {
-  es: questionBankEs,
-  hu: questionBankHu,
+const QUESTION_TRANSLATIONS = {};
+
+const QUESTION_TRANSLATION_LOADERS = {
+  hu: () => import('./translations/hu.js'),
 };
 
 const LANGUAGES = {
@@ -191,7 +191,6 @@ const MODULE_META_BY_LANGUAGE = {
 const moduleOrder = ['I', 'II', 'III', 'IV'];
 
 let currentLanguage = resolveLanguage();
-let questionBank = QUESTION_BANKS[currentLanguage] ?? QUESTION_BANKS[DEFAULT_LANGUAGE];
 let MODULE_META = MODULE_META_BY_LANGUAGE[currentLanguage] ?? MODULE_META_BY_LANGUAGE[DEFAULT_LANGUAGE];
 let moduleTitles = getModuleTitles(MODULE_META);
 
@@ -228,12 +227,29 @@ function getStorageKey() {
 
 function getQuestionText(question) {
   if (currentLanguage === DEFAULT_LANGUAGE) return question.q;
-  return question[currentLanguage] ?? question.q;
+  return QUESTION_TRANSLATIONS[currentLanguage]?.[question.id]?.q ?? question[currentLanguage] ?? question.q;
 }
 
-function getAnswerText(answer) {
-  if (currentLanguage === DEFAULT_LANGUAGE) return answer.original;
-  return answer[currentLanguage] ?? answer.original;
+function getOriginalAnswerText(answer) {
+  if (typeof answer === 'string') return answer;
+  return answer?.original ?? '';
+}
+
+function getAnswerText(question, index) {
+  const originalAnswer = question.answers[index];
+  const originalText = getOriginalAnswerText(originalAnswer);
+  if (currentLanguage === DEFAULT_LANGUAGE) return originalText;
+  return QUESTION_TRANSLATIONS[currentLanguage]?.[question.id]?.answers?.[index] ?? originalAnswer?.[currentLanguage] ?? originalText;
+}
+
+async function ensureQuestionTranslations(language) {
+  if (language === DEFAULT_LANGUAGE || QUESTION_TRANSLATIONS[language]) return;
+
+  const loader = QUESTION_TRANSLATION_LOADERS[language];
+  if (!loader) return;
+
+  const module = await loader();
+  QUESTION_TRANSLATIONS[language] = module.questionTranslations ?? {};
 }
 
 function syncDocumentLanguage() {
@@ -259,7 +275,7 @@ function renderLanguageSwitcher() {
 
 function attachLanguageSwitcher() {
   document.querySelectorAll('.language-select').forEach((select) => {
-    select.addEventListener('change', () => {
+    select.addEventListener('change', async () => {
       const nextLanguage = select.value;
       if (!LANGUAGES[nextLanguage] || nextLanguage === currentLanguage) return;
 
@@ -268,9 +284,9 @@ function attachLanguageSwitcher() {
       window.history.replaceState({}, '', url);
 
       currentLanguage = nextLanguage;
-      questionBank = QUESTION_BANKS[currentLanguage] ?? QUESTION_BANKS[DEFAULT_LANGUAGE];
       MODULE_META = MODULE_META_BY_LANGUAGE[currentLanguage] ?? MODULE_META_BY_LANGUAGE[DEFAULT_LANGUAGE];
       moduleTitles = getModuleTitles(MODULE_META);
+      await ensureQuestionTranslations(currentLanguage);
       syncDocumentLanguage();
 
       const restored = loadState();
@@ -689,7 +705,7 @@ function renderExamView() {
           />
           <span>
             <strong>${String.fromCharCode(65 + index)}.</strong>
-            ${escapeHtml(getAnswerText(answer))}
+            ${escapeHtml(getAnswerText(question, index))}
           </span>
         </label>
       `;
@@ -853,7 +869,7 @@ function createResultAnswerLine(answer, index, question, userAnswer) {
     <li class="${className}">
       <div>
         <strong>${String.fromCharCode(65 + index)}.</strong>
-        ${escapeHtml(getAnswerText(answer))}
+        ${escapeHtml(getAnswerText(question, index))}
       </div>
       <div class="result-flags">
         ${isChosen ? `<span class="flag chosen">${escapeHtml(t('chosenAnswer'))}</span>` : ''}
@@ -1114,8 +1130,9 @@ function renderResultsView() {
   renderFullExamResultsView();
 }
 
-function init() {
+async function init() {
   try {
+    await ensureQuestionTranslations(currentLanguage);
     syncDocumentLanguage();
     const restored = loadState();
 

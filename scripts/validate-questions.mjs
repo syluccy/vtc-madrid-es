@@ -1,4 +1,5 @@
 import { questionBank } from '../questions.js';
+import { questionTranslations as huTranslations } from '../translations/hu.js';
 
 const VALID_MODULES = new Set(['I', 'II', 'III', 'IV']);
 
@@ -30,22 +31,14 @@ function validateQuestion(question, index, seenIds) {
     errors.push(`${label}: missing Spanish question text in q`);
   }
 
-  if (!isNonEmptyString(question?.hu)) {
-    errors.push(`${label}: missing Hungarian question translation in hu`);
-  }
-
   if (!Array.isArray(question?.answers) || question.answers.length !== 4) {
     errors.push(`${label}: answers must contain exactly 4 options`);
     return errors;
   }
 
   question.answers.forEach((answer, answerIndex) => {
-    if (!isNonEmptyString(answer?.original)) {
-      errors.push(`${label}: answer ${answerIndex} missing original`);
-    }
-
-    if (!isNonEmptyString(answer?.hu)) {
-      errors.push(`${label}: answer ${answerIndex} missing hu translation`);
+    if (!isNonEmptyString(answer)) {
+      errors.push(`${label}: answer ${answerIndex} must be a non-empty string`);
     }
   });
 
@@ -60,6 +53,33 @@ function validateQuestion(question, index, seenIds) {
   return errors;
 }
 
+function validateTranslation(question, translations, language) {
+  const translation = translations[question.id];
+  const errors = [];
+
+  if (!translation) {
+    errors.push(`${question.id}: missing ${language} translation`);
+    return errors;
+  }
+
+  if (!isNonEmptyString(translation.q)) {
+    errors.push(`${question.id}: missing ${language} question translation`);
+  }
+
+  if (!Array.isArray(translation.answers) || translation.answers.length !== question.answers.length) {
+    errors.push(`${question.id}: ${language} answers must match the canonical answer count`);
+    return errors;
+  }
+
+  translation.answers.forEach((answer, answerIndex) => {
+    if (!isNonEmptyString(answer)) {
+      errors.push(`${question.id}: ${language} answer ${answerIndex} must be a non-empty string`);
+    }
+  });
+
+  return errors;
+}
+
 const seenIds = new Set();
 const errors = [];
 
@@ -70,6 +90,13 @@ for (let index = 0; index < questionBank.length; index += 1) {
   }
 
   errors.push(...validateQuestion(questionBank[index], index, seenIds));
+  errors.push(...validateTranslation(questionBank[index], huTranslations, 'hu'));
+}
+
+for (const id of Object.keys(huTranslations)) {
+  if (!seenIds.has(id)) {
+    errors.push(`${id}: hu translation has no canonical question`);
+  }
 }
 
 const moduleCounts = questionBank.reduce((counts, question) => {
