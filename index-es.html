@@ -668,6 +668,36 @@
         flex-direction: column;
       }
 
+      .page:not(.home-page) .topbar {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) auto;
+        align-items: start;
+        gap: 10px;
+      }
+
+      .page:not(.home-page) .topbar > div:first-child {
+        grid-column: 1;
+        grid-row: 1;
+        min-width: 0;
+      }
+
+      .page:not(.home-page) .topbar-actions {
+        display: contents;
+        width: auto;
+      }
+
+      .page:not(.home-page) .topbar-actions .language-switcher {
+        grid-column: 2;
+        grid-row: 1;
+        justify-self: end;
+        align-self: start;
+      }
+
+      .page:not(.home-page) .topbar-actions > button {
+        grid-column: 1 / -1;
+        width: 100%;
+      }
+
       .home-page .topbar {
         display: grid;
         grid-template-columns: minmax(0, 1fr) auto;
