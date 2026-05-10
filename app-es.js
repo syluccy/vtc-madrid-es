@@ -559,7 +559,7 @@ function renderHome() {
   app.innerHTML = `
     <div class="page home-page">
       <header class="topbar">
-        <div>
+        <div class="topbar-title">
           <h1>${escapeHtml(t('pageTitle'))}</h1>
           <p>${escapeHtml(t('homeSubtitle'))}</p>
         </div>

@@ -98,13 +98,30 @@
       font-size: 15px;
     }
 
-    .home-page .topbar > div {
-      width: auto;
+    .home-page .topbar {
+      position: relative;
+      justify-content: center;
+      max-width: 760px;
+      min-height: 72px;
+      margin: 0 auto 18px;
+      text-align: center;
+    }
+
+    .home-page .topbar-title {
+      width: 100%;
+      padding: 0 96px;
     }
 
     .home-page .topbar h1,
     .home-page .topbar p {
-      text-align: left;
+      text-align: center;
+    }
+
+    .home-page .topbar-actions {
+      position: absolute;
+      top: 2px;
+      right: 0;
+      justify-content: flex-end;
     }
 
     .topbar-actions,
@@ -588,8 +605,44 @@
         flex-direction: column;
       }
 
+      .home-page .topbar {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) auto;
+        align-items: start;
+        gap: 10px;
+        max-width: none;
+        min-height: 0;
+        margin-bottom: 12px;
+        text-align: left;
+      }
+
+      .home-page .topbar-title {
+        width: auto;
+        padding: 0;
+      }
+
+      .home-page .topbar h1,
+      .home-page .topbar p {
+        text-align: left;
+      }
+
+      .home-page .topbar p {
+        display: none;
+      }
+
+      .home-page .topbar-actions {
+        position: static;
+        width: auto;
+        justify-content: flex-end;
+      }
+
       .topbar h1 {
         font-size: 28px;
+      }
+
+      .home-page .topbar h1 {
+        font-size: 22px;
+        line-height: 1.2;
       }
 
       .question-title {
@@ -606,6 +659,10 @@
       .nav-actions,
       .module-card-footer {
         width: 100%;
+      }
+
+      .home-page .topbar-actions {
+        width: auto;
       }
 
       .topbar-actions > button,
