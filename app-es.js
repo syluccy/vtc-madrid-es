@@ -24,7 +24,7 @@ const LANGUAGES = {
 
 const TEXT = {
   es: {
-    pageTitle: 'Simulador examen VTC Madrid V3',
+    pageTitle: 'Simulador examen VTC Madrid',
     homeSubtitle: 'Practica por módulos o inicia un test completo.',
     homeTitle: '¿Cómo quieres practicar?',
     homeIntro: 'Puedes empezar un examen completo o practicar un único módulo por separado.',
@@ -240,7 +240,7 @@ function syncDocumentLanguage() {
   document.documentElement.lang = currentLanguage;
   document.title = currentLanguage === 'hu'
     ? 'VTC Madrid vizsgagyakorló'
-    : 'Simulador examen VTC Madrid V3 – Test gratis con preguntas reales';
+    : 'Simulador examen VTC Madrid – Test gratis con preguntas reales';
 }
 
 function renderLanguageSwitcher() {
