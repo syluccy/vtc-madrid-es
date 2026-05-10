@@ -2,6 +2,7 @@ import { RULES, questionBank } from './questions.js';
 
 const app = document.getElementById('app');
 const DEFAULT_LANGUAGE = 'es';
+const APP_VERSION = 'v2026.05.10';
 
 const QUESTION_TRANSLATIONS = {};
 
@@ -291,6 +292,14 @@ function renderLanguageSwitcher() {
         `).join('')}
       </select>
     </label>
+  `;
+}
+
+function renderAppFooter() {
+  return `
+    <footer class="app-footer" aria-label="App version">
+      ${escapeHtml(APP_VERSION)}
+    </footer>
   `;
 }
 
@@ -620,6 +629,8 @@ function renderHome() {
           <button id="start-practice-mode" class="secondary-btn">${escapeHtml(t('startPracticeMode'))}</button>
         </div>
       </section>
+
+      ${renderAppFooter()}
     </div>
   `;
 
@@ -676,6 +687,8 @@ function renderPracticeModuleSelect() {
           `;
         }).join('')}
       </section>
+
+      ${renderAppFooter()}
     </div>
   `;
 
@@ -808,6 +821,8 @@ function renderExamView() {
       </div>
 
       ${state.mode === 'practice' ? '' : renderLiveStats()}
+
+      ${renderAppFooter()}
     </div>
   `;
 
@@ -997,6 +1012,8 @@ function renderPracticeResultsView() {
           ${detailsHtml}
         </div>
       </section>
+
+      ${renderAppFooter()}
     </div>
   `;
 
@@ -1123,6 +1140,8 @@ function renderFullExamResultsView() {
       </section>
 
       ${detailsHtml}
+
+      ${renderAppFooter()}
     </div>
   `;
 
