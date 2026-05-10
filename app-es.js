@@ -766,13 +766,16 @@ function renderExamView() {
       ${
         state.mode === 'practice' && practiceMeta
           ? `
-            <section class="practice-info-box">
-              <div class="practice-info-head">
-                <span class="module-badge">${escapeHtml(practiceMeta.title)}</span>
-                <span class="question-number">${practiceMeta.take} ${escapeHtml(t('questions'))}</span>
+            <section class="practice-overview">
+              <div class="practice-info-box">
+                <div class="practice-info-head">
+                  <span class="module-badge">${escapeHtml(practiceMeta.title)}</span>
+                  <span class="question-number">${practiceMeta.take} ${escapeHtml(t('questions'))}</span>
+                </div>
+                <div class="practice-info-es">${escapeHtml(practiceMeta.description)}</div>
+                <div class="practice-info-pass">${escapeHtml(t('passLabel'))}: ${practiceMeta.pass}</div>
               </div>
-              <div class="practice-info-es">${escapeHtml(practiceMeta.description)}</div>
-              <div class="practice-info-pass">${escapeHtml(t('passLabel'))}: ${practiceMeta.pass}</div>
+              ${renderLiveStats()}
             </section>
           `
           : ''
@@ -804,7 +807,7 @@ function renderExamView() {
         }
       </div>
 
-      ${renderLiveStats()}
+      ${state.mode === 'practice' ? '' : renderLiveStats()}
     </div>
   `;
 
