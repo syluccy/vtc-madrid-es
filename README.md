@@ -7,7 +7,7 @@ After completing the exam, there is also an option to review either only the inc
 
 Resources: https://www.comunidad.madrid/servicios/transporte/pruebas-conductor-vtc
 
-Publicated to: https://vtc-madrid-es.szucs-krisz.workers.dev/
+Published to: https://vtc-mad.es/
 
 Default language: Castellano (ES)
 
@@ -30,6 +30,26 @@ Translations are intended as a learning aid, not as a replacement for understand
 When a non-Spanish language is selected, tests keep the original Spanish content visible first.
 The selected language translation appears in expandable helper sections, with Spanish as the fallback whenever a translation is missing.
 During active practice, answer options remain in Spanish; on result/review screens, both questions and answers can show their translations.
+
+## Analytics
+
+Google Analytics is configured with measurement ID `G-2VTX1KQ8LM`.
+
+Tracked quiz events include:
+
+- `quiz_start`
+- `quiz_complete`
+- `practice_menu_open`
+- `module_selected`
+- `practice_start`
+- `practice_complete`
+- `language_change`
+- `results_filter_change`
+- `review_test`
+- `new_start`
+- `home_return`
+
+Every tracked event includes the current `language`, `language_label`, and `app_version` event parameters.
 
 ## Question bank
 
