@@ -2,7 +2,7 @@ import { RULES, questionBank } from './questions.js';
 
 const app = document.getElementById('app');
 const DEFAULT_LANGUAGE = 'es';
-const APP_VERSION = 'v2026.05.11';
+const APP_VERSION = 'v1.4';
 const AUTHOR_LINK = 'https://www.linkedin.com/in/743bab17/?locale=es-ES';
 
 const QUESTION_TRANSLATIONS = {};
