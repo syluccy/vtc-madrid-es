@@ -7,7 +7,7 @@ After completing the exam, there is also an option to review either only the inc
 
 Resources: https://www.comunidad.madrid/servicios/transporte/pruebas-conductor-vtc
 
-Publicated to: https://vtc-madrid-es.szucs-krisz.workers.dev/
+Published to: https://vtc-mad.es/
 
 Default language: Castellano (ES)
 
