@@ -312,6 +312,13 @@ function attachLanguageSwitcher() {
       const nextLanguage = select.value;
       if (!LANGUAGES[nextLanguage] || nextLanguage === currentLanguage) return;
 
+      trackEvent('language_change', {
+        from_language: currentLanguage,
+        to_language: nextLanguage,
+        mode: state.mode,
+        module: state.mode === 'practice' && state.practiceModule ? state.practiceModule : 'all',
+      });
+
       const url = new URL(window.location.href);
       url.searchParams.set('lang', nextLanguage);
       window.history.replaceState({}, '', url);
@@ -365,7 +372,12 @@ function escapeHtml(value) {
 
 function trackEvent(eventName, params = {}) {
   if (typeof window !== 'undefined' && typeof window.gtag === 'function') {
-    window.gtag('event', eventName, params);
+    window.gtag('event', eventName, {
+      language: currentLanguage,
+      language_label: LANGUAGES[currentLanguage]?.label ?? currentLanguage,
+      app_version: APP_VERSION,
+      ...params,
+    });
   }
 }
 
@@ -375,6 +387,10 @@ function buildAnalyticsPayload(extra = {}) {
     module: state.mode === 'practice' && state.practiceModule ? state.practiceModule : 'all',
     ...extra,
   };
+}
+
+function getAnsweredCount() {
+  return Object.keys(state.answers).length;
 }
 
 function getPracticePassed() {
@@ -650,6 +666,10 @@ function renderHome() {
   });
 
   document.getElementById('start-practice-mode')?.addEventListener('click', () => {
+    trackEvent('practice_menu_open', {
+      mode: 'practice',
+      module: 'all',
+    });
     renderPracticeModuleSelect();
   });
 }
@@ -698,6 +718,11 @@ function renderPracticeModuleSelect() {
   attachLanguageSwitcher();
 
   document.getElementById('back-home-btn')?.addEventListener('click', () => {
+    trackEvent('home_return', {
+      source: 'practice_menu',
+      mode: 'menu',
+      module: 'all',
+    });
     renderHome();
   });
 
@@ -898,6 +923,13 @@ function renderExamView() {
   });
 
   document.getElementById('new-exam-btn')?.addEventListener('click', () => {
+    trackEvent('new_start', {
+      ...buildAnalyticsPayload({
+        source: state.mode,
+        answered_questions: getAnsweredCount(),
+        total_questions: state.examQuestions.length,
+      }),
+    });
     clearState();
     renderHome();
   });
@@ -1023,23 +1055,49 @@ function renderPracticeResultsView() {
   attachLanguageSwitcher();
 
   document.getElementById('filter-wrong-btn')?.addEventListener('click', () => {
+    trackEvent('results_filter_change', {
+      ...buildAnalyticsPayload({
+        results_filter: 'wrong',
+        source: 'practice_results',
+      }),
+    });
     state.resultsFilter = 'wrong';
     saveState();
     renderPracticeResultsView();
   });
 
   document.getElementById('filter-all-btn')?.addEventListener('click', () => {
+    trackEvent('results_filter_change', {
+      ...buildAnalyticsPayload({
+        results_filter: 'all',
+        source: 'practice_results',
+      }),
+    });
     state.resultsFilter = 'all';
     saveState();
     renderPracticeResultsView();
   });
 
   document.getElementById('retry-practice-btn')?.addEventListener('click', () => {
+    trackEvent('new_start', {
+      ...buildAnalyticsPayload({
+        source: 'practice_results',
+        score: countCorrectOverall(),
+        total_questions: state.examQuestions.length,
+      }),
+    });
     clearState();
     renderPracticeModuleSelect();
   });
 
   document.getElementById('review-btn')?.addEventListener('click', () => {
+    trackEvent('review_test', {
+      ...buildAnalyticsPayload({
+        source: 'practice_results',
+        score: countCorrectOverall(),
+        total_questions: state.examQuestions.length,
+      }),
+    });
     state.submitted = false;
     saveState();
     renderExamView();
@@ -1151,23 +1209,49 @@ function renderFullExamResultsView() {
   attachLanguageSwitcher();
 
   document.getElementById('filter-wrong-btn')?.addEventListener('click', () => {
+    trackEvent('results_filter_change', {
+      ...buildAnalyticsPayload({
+        results_filter: 'wrong',
+        source: 'full_exam_results',
+      }),
+    });
     state.resultsFilter = 'wrong';
     saveState();
     renderFullExamResultsView();
   });
 
   document.getElementById('filter-all-btn')?.addEventListener('click', () => {
+    trackEvent('results_filter_change', {
+      ...buildAnalyticsPayload({
+        results_filter: 'all',
+        source: 'full_exam_results',
+      }),
+    });
     state.resultsFilter = 'all';
     saveState();
     renderFullExamResultsView();
   });
 
   document.getElementById('retry-btn')?.addEventListener('click', () => {
+    trackEvent('new_start', {
+      ...buildAnalyticsPayload({
+        source: 'full_exam_results',
+        score: countCorrectOverall(),
+        total_questions: state.examQuestions.length,
+      }),
+    });
     clearState();
     renderHome();
   });
 
   document.getElementById('review-btn')?.addEventListener('click', () => {
+    trackEvent('review_test', {
+      ...buildAnalyticsPayload({
+        source: 'full_exam_results',
+        score: countCorrectOverall(),
+        total_questions: state.examQuestions.length,
+      }),
+    });
     state.submitted = false;
     saveState();
     renderExamView();
