@@ -11,6 +11,8 @@ Published to: https://vtc-mad.es/
 
 Default language: Castellano (ES)
 
+Legacy entrypoints `/index-es.html` and `/index-es` redirect to `/`.
+
 ## Language support
 
 The canonical question bank is Spanish and lives in `questions.js`.
