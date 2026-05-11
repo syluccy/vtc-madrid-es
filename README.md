@@ -46,6 +46,7 @@ Tracked quiz events include:
 - `language_change`
 - `results_filter_change`
 - `review_test`
+- `retry_same_questions`
 - `new_start`
 - `home_return`
 

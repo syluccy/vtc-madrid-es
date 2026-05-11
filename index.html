@@ -141,6 +141,26 @@
       justify-content: center;
     }
 
+    .result-toolbar {
+      align-items: center;
+    }
+
+    .action-group {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      align-items: center;
+      padding: 6px;
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      background: rgba(10, 15, 31, 0.72);
+    }
+
+    .restart-action-group {
+      background: rgba(59, 130, 246, 0.08);
+      border-color: rgba(59, 130, 246, 0.32);
+    }
+
     .language-switcher {
       display: inline-flex;
       align-items: center;
@@ -743,6 +763,15 @@
       .page:not(.home-page) .topbar-actions > button {
         grid-column: 1 / -1;
         width: 100%;
+      }
+
+      .page:not(.home-page) .topbar-actions .action-group {
+        grid-column: 1 / -1;
+        width: 100%;
+      }
+
+      .action-group > button {
+        flex: 1 1 180px;
       }
 
       .home-page .topbar {
