@@ -2,7 +2,8 @@ import { RULES, questionBank } from './questions.js';
 
 const app = document.getElementById('app');
 const DEFAULT_LANGUAGE = 'es';
-const APP_VERSION = 'v2026.05.10';
+const APP_VERSION = 'v2026.05.11';
+const AUTHOR_LINK = 'https://www.linkedin.com/in/743bab17/?locale=es-ES';
 
 const QUESTION_TRANSLATIONS = {};
 
@@ -299,6 +300,8 @@ function renderAppFooter() {
   return `
     <footer class="app-footer" aria-label="App version">
       ${escapeHtml(APP_VERSION)}
+      <span aria-hidden="true">·</span>
+      <a href="${AUTHOR_LINK}" target="_blank" rel="noopener noreferrer">@szucskrisztian</a>
     </footer>
   `;
 }
