@@ -65,6 +65,7 @@ const TEXT = {
     allAnswers: 'Todas las respuestas',
     newPractice: 'Nueva práctica',
     newTest: 'Nuevo test',
+    sameQuestions: 'Mismas preguntas',
     reviewTest: 'Volver al test',
     noResults: 'Sin resultados',
     noWrongInModule: 'No hay respuestas incorrectas en este módulo.',
@@ -118,6 +119,7 @@ const TEXT = {
     allAnswers: 'Összes válasz',
     newPractice: 'Új gyakorlás',
     newTest: 'Új teszt',
+    sameQuestions: 'Ugyanezek a kérdések',
     reviewTest: 'Vissza a teszthez',
     noResults: 'Nincs találat',
     noWrongInModule: 'Ebben a modulban nincs hibás válasz.',
@@ -452,6 +454,24 @@ function loadState() {
 
 function clearState() {
   localStorage.removeItem(getStorageKey());
+}
+
+function retrySameQuestions(source) {
+  trackEvent('retry_same_questions', {
+    ...buildAnalyticsPayload({
+      source,
+      score: countCorrectOverall(),
+      total_questions: state.examQuestions.length,
+    }),
+  });
+
+  state.answers = {};
+  state.lockedAnswers = {};
+  state.submitted = false;
+  state.currentIndex = 0;
+  state.resultsFilter = 'wrong';
+  saveState();
+  renderExamView();
 }
 
 function getQuestionsByModule(moduleKey) {
@@ -1020,12 +1040,17 @@ function renderPracticeResultsView() {
           </p>
         </div>
 
-        <div class="topbar-actions">
+        <div class="topbar-actions result-toolbar">
           ${renderLanguageSwitcher()}
-          <button id="filter-wrong-btn" class="${state.resultsFilter === 'wrong' ? 'primary-btn' : 'secondary-btn'}">${escapeHtml(t('onlyWrong'))}</button>
-          <button id="filter-all-btn" class="${state.resultsFilter === 'all' ? 'primary-btn' : 'secondary-btn'}">${escapeHtml(t('allAnswers'))}</button>
-          <button id="retry-practice-btn" class="secondary-btn">${escapeHtml(t('newPractice'))}</button>
-          <button id="review-btn" class="primary-btn">${escapeHtml(t('reviewTest'))}</button>
+          <div class="action-group review-action-group">
+            <button id="filter-wrong-btn" class="${state.resultsFilter === 'wrong' ? 'primary-btn' : 'secondary-btn'}">${escapeHtml(t('onlyWrong'))}</button>
+            <button id="filter-all-btn" class="${state.resultsFilter === 'all' ? 'primary-btn' : 'secondary-btn'}">${escapeHtml(t('allAnswers'))}</button>
+            <button id="review-btn" class="secondary-btn">${escapeHtml(t('reviewTest'))}</button>
+          </div>
+          <div class="action-group restart-action-group">
+            <button id="retry-practice-btn" class="secondary-btn">${escapeHtml(t('newPractice'))}</button>
+            <button id="same-questions-btn" class="primary-btn">${escapeHtml(t('sameQuestions'))}</button>
+          </div>
         </div>
       </header>
 
@@ -1088,6 +1113,10 @@ function renderPracticeResultsView() {
     });
     clearState();
     renderPracticeModuleSelect();
+  });
+
+  document.getElementById('same-questions-btn')?.addEventListener('click', () => {
+    retrySameQuestions('practice_results');
   });
 
   document.getElementById('review-btn')?.addEventListener('click', () => {
@@ -1187,12 +1216,17 @@ function renderFullExamResultsView() {
             ${overallPassed ? escapeHtml(t('finalPassed')) : escapeHtml(t('finalFailed'))}
           </p>
         </div>
-        <div class="topbar-actions">
+        <div class="topbar-actions result-toolbar">
           ${renderLanguageSwitcher()}
-          <button id="filter-wrong-btn" class="${state.resultsFilter === 'wrong' ? 'primary-btn' : 'secondary-btn'}">${escapeHtml(t('onlyWrong'))}</button>
-          <button id="filter-all-btn" class="${state.resultsFilter === 'all' ? 'primary-btn' : 'secondary-btn'}">${escapeHtml(t('allAnswers'))}</button>
-          <button id="retry-btn" class="secondary-btn">${escapeHtml(t('newTest'))}</button>
-          <button id="review-btn" class="primary-btn">${escapeHtml(t('reviewTest'))}</button>
+          <div class="action-group review-action-group">
+            <button id="filter-wrong-btn" class="${state.resultsFilter === 'wrong' ? 'primary-btn' : 'secondary-btn'}">${escapeHtml(t('onlyWrong'))}</button>
+            <button id="filter-all-btn" class="${state.resultsFilter === 'all' ? 'primary-btn' : 'secondary-btn'}">${escapeHtml(t('allAnswers'))}</button>
+            <button id="review-btn" class="secondary-btn">${escapeHtml(t('reviewTest'))}</button>
+          </div>
+          <div class="action-group restart-action-group">
+            <button id="retry-btn" class="secondary-btn">${escapeHtml(t('newTest'))}</button>
+            <button id="same-questions-btn" class="primary-btn">${escapeHtml(t('sameQuestions'))}</button>
+          </div>
         </div>
       </header>
 
@@ -1242,6 +1276,10 @@ function renderFullExamResultsView() {
     });
     clearState();
     renderHome();
+  });
+
+  document.getElementById('same-questions-btn')?.addEventListener('click', () => {
+    retrySameQuestions('full_exam_results');
   });
 
   document.getElementById('review-btn')?.addEventListener('click', () => {
