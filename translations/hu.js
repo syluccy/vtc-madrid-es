@@ -2695,7 +2695,7 @@ export const questionTranslations = {
     "answers": [
       "Billentyűzet",
       "Processzor",
-      "Monitor",
+      "Monitor.",
       "Laptop / hordozható számítógép"
     ]
   },
@@ -5474,10 +5474,10 @@ export const questionTranslations = {
   "proformatrans-modulo1-test5-002": {
     "q": "Válassza ki az alábbiak közül a helyes választ:",
     "answers": [
-      "El cuaderno está entre la mesa del comedor, junto a la lámpara.",
-      "El cuaderno está dentro la mesa del comedor, junto a la lámpara.",
-      "El cuaderno está sobre la mesa del comedor, junto a la lámpara.",
-      "El cuaderno está para la mesa del comedor, junto a la lámpara."
+      "A füzet az étkezőasztal között van, a lámpa mellett.",
+      "A füzet az étkezőasztal belsejében van, a lámpa mellett.",
+      "A füzet az étkezőasztalon van, a lámpa mellett.",
+      "A füzet az étkezőasztal számára van, a lámpa mellett."
     ]
   },
   "proformatrans-modulo1-test5-003": {
@@ -5565,9 +5565,9 @@ export const questionTranslations = {
     "q": "Melyik közmondás jelenti azt, hogy mindenkinek vállalnia kell a saját felelősségét?",
     "answers": [
       "Aki megteszi, megfizet érte.",
-      "Perro ladrador, poco mordedor.",
+      "Amelyik kutya ugat, az ritkán harap.",
       "Mindenki viselje a saját terhét.",
-      "No por mucho madrugar amanece más temprano."
+      "Attól, hogy korán kelünk, nem virrad hamarabb."
     ]
   },
   "proformatrans-modulo1-test5-014": {
@@ -5582,18 +5582,18 @@ export const questionTranslations = {
   "proformatrans-modulo1-test5-016": {
     "q": "Egészítse ki az analógiát: „A tanár úgy viszonyul az iskolához, mint az orvos a...”",
     "answers": [
-      "Enfermero.",
-      "Medicina.",
-      "Estudiante.",
+      "Ápoló.",
+      "Orvoslás.",
+      "Diák.",
       "Kórház."
     ]
   },
   "proformatrans-modulo1-test5-017": {
     "q": "Az alábbi szavak közül melyik jelenti ugyanazt, mint az „alocado”?",
     "answers": [
-      "Ordenado",
-      "Cuidadoso",
-      "Reflexivo",
+      "Rendezett.",
+      "Gondos.",
+      "Megfontolt.",
       "Zavart"
     ]
   },
@@ -5601,34 +5601,34 @@ export const questionTranslations = {
     "q": "Az alábbi szavak közül melyik jelenti ugyanazt, mint a „hacinamiento”?",
     "answers": [
       "Tömeg",
-      "Separación",
-      "Espacio",
-      "Amplitud"
+      "Elválasztás.",
+      "Tér.",
+      "Tágasság."
     ]
   },
   "proformatrans-modulo1-test5-019": {
     "q": "Melyik közmondás jelenti azt, hogy mindennek megvan a maga ideje?",
     "answers": [
-      "El tiempo pone a cada uno en su lugar.",
-      "Camarón que se duerme, se lo lleva la corriente.",
-      "A cada cerdo le llega su San Martín.",
-      "A quien madruga, Dios lo ayuda."
+      "Az idő mindenkit a helyére tesz.",
+      "Aki elalszik, azt elsodorja az ár.",
+      "Mindenki elnyeri egyszer a maga büntetését.",
+      "Ki korán kel, aranyat lel."
     ]
   },
   "proformatrans-modulo1-test6-001": {
     "q": "Egészítse ki a mondatot a helyes opcióval: „El pasajero la dirección al conductor.”",
     "answers": [
-      "mostrando.",
-      "mostraría.",
+      "mutatva.",
+      "megmutatná.",
       "megmutatja.",
-      "mostraron."
+      "megmutatták."
     ]
   },
   "proformatrans-modulo1-test6-002": {
     "q": "Melyik szó főnévi igenév?",
     "answers": [
-      "Corrido",
-      "Corriendo",
+      "Futott.",
+      "Futva.",
       "Futni",
       "Fut / megy"
     ]
@@ -5636,27 +5636,27 @@ export const questionTranslations = {
   "proformatrans-modulo1-test6-003": {
     "q": "Mit jelent a közmondás: „Al mal tiempo, buena cara”?",
     "answers": [
-      "No salir cuando llueve",
+      "Nem kimenni, amikor esik.",
       "Optimistának kell lenni a nehézségekkel szemben",
-      "Huir de los problemas",
-      "Aprovechar el mal clima"
+      "Menekülni a problémák elől.",
+      "Kihasználni a rossz időt."
     ]
   },
   "proformatrans-modulo1-test6-004": {
     "q": "Válassza ki a helyes egyeztetésű mondatot:",
     "answers": [
       "A fiú a parkban játszik.",
-      "Los niñas juegan al fútbol.",
-      "El niños juegan en el parque.",
-      "Las niñas juega con su perro."
+      "Hibás mondat: a lányok fociznak.",
+      "Hibás mondat: a fiú játszanak a parkban.",
+      "Hibás mondat: a lányok játszik a kutyájával."
     ]
   },
   "proformatrans-modulo1-test6-005": {
     "q": "Olyan személy, aki ártalmatlannak tűnik, de veszélyes:",
     "answers": [
-      "Esconde una carta bajo la manga.",
-      "Hay gato encerrado.",
-      "Todo el pescado vendido.",
+      "Rejteget egy kártyát az ingujjában.",
+      "Valami gyanús van a háttérben.",
+      "Már minden hal eladva.",
       "Báránybőrbe bújt farkas."
     ]
   },
@@ -5664,26 +5664,26 @@ export const questionTranslations = {
     "q": "A „Le das la mano y te toma el brazo” jelentése:",
     "answers": [
       "Félreértett segítség",
-      "Generosidad",
-      "Solidaridad",
-      "Gratitud"
+      "Nagylelkűség.",
+      "Szolidaritás.",
+      "Hála."
     ]
   },
   "proformatrans-modulo1-test6-007": {
     "q": "Melyik szerv pumpálja a vért a testben?",
     "answers": [
       "Szív",
-      "Pulmón",
-      "Hígado",
-      "Corazon"
+      "Tüdő.",
+      "Máj.",
+      "Szív ékezet nélkül írva."
     ]
   },
   "proformatrans-modulo1-test6-008": {
     "q": "Melyik mondat tartalmaz visszaható névmást?",
     "answers": [
-      "Tú duermes",
-      "Él juega",
-      "Yo corro",
+      "Te alszol.",
+      "Ő játszik.",
+      "Én futok.",
       "Fésülködöm"
     ]
   },
@@ -5691,170 +5691,170 @@ export const questionTranslations = {
     "q": "A kerék úgy viszonyul a járműhöz, mint a gyökér a...",
     "answers": [
       "Fa",
-      "Rama",
-      "Flor",
-      "Tierra"
+      "Ág.",
+      "Virág.",
+      "Föld."
     ]
   },
   "proformatrans-modulo1-test6-010": {
     "q": "Melyik szó az „oscuro” ellentéte?",
     "answers": [
       "Világos",
-      "Negro",
-      "Sombrío",
-      "Profundo"
+      "Fekete.",
+      "Sötét / komor.",
+      "Mély."
     ]
   },
   "proformatrans-modulo1-test6-011": {
     "q": "Az alábbi szavak közül melyik nem kapcsolódik a többihez?",
     "answers": [
       "Kesztyű",
-      "Rodilla",
-      "Codo",
-      "Hombro"
+      "Térd.",
+      "Könyök.",
+      "Váll."
     ]
   },
   "proformatrans-modulo1-test6-012": {
     "q": "A cipő úgy viszonyul a lábhoz, mint a kesztyű a:",
     "answers": [
-      "Brazo.",
-      "Palma.",
+      "Kar.",
+      "Tenyér.",
       "Kéz.",
-      "Carpo."
+      "Kéztő."
     ]
   },
   "proformatrans-modulo1-test6-013": {
     "q": "Amikor megérkezett, mindenki várakozással figyelte. Belépett az előadóterembe, és mindenki …………….. nélkül nézte. Hideg, számító tekintete volt, mint egy világsztárnak.",
     "answers": [
       "Pislogni",
-      "Pasear",
-      "Esperar",
-      "orrer"
+      "Sétálni.",
+      "Várni.",
+      "hibás alak: orrer."
     ]
   },
   "proformatrans-modulo1-test6-014": {
     "q": "Melyik szó jelentése hasonló a „rápido” szóhoz?",
     "answers": [
-      "Pesado",
+      "Nehéz.",
       "Gyors",
-      "Lento",
-      "Torpe"
+      "Lassú.",
+      "Ügyetlen."
     ]
   },
   "proformatrans-modulo1-test6-016": {
     "q": "Mit jelent az „A caballo regalado no se le mira el diente”?",
     "answers": [
-      "Hay que cuidar a los animales",
-      "Los caballos son valiosos",
+      "Gondoskodni kell az állatokról.",
+      "A lovak értékesek.",
       "Nem kell panaszkodni arra, amit ingyen kapunk",
-      "Hay que revisar bien los regalos"
+      "Jól át kell nézni az ajándékokat."
     ]
   },
   "proformatrans-modulo1-test6-017": {
     "q": "Melyik forma nyelvtanilag helyes?",
     "answers": [
-      "Abría habido",
-      "Hubiese haber",
+      "Hibás segédigés alak.",
+      "Hibás kötőmódú segédigés alak.",
       "Lett volna",
-      "Habría habido habido"
+      "Hibásan ismételt összetett igealak."
     ]
   },
   "proformatrans-modulo1-test6-018": {
     "q": "Az alábbi szavak közül melyik jelenti ugyanazt, mint a „flexible”?",
     "answers": [
-      "Pacífico",
-      "Lastimoso",
-      "Formal",
+      "Békés.",
+      "Sajnálatra méltó.",
+      "Formális.",
       "Hajlékony"
     ]
   },
   "proformatrans-modulo1-test6-019": {
     "q": "Milyen szófaj a „sueño” a „Tuve un sueño extraño” mondatban?",
     "answers": [
-      "Verbo",
-      "Pronombre",
+      "Ige.",
+      "Névmás.",
       "Főnév",
-      "Adjetivo"
+      "Melléknév."
     ]
   },
   "proformatrans-modulo1-test7-001": {
     "q": "Cuatro Caminos negyedben, a sógorod nővérének lakóhelye közelében tudod, hol ____________ egy gyógyszertár, amely júliusban minden szerda délután nyitva tart?",
     "answers": [
-      "Enfermé",
+      "Megbetegedtem.",
       "Van",
-      "Está",
-      "Es"
+      "Van / található.",
+      "Van / ő."
     ]
   },
   "proformatrans-modulo1-test7-002": {
     "q": "Ma nem ________ elvinni Javiert, a kisebbik fiamat az iskolába, mert tegnap éjfélkor hazaérve a feleségemmel ________, hogy az autóm jobb hátsó kereke defektes volt.",
     "answers": [
-      "He podido / mirábamos",
-      "Pudiese / vimos",
-      "Pudiésemos / veríamos",
+      "Tudtam / néztük.",
+      "Tudhatna / láttuk.",
+      "Tudhatnánk / látnánk.",
       "Tudtam / láttuk"
     ]
   },
   "proformatrans-modulo1-test7-003": {
     "q": "Melyik a helyes szó egy jövőben végzett cselekvésre?",
     "answers": [
-      "Cantaría",
-      "Canté",
+      "Énekelne.",
+      "Énekeltem.",
       "Énekelni fog",
-      "Cantaba"
+      "Énekelt / énekelni szokott."
     ]
   },
   "proformatrans-modulo1-test7-004": {
     "q": "Egészítse ki az analógiát: „... úgy viszonyul a kerthez, mint a fű a...”",
     "answers": [
-      "Planta — Verde",
-      "Pastel - Postre",
-      "Puerta - Cerrado",
-      "Estantería — Libro"
+      "Növény - zöld.",
+      "Sütemény - desszert.",
+      "Ajtó - zárt.",
+      "Könyvespolc - könyv."
     ]
   },
   "proformatrans-modulo1-test7-005": {
     "q": "A „contumaz” jelentése:",
     "answers": [
-      "Torpe y casual.",
+      "Ügyetlen és véletlenszerű.",
       "Visszaeső és makacs.",
-      "Único y aislado.",
-      "Arrepentido."
+      "Egyedi és elszigetelt.",
+      "Megbánó."
     ]
   },
   "proformatrans-modulo1-test7-006": {
     "q": "Mi a kettőshangzó?",
     "answers": [
       "Két magánhangzó ugyanabban a szótagban",
-      "Dos vocales abiertas",
-      "Dos consonantes juntas",
-      "Una vocal y una consonante"
+      "Két nyílt magánhangzó.",
+      "Két mássalhangzó egymás mellett.",
+      "Egy magánhangzó és egy mássalhangzó."
     ]
   },
   "proformatrans-modulo1-test7-007": {
     "q": "Melyik elem nem kötelező a járműben?",
     "answers": [
-      "Botiquín",
-      "Triángulo",
-      "Chaleco reflectante",
+      "Elsősegélydoboz.",
+      "Elakadásjelző háromszög.",
+      "Láthatósági mellény.",
       "Zenelejátszó"
     ]
   },
   "proformatrans-modulo1-test7-008": {
     "q": "Paco: Virágboltot nyitok Parlában, és arra gondoltam, keresek egy fiatal embert, aki ___________ dolgozni, hogy segítsen az üzletben. Hogy hívják a lakótársadat? Manolo: _________",
     "answers": [
-      "Necesite / No me recuerdo",
-      "Necesito / No me acuerdo",
+      "Szüksége legyen / nem emlékeztetem magam.",
+      "Szükségem van / nem emlékszem.",
       "Szüksége legyen / Nem emlékszem",
-      "Necesito / No me recuerdo"
+      "Szükségem van / nem emlékeztetem magam."
     ]
   },
   "proformatrans-modulo1-test7-009": {
     "q": "Az ügyfél, akinek a poggyásza sérült volt, kérte, hogy cseréljem ki egy másikra, ……….. nem állt módomban megtenni.",
     "answers": [
-      "Aun cuando.",
-      "Por más que.",
-      "A pesar de.",
+      "Még akkor is, ha.",
+      "Bármennyire is.",
+      "Annak ellenére.",
       "Bár."
     ]
   },
@@ -5862,79 +5862,79 @@ export const questionTranslations = {
     "q": "Mi a közvetlen tárgy a „Juan lanzó el balón.” mondatban?",
     "answers": [
       "a labda",
-      "al parque",
-      "Juan",
-      "con entusiasmo"
+      "a parkba.",
+      "Juan név.",
+      "lelkesedéssel."
     ]
   },
   "proformatrans-modulo1-test7-012": {
     "q": "Milyen szófaj a „lluvia”?",
     "answers": [
-      "Pronombre",
+      "Névmás.",
       "Főnév",
-      "Adjetivo",
-      "Verbo"
+      "Melléknév.",
+      "Ige."
     ]
   },
   "proformatrans-modulo1-test7-013": {
     "q": "Az orvos úgy viszonyul a diagnózishoz, mint az ügyvéd a...",
     "answers": [
-      "Enfermedad",
-      "Sentencia",
+      "Betegség.",
+      "Ítélet.",
       "Védelem",
-      "Juicio"
+      "Per / ítélet."
     ]
   },
   "proformatrans-modulo1-test7-014": {
     "q": "Egészítse ki a mondatot a helyes opcióval: „El autobús en perfectas condiciones.”",
     "answers": [
-      "Se encontraste.",
+      "Hibás visszaható igealak.",
       "Található.",
-      "Se encontraría.",
-      "Encontrarse."
+      "Találkozna / lenne.",
+      "Találkozni / lenni valamilyen állapotban."
     ]
   },
   "proformatrans-modulo1-test7-015": {
     "q": "A „Más vale tarde que nunca” azt jelenti:",
     "answers": [
       "Jobb későn megtenni, mint soha",
-      "Llegar tarde siempre es malo",
-      "Solo vale hacerlo a tiempo",
-      "Es mejor no hacerlo"
+      "Későn érkezni mindig rossz.",
+      "Csak időben érdemes megtenni.",
+      "Jobb nem megtenni."
     ]
   },
   "proformatrans-modulo1-test7-016": {
     "q": "Mi a „María leyó el libro” szenvedő szerkezete?",
     "answers": [
-      "El libro lee María",
-      "María lee el libro",
-      "María leyó el libro",
+      "A könyv olvassa Maríát.",
+      "María olvassa a könyvet.",
+      "María elolvasta a könyvet.",
       "A könyvet María olvasta el"
     ]
   },
   "proformatrans-modulo1-test7-017": {
     "q": "Melyik szó véghangsúlyos?",
     "answers": [
-      "Árbol",
-      "Coche",
+      "Fa.",
+      "Autó.",
       "Dal",
-      "Lápiz"
+      "Ceruza."
     ]
   },
   "proformatrans-modulo1-test7-018": {
     "q": "Válassza ki a helyes szinonimapárt:",
     "answers": [
-      "Soslayar-Afrontar",
-      "Tenaz-Voluble",
-      "Parco-Locuaz",
+      "Megkerülni - szembenézni.",
+      "Kitartó - változékony.",
+      "Szűkszavú - bőbeszédű.",
       "Éles eszű - éleslátó"
     ]
   },
   "proformatrans-modulo1-test7-019": {
     "q": "Milyen szófaj a „hoy” a „Hoy es un buen día” mondatban?",
     "answers": [
-      "Adjetivo",
-      "Verbo",
+      "Melléknév.",
+      "Ige.",
       "Főnév",
       "Határozószó"
     ]
@@ -5942,197 +5942,197 @@ export const questionTranslations = {
   "proformatrans-modulo1-test8-001": {
     "q": "Az „őszintén és megtévesztés nélkül cselekedni” jelentése:",
     "answers": [
-      "Hablar de más.",
-      "Hablar alto.",
+      "Túl sokat beszélni.",
+      "Hangosan beszélni.",
       "Világosan beszélni.",
-      "Hablar fuerte."
+      "Erősen / hangosan beszélni."
     ]
   },
   "proformatrans-modulo1-test8-002": {
     "q": "Mit jelent az „Estar como una cabra”?",
     "answers": [
-      "Tener cuernos",
-      "Ser un animal",
+      "Szarvakkal rendelkezni.",
+      "Állatnak lenni.",
       "Őrültnek lenni",
-      "Comer hierba"
+      "Füvet enni."
     ]
   },
   "proformatrans-modulo1-test8-005": {
     "q": "Tegnap nem __________, mert beteg ________.",
     "answers": [
-      "Hubiera venido / estuviera",
-      "Vendré / estaré",
+      "Eljött volna / lett volna.",
+      "Jönni fogok / leszek.",
       "Jöttem / voltam",
-      "Vino / estoy"
+      "Jött / vagyok."
     ]
   },
   "proformatrans-modulo1-test8-009": {
     "q": "Melyik közmondás jelenti azt, hogy az erőfeszítés meghozza gyümölcsét?",
     "answers": [
-      "No hay peor sordo que el que no quiere oír.",
-      "A buen entendedor, pocas palabras bastan.",
+      "Nincs rosszabb süket annál, aki nem akar hallani.",
+      "A jó értőnek kevés szó is elég.",
       "Aki vet, az arat.",
-      "No todo lo que brilla es oro."
+      "Nem mind arany, ami fénylik."
     ]
   },
   "proformatrans-modulo1-test8-010": {
     "q": "Melyik jelet használjuk kérdés jelölésére?",
     "answers": [
       "Kérdőjel",
-      "Signo de exclamación",
-      "Punto y coma",
+      "Felkiáltójel.",
+      "Pontosvessző.",
       "Idézőjel"
     ]
   },
   "proformatrans-modulo1-test8-011": {
     "q": "Válassza ki a helyes antonimapárt:",
     "answers": [
-      "Acerbo – Suave",
+      "Keserű - lágy.",
       "Ismeretlen - híres",
-      "Inicuo — Equitativo",
-      "Lánguido — Perplejo"
+      "Igazságtalan - méltányos.",
+      "Erőtlen - zavart."
     ]
   },
   "proformatrans-modulo1-test8-013": {
     "q": "Az alábbi nyelvtani szerkezetek közül melyik helyes és koherens igeidő és egyeztetés szempontjából?",
     "answers": [
       "A nyári szünetben Párizsba utazunk, és szeptemberben a terv szerint hazatérünk.",
-      "Nosotros hemos viajado a París durante las vacaciones de verano y fuimos regresados a casa en septiembre por un error.",
-      "Nosotros ser viajando a París durante las vacaciones de verano, y regresamos a casa en septiembre sin reserva previa.",
-      "Nosotros estamos viajados a París durante las vacaciones de verano, y estamos regresados a casa en septiembre."
+      "Mi Párizsba utaztunk a nyári szünet alatt, és egy hiba miatt hazavitetettünk szeptemberben.",
+      "Hibás mondat: mi lenni utazva Párizsba a nyári szünet alatt, és szeptemberben foglalás nélkül hazatérünk.",
+      "Hibás mondat: mi elutazottak vagyunk Párizsba a nyári szünet alatt, és szeptemberben hazatértek vagyunk."
     ]
   },
   "proformatrans-modulo1-test8-014": {
     "q": "Bárcsak _________ jó idő holnap, mert szeretnék uszodába menni.",
     "answers": [
-      "Hace",
-      "Haría",
+      "Csinál / időjárásként van.",
+      "Csinálna.",
       "Legyen / tegyen",
-      "Hará"
+      "Csinálni fog."
     ]
   },
   "proformatrans-modulo1-test8-015": {
     "q": "Az autó úgy viszonyul a vezetéshez, mint a kerékpár a...",
     "answers": [
-      "Navegar",
-      "orrer",
+      "Navigálni / hajózni.",
+      "hibás alak: orrer.",
       "Biciklizni / felülni",
-      "Saltar"
+      "Ugrani."
     ]
   },
   "proformatrans-modulo1-test8-016": {
     "q": "Válassza ki az opciót, amely helyesen egészíti ki az analógiát: A bátorság úgy viszonyul a gyávasághoz, mint...",
     "answers": [
       "Az óvatosság úgy viszonyul a meggondolatlansághoz",
-      "Templanza es a moderación",
-      "Generosidad es a altruismo",
-      "Audacia es a coraje."
+      "A mértékletesség úgy viszonyul a visszafogottsághoz.",
+      "A nagylelkűség úgy viszonyul az önzetlenséghez.",
+      "Vakmerőség úgy viszonyul a bátorsághoz."
     ]
   },
   "proformatrans-modulo1-test8-017": {
     "q": "Általában tejeskávét reggelizem, de ma ____________ csak teát.",
     "answers": [
-      "Desayunó",
-      "Desayunando",
+      "Reggelizett.",
+      "Reggelizve.",
       "Reggeliztem",
-      "Ha desayunado"
+      "Ő reggelizett."
     ]
   },
   "proformatrans-modulo1-test8-018": {
     "q": "Melyik szó nem tartozik a csoportba?",
     "answers": [
-      "Enfermero",
-      "Paciente",
-      "Médico",
+      "Ápoló.",
+      "Beteg / türelmes.",
+      "Orvos.",
       "Festő"
     ]
   },
   "proformatrans-modulo1-test8-019": {
     "q": "Mi a „feliz” ellentéte?",
     "answers": [
-      "Alegre",
-      "Contento",
+      "Vidám.",
+      "Elégedett / boldog.",
       "Szomorú",
-      "Jovial"
+      "Derűs."
     ]
   },
   "proformatrans-modulo1-test8-020": {
     "q": "Mi az alany a „María estudia mucho.” mondatban?",
     "answers": [
-      "María",
-      "el pescado",
-      "El gato",
-      "comió"
+      "María név.",
+      "a hal.",
+      "A macska.",
+      "evett."
     ]
   },
   "proformatrans-modulo1-test9-001": {
     "q": "Melyik közmondás jelenti azt, hogy nem szabad a látszatban bízni?",
     "answers": [
-      "Más vale maña que fuerza.",
+      "Többet ér az ügyesség, mint az erő.",
       "Nem mind arany, ami fénylik.",
-      "Al que madruga, Dios lo ayuda.",
-      "Ojos que no ven, corazón que no siente."
+      "Ki korán kel, aranyat lel.",
+      "Amit a szem nem lát, azért a szív nem fáj."
     ]
   },
   "proformatrans-modulo1-test9-002": {
     "q": "Az „aforo completo” jelentése:",
     "answers": [
       "A maximális befogadóképesség betelt.",
-      "Reducción temporal.",
-      "Entrada gratuita.",
-      "Cierre preventivo."
+      "Ideiglenes csökkentés.",
+      "Ingyenes belépés.",
+      "Megelőző lezárás."
     ]
   },
   "proformatrans-modulo1-test9-007": {
     "q": "Múlt pénteken nappaliasztalt és négy széket vettünk ahhoz az almuñécari lakáshoz, amelyet ……………….",
     "answers": [
-      "Construye",
-      "Pintando",
+      "Épít.",
+      "Festve.",
       "Örökölt",
-      "Invierto"
+      "Befektetek."
     ]
   },
   "proformatrans-modulo1-test9-008": {
     "q": "Az alábbi mondatok közül melyik van szenvedő szerkezetben?",
     "answers": [
       "A poharat a fiú törte el",
-      "El niño rompió el vaso",
-      "El niño rompía el vaso",
-      "El vaso rompía solo"
+      "A fiú eltörte a poharat.",
+      "A fiú törte / szokta törni a poharat.",
+      "A pohár magától tört."
     ]
   },
   "proformatrans-modulo1-test9-009": {
     "q": "____________ korán reggel.",
     "answers": [
-      "Yo levanto",
+      "Én felemelek.",
       "Felkelek",
-      "Levantaré",
-      "Levanta"
+      "Felkelek majd.",
+      "Felkel / felemel."
     ]
   },
   "proformatrans-modulo1-test9-010": {
     "q": "Válaszd ki azt a kifejezést, amely rendezve értelmes:",
     "answers": [
-      "La rompe la avaricia",
-      "Mires el quien haz no a bien y",
-      "Pierde la es lo que se último",
-      "Vale prevenido por hombre"
+      "A kapzsiság eltöri.",
+      "Ne azt nézd, kinek teszed a jót.",
+      "Elveszik az, ami utolsó.",
+      "Az elővigyázatos ember többet ér."
     ]
   },
   "proformatrans-modulo1-test9-012": {
     "q": "Hogyan végződik a közmondás: „A quien madruga...”?",
     "answers": [
-      "le falta café",
-      "se le va el tren",
-      "duerme poco",
-      "Dios le ayuda"
+      "hiányzik neki a kávé.",
+      "elmegy neki a vonat.",
+      "keveset alszik.",
+      "Isten megsegíti."
     ]
   },
   "proformatrans-modulo1-test9-013": {
     "q": "Melyik írásjel jelöl rövid szünetet olvasás közben?",
     "answers": [
-      "Signo de exclamación",
-      "Punto",
+      "Felkiáltójel.",
+      "Pont.",
       "Pontosvessző",
       "Vessző"
     ]
@@ -6140,117 +6140,117 @@ export const questionTranslations = {
   "proformatrans-modulo1-test9-014": {
     "q": "A tűz úgy viszonyul a petárdához, mint a szél a:",
     "answers": [
-      "Sol",
-      "Luna",
-      "Cometa",
-      "Primavera"
+      "Nap.",
+      "Hold.",
+      "Sárkány.",
+      "Tavasz."
     ]
   },
   "proformatrans-modulo1-test9-015": {
     "q": "Válassza ki a helyes választ: „Viajamos…… tren hacia el norte del país durante las vacaciones”",
     "answers": [
       "-val/-vel / vonattal",
-      "Sin",
-      "Delante",
-      "Con"
+      "Nélkül.",
+      "Elöl / előtt.",
+      "Valamivel / -val, -vel."
     ]
   },
   "proformatrans-modulo1-test9-016": {
     "q": "Válassza ki a helyes választ: „Voy a casa…..mi amigo para estudiar toda la tarde.”",
     "answers": [
       "-nak/-nek / barátom házába",
-      "mi",
-      "para",
-      "delante"
+      "az én / mi.",
+      "számára / -nak, -nek.",
+      "elöl / előtt."
     ]
   },
   "proformatrans-modulo1-test9-019": {
     "q": "Melyik szó esdrújula hangsúlyozású?",
     "answers": [
-      "Papel",
-      "Cantar",
-      "Azul",
+      "Papír.",
+      "Énekelni.",
+      "Kék.",
       "Fényképezőgép / kamera"
     ]
   },
   "proformatrans-modulo1-test10-002": {
     "q": "Az „Está lloviendo a cántaros” jelentése:",
     "answers": [
-      "No llueve",
+      "Nem esik.",
       "Erősen esik",
-      "Está lloviendo muy poco",
-      "Llueve con barro"
+      "Nagyon kevés eső esik.",
+      "Sáros eső esik."
     ]
   },
   "proformatrans-modulo1-test10-003": {
     "q": "Mi az „acelerador” legpontosabb meghatározása autós környezetben?",
     "answers": [
-      "Comando mixto de control de velocidad que se acciona con las extremidades superiores e inferiores del conductor.",
-      "Pedal mediante el cual el conductor regula la potencia que se transmite a las ruedas motrices, permitiendo el control de la velocidad del vehículo.",
-      "Dispositivo automatizado que modifica la potencia del motor sin interacción directa del conductor, utilizado en vehículos con piloto automático.",
-      "Sistema electrónico que mantiene la velocidad del vehículo sin necesidad de intervención física del conductor."
+      "Vegyes sebességszabályozó kezelőszerv, amelyet a vezető felső és alsó végtagjaival működtet.",
+      "Pedál, amellyel a vezető szabályozza a hajtott kerekekre jutó teljesítményt, így irányítva a jármű sebességét.",
+      "Automatizált eszköz, amely a vezető közvetlen beavatkozása nélkül módosítja a motor teljesítményét, és önvezető funkcióval rendelkező járművekben használják.",
+      "Elektronikus rendszer, amely a vezető fizikai beavatkozása nélkül tartja a jármű sebességét."
     ]
   },
   "proformatrans-modulo1-test10-005": {
     "q": "Mi az alany az „El perro de mi vecina ladra mucho” mondatban?",
     "answers": [
       "A kutya",
-      "Mucho",
-      "Mi vecina",
-      "Ladra"
+      "Sokat.",
+      "A szomszédnőm.",
+      "Ugat."
     ]
   },
   "proformatrans-modulo1-test10-006": {
     "q": "Milyen igemód a „hubiera comido”?",
     "answers": [
-      "Condicional",
+      "Feltételes mód.",
       "Kötőmód",
-      "Indicativo",
-      "Imperativo"
+      "Kijelentő mód.",
+      "Felszólító mód."
     ]
   },
   "proformatrans-modulo1-test10-009": {
     "q": "Erről a dombról …………….. a bikaviadal-arénát és a kapitányság épületét.",
     "answers": [
       "Megpillantani",
-      "Poder",
-      "Construir",
-      "Comprar"
+      "Tudni / hatalom.",
+      "Építeni.",
+      "Vásárolni."
     ]
   },
   "proformatrans-modulo1-test10-010": {
     "q": "Mi a helyes igealak ebben a mondatban: „Si yo ______ más tiempo, viajaría más”?",
     "answers": [
       "lenne / volna",
-      "tendría",
-      "tengo",
-      "tuve"
+      "lenne neki.",
+      "van nekem.",
+      "volt nekem."
     ]
   },
   "proformatrans-modulo1-test10-013": {
     "q": "PEDRO. — Tegnap ………… meglátogatni Juliát",
     "answers": [
-      "Iré",
+      "Menni fogok.",
       "Mentem",
-      "Vais",
-      "Irás"
+      "Ti mentek.",
+      "Mész majd."
     ]
   },
   "proformatrans-modulo1-test10-016": {
     "q": "Egészítse ki a helyes szóval: Visszaadtad Manuelnek a tollat? - Igen, ______ visszaadtam.",
     "answers": [
-      "Le",
-      "Le lo",
-      "Lo le",
+      "Neki / őt.",
+      "Hibás névmási alak: le lo.",
+      "Hibás névmási alak: lo le.",
       "Neki azt"
     ]
   },
   "proformatrans-modulo1-test10-018": {
     "q": "Melyik közmondás tanácsolja, hogy ne beszéljünk gondolkodás nélkül?",
     "answers": [
-      "El que mucho habla, mucho yerra",
-      "En boca cerrada no entran moscas",
-      "El pez por la boca muere",
+      "Aki sokat beszél, sokat hibázik.",
+      "Csukott szájba nem repül légy.",
+      "A hal a száján keresztül pusztul el.",
       "Mindegyik helyes"
     ]
   },
@@ -6258,629 +6258,629 @@ export const questionTranslations = {
     "q": "Az alábbi szavak közül melyik jelenti ugyanazt, mint a „tosco”?",
     "answers": [
       "Érdes",
-      "Suave",
-      "Refinado",
-      "Elegante"
+      "Puha / lágy.",
+      "Kifinomult.",
+      "Elegáns."
     ]
   },
   "proformatrans-modulo1-test11-001": {
     "q": "Milyen típusú mondat ez: „¿Vienes a clase mañana?”?",
     "answers": [
       "Kérdő",
-      "Enunciativa",
+      "Kijelentő.",
       "Felkiáltó",
-      "Imperativa"
+      "Felszólító."
     ]
   },
   "proformatrans-modulo1-test11-003": {
     "q": "Melyik szó ellentétes jelentésű a „corto” szóval?",
     "answers": [
-      "Pequeño.",
-      "Largo.",
-      "Breve.",
-      "Reducido."
+      "Kicsi.",
+      "Hosszú.",
+      "Rövid.",
+      "Csökkentett."
     ]
   },
   "proformatrans-modulo1-test11-007": {
     "q": "A „Hacer castillos en el aire” ezt fejezi ki:",
     "answers": [
-      "Soñar despierto",
-      "Construir",
-      "Luchar",
-      "Mentir"
+      "Ébren álmodozni.",
+      "Építeni.",
+      "Küzdeni.",
+      "Hazudni."
     ]
   },
   "proformatrans-modulo1-test11-009": {
     "q": "Az alábbi szavak közül melyik a „beato” ellentéte?",
     "answers": [
       "Istentelen",
-      "Malvado",
-      "Derrotado",
-      "Clerical"
+      "Gonosz.",
+      "Legyőzött.",
+      "Egyházi."
     ]
   },
   "proformatrans-modulo1-test11-011": {
     "q": "Tadeo: A dohányzás ________ rossz az egészségre. Jerónimo: Akkor leszokom. Tadeo: hát az ________ jó, ember!",
     "answers": [
-      "Está / es",
-      "Es / es",
-      "Es / está",
-      "Está / está"
+      "Van állapotként / van lényegileg.",
+      "Van / van.",
+      "Van / van állapotként.",
+      "Van állapotként / van állapotként."
     ]
   },
   "proformatrans-modulo1-test11-013": {
     "q": "Múlt hétvégén Marta és az apja, Juan ………. egy filmet egy Gran Vía-i moziban, jövő vasárnap pedig ……… színházba vígjátékot nézni.",
     "answers": [
-      "Verán – Estaban",
-      "Están viendo -- fueron",
-      "Querían – Regresaron",
+      "Látni fognak - voltak.",
+      "Éppen nézik - elmentek.",
+      "Akartak - visszatértek.",
       "Elmentek megnézni – menni fognak"
     ]
   },
   "proformatrans-modulo1-test11-015": {
     "q": "Melyik szó az „alegría” ellentéte?",
     "answers": [
-      "Felicidad",
-      "Risa",
-      "Diversión",
+      "Boldogság.",
+      "Nevetés.",
+      "Szórakozás.",
       "Szomorúság"
     ]
   },
   "proformatrans-modulo1-test11-016": {
     "q": "Mi az alany a „Juan y María fueron al mercado” mondatban?",
     "answers": [
-      "Fueron",
-      "Al mercado Juan y María",
+      "Mentek / voltak.",
+      "A piacra Juan és María.",
       "Juan és María",
-      "Al mercado"
+      "A piacra."
     ]
   },
   "proformatrans-modulo1-test11-019": {
     "q": "Válassza ki a helyes választ erre a kifejezésre: „Tener la mosca detrás de la oreja.”",
     "answers": [
-      "Tener una mosca.",
-      "Ser una mosca.",
+      "Egy legyet birtokolni.",
+      "Légynek lenni.",
       "Gyanakodni valamire.",
-      "Escuchar un zumbido."
+      "Zümmögést hallani."
     ]
   },
   "proformatrans-modulo1-test12-001": {
     "q": "Most a konyhák ____________, de régen ___________ nagyobbak.",
     "answers": [
-      "mplias / eran enormes",
+      "hibás alak: mplias / hatalmasak voltak.",
       "Kicsik / voltak",
-      "Grandes / serán",
-      "Pequeñas / serán"
+      "Nagyok / lesznek.",
+      "Kicsik / lesznek."
     ]
   },
   "proformatrans-modulo1-test12-003": {
     "q": "Az alábbi szavak közül melyik kap ékezetet csak kérdő használatban?",
     "answers": [
-      "Estos",
-      "Este",
-      "Aquel",
-      "Que"
+      "Ezek.",
+      "Ez.",
+      "Az a távolabbi.",
+      "Hogy / amely."
     ]
   },
   "proformatrans-modulo1-test12-005": {
     "q": "Ma Cristina ......................... nagyon korán, és egyedül reggelizett a konyhában.",
     "answers": [
-      "Se levanta",
+      "Felkel.",
       "Felébredt",
-      "Se despertará",
-      "Despierta"
+      "Fel fog ébredni.",
+      "Felébred."
     ]
   },
   "proformatrans-modulo1-test12-006": {
     "q": "Szükséges, hogy a diákok ________ szintfelmérőt, amikor megérkeznek az iskolába.",
     "answers": [
-      "Harán",
+      "Csinálni fognak.",
       "Tegyenek / készítsenek",
-      "Hacen",
-      "Hubieran"
+      "Csinálnak.",
+      "Letek volna / történtek volna."
     ]
   },
   "proformatrans-modulo1-test12-009": {
     "q": "Melyik szó ellentétes jelentésű a „claro” szóval?",
     "answers": [
-      "Luminoso.",
+      "Fényes.",
       "Sötét.",
-      "Brillante.",
-      "Transparente."
+      "Fényes.",
+      "Átlátszó."
     ]
   },
   "proformatrans-modulo1-test12-011": {
     "q": "Az alábbi szavak közül melyik jelenti ugyanazt, mint az „orilla”?",
     "answers": [
-      "Dentro",
-      "Fondo",
+      "Belül.",
+      "Mélység / háttér.",
       "Szél / perem",
-      "Profundidad"
+      "Mélység."
     ]
   },
   "proformatrans-modulo1-test12-012": {
     "q": "… úgy viszonyul a fényképhez, mint a kamera a…",
     "answers": [
-      "Piscina – Calor.",
+      "Medence - meleg.",
       "Kép – lencse.",
-      "Árbol – Hoja.",
-      "Camilla – Hospital."
+      "Fa - levél.",
+      "Hordágy - kórház."
     ]
   },
   "proformatrans-modulo1-test12-013": {
     "q": "Melyik szó tartalmaz kettőshangzót?",
     "answers": [
-      "Reloj.",
-      "País.",
+      "Óra.",
+      "Ország.",
       "Levegő.",
-      "Poeta."
+      "Költő."
     ]
   },
   "proformatrans-modulo1-test12-015": {
     "q": "Az „El que mucho abarca, poco aprieta” erre utal:",
     "answers": [
-      "El orden",
+      "A rend.",
       "Kontroll nélküli ambíció",
-      "El trabajo en equipo",
-      "La paciencia"
+      "A csapatmunka.",
+      "A türelem."
     ]
   },
   "proformatrans-modulo1-test12-017": {
     "q": "Válassza ki a helyes választ a „Mirarse el ombligo” kifejezéshez:",
     "answers": [
-      "Ser escrutador.",
-      "Mirar a los demás y ser altruista.",
+      "Fürkészőnek lenni.",
+      "Másokra figyelni és önzetlennek lenni.",
       "Önközpontúnak lenni és nem gondolni másokra.",
-      "Estar triste y cabizbajo."
+      "Szomorúnak és lehorgasztott fejűnek lenni."
     ]
   },
   "proformatrans-modulo1-test12-020": {
     "q": "Hogy lefoglaljuk a kisöcsédet abban a 30 percben, ami _________ a gyerekmusical kezdetéig, ____________ egy kártyapartit.",
     "answers": [
-      "Falta / jugado",
-      "Falta / echando",
+      "Hiányzik / játszott.",
+      "Hiányzik / játszva.",
       "Hiányzik még / játszunk",
-      "Faltan / escribiendo"
+      "Hiányoznak / írva."
     ]
   },
   "proformatrans-modulo1-test13-001": {
     "q": "Melyik közmondás jelenti, hogy ki kell használni az alkalmat?",
     "answers": [
       "Aki korán kel, annak Isten segít",
-      "A caballo regalado no se le mira el diente",
-      "Al mal tiempo, buena cara",
-      "Cuando el río suena, agua lleva"
+      "Ajándék lónak ne nézd a fogát.",
+      "Rossz időben is jó képet kell vágni.",
+      "Nem zörög a haraszt, ha nem fújja a szél."
     ]
   },
   "proformatrans-modulo1-test13-002": {
     "q": "A tanulás úgy viszonyul az iskolához, mint a hit a...",
     "answers": [
-      "Ciencia",
-      "Razón",
-      "Ley",
+      "Tudomány.",
+      "Ész / ok.",
+      "Törvény.",
       "Templom"
     ]
   },
   "proformatrans-modulo1-test13-003": {
     "q": "Melyik közmondás jelenti, hogy nem szabad üres ígéretekben bízni?",
     "answers": [
-      "A buen entendedor, pocas palabras bastan.",
-      "Más vale tarde que nunca.",
-      "Ojos que no ven, corazón que no siente.",
+      "A jó értőnek kevés szó is elég.",
+      "Jobb későn, mint soha.",
+      "Amit a szem nem lát, azért a szív nem fáj.",
       "Sok hűhó semmiért."
     ]
   },
   "proformatrans-modulo1-test13-004": {
     "q": "Kifejezés: „Más erőfeszítéséből hasznot szerezni”:",
     "answers": [
-      "Dormirse en los laureles.",
-      "Poner el grito en el cielo.",
+      "A babérokon ülni.",
+      "Nagy felháborodást kelteni.",
       "Más aratásának hasznát learatni.",
-      "Matar el gusanillo."
+      "Bekapni valamit az éhség csillapítására."
     ]
   },
   "proformatrans-modulo1-test13-005": {
     "q": "Egészítse ki: „Mivel ünnepnap volt... az út tizenöt perc alatt ___”",
     "answers": [
-      "Terminará.",
-      "Terminaba.",
+      "Be fog fejeződni.",
+      "Befejeződött / be szokott fejeződni.",
       "Befejeződött.",
-      "Terminaría."
+      "Befejeződne."
     ]
   },
   "proformatrans-modulo1-test13-006": {
     "q": "Jaime: Tudod, ki __________ az a fehér ruhás fiatal nő Héctorral? Felipe: Fogalmam sincs, _________ a nővére, mert nagyon hasonlítottak.",
     "answers": [
-      "Era / serán",
-      "Fue / sería",
+      "Volt / lesznek.",
+      "Volt / lenne.",
       "Volt / lehetett volna",
-      "Fue / será"
+      "Volt / lesz."
     ]
   },
   "proformatrans-modulo1-test13-009": {
     "q": "Melyik szó jelentése hasonló a „perezoso” szóhoz?",
     "answers": [
-      "Diligente.",
+      "Szorgalmas.",
       "Rest / lusta.",
-      "Pulcro.",
-      "Beatífico."
+      "Tiszta / gondos.",
+      "Üdvözült / jámbor."
     ]
   },
   "proformatrans-modulo1-test13-012": {
     "q": "Melyik szó a „tranquilo” szinonimája?",
     "answers": [
       "Nyugodt",
-      "Apurado",
-      "Aturdido",
-      "Nervioso"
+      "Sietős / szorult helyzetben lévő.",
+      "Kábult / zavart.",
+      "Ideges."
     ]
   },
   "proformatrans-modulo1-test13-013": {
     "q": "Hol található a füzet?",
     "answers": [
-      "Dentro la mesa del comedor, junto a una lámpara",
-      "Bajo la mesa del comedor, justo a un lado de la lámpara del techo",
-      "Entre la mesa del comedor y debajo de la lámpara",
-      "Sobre la mesa del comedor, bajo la lámpara del techo y junto al libro verde"
+      "Az étkezőasztal belsejében, egy lámpa mellett.",
+      "Az étkezőasztal alatt, közvetlenül a mennyezeti lámpa egyik oldalán.",
+      "Az étkezőasztal között és a lámpa alatt.",
+      "Az étkezőasztalon, a mennyezeti lámpa alatt és a zöld könyv mellett."
     ]
   },
   "proformatrans-modulo1-test13-014": {
     "q": "Melyik kifejezés jelenti azt, hogy „váratlanul”?",
     "answers": [
-      "A la ligera",
-      "En voz baja",
+      "Könnyelműen.",
+      "Halkan.",
       "Hirtelen",
-      "Poco a poco"
+      "Apránként."
     ]
   },
   "proformatrans-modulo1-test13-016": {
     "q": "Tudósok, sportolók és más területek emberei próbálták „uralni” a természetet. Válaszd ki, milyen előnyöket hozott ez az emberiségnek.",
     "answers": [
-      "descubrimientos científicos y paz.",
+      "tudományos felfedezések és béke.",
       "Önfejlesztés és technológiai fejlődés.",
-      "desarrollo de la tecnología y avances en la medicina.",
-      "avances médicos y superación personal."
+      "a technológia fejlődése és az orvostudomány eredményei.",
+      "orvosi fejlődés és személyes fejlődés."
     ]
   },
   "proformatrans-modulo1-test13-017": {
     "q": "Mi az alany az „El perro ladra fuerte” mondatban?",
     "answers": [
       "A kutya",
-      "la oración no tiene sujeto",
-      "fuerte",
-      "ladra"
+      "a mondatnak nincs alanya.",
+      "hangosan / erősen.",
+      "ugat."
     ]
   },
   "proformatrans-modulo1-test13-018": {
     "q": "Milyen típusú szöveg egy gyógyszerbetegtájékoztató?",
     "answers": [
-      "Poético",
-      "Narrativo",
+      "Költői.",
+      "Elbeszélő.",
       "Használati / útmutató jellegű",
-      "Argumentativo"
+      "Érvelő."
     ]
   },
   "proformatrans-modulo1-test13-019": {
     "q": "Mit jelent a „Cuando el río suena, agua lleva”?",
     "answers": [
-      "Que hay tormenta",
-      "Que el río crece",
+      "Hogy vihar van.",
+      "Hogy a folyó megárad.",
       "Minden szóbeszédben van némi igazság",
-      "Que hay agua cerca"
+      "Hogy víz van a közelben."
     ]
   },
   "proformatrans-modulo1-test14-002": {
     "q": "Mit jelent a „tedioso”?",
     "answers": [
-      "Profundo",
-      "Rápido y dinámico",
-      "Interesante",
+      "Mély.",
+      "Gyors és dinamikus.",
+      "Érdekes.",
       "Hosszú és unalmas"
     ]
   },
   "proformatrans-modulo1-test14-004": {
     "q": "Mi az igei körülírás?",
     "answers": [
-      "Una figura literaria",
-      "Una clase de oración",
+      "Irodalmi alakzat.",
+      "Egy mondatfajta.",
       "Összetett igei szerkezet",
-      "Una forma del subjuntivo"
+      "A kötőmód egyik alakja."
     ]
   },
   "proformatrans-modulo1-test14-005": {
     "q": "Melyik közmondás jelenti, hogy az idő begyógyítja a sebeket?",
     "answers": [
-      "Ojos que no ven, corazón que no siente.",
-      "No dejes para mañana lo que puedas hacer hoy.",
-      "A palabras necias, oídos sordos.",
+      "Amit a szem nem lát, azért a szív nem fáj.",
+      "Ne halaszd holnapra, amit ma megtehetsz.",
+      "Ostoba szavakra süket fülek.",
       "Az idő mindent begyógyít."
     ]
   },
   "proformatrans-modulo1-test14-008": {
     "q": "A sebész úgy viszonyul a szikéhez, mint a sofőr a...",
     "answers": [
-      "Cinturón",
-      "Pasajero",
-      "Calle",
+      "Biztonsági öv.",
+      "Utas.",
+      "Utca.",
       "Kormány"
     ]
   },
   "proformatrans-modulo1-test14-009": {
     "q": "Melyik közmondás jelenti, hogy mindenkinek megvan a saját sorsa?",
     "answers": [
-      "La paciencia es la madre de la ciencia.",
-      "Más vale prevenir que curar.",
-      "A cada cerdo le llega su San Martín.",
-      "No por mucho madrugar amanece más temprano."
+      "A türelem a tudomány anyja.",
+      "Jobb megelőzni, mint gyógyítani.",
+      "Mindenki elnyeri egyszer a maga büntetését.",
+      "Attól, hogy korán kelünk, nem virrad hamarabb."
     ]
   },
   "proformatrans-modulo1-test14-011": {
     "q": "Mi az „esquí” többes száma?",
     "answers": [
-      "Esquies",
-      "Esquíes",
-      "Esquises",
+      "Hibás többes szám: esquies.",
+      "Sílécek, hosszabb többes alak.",
+      "Hibás többes szám: esquises.",
       "Sílécek"
     ]
   },
   "proformatrans-modulo1-test14-012": {
     "q": "Mi a helyes módja annak mondására, hogy valami eltört?",
     "answers": [
-      "Se ha rompido",
+      "Hibás befejezett múlt idejű alak.",
       "Eltört",
-      "Se ha rompío",
-      "Se rompióse"
+      "Hibás rövidült befejezett múlt idejű alak.",
+      "Hibásan toldott visszaható alak."
     ]
   },
   "proformatrans-modulo1-test14-013": {
     "q": "Az alábbi szavak közül melyik a „ayudar” szinonimája?",
     "answers": [
-      "Abandonar",
-      "Obstaculizar",
+      "Elhagyni.",
+      "Akadályozni.",
       "Segíteni / együttműködni",
-      "Retrasar"
+      "Késleltetni."
     ]
   },
   "proformatrans-modulo1-test14-015": {
     "q": "Mi az „aunque” funkciója egy mondatban?",
     "answers": [
-      "Adjetiva",
-      "Adverbial",
-      "Sustantiva",
-      "Conjunción"
+      "Melléknévi.",
+      "Határozói.",
+      "Főnévi.",
+      "Kötőszó."
     ]
   },
   "proformatrans-modulo1-test14-016": {
     "q": "Melyik közmondás jelenti, hogy ki kell használni a lehetőségeket?",
     "answers": [
-      "A caballo regalado, no se le mira el diente.",
-      "Más vale tarde que nunca.",
-      "A río revuelto, ganancia de pescadores.",
-      "El que madruga, Dios lo ayuda."
+      "Ajándék lónak ne nézd a fogát.",
+      "Jobb későn, mint soha.",
+      "Zavaros vízben jó halászni.",
+      "Ki korán kel, aranyat lel."
     ]
   },
   "proformatrans-modulo1-test14-017": {
     "q": "Melyik szó ellentétes jelentésű a „caliente” szóval?",
     "answers": [
-      "Ardiente.",
+      "Forró.",
       "Hideg.",
-      "Cálido.",
-      "Abrasador."
+      "Meleg.",
+      "Perzselő."
     ]
   },
   "proformatrans-modulo1-test14-018": {
     "q": "Válaszd ki a RAE által elfogadott leísmo példát.",
     "answers": [
-      "Le dije la verdad",
+      "Elmondtam neki az igazat.",
       "Láttam őt az ünnepségen",
-      "La vi en el parque",
-      "Le pegué la carta"
+      "Láttam őt a parkban.",
+      "Felragasztottam neki a levelet."
     ]
   },
   "proformatrans-modulo1-test14-020": {
     "q": "A „Dime con quién andas y te diré quién eres” azt jelenti:",
     "answers": [
       "Az embert a kapcsolatai is meghatározzák",
-      "La amistad no importa",
-      "Hay que ser solitario",
-      "Las personas cambian"
+      "A barátság nem számít.",
+      "Magányosnak kell lenni.",
+      "Az emberek változnak."
     ]
   },
   "proformatrans-modulo1-test15-002": {
     "q": "Mi a „rápido” ellentéte?",
     "answers": [
-      "Débil",
-      "Ligero",
-      "Pesado",
-      "Lento"
+      "Gyenge.",
+      "Könnyű / gyors.",
+      "Nehéz.",
+      "Lassú."
     ]
   },
   "proformatrans-modulo1-test15-003": {
     "q": "Mi a szillogizmus?",
     "answers": [
-      "Un insulto",
-      "Una comparación",
+      "Sértés.",
+      "Összehasonlítás.",
       "Deduktív következtetés",
-      "Una exageración"
+      "Túlzás."
     ]
   },
   "proformatrans-modulo1-test15-006": {
     "q": "Válassza ki az egyenértékű választ: „Todo es dudoso”",
     "answers": [
-      "Todo es irrefutable.",
+      "Minden megcáfolhatatlan.",
       "Minden kétséges / valószínűtlen.",
-      "Todo es evidente.",
-      "Todo es innegable."
+      "Minden nyilvánvaló.",
+      "Minden tagadhatatlan."
     ]
   },
   "proformatrans-modulo1-test15-007": {
     "q": "Melyik írásjel jelöl hosszú szünetet beszédben?",
     "answers": [
-      "Dos puntos",
-      "Punto y coma",
-      "Coma",
-      "Punto"
+      "Kettőspont.",
+      "Pontosvessző.",
+      "Vessző.",
+      "Pont."
     ]
   },
   "proformatrans-modulo1-test15-009": {
     "q": "Ha egy háromszögnek három egyenlő oldala van, így hívják:",
     "answers": [
-      "Isósceles",
-      "Irregular",
+      "Egyenlő szárú.",
+      "Szabálytalan.",
       "Egyenlő oldalú",
-      "Escaleno"
+      "Általános háromszög."
     ]
   },
   "proformatrans-modulo1-test15-011": {
     "q": "Válassza ki a helyes opciót:",
     "answers": [
       "Hol dolgozol?",
-      "¿Dónde trabajas él?.",
-      "¿Dónde trabajando?.",
-      "¿Dónde trabajas usted?."
+      "Hibás kérdés: hol dolgozol ő?",
+      "Hibás kérdés: hol dolgozva?",
+      "Hibás kérdés: hol dolgozol ön?"
     ]
   },
   "proformatrans-modulo1-test15-012": {
     "q": "A fiú elbújt ______, amikor megérkeztek a vendégek.",
     "answers": [
       "az ágy alatt",
-      "fuera la cama",
-      "dentro la cama",
-      "durante la cama"
+      "az ágyon kívül.",
+      "az ágy belsejében.",
+      "az ágy alatt időhatározóként hibásan."
     ]
   },
   "proformatrans-modulo1-test15-014": {
     "q": "A színész úgy viszonyul a színpadhoz, mint a tanár a...",
     "answers": [
       "Tanterem",
-      "Escritorio",
-      "Escuela",
-      "Biblioteca"
+      "Íróasztal.",
+      "Iskola.",
+      "Könyvtár."
     ]
   },
   "proformatrans-modulo1-test15-015": {
     "q": "Mit tesz az elhallgatott alany?",
     "answers": [
-      "Lo cambia por adjetivo",
+      "Melléknévre cseréli.",
       "Elhagyja, de érthetőnek veszi",
-      "Usa sinónimos",
-      "Repite al sujeto"
+      "Szinonimákat használ.",
+      "Megismétli az alanyt."
     ]
   },
   "proformatrans-modulo1-test15-016": {
     "q": "Melyik közmondás jelenti, hogy nem szabad elpazarolni valami hasznosat?",
     "answers": [
-      "No hay mal que por bien no venga.",
-      "Perro ladrador, poco mordedor.",
-      "A caballo regalado, no se le mira el diente.",
-      "Ojos que no ven, corazón que no siente."
+      "Minden rosszban van valami jó.",
+      "Amelyik kutya ugat, az ritkán harap.",
+      "Ajándék lónak ne nézd a fogát.",
+      "Amit a szem nem lát, azért a szív nem fáj."
     ]
   },
   "proformatrans-modulo1-test15-017": {
     "q": "Melyik közmondás jelenti, hogy mindenki felelős a saját tetteiért?",
     "answers": [
-      "A caballo regalado, no se le mira el diente.",
-      "Cada palo aguante su vela.",
-      "El que siembra, cosecha.",
-      "No hay mal que por bien no venga."
+      "Ajándék lónak ne nézd a fogát.",
+      "Mindenki viselje a saját felelősségét.",
+      "Ki mint vet, úgy arat.",
+      "Minden rosszban van valami jó."
     ]
   },
   "proformatrans-modulo1-test15-019": {
     "q": "Milyen típusú mondat ez: „¡Qué bonito es el mar!”?",
     "answers": [
-      "Interrogativa",
-      "Imperativa",
-      "Exclamativa",
-      "Enunciativa"
+      "Kérdő.",
+      "Felszólító.",
+      "Felkiáltó.",
+      "Kijelentő."
     ]
   },
   "proformatrans-modulo1-test15-020": {
     "q": "Mi a „rápido” szinonimája?",
     "answers": [
-      "Lento",
-      "Torpe",
-      "Veloz",
-      "Pesado"
+      "Lassú.",
+      "Ügyetlen.",
+      "Gyors.",
+      "Nehéz."
     ]
   },
   "proformatrans-modulo1-test16-001": {
     "q": "Melyik szó jelentése hasonló a „famoso” szóhoz?",
     "answers": [
       "Ismert.",
-      "Desconocido.",
-      "Anónimo.",
-      "Oculto."
+      "Ismeretlen.",
+      "Névtelen.",
+      "Rejtett."
     ]
   },
   "proformatrans-modulo1-test16-003": {
     "q": "Hol ________ Marcos? Hát nem tudom, _________ a szupermarketben.",
     "answers": [
-      "Va a estar / estuvo",
-      "Estará / estaba",
+      "Lesz / volt.",
+      "Lesz / volt.",
       "Van / lesz",
-      "Estaría / será"
+      "Lenne / lesz."
     ]
   },
   "proformatrans-modulo1-test16-004": {
     "q": "Melyik szó van helyesen írva?",
     "answers": [
-      "aver",
-      "haver",
-      "haber",
-      "ha ver"
+      "hibás írásmód: aver.",
+      "hibás írásmód: haver.",
+      "helyes alak: haber.",
+      "hibás írásmód: ha ver."
     ]
   },
   "proformatrans-modulo1-test16-005": {
     "q": "Az alábbi elemek közül egy eltér a többitől. Melyik az?",
     "answers": [
-      "Harina",
-      "Leche",
+      "Liszt.",
+      "Tej.",
       "gagát",
-      "algodón"
+      "pamut."
     ]
   },
   "proformatrans-modulo1-test16-008": {
     "q": "Az alábbi szavak közül melyik az „alisar” ellentéte?",
     "answers": [
       "Feltörni",
-      "Colonizar",
-      "Suprimir",
-      "Inservible"
+      "Gyarmatosítani.",
+      "Eltörölni.",
+      "Használhatatlan."
     ]
   },
   "proformatrans-modulo1-test16-012": {
     "q": "Az alábbi szavak közül melyik jelentése hasonló a „gastar” szóhoz?",
     "answers": [
-      "Retener",
-      "Ahorrar",
-      "Acabar",
+      "Visszatartani.",
+      "Megtakarítani.",
+      "Befejezni.",
       "Elpazarolni / eloszlatni"
     ]
   },
   "proformatrans-modulo1-test16-013": {
     "q": "Melyik forma nyelvtanilag helyes?",
     "answers": [
-      "La reunión se celebrará con las tres de la tarde en punto.",
-      "La reunión ocurre fuera las tres de la tarde exactas.",
-      "La reunión está por las tres de la tarde en punto.",
+      "Az értekezlet pontosan három órával lesz megtartva.",
+      "Az értekezlet a pontos három órán kívül történik.",
+      "Az értekezlet három órára van téve pontosan.",
       "A megbeszélés pontosan délután háromkor lesz."
     ]
   },
   "proformatrans-modulo1-test16-014": {
     "q": "Mi a „profundo” ellentéte?",
     "answers": [
-      "Liviano.",
-      "Obtuso.",
-      "Hondo.",
+      "Könnyű.",
+      "Tompa.",
+      "Mély.",
       "Sekély."
     ]
   },
   "proformatrans-modulo1-test16-015": {
     "q": "Jó napot, asszonyom, hogy ____________ ma reggel?",
     "answers": [
-      "Se encontraron",
-      "Me encuentro",
-      "Te encuentras",
+      "Találkoztak / találták magukat.",
+      "Én vagyok / érzem magam.",
+      "Te vagy / érzed magad.",
       "van / érzi magát"
     ]
   }
